@@ -1,3 +1,9 @@
 {
-  "isUpdateAvailable": false
+  "isUpdateAvailable": false,
+  "locations": [
+    {
+      "name": "Sanctum Sanctorum",
+      "ability": "Cards can't be played here ever."
+    }
+  ]
 }
