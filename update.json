@@ -1,5 +1,8 @@
 {
-  "isUpdateAvailable": false,
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "locations"
+  ],
   "locations": [
     {
       "name": "Sanctum Sanctorum",
