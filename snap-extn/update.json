@@ -1,14 +1,9 @@
 {
-  "isUpdateAvailable": false,
+  "isUpdateAvailable": true,
   "partsToUpdate": [
+    "cards",
     "locations",
-    "cards"
-  ],
-  "locations": [
-    {
-      "name": "Sanctum Sanctorum",
-      "ability": "Cards can't be played here ever."
-    }
+    "season"
   ],
   "cards": [
     {
@@ -30,5 +25,14 @@
       "ability": "On Reveal: Draw 2 Stones from your deck.",
       "type": "summon"
     }
-  ]
+  ],
+  "locations": [
+    {
+      "name": "Sanctum Sanctorum",
+      "ability": "Cards can't be played here EVER."
+    }
+  ],
+  "seasonInfo": [],
+  "seasonStyles": [],
+  "seasonEvents": []
 }
