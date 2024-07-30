@@ -24,6 +24,18 @@
       "power": "2",
       "ability": "On Reveal: Draw 2 Stones from your deck.",
       "type": "summon"
+    },
+    {
+      "name": "Agent W",
+      "cost": "1",
+      "power": "10",
+      "ability": "On Reveal: You lose.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": [
+        "on reveal"
+      ]
     }
   ],
   "locations": [
