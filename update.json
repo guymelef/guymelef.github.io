@@ -1,5 +1,5 @@
 {
-  "isUpdateAvailable": true,
+  "isUpdateAvailable": false,
   "partsToUpdate": [
     "locations",
     "cards"
