@@ -2,7 +2,6 @@
   "isUpdateAvailable": true,
   "partsToUpdate": [
     "cards",
-    "locations",
     "season"
   ],
   "cards": [
@@ -77,27 +76,9 @@
       "tags": [
         "others"
       ]
-    },
-    {
-      "name": "Agent W",
-      "cost": "1",
-      "power": "10",
-      "ability": "On Reveal: You lose.",
-      "released": false,
-      "series": "NA",
-      "type": "character",
-      "noArt": true,
-      "tags": [
-        "on reveal"
-      ]
     }
   ],
-  "locations": [
-    {
-      "name": "Sanctum Sanctorum",
-      "ability": "Cards can't be played here EVER."
-    }
-  ],
+  "locations": [],
   "seasonInfo": [
     {
       "seasonTitle": "Young Avengers",
@@ -144,19 +125,75 @@
       "items": ["Destroyed Mansion", "Clubhouse"]
     },
     {
-      "title": "Shop Takeover",
+			"title": "Spotlight Caches",
 			"items": [
-        {
-          "date": "August 1",
-          "name": "Leonardo da Vertuci",
-          "cards": [
-            "Knull",
-            "Death",
-            "The Infinaut",
-            "Jane Foster Mighty Thor"
-          ]
-        }
-      ]
-    }
+				{
+					"date": "August 6",
+					"items": [
+						{"name": "Marvel Boy", "series": "5"},
+						{"name": "Blob", "series": "5"},
+						{"name": "Red Hulk", "series": "5"}
+					]
+				},
+				{
+					"date": "August 13",
+					"items": [
+						{"name": "Wiccan", "series": "5"},
+						{"name": "Loki", "series": "5"},
+						{"name": "Pixie", "series": "5"}
+					]
+				},
+				{
+					"date": "August 20",
+					"items": [
+						{"name": "Speed", "series": "5"},
+						{"name": "Jeff the Baby Land Shark", "series": "5"},
+						{"name": "Iron Lad", "series": "5"}
+					]
+				},
+				{
+					"date": "August 27",
+					"items": [
+						{"name": "Hulkling", "series": "5"},
+						{"name": "Cannonball", "series": "5"},
+						{"name": "Nimrod", "series": "4"}
+					]
+				}
+			]
+		},
+		{
+			"title": "New Albums",
+			"items": []
+		},
+		{
+			"title": "Shop Takeover",
+			"items": []
+		},
+		{
+			"title": "Twitch Drops",
+			"items": []
+		},
+		{
+			"title": "7-Day Login",
+			"items": []
+		},
+		{
+			"title": "Series Drop",
+			"items": []
+		},
+		{
+			"title": "Features/Modes/Events",
+			"items": [
+				{
+					"title": "Deadpool League",
+					"date": "August 8 - August 10",
+					"items": ["Get matched into groups of 30 similar players to compete on a short-term leaderboard for prizes"]
+				}
+			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": []
+		}
   ]
 }
