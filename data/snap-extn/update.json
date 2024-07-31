@@ -10,7 +10,19 @@
       "name": "Gwenpool",
       "cost": "4",
       "power": "5",
-      "ability": "On Reveal: Pick a random card in your hand 4 times. Give +1 Power each time.",
+      "ability": "On Reveal: Pick a random card in your hand 3 times. Give +2 Power each time.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "on reveal"
+      ]
+    },
+    {
+      "name": "Kate Bishop",
+      "cost": "2",
+      "power": "3",
+      "ability": "On Reveal: Add 2 Arrows to your hand.",
       "released": true,
       "series": "Season Pass",
       "type": "character",
@@ -19,11 +31,52 @@
       ]
     },
     {
-      "name": "Mind Stone",
-      "cost": "2",
+      "name": "Marvel Boy",
+      "cost": "3",
       "power": "2",
-      "ability": "On Reveal: Draw 2 Stones from your deck.",
-      "type": "summon"
+      "ability": "After each turn, give 3 of your 1-Cost cards +1 Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "others"
+      ]
+    },
+    {
+      "name": "Wiccan",
+      "cost": "4",
+      "power": "7",
+      "ability": "On Reveal: If you've spent all your Energy this game, +2 Max Energy.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "on reveal"
+      ]
+    },
+    {
+      "name": "Speed",
+      "cost": "3",
+      "power": "3",
+      "ability": "Ongoing: +1 Power for each turn in which you spent all your Energy.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "name": "Hulkling",
+      "cost": "6",
+      "power": "11",
+      "ability": "At the start of the game, copy the text of a random 6-Cost card.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "others"
+      ]
     },
     {
       "name": "Agent W",
@@ -57,8 +110,39 @@
       "nextSeasonEndDate": [1, 9, 2024]
     }
   ],
-  "seasonStyles": [],
+  "seasonStyles": [
+    {
+      "dateColor": "gold",
+      "headerStyle": {
+        "fontSize": "24px",
+        "letterSpacing": "1px",
+        "background": "linear-gradient(cyan, blue)",
+        "color": "red",
+        "padding": "8px 0",
+        "textShadow": "1px 0 yellow, 0 1px yellow, -1px 0 yellow, 0 -1px yellow"
+      },
+      "hoverStyle": {
+        "color": "green",
+        "background": "linear-gradient(blue, cyan)"
+      }
+    }
+  ],
   "seasonEvents": [
+    {
+			"title": "New Characters",
+			"items": [
+				{"name": "Kate Bishop", "series": "Season Pass"},
+				{"name": "Marvel Boy", "series": "5"},
+				{"name": "Wiccan", "series": "5"},
+				{"name": "Speed", "series": "5"},
+				{"name": "Hulkling", "series": "5"},
+				{"name": "Gwenpool", "series": "5"}
+			]
+		},
+    {
+      "title": "New Locations",
+      "items": ["Destroyed Mansion", "Clubhouse"]
+    },
     {
       "title": "Shop Takeover",
 			"items": [
