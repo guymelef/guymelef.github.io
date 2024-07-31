@@ -33,6 +33,7 @@
       "released": false,
       "series": "NA",
       "type": "character",
+      "noArt": true,
       "tags": [
         "on reveal"
       ]
