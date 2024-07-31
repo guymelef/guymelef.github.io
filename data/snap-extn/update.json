@@ -45,7 +45,34 @@
       "ability": "Cards can't be played here EVER."
     }
   ],
-  "seasonInfo": [],
+  "seasonInfo": [
+    {
+      "seasonTitle": "Young Avengers",
+      "seasonUrl": "https://www.marvelsnap.com/newsdetail?id=",
+      "featuredCard": "Kate Bishop",
+      "nextFeaturedCard": "Symbiote Spider-Man",
+      "featuredLocations": ["Destroyed Mansion", "Clubhouse"],
+      "nextFeaturedLocations": ["Brooklyn Bridge", "Otto's Lab"],
+      "seasonEndDate": [3, 8, 2024],
+      "nextSeasonEndDate": [1, 9, 2024]
+    }
+  ],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+      "title": "Shop Takeover",
+			"items": [
+        {
+          "date": "August 1",
+          "name": "Leonardo da Vertuci",
+          "cards": [
+            "Knull",
+            "Death",
+            "The Infinaut",
+            "Jane Foster Mighty Thor"
+          ]
+        }
+      ]
+    }
+  ]
 }
