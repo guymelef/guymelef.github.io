@@ -1,5 +1,5 @@
 {
-  "isUpdateAvailable": false,
+  "isUpdateAvailable": true,
   "partsToUpdate": [],
   "cards": [],
   "locations": [],
@@ -332,6 +332,19 @@
 							"changes": [
 								"Card(s) here with the highest Power have their Power doubled.",
 								"The highest-Power card(s) here have their Power doubled."
+							]
+						}
+					]
+				},
+				{
+					"date": "August 1",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Jubilee",
+							"changes": [
+								"4/1 - On Reveal: Add the top card of your deck to this location.",
+								"4/1 - On Reveal: Add the bottom card of your deck to this location."
 							]
 						}
 					]
