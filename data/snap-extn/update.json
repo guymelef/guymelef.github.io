@@ -1,169 +1,97 @@
 {
-  "isUpdateAvailable": true,
-  "partsToUpdate": [
-    "cards",
-    "season"
-  ],
-  "cards": [
-    {
-      "name": "Gwenpool",
-      "cost": "4",
-      "power": "5",
-      "ability": "On Reveal: Pick a random card in your hand 3 times. Give +2 Power each time.",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": [
-        "on reveal"
-      ]
-    },
-    {
-      "name": "Kate Bishop",
-      "cost": "2",
-      "power": "3",
-      "ability": "On Reveal: Add 2 Arrows to your hand.",
-      "released": true,
-      "series": "Season Pass",
-      "type": "character",
-      "tags": [
-        "on reveal"
-      ]
-    },
-    {
-      "name": "Marvel Boy",
-      "cost": "3",
-      "power": "2",
-      "ability": "After each turn, give 3 of your 1-Cost cards +1 Power.",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": [
-        "others"
-      ]
-    },
-    {
-      "name": "Wiccan",
-      "cost": "4",
-      "power": "7",
-      "ability": "On Reveal: If you've spent all your Energy this game, +2 Max Energy.",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": [
-        "on reveal"
-      ]
-    },
-    {
-      "name": "Speed",
-      "cost": "3",
-      "power": "3",
-      "ability": "Ongoing: +1 Power for each turn in which you spent all your Energy.",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": [
-        "ongoing"
-      ]
-    },
-    {
-      "name": "Hulkling",
-      "cost": "6",
-      "power": "11",
-      "ability": "At the start of the game, copy the text of a random 6-Cost card.",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": [
-        "others"
-      ]
-    }
-  ],
+  "isUpdateAvailable": false,
+  "partsToUpdate": [],
+  "cards": [],
   "locations": [],
-  "seasonInfo": [
-    {
-      "seasonTitle": "Young Avengers",
-      "seasonUrl": "https://www.marvelsnap.com/newsdetail?id=",
-      "featuredCard": "Kate Bishop",
-      "nextFeaturedCard": "Symbiote Spider-Man",
-      "featuredLocations": ["Destroyed Mansion", "Clubhouse"],
-      "nextFeaturedLocations": ["Brooklyn Bridge", "Otto's Lab"],
-      "seasonEndDate": [3, 8, 2024],
-      "nextSeasonEndDate": [1, 9, 2024]
-    }
-  ],
-  "seasonStyles": [
-    {
-      "dateColor": "gold",
-      "headerStyle": {
-        "fontSize": "24px",
-        "letterSpacing": "1px",
-        "background": "linear-gradient(cyan, blue)",
-        "color": "red",
-        "padding": "8px 0",
-        "textShadow": "1px 0 yellow, 0 1px yellow, -1px 0 yellow, 0 -1px yellow"
-      },
-      "hoverStyle": {
-        "color": "green",
-        "background": "linear-gradient(blue, cyan)"
-      }
-    }
-  ],
+  "seasonInfo": [],
+  "seasonStyles": [],
   "seasonEvents": [
     {
 			"title": "New Characters",
 			"items": [
-				{"name": "Kate Bishop", "series": "Season Pass"},
-				{"name": "Marvel Boy", "series": "5"},
-				{"name": "Wiccan", "series": "5"},
-				{"name": "Speed", "series": "5"},
-				{"name": "Hulkling", "series": "5"},
-				{"name": "Gwenpool", "series": "5"}
+				{"name": "Gwenpool", "series": "Season Pass"},
+				{"name": "Hydra Bob", "series": "5"},
+				{"name": "Ajax", "series": "5"},
+				{"name": "Copycat", "series": "5"},
+				{"name": "Cassandra Nova", "series": "5"},
+				{"name": "Gilgamesh", "series": "5"}
 			]
 		},
-    {
-      "title": "New Locations",
-      "items": ["Destroyed Mansion", "Clubhouse"]
-    },
-    {
+		{
+			"title": "New Locations",
+			"items": ["Weapon X Facility", "Taco Truck"]
+		},
+		{
 			"title": "Spotlight Caches",
 			"items": [
 				{
-					"date": "August 6",
+					"date": "July 9",
 					"items": [
-						{"name": "Marvel Boy", "series": "5"},
-						{"name": "Blob", "series": "5"},
-						{"name": "Red Hulk", "series": "5"}
+						{"name": "Hydra Bob", "series": "5"},
+						{"name": "Nebula", "series": "4"},
+						{"name": "Galactus", "series": "5"}
 					]
 				},
 				{
-					"date": "August 13",
+					"date": "July 16",
 					"items": [
-						{"name": "Wiccan", "series": "5"},
-						{"name": "Loki", "series": "5"},
-						{"name": "Pixie", "series": "5"}
+						{"name": "Ajax", "series": "5"},
+						{"name": "Beta Ray Bill", "series": "5"},
+						{"name": "Darkhawk", "series": "4"}
 					]
 				},
 				{
-					"date": "August 20",
+					"date": "July 23",
 					"items": [
-						{"name": "Speed", "series": "5"},
-						{"name": "Jeff the Baby Land Shark", "series": "5"},
-						{"name": "Iron Lad", "series": "5"}
+						{"name": "Copycat", "series": "5"},
+						{"name": "Cull Obsidian", "series": "5"},
+						{"name": "Thanos", "series": "5"}
 					]
 				},
 				{
-					"date": "August 27",
+					"date": "July 30",
 					"items": [
-						{"name": "Hulkling", "series": "5"},
-						{"name": "Cannonball", "series": "5"},
-						{"name": "Nimrod", "series": "4"}
+						{"name": "Nico Minoru", "series": "5"},
+						{"name": "Proxima Midnight", "series": "5"},
+						{"name": "Hope Summers", "series": "5"}
 					]
 				}
 			]
 		},
 		{
 			"title": "New Albums",
-			"items": []
+			"items": [
+				{
+					"date": "July 9",
+					"name": "Berserker Barrage",
+					"items": [
+						"1:Wolverine Avatar",
+						"3:1,000 Credits",
+						"6:Wolverine Variant",
+						"9:Wolverine Set of Reactions"
+					]
+				},
+				{
+					"date": "July 16",
+					"name": "PANdora's Box Pt. II",
+					"items": [
+						"3:Alioth Avatar",
+						"6:Green Goblin Surprised Emote",
+						"9:1 Spotlight Key",
+						"12:Alioth Variant"
+					]
+				},
+				{
+					"date": "July 26",
+					"name": "Buy My Variants",
+					"items": [
+						"1:Deadpool Avatar",
+						"3:1,000 Credits",
+						"6:Deadpool Variant",
+						"9:Deadpool Set of Reactions"
+					]
+				}
+			]
 		},
 		{
 			"title": "Shop Takeover",
@@ -171,11 +99,41 @@
 		},
 		{
 			"title": "Twitch Drops",
-			"items": []
+			"items": [
+				{
+					"date": "July 9 - July 22",
+					"items": [
+						"2:65 Random Boosters",
+						"4:350 Credits",
+						"6:New Wolverine Variant"
+					]
+				},
+				{
+					"date": "July 26 - August 4",
+					"items": [
+						"2:65 Random Boosters",
+						"4:350 Credits",
+						"6:Mystery Variant"
+					]
+				}
+			]
 		},
 		{
 			"title": "7-Day Login",
-			"items": []
+			"items": [
+				{
+					"date": "July 26 - August 4",
+					"items": [
+						"150 Gold",
+						"65 Random Boosters",
+						"Deadpool “Headpool” Avatar",
+						"200 Credits",
+						"Mystery Variant",
+						"“Chimichanga Chaser” Title",
+						"Deadpool “Headpool” Variant"
+					]
+				}
+			]
 		},
 		{
 			"title": "Series Drop",
@@ -185,6 +143,31 @@
 			"title": "Features/Modes/Events",
 			"items": [
 				{
+					"title": "Deadpool's Diner",
+					"date": "July 23 - August 6",
+					"items": ["Earn 'Bubs' to obtain Cassandra Nova for free"]
+				},
+				{
+					"title": "Refer-A-Friend",
+					"date": "July 26 - August 13",
+					"items": [
+						"1 Tutorial Finished: <span class='event-list secondary-text'>Exclusive “Marvel Messiah” Title</span>",
+						"3 Tutorials Finished: <span class='event-list secondary-text'>Mystery Variant</span>",
+						"1 Tutorial Finished + 1 Welcome Bundle Purchased: <span class='event-list secondary-text'>Premium Mystery Variant</span>",
+						"1 Tutorial Finished + 1 Premium Season Pass Purchased: <span class='event-list secondary-text'>Exclusive Domino Variant</span>"
+					]
+				},
+				{
+					"title": "Conquerors",
+					"date": "July 26 (12PM PT)",
+					"items": ["Support your favorite Creators to win an Elektra Variant and Credits!"]
+				},
+				{
+					"title": "Alliances",
+					"date": "July 30",
+					"items": ["Join or form alliances to earn rewards together"]
+				},
+				{
 					"title": "Deadpool League",
 					"date": "August 8 - August 10",
 					"items": ["Get matched into groups of 30 similar players to compete on a short-term leaderboard for prizes"]
@@ -193,7 +176,167 @@
 		},
 		{
 			"title": "Balance Updates",
-			"items": []
+			"items": [
+				{
+					"date": "July 18",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Blob",
+							"changes": [
+								"6/0 – On Reveal: Merge cards from your deck into this until it gains 15 or more Power. Ongoing: Can’t be moved.",
+								"6/0 – On Reveal: Merge cards from your deck into this until it gains 15 or more Power."
+							]
+						},
+						{
+							"name": "Mockingbird",
+							"changes": [
+								"5/9 – Costs 1 less for each of your cards in play that didn’t start in your deck.",
+								"5/9 -> 6/10"
+							]
+						},
+						{
+							"name": "Hydra Bob",
+							"changes": [
+								"1/4 – After each turn, this moves if a player Snapped.",
+								"1/4 -> 1/5"
+							]
+						},
+						{
+							"name": "Ravonna Renslayer",
+							"changes": [
+								"2/3 – Ongoing: Your cards with 1 or less Power cost 1 less. (minimum 1)",
+								"2/3 -> 2/2"
+							]
+						},
+						{
+							"name": "Viper",
+							"changes": [
+								"3/5 – On Reveal: One of your other cards here switches sides.",
+								"3/5 – On Reveal: One of your other cards here with the lowest Power switches sides."
+							]
+						},
+						{
+							"name": "Sauron",
+							"changes": [
+								"3/3 – On Reveal: Remove the abilities from all Ongoing cards in your hand and deck.",
+								"3/3 -> 3/4"
+							]
+						},
+						{
+							"name": "Werewolf By Night",
+							"changes": [
+								"3/1 – After you play a card, move there to gain +2 Power if it has an On Reveal.",
+								"3/1 -> 3/2"
+							]
+						},
+						{
+							"name": "Hit-Monkey",
+							"changes": [
+								"3/2 – On Reveal: Gain +2 Power for each other card you played this turn.",
+								"3/2 -> 3/3"
+							]
+						},
+						{
+							"name": "Lockjaw",
+							"changes": [
+								"4/5 – After you play a card here, swap it with a card in your deck. (once per turn)",
+								"4/4 – After you play a card here, swap it with a card in your deck."
+							]
+						}
+					]
+				},
+				{
+					"date": "July 30",
+					"type": "Patch",
+					"items": [
+						{
+							"name": "Uatu",
+							"changes": [
+								"1/2 - At the start of the game, shows the right location to you.",
+								"1/2 - At the start of the game, shows unrevealed locations to you."
+							]
+						},
+						{
+							"name": "Moon Knight",
+							"changes": [
+								"3/3 - On Reveal: Discard a card from each player’s hand.",
+								"3/3 - On Reveal: Discard a card with an even Cost from each player's hand."
+							]
+						},
+						{
+							"name": "Shadow King",
+							"changes": [
+								"2/2 - On Reveal: Set all cards here to their base Power.",
+								"<i>No text change; setting no longer considered raising or lowering Power.</i>"
+							]
+						},
+						{
+							"name": "Blink",
+							"changes": [
+								"5/7 - On Reveal: Swap the last card you played with a higher-Cost card from your deck.",
+								"5/7 - On Reveal: Swap the last card you played with a card that costs more from your deck."
+							]
+						},
+						{
+							"name": "Yondu",
+							"changes": [
+								"1/2 - On Reveal: Destroy the lowest-Cost card in your opponent's deck.",
+								"1/2 - On Reveal: Destroy the card that costs the least in your opponent's deck."
+							]
+						},
+						{
+							"name": "Colleen Wing",
+							"changes": [
+								"2/4 - On Reveal: Discard the lowest-cost card from your hand.",
+								"2/4 - On Reveal: Discard the card that costs the least from your hand."
+							]
+						},
+						{
+							"name": "Black Bolt",
+							"changes": [
+								"5/7 - On Reveal: Discard the lowest-cost card from your opponent's hand.",
+								"5/7 - On Reveal: Discard the card that costs the least from your opponent's hand."
+							]
+						},
+						{
+							"name": "Lady Sif",
+							"changes": [
+								"3/5 - On Reveal: Discard the highest-cost card from your hand.",
+								"3/5 - On Reveal: Discard the card that costs the most from your hand."
+							]
+						},
+						{
+							"name": "White Queen",
+							"changes": [
+								"4/6 - On Reveal: Copy the highest-Cost card in your opponent's hand into your hand.",
+								"4/6 - On Reveal: Copy the card that costs the most from your opponent's hand into your hand."
+							]
+						},
+						{
+							"name": "Jane Foster",
+							"changes": [
+								"5/9 - On Reveal: Draw all cards that Cost 0 from your deck.",
+								"5/9 - On Reveal: Draw all cards that cost 0 from your deck."
+							]
+						},
+						{
+							"name": "Mirage",
+							"changes": [
+								"2/2 - On Reveal: Copy the lowest-Cost card in your opponent's hand into your hand. Give it +2 Power.",
+								"2/2 - On Reveal: Copy the card that costs the least from your opponent's hand into your hand. Give it +2 Power."
+							]
+						},
+						{
+							"name": "Throne Room",
+							"changes": [
+								"Card(s) here with the highest Power have their Power doubled.",
+								"The highest-Power card(s) here have their Power doubled."
+							]
+						}
+					]
+				}
+			]
 		}
   ]
 }
