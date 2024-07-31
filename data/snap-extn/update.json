@@ -1,7 +1,23 @@
 {
   "isUpdateAvailable": true,
-  "partsToUpdate": [],
-  "cards": [],
+  "partsToUpdate": [
+		"cards",
+		"season"
+	],
+  "cards": [
+		{
+			"name": "Jubilee",
+			"cost": "4",
+			"power": "1",
+			"ability": "On Reveal: Add the bottom card of your deck to this location.",
+			"released": true,
+			"series": "2",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		}
+	],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
