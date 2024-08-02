@@ -1,7 +1,91 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
-  "cards": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+		"cards",
+		"season"
+	],
+  "cards": [
+		{
+			"name": "Loki",
+			"cost": "3",
+			"power": "5",
+			"ability": "On Reveal: Replace your deck with your opponent's starting deck. Give those cards -1 Cost and draw a card.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Leech",
+			"cost": "4",
+			"power": "4",
+			"ability": "On Reveal: Remove the text from 6-Cost cards in your opponent’s hand.",
+			"released": true,
+			"series": "2",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Doctor Octopus",
+			"cost": "4",
+			"power": "8",
+			"ability": "On Reveal: Pull the lowest-Power card from your opponent’s hand to their side of this location.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Widow's Kiss",
+			"cost": "0",
+			"power": "0",
+			"ability": "Ongoing: This has -3 Power. Disable this ability if your side of this location is full.",
+			"type": "summon"
+		},
+		{
+			"name": "Blob",
+			"cost": "6",
+			"power": "0",
+			"ability": "On Reveal: Merge cards from your deck into this until it gains 13 or more Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal",
+				"ongoing"
+			]
+		},
+		{
+			"name": "War Machine",
+			"cost": "4",
+			"power": "7",
+			"ability": "On Reveal: Until the end of next turn, nothing can stop you from playing cards anywhere.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Apocalypse",
+			"cost": "6",
+			"power": "8",
+			"ability": "When you discard this, put it back with +4 Power.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": [
+				"discard"
+			]
+		}
+	],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
@@ -332,6 +416,61 @@
 							"changes": [
 								"Card(s) here with the highest Power have their Power doubled.",
 								"The highest-Power card(s) here have their Power doubled."
+							]
+						}
+					]
+				},
+				{
+					"date": "August 1",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Loki",
+							"changes": [
+								"4/5 - On Reveal: Transform your hand into cards from your opponent’s starting deck and give them -1 Cost.",
+								"3/5 - On Reveal: Replace your deck with your opponent's starting deck. Give those cards -1 Cost and draw a card."
+							]
+						},
+						{
+							"name": "Leech",
+							"changes": [
+								"5/5 - On Reveal: Remove the text from cards with On Reveal abilities in your opponent’s hand.",
+								"4/4 - On Reveal: Remove the text from 6-Cost cards in your opponent’s hand."
+							]
+						},
+						{
+							"name": "Doctor Octopus",
+							"changes": [
+								"5/10 - On Reveal: Pull 4 cards from your opponent’s hand to their side of this location.",
+								"4/8 - On Reveal: Pull the lowest-Power card from your opponent’s hand to their side of this location."
+							]
+						},
+						{
+							"name": "Widow's Kiss (White Widow)",
+							"changes": [
+								"0/0 - Ongoing: This has -4 Power. Disable this ability if your side of this location is full.",
+								"0/0 - Ongoing: This has -3 Power. Disable this ability if your side of this location is full."
+							]
+						},
+						{
+							"name": "Blob",
+							"changes": [
+								"6/0 - On Reveal: Merge cards from your deck into this until it gains 15 or more Power.",
+								"6/0 - On Reveal: Merge cards from your deck into this until it gains 13 or more Power."
+							]
+						},
+						{
+							"name": "War Machine",
+							"changes": [
+								"4/6 - On Reveal: Until the end of next turn, nothing can stop you from playing cards anywhere.",
+								"4/6 -> 4/7"
+							]
+						},
+						{
+							"name": "Apocalypse",
+							"changes": [
+								"6/6 - When you discard this, put it back with +4 Power.",
+								"6/6 -> 6/8"
 							]
 						}
 					]
