@@ -1,9 +1,271 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
-  "cards": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "cards",
+    "season"
+  ],
+  "cards": [
+    {
+      "name": "Gwenpool",
+      "cost": "4",
+      "power": "6",
+      "ability": "On Reveal: Pick a random card in your hand 3 times. Give +2 Power each time.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "on reveal"
+      ]
+    },
+    {
+      "name": "Kate Bishop",
+      "cost": "2",
+      "power": "3",
+      "ability": "On Reveal: Add 2 Arrows to your hand.",
+      "released": true,
+      "series": "Season Pass",
+      "type": "character",
+      "tags": [
+        "on reveal"
+      ]
+    },
+    {
+      "name": "Marvel Boy",
+      "cost": "3",
+      "power": "2",
+      "ability": "After each turn, give 3 of your 1-Cost cards +1 Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "others"
+      ]
+    },
+    {
+      "name": "Wiccan",
+      "cost": "4",
+      "power": "7",
+      "ability": "On Reveal: If you've spent all your Energy this game, +2 Max Energy.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "on reveal"
+      ]
+    },
+    {
+      "name": "Speed",
+      "cost": "3",
+      "power": "3",
+      "ability": "Ongoing: +1 Power for each turn in which you spent all your Energy.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "name": "Hulkling",
+      "cost": "6",
+      "power": "11",
+      "ability": "At the start of the game, copy the text of a random 6-Cost card.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "others"
+      ]
+    },
+    {
+      "name": "Pym Particle Arrow",
+      "displayName": "Pym Arrow",
+      "cost": "1",
+      "power": "1",
+      "ability": "Ongoing: If your side of this location is full, +3 Power.",
+      "type": "summon"
+    }
+  ],
   "locations": [],
-  "seasonInfo": [],
-  "seasonStyles": [],
-  "seasonEvents": []
+  "seasonInfo": [
+    {
+      "seasonTitle": "Young Avengers",
+      "seasonUrl": "https://www.marvelsnap.com/newsdetail?id=7389829092880784133",
+      "featuredCard": "Kate Bishop",
+      "nextFeaturedCard": "Symbiote Spider-Man",
+      "featuredLocations": ["Destroyed Mansion", "Clubhouse"],
+      "nextFeaturedLocations": ["Brooklyn Bridge", "Otto's Lab"],
+      "seasonEndDate": [3, 8, 2024],
+      "nextSeasonEndDate": [1, 9, 2024]
+    }
+  ],
+  "seasonStyles": [
+    {
+      "dateColor": "#a866e8",
+      "headerStyle": {
+        "fontSize": "28px",
+        "letterSpacing": "1px",
+        "padding": "6px 0",
+        "color": "#8a2be2",
+        "border": "#8a2be2 3px solid",
+        "textShadow": "0 0 1px hsl(0 0% 100% / 0.3), 0 0 8px #8a2be2",
+        "boxShadow": "inset 0 0 8px 0 #8a2be2, 0 0 8px 0 #8a2be2"
+      },
+      "hoverStyle": {
+        "color": "#feffff",
+        "border": "#feffff 0.125em solid",
+        "textShadow": "0 0 1px hsl(0 0% 100% / 0.3), 0 0 8px #feffff",
+        "boxShadow": "inset 0 0 8px 0 #feffff, 0 0 8px 0 #feffff"
+      }
+    }
+  ],
+  "seasonEvents": [
+    {
+			"title": "New Characters",
+			"items": [
+				{"name": "Kate Bishop", "series": "Season Pass"},
+				{"name": "Marvel Boy", "series": "5"},
+				{"name": "Wiccan", "series": "5"},
+				{"name": "Speed", "series": "5"},
+				{"name": "Hulkling", "series": "5"},
+				{"name": "Gwenpool", "series": "5"}
+			]
+		},
+    {
+      "title": "New Locations",
+      "items": ["Destroyed Mansion", "Clubhouse"]
+    },
+    {
+			"title": "Spotlight Caches",
+			"items": [
+				{
+					"date": "August 6",
+					"items": [
+						{"name": "Marvel Boy", "series": "5"},
+						{"name": "Blob", "series": "5"},
+						{"name": "Red Hulk", "series": "5"}
+					]
+				},
+				{
+					"date": "August 13",
+					"items": [
+						{"name": "Wiccan", "series": "5"},
+						{"name": "Pixie", "series": "5"},
+						{"name": "Loki", "series": "5"}
+					]
+				},
+				{
+					"date": "August 20",
+					"items": [
+						{"name": "Speed", "series": "5"},
+						{"name": "Jeff the Baby Land Shark", "series": "5"},
+						{"name": "Iron Lad", "series": "5"}
+					]
+				},
+				{
+					"date": "August 27",
+					"items": [
+						{"name": "Hulkling", "series": "5"},
+						{"name": "Cannonball", "series": "5"},
+						{"name": "Nimrod", "series": "4"}
+					]
+				}
+			]
+		},
+		{
+			"title": "New Albums",
+			"items": [
+				{
+					"date": "August 8",
+					"name": "Flaviano Enjoyer",
+					"items": [
+						"3:Negasonic Teenage Warhead Avatar",
+						"6:2,000 Collector’s Tokens",
+						"9:Negasonic Teenage Warhead Variant",
+						"12:Galactus OK Emote"
+					]
+				},
+				{
+					"date": "August 15",
+					"name": "Miss America",
+					"items": [
+						"1:America Chavez Avatar",
+						"3:Cosmic Pink Border",
+						"5:America Chavez Variant",
+						"7:America Chavez Reactions"
+					]
+				},
+				{
+					"date": "August 21",
+					"name": "Luca These Variants",
+					"items": [
+						"3:Jubilee Avatar",
+						"6:2,000 Credits",
+						"9:Jubilee Variant",
+						"12:Jubilee PogChamp Emote"
+					]
+				}
+			]
+		},
+		{
+			"title": "Shop Takeover",
+			"items": [
+				{
+					"date": "Aug 8 - Aug 9",
+					"name": "Flaviano",
+					"cards": [
+						"Patriot",
+						"Storm",
+						"Negasonic Teenage Warhead",
+						"Havok"
+					]
+				}
+			]
+		},
+		{
+			"title": "Twitch Drops",
+			"items": [
+				{
+					"date": "Aug 19 - Aug 27",
+					"items": [
+						"2:65 Storm Boosters",
+						"4:350 Credits",
+						"6:Storm Variant featuring Jeff the Baby Land Shark"
+					]
+				}
+			]
+		},
+		{
+			"title": "7-Day Login",
+			"items": []
+		},
+		{
+			"title": "Series Drop",
+			"items": []
+		},
+		{
+			"title": "Features/Modes/Events",
+			"items": [
+				{
+					"title": "Deadpool League",
+					"date": "Aug 8 - Aug 10",
+					"items": ["Get matched into groups of 30 similar players to compete on a short-term leaderboard for prizes"]
+				},
+				{
+					"title": "Jeff Week",
+					"date": "Aug 19 - Aug 26",
+					"items": ["Enjoy Jeff-themed variants, login bonuses, Twitch drops, Alliance bounties, and rewards"]
+				},
+				{
+					"title": "Jeff League",
+					"date": "Aug 22 - Aug 24",
+					"items": ["Get matched into groups of 30 similar players to compete on a short-term leaderboard for prizes"]
+				}
+			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": []
+		}
+  ]
 }
