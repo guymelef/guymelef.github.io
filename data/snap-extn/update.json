@@ -108,6 +108,7 @@
         "padding": "6px 0",
         "color": "#8a2be2",
         "border": "#8a2be2 3px solid",
+				"background": "none",
         "textShadow": "0 0 1px hsl(0 0% 100% / 0.3), 0 0 8px #8a2be2",
         "boxShadow": "inset 0 0 8px 0 #8a2be2, 0 0 8px 0 #8a2be2"
       },
