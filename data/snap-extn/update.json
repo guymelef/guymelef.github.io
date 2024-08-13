@@ -1,7 +1,22 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
-  "cards": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "cards"
+  ],
+  "cards": [
+    {
+      "name": "Wiccan",
+      "cost": "4",
+      "power": "7",
+      "ability": "On Reveal: If you've spent all your Energy on previous turns, +2 Max Energy.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "on reveal"
+      ]
+    }
+  ],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
