@@ -15,6 +15,19 @@
       "tags": [
         "on reveal"
       ]
+    },
+    {
+      "name": "Hulkling",
+      "displayName": "Emperor Hulkling",
+      "cost": "6",
+      "power": "11",
+      "ability": "At the start of the game, copy the text of a random 6-Cost card.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "others"
+      ]
     }
   ],
   "locations": [],
