@@ -1,9 +1,29 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "events"
+  ],
   "cards":[],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "7-Day Login",
+			"items": [
+        {
+					"date": "Aug 20 - Aug 28",
+					"items": [
+						"“It's Jeff, not Geff” Title",
+						"Blue Neon Border",
+						"“Jeff is a State of Mind” Title",
+						"100 Credits",
+						"“Card Shark” Title",
+						"150 Credits",
+						"“Jeffnado” Title"
+					]
+				}
+      ]
+		}
+  ]
 }
