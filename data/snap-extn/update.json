@@ -289,6 +289,13 @@
 							]
 						},
 						{
+							"name": "Fogwell’s Gym",
+							"changes": [
+								"---",
+								"Now stacks with itself and provides many boosters if copied by an effect such as Legion"
+							]
+						},
+						{
 							"name": "Lamentis-1, The Peak, District X",
 							"changes": [
 								"---",
