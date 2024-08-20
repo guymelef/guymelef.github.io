@@ -42,6 +42,109 @@
 			"tags": [
 				"on reveal"
 			]
+		},
+		{
+			"name": "Misery",
+			"cost": "4",
+			"power": "7",
+			"ability": "On Reveal: Repeat the On Reveal abilities of your other cards here, then destroy them.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"on reveal",
+				"destroy"
+			]
+		},
+		{
+			"name": "Toxin",
+			"cost": "2",
+			"power": "1",
+			"ability": "On Reveal: Return your other cards here to your hand. +2 Power for each returned.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Scream",
+			"cost": "2",
+			"power": "2",
+			"ability": "When an enemy card moves, steal 2 Power from it. <i>(once per turn)</i>",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"move"
+			]
+		},
+		{
+			"name": "Arana",
+			"displayName": "Araña",
+			"cost": "1",
+			"power": "1",
+			"ability": "Activate: Give the next card you play +2 Power and move it to the right.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"activate",
+				"move"
+			]
+		},
+		{
+			"name": "Madame Web",
+			"cost": "2",
+			"power": "1",
+			"ability": "Ongoing: You can move one of your other cards away from here each turn.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"ongoing",
+				"move"
+			]
+		},
+		{
+			"name": "Gorr",
+			"cost": "6",
+			"power": "-3",
+			"ability": "Ongoing: +2 Power for EACH On Reveal card in play.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"ongoing",
+				"on reveal"
+			]
+		},
+		{
+			"name": "Fenris Wolf",
+			"cost": "2",
+			"power": "3",
+			"ability": "Activate: Rusurrect the highest-Power discarded or destroyed enemy card to your side of this location.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"activate",
+				"discard",
+				"destroy"
+			]
+		},
+		{
+			"name": "Surtur",
+			"cost": "3",
+			"power": "3",
+			"ability": "After you play a card with 0+ Power, this gains +4 Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"others"
+			]
 		}
 	],
   "locations": [
