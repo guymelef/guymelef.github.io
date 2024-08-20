@@ -353,14 +353,14 @@
 							"name": "Fogwell’s Gym",
 							"changes": [
 								"---",
-								"Now stacks with itself and provides many boosters if copied by an effect such as Legion"
+								"<i>Now stacks with itself and provides many boosters if copied by an effect such as Legion</i>"
 							]
 						},
 						{
 							"name": "Lamentis-1, The Peak, District X",
 							"changes": [
 								"---",
-								"Lamentis-1, The Peak - Locations removed | District X - Will no longer appear for most players, but will still show up for early players"
+								"<i>Lamentis-1, The Peak - Locations removed | District X - Will no longer appear for most players, but will still show up for early players</i>"
 							]
 						}
 					]
