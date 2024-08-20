@@ -7,6 +7,18 @@
   ],
   "cards":[
 		{
+			"name": "Agony",
+			"cost": "1",
+			"power": "2",
+			"ability": "After you play a card here, merge this with it.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
+		{
 			"name": "Arana",
 			"displayName": "Araña",
 			"cost": "1",
@@ -57,6 +69,31 @@
 			"tags": [
 				"ongoing",
 				"on reveal"
+			]
+		},
+		{
+			"name": "King Eitri",
+			"cost": "5",
+			"power": "3",
+			"ability": "On Reveal: Give the next card you play +4 Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Lasher",
+			"cost": "2",
+			"power": "2",
+			"ability": "Activate: Afflict an enemy card here with negative Power equal to this card's Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"noArt": true,
+			"tags": [
+				"activate"
 			]
 		},
 		{
@@ -135,6 +172,18 @@
 			]
 		},
 		{
+			"name": "Tombstone",
+			"cost": "4",
+			"power": "6",
+			"ability": "Costs 1 if an enemy card was destroyed last turn.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
+		{
 			"name": "Toxin",
 			"cost": "2",
 			"power": "1",
@@ -144,6 +193,18 @@
 			"type": "character",
 			"tags": [
 				"on reveal"
+			]
+		},
+		{
+			"name": "Uncle Ben",
+			"cost": "1",
+			"power": "2",
+			"ability": "When this card is destroyed, replace it with Spider-Man.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"destroy"
 			]
 		}
 	],
