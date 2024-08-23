@@ -239,6 +239,46 @@
       ]
 		},
 		{
+			"title": "Features/Modes/Events",
+			"items": [
+				{
+					"title": "Deadpool League",
+					"date": "Aug 8 - Aug 10",
+					"items": [
+						"<span class='event-list'>1st</span> - Deadpool Emote, Premium Mystery Variant, 2x Matte Black Borders, 310 Boosters",
+						"<span class='event-list'>2nd</span> - Deadpool Emote, Mystery Variant, Matte Black Border, 310 Boosters",
+						"<span class='event-list'>3rd</span> - Deadpool Emote, Mystery Variant, Neon Blue Border, 310 Boosters",
+						"<span class='event-list'>4th-5th</span> - Mystery Variant, Neon Blue Border, 310 Boosters",
+						"<span class='event-list'>6th-10th</span> - Mystery Variant, Neon Blue Border, 155 Boosters",
+						"<span class='event-list'>11th-15th</span> - Mystery Variant, Neon Blue Border, 105 Boosters",
+						"<span class='event-list'>16th-20th</span> - 65 Boosters",
+						"<span class='event-list'>21st-25th</span> - 35 Boosters",
+						"<span class='event-list'>26th-30th</span> - 15 Boosters"
+					]
+				},
+				{
+					"title": "Jeff Week",
+					"date": "Aug 19 - Aug 26",
+					"items": ["Enjoy Jeff-themed variants, login bonuses, Twitch drops, Alliance bounties, and rewards"]
+				},
+				{
+					"title": "Jeff League",
+					"date": "Aug 22 - Aug 24",
+					"items": [
+						"<span class='event-list'>1st</span> - Premium Mystery Variant, 3x Red Matte Borders, 310 Jeff Boosters",
+						"<span class='event-list'>2nd</span> - Mystery Variant, 2x Red Matte Border, 310 Jeff Boosters",
+						"<span class='event-list'>3rd</span> - Mystery Variant, Red Matte Border, 310 Jeff Boosters",
+						"<span class='event-list'>4th-5th</span> - Mystery Variant, Purple Neon Border, 310 Jeff Boosters",
+						"<span class='event-list'>6th-10th</span> - Mystery Variant, Purple Neon Border, 155 Jeff Boosters",
+						"<span class='event-list'>11th-15th</span> - Purple Neon Border, 105 Jeff Boosters",
+						"<span class='event-list'>16th-20th</span> - 65 Jeff Boosters",
+						"<span class='event-list'>21st-25th</span> - 35 Jeff Boosters",
+						"<span class='event-list'>26th-30th</span> - 15 Jeff Boosters"
+					]
+				}
+			]
+		},
+		{
 			"title": "Balance Updates",
 			"items": [
 				{
