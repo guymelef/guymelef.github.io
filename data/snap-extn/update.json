@@ -1,9 +1,23 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"cards",
     "events"
   ],
-  "cards":[],
+  "cards":[
+		{
+			"name": "Surtur",
+			"cost": "3",
+			"power": "3",
+			"ability": "After you play a card with 10+ Power, this gains +4 Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		}
+	],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
