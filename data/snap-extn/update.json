@@ -6,6 +6,81 @@
   ],
   "cards":[
 		{
+			"name": "Attuma",
+			"cost": "4",
+			"power": "10",
+			"ability": "After each turn, destroy one of your cards here with less Power.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"destroy"
+			]
+		},
+		{
+			"name": "Beast",
+			"cost": "3",
+			"power": "5",
+			"ability": "On Reveal: Return your other cards here to your hand. They cost 1 less next turn.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Cannonball",
+			"cost": "5",
+			"power": "8",
+			"ability": "On Reveal: Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal",
+				"move",
+				"destroy"
+			]
+		},
+		{
+			"name": "Copycat",
+			"cost": "3",
+			"power": "5",
+			"ability": "When you draw this, copy the text from the bottom card of your opponent's deck.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
+		{
+			"name": "Destroyer",
+			"cost": "6",
+			"power": "16",
+			"ability": "On Reveal: Destroy your cards at other locations.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"on reveal",
+				"destroy"
+			]
+		},
+		{
+			"name": "Loki",
+			"cost": "2",
+			"power": "2",
+			"ability": "On Reveal: Replace your deck with your opponent's starting deck. Give those cards -1 Cost.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
 			"name": "Surtur",
 			"cost": "3",
 			"power": "3",
@@ -15,6 +90,18 @@
 			"type": "character",
 			"tags": [
 				"others"
+			]
+		},
+		{
+			"name": "Taskmaster",
+			"cost": "6",
+			"power": "0",
+			"ability": "On Reveal: Set this card's Power equal to that of the last card you played. <i>(if that card's in play)</i>",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"on reveal"
 			]
 		}
 	],
@@ -58,6 +145,190 @@
 						"<span class='event-list'>16th-20th</span> - 65 Jeff Boosters",
 						"<span class='event-list'>21st-25th</span> - 35 Jeff Boosters",
 						"<span class='event-list'>26th-30th</span> - 15 Jeff Boosters"
+					]
+				}
+			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "August 15",
+					"type": "OTA",
+					"items": [
+            {
+							"name": "Arishem",
+							"changes": [
+								"7/7 - At the start of the game, +1 Max Energy. Shuffle 12 random cards into your deck.",
+								"7/7 - At the start of the game, +1 Max Energy. Shuffle 15 random cards into your deck."
+							]
+						},
+            {
+							"name": "Cassandra Nova",
+							"changes": [
+								"3/1 - On Reveal: Steal 1 Power from each card in your opponent's deck.",
+								"3/1 -> 3/0"
+							]
+						},
+            {
+							"name": "Mind Stone",
+							"changes": [
+								"2/1 - On Reveal: Draw 2 Stones from your deck.",
+								"2/1 -> 1/1"
+							]
+						},
+            {
+							"name": "Thena",
+							"changes": [
+								"2/1 - After each turn, +3 Power if you played <i>(exactly)</i> 2 cards.",
+								"2/1 -> 2/0"
+							]
+						},
+            {
+							"name": "Sandman",
+							"changes": [
+								"5/7 - On Reveal: Players can only play 1 card next turn.",
+								"5/7 -> 5/6"
+							]
+						},
+            {
+							"name": "Lady Deathstrike",
+							"changes": [
+								"5/6 - On Reveal: Destroy each card here with 3 or less Power.",
+								"5/6 -> 5/7"
+							]
+						},
+            {
+							"name": "Man-Thing",
+							"changes": [
+								"4/5 - Ongoing: 1, 2, and 3-Cost cards here have -2 Power.",
+								"4/5 -> 4/7"
+							]
+						},
+            {
+							"name": "Nocturne",
+							"changes": [
+								"3/5 - You can move this once. When this moves, replace its location with a random new one.",
+								"3/5 -> 3/4"
+							]
+						},
+            {
+							"name": "Angel",
+							"changes": [
+								"1/2 - When one of your cards is destroyed, this flies out of your hand or deck to replace it.",
+								"1/2 -> 2/3"
+							]
+						}
+          ]
+				},
+				{
+					"date": "August 20",
+					"type": "Patch",
+					"items": [
+            {
+							"name": "Shadow King (text only)",
+							"changes": [
+								"2/2 – On Reveal: Set all cards here to their base Power.",
+								"2/2 – On Reveal: Reset all cards here to their original Power."
+							]
+						},
+						{
+							"name": "Moon Knight (text only)",
+							"changes": [
+								"3/3 – On Reveal: Discard a card with an even Cost from each player’s hand.",
+								"3/3 – On Reveal: Discard an even-costed card from each player’s hand."
+							]
+						},
+						{
+							"name": "Baron Zemo (text only)",
+							"changes": [
+								"3/5 – On Reveal: Recruit the lowest-Cost card from your opponent’s deck to your side of this location.",
+								"3/5 – On Reveal: Recruit a card that costs the least from your opponent’s deck to your side of this location."
+							]
+						},
+						{
+							"name": "Weirdworld",
+							"changes": [
+								"Both players draw from their opponent’s decks.",
+								"Draw 2 cards from your opponent’s deck."
+							]
+						},
+						{
+							"name": "The Sandbar",
+							"changes": [
+								"Cards with abilities can’t be played here.",
+								"Cards that didn’t start in your deck cost 1 more. (max 6)"
+							]
+						},
+						{
+							"name": "Fogwell’s Gym",
+							"changes": [
+								"---",
+								"<i>Now stacks with itself and provides many boosters if copied by an effect such as Legion</i>"
+							]
+						},
+						{
+							"name": "Lamentis-1, The Peak, District X",
+							"changes": [
+								"---",
+								"<i>Lamentis-1, The Peak - Locations removed | District X - Will no longer appear for most players, but will still show up for early players</i>"
+							]
+						}
+					]
+				},
+				{
+					"date": "August 29",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Attuma",
+							"changes": [
+								"4/10 – If you have another card here at the end of your turn, destroy this.",
+								"4/10 - After each turn, destroy one of your cards here with less Power."
+							]
+						},
+						{
+							"name": "Loki",
+							"changes": [
+								"3/5 – On Reveal: Replace your deck with your opponent's starting deck. Give those cards -1 Cost and draw a card.",
+								"2/2 - On Reveal: Replace your deck with your opponent's starting deck. Give those cards -1 Cost."
+							]
+						},
+						{
+							"name": "Copycat",
+							"changes": [
+								"3/5 – When you draw this, steal the text from the bottom card of your opponent's deck.",
+								"3/5 - When you draw this, copy the text from the bottom card of your opponent's deck."
+							]
+						},
+						{
+							"name": "Beast",
+							"changes": [
+								"2/2 – On Reveal: Return your other cards here to your hand. They cost 1 less next turn.",
+								"2/2 -> 3/5"
+							]
+						},
+						{
+							"name": "Taskmaster",
+							"changes": [
+								"5/0 – On Reveal: Set this card's Power equal to that of the last card you played. <i>(if that card's in play)</i>",
+								"5/0 -> 6/0"
+							]
+						},
+						{
+							"name": "Cannonball",
+							"changes": [
+								"5/7 – On Reveal: Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
+								"5/7 -> 5/8"
+							]
+						},
+						{
+							"name": "Destroyer",
+							"changes": [
+								"6/16 – On Reveal: Destroy your other cards.",
+								"6/14 – On Reveal: Destroy your cards at other locations."
+							]
+						}
 					]
 				}
 			]
