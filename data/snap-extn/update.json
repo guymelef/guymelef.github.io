@@ -58,7 +58,7 @@
 		{
 			"name": "Destroyer",
 			"cost": "6",
-			"power": "16",
+			"power": "14",
 			"ability": "On Reveal: Destroy your cards at other locations.",
 			"released": true,
 			"series": "3",
