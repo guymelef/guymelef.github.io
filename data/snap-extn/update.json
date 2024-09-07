@@ -1,9 +1,32 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "events"
+  ],
   "cards":[],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "Features/Modes/Events",
+			"items": [
+				{
+					"title": "Symbiote Spider-Man League",
+					"date": "Sep 7 - Sep 9",
+					"items": [
+						"<span class='event-list'>1st</span> - Premium Mystery Variant, 3x Red Neon Borders, 310 Boosters",
+						"<span class='event-list'>2nd</span> - Mystery Variant, 3x Red Neon Borders, 310 Boosters",
+						"<span class='event-list'>3rd</span> - Mystery Variant, 2x Red Neon Borders, 310 Boosters",
+						"<span class='event-list'>4th-5th</span> - Mystery Variant, Red Neon Border, 310 Boosters",
+						"<span class='event-list'>6th-10th</span> - Mystery Variant, Red Neon Border, 155 Boosters",
+						"<span class='event-list'>11th-15th</span> - Red Neon Border, 105 Boosters",
+						"<span class='event-list'>16th-20th</span> - 65 Boosters",
+						"<span class='event-list'>21st-25th</span> - 35 Boosters",
+						"<span class='event-list'>26th-30th</span> - 15 Boosters"
+					]
+				}
+			]
+		}
+  ]
 }
