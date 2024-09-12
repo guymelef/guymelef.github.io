@@ -1,9 +1,109 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"cards",
     "events"
   ],
-  "cards":[],
+  "cards":[
+		{
+			"name": "Aero",
+			"cost": "5",
+			"power": "10",
+			"ability": "On Reveal: Move the last enemy card played anywhere to this location.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"on reveal",
+				"move"
+			]
+		},
+		{
+			"name": "Agatha Harkness",
+			"cost": "6",
+			"power": "14",
+			"ability": "Agatha starts in your hand. She plays your cards for you on even turns.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
+		{
+			"name": "Black Cat",
+			"cost": "4",
+			"power": "10",
+			"ability": "If you end the turn with this in your hand, discard it.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"discard"
+			]
+		},
+		{
+			"name": "Ghost Rider",
+			"cost": "4",
+			"power": "4",
+			"ability": "On Reveal: Bring back one of your discarded cards to this location.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"on reveal",
+				"discard"
+			]
+		},
+		{
+			"name": "Mockingbird",
+			"cost": "6",
+			"power": "9",
+			"ability": "Costs 1 less for each of your cards in play that didn't start in your deck.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
+		{
+			"name": "Moon Girl",
+			"cost": "4",
+			"power": "5",
+			"ability": "On Reveal: Duplicate your hand.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Sandman",
+			"cost": "5",
+			"power": "7",
+			"ability": "On Reveal: Next turn, cards cost 1 more. (maximum 6)",
+			"released": true,
+			"series": "2",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "War Machine",
+			"cost": "4",
+			"power": "7",
+			"ability": "Ongoing: Nothing can stop you from playing cards anywhere.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"ongoing"
+			]
+		}
+	],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
@@ -24,6 +124,73 @@
 						"<span class='event-list'>16th-20th</span> - 65 Boosters",
 						"<span class='event-list'>21st-25th</span> - 35 Boosters",
 						"<span class='event-list'>26th-30th</span> - 15 Boosters"
+					]
+				}
+			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "September 12",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Sandman",
+							"changes": [
+								"5/6 - On Reveal: Players can only play 1 card next turn.",
+								"5/7 - On Reveal: Next turn, cards cost 1 more. (maximum 6)"
+							]
+						},
+						{
+							"name": "Mockingbird",
+							"changes": [
+								"6/10 - Costs 1 less for each of your cards in play that didn't start in your deck.",
+								"6/10 -> 6/9"
+							]
+						},
+						{
+							"name": "Aero",
+							"changes": [
+								"5/9 - On Reveal: Move the last enemy card played anywhere to this location.",
+								"5/9 -> 5/10"
+							]
+						},
+						{
+							"name": "Black Cat",
+							"changes": [
+								"4/9 - If this is in your hand after the turn, discard it.",
+								"4/9 -> 4/10"
+							]
+						},
+						{
+							"name": "Ghost Rider",
+							"changes": [
+								"4/3 - On Reveal: Bring back one of your discarded cards to this location.",
+								"4/3 -> 4/4"
+							]
+						},
+						{
+							"name": "Moon Girl",
+							"changes": [
+								"4/4 - On Reveal: Duplicate your hand.",
+								"4/4 -> 4/5"
+							]
+						},
+						{
+							"name": "War Machine",
+							"changes": [
+								"4/7 - On Reveal: Until the end of next turn, nothing can stop you from playing cards anywhere.",
+								"4/7 - Ongoing: Nothing can stop you from playing cards anywhere."
+							]
+						},
+						{
+							"name": "Agatha Harkness",
+							"changes": [
+								"6/14 - Agatha starts in your hand and plays your cards for you.",
+								"6/14 - Agatha starts in your hand. She plays your cards for you on even turns."
+							]
+						}
 					]
 				}
 			]
