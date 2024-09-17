@@ -1,9 +1,146 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
-  "cards":[],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "cards",
+    "events"
+  ],
+  "cards":[
+    {
+      "name": "Black Swan",
+      "cost": "2",
+      "power": "3",
+      "ability": "Activate: Until the end of next turn, your 1-Cost cards cost 0.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "activate"
+      ]
+    },
+    {
+      "name": "Hellcow",
+      "cost": "4",
+      "power": "6",
+      "ability": "Activate: Discard 2 cards from your hand.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": [
+        "activate",
+        "discard"
+      ]
+    },
+    {
+      "name": "Sword Master",
+      "cost": "3",
+      "power": "7",
+      "ability": "On Reveal: Discard an odd-costed card from your hand.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": [
+        "on reveal",
+        "discard"
+      ]
+    }
+  ],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "September 12",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Sandman",
+							"changes": [
+								"5/6 - On Reveal: Players can only play 1 card next turn.",
+								"5/7 - On Reveal: Next turn, cards cost 1 more. (maximum 6)"
+							]
+						},
+						{
+							"name": "Mockingbird",
+							"changes": [
+								"6/10 - Costs 1 less for each of your cards in play that didn't start in your deck.",
+								"6/10 -> 6/9"
+							]
+						},
+						{
+							"name": "Aero",
+							"changes": [
+								"5/9 - On Reveal: Move the last enemy card played anywhere to this location.",
+								"5/9 -> 5/10"
+							]
+						},
+						{
+							"name": "Black Cat",
+							"changes": [
+								"4/9 - If this is in your hand after the turn, discard it.",
+								"4/9 -> 4/10"
+							]
+						},
+						{
+							"name": "Ghost Rider",
+							"changes": [
+								"4/3 - On Reveal: Bring back one of your discarded cards to this location.",
+								"4/3 -> 4/4"
+							]
+						},
+						{
+							"name": "Moon Girl",
+							"changes": [
+								"4/4 - On Reveal: Duplicate your hand.",
+								"4/4 -> 4/5"
+							]
+						},
+						{
+							"name": "War Machine",
+							"changes": [
+								"4/7 - On Reveal: Until the end of next turn, nothing can stop you from playing cards anywhere.",
+								"4/7 - Ongoing: Nothing can stop you from playing cards anywhere."
+							]
+						},
+						{
+							"name": "Agatha Harkness",
+							"changes": [
+								"6/14 - Agatha starts in your hand and plays your cards for you.",
+								"6/14 - Agatha starts in your hand. She plays your cards for you on even turns."
+							]
+						}
+					]
+				},
+				{
+					"date": "September 17",
+					"type": "Patch",
+					"items": [
+						{
+							"name": "Black Swan",
+							"changes": [
+								"3/5 - On Reveal: Until the end of next turn, your 1-Cost cards cost 0.",
+								"2/3 - Activate: Until the end of next turn, your 1-Cost cards cost 0."
+							]
+						},
+						{
+							"name": "Hellcow",
+							"changes": [
+								"4/8 - On Reveal: Discard 2 cards from your hand.",
+								"4/6 - Activate: Discard 2 cards from your hand."
+							]
+						},
+						{
+							"name": "Sword Master",
+							"changes": [
+								"3/7 - On Reveal: Discard a card from your hand.",
+								"3/7 - On Reveal: Discard an odd-costed card from your hand."
+							]
+						}
+					]
+				}
+			]
+		}
+  ]
 }
