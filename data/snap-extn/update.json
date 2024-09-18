@@ -48,6 +48,23 @@
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
+		{
+			"title": "7-Day Login",
+			"items": [
+				{
+					"date": "Sep 17 - Sep 25",
+					"items": [
+						"65 Boosters",
+						"“My Spidey Senses Are Tingling” Title",
+						"Red Matte Border",
+						"Mystery Variant",
+						"155 Boosters",
+						"150 Credits",
+						"Black Matte Border"
+					]
+				}
+			]
+		},
     {
 			"title": "Balance Updates",
 			"items": [
