@@ -2,6 +2,7 @@
   "isUpdateAvailable": true,
   "partsToUpdate": [
     "cards",
+		"locations",
     "events"
   ],
   "cards":[
@@ -92,7 +93,16 @@
       ]
     }
   ],
-  "locations": [],
+  "locations": [
+		{
+			"name": "Valhalla",
+			"ability": "After turn 4, repeat the On Reveal abilities of cards here."
+		},
+		{
+			"name": "Yggdrasil",
+			"ability": "After each turn, give ALL cards at another location +1 Power."
+		}
+	],
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
