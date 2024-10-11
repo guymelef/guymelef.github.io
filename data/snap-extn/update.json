@@ -4,7 +4,102 @@
 		"cards",
     "events"
   ],
-  "cards":[],
+  "cards":[
+		{
+			"name": "Grand Master",
+			"cost": "2",
+			"power": "3",
+			"ability": "On Reveal: Move one of your other On Reveal cards here to the middle location. Its ability happens again.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal",
+				"move"
+			]
+		},
+		{
+			"name": "Hellcow",
+			"cost": "4",
+			"power": "7",
+			"ability": "Activate: Discard a card from your hand.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"activate",
+				"discard"
+			]
+		},
+		{
+			"name": "Emperor Hulkling",
+			"cost": "6",
+			"power": "12",
+			"ability": "At the start of the game, copy the text of a random 6-Cost card.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"others"
+			],
+			"code": "hulkling"
+		},
+		{
+			"name": "Okoye",
+			"cost": "2",
+			"power": "3",
+			"ability": "On Reveal: Give every card in your deck +1 Power.",
+			"released": true,
+			"series": "2",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Scream",
+			"cost": "2",
+			"power": "3",
+			"ability": "When an enemy card moves, steal 2 Power from it. <i>(once per turn)</i>",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"move"
+			]
+		},
+		{
+			"name": "Viper",
+			"cost": "3",
+			"power": "4",
+			"ability": "On Reveal: One of your other cards here with the lowest Power switches sides.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Widow's Kiss",
+			"cost": "0",
+			"power": "-4",
+			"ability": "Destroy this when your side of this location is full.",
+			"type": "summon"
+		},
+		{
+			"name": "Zabu",
+			"cost": "1",
+			"power": "2",
+			"ability": "On Reveal: Give each 4-Cost card in your deck -1 Cost.",
+			"released": true,
+			"series": "4",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		}
+	],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
