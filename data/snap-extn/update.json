@@ -1,6 +1,7 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"cards",
     "events"
   ],
   "cards":[],
@@ -59,6 +60,80 @@
 					"date": "Oct 24 - Oct 29",
 					"items": [
 						"Acquire rare or exclusive bundle Variants that you may have previously missed from the shop"
+					]
+				}
+			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "October 10",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Zabu",
+							"changes": [
+								"2/3 - On Reveal: Until the end of next turn, your 4-Cost cards cost 1 less.",
+								"1/2 - On Reveal: Give each 4-Cost card in your deck -1 Cost."
+							]
+						},
+						{
+							"name": "Hellcow",
+							"changes": [
+								"4/6 - Activate: Discard 2 cards from your hand.",
+								"4/7 - Activate: Discard a card from your hand."
+							]
+						},
+						{
+							"name": "Widow's Kiss (White Widow)",
+							"changes": [
+								"0/0 - Ongoing: This has -3 Power. Disable this ability if your side of this location is full.",
+								"0/-4 - Destroy this when your side of this location is full."
+							]
+						},
+						{
+							"name": "Viper",
+							"changes": [
+								"3/5 - On Reveal: One of your other cards here with the lowest Power switches sides.",
+								"3/5 -> 3/4"
+							]
+						},
+						{
+							"name": "Kingpin, Scream, and Fisk Tower",
+							"changes": [
+								"---",
+								"No longer affects unrevealed cards."
+							]
+						},
+						{
+							"name": "Scream",
+							"changes": [
+								"2/2 - When an enemy card moves, steal 2 Power from it. (once per turn).",
+								"2/2 -> 2/3"
+							]
+						},
+						{
+							"name": "Grand Master",
+							"changes": [
+								"2/2 - On Reveal: Move one of your other On Reveal cards here to the middle location. Its ability happens again.",
+								"2/2 -> 2/3"
+							]
+						},
+						{
+							"name": "Emperor Hulkling",
+							"changes": [
+								"6/11 - At the start of the game, copy the text of a random 6-Cost card.",
+								"6/11 -> 6/12"
+							]
+						},
+						{
+							"name": "Okoye",
+							"changes": [
+								"2/2 - On Reveal: Give every card in your deck +1 Power.",
+								"2/2 -> 2/3"
+							]
+						}
 					]
 				}
 			]
