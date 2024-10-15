@@ -105,6 +105,23 @@
   "seasonStyles": [],
   "seasonEvents": [
 		{
+			"title": "7-Day Login",
+			"items": [
+				{
+					"date": "Oct 18 - Oct 26",
+					"items": [
+						"65 Random Boosters",
+						"250 Credits",
+						"“Live, Love, SNAP” Title",
+						"2x Neon White Borders",
+						"Premium Mystery Variant",
+						"155 Random Boosters",
+						"Cosmic Orange Border"
+					]
+				}
+			]
+		},
+		{
 			"title": "Features/Modes/Events",
 			"items": [
 				{
@@ -151,7 +168,7 @@
 					"date": "Oct 18 - Oct 24",
 					"items": [
 						"<span class='event-list'>1,500 Voltage</span> - Agony Avatar",
-						"<span class='event-list'>3,000 Voltage</span> - Collector's Tokens",
+						"<span class='event-list'>3,000 Voltage</span> - Credits",
 						"<span class='event-list'>4,500 Voltage</span> - Red Neon Border",
 						"<span class='event-list'>6,000 Voltage</span> - Credits",
 						"<span class='event-list'>8,000 Voltage</span> - Agony Card",
