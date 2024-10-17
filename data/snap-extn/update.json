@@ -230,13 +230,6 @@
 					]
 				},
 				{
-					"title": "Second Anniversary",
-					"date": "Oct 18",
-					"items": [
-						"Head to marvelsnap.com to vote for a free Variant: Destroyer, Armor, or Howard the Duck"
-					]
-				},
-				{
 					"title": "High Voltage",
 					"date": "Oct 16 - Oct 22",
 					"items": [
@@ -246,6 +239,13 @@
 						"<span class='event-list'>5,000 Volts</span> - 250 Credits",
 						"<span class='event-list'>8,000 Volts</span> - Agony Card",
 						"<span class='event-list'>11,000 Volts</span> - Iron Man Variant"
+					]
+				},
+				{
+					"title": "Second Anniversary",
+					"date": "Oct 18",
+					"items": [
+						"Head to marvelsnap.com to vote for a free Variant: Destroyer, Armor, or Howard the Duck"
 					]
 				},
 				{
