@@ -208,15 +208,15 @@
 					"title": "League",
 					"date": "Oct 11 - Oct 13",
 					"items": [
-						"<span class='event-list'>1st</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 3x Black Matte Borders, 310 Boosters",
-						"<span class='event-list'>2nd</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 2x Black Matte Borders, 310 Boosters",
-						"<span class='event-list'>3rd</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, Black Matte Border, 310 Boosters",
-						"<span class='event-list'>4th-5th</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 310 Boosters",
-						"<span class='event-list'>6th-10th</span> - Deadpool 'Celebr8bitpool' Card Back, 155 Boosters",
-						"<span class='event-list'>11th-15th</span> - Deadpool 'Celebr8bitpool' Card Back, 105 Boosters",
-						"<span class='event-list'>16th-20th</span> - Deadpool 'Celebr8bitpool' Card Back, 65 Boosters",
-						"<span class='event-list'>21st-25th</span> - Deadpool 'Celebr8bitpool' Card Back, 35 Boosters",
-						"<span class='event-list'>26th-30th</span> - Deadpool 'Celebr8bitpool' Card Back, 15 Boosters"
+						"<span class='event-list date'>1st</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 3x Black Matte Borders, 310 Boosters",
+						"<span class='event-list date'>2nd</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 2x Black Matte Borders, 310 Boosters",
+						"<span class='event-list date'>3rd</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, Black Matte Border, 310 Boosters",
+						"<span class='event-list date'>4th-5th</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 310 Boosters",
+						"<span class='event-list date'>6th-10th</span> - Deadpool 'Celebr8bitpool' Card Back, 155 Boosters",
+						"<span class='event-list date'>11th-15th</span> - Deadpool 'Celebr8bitpool' Card Back, 105 Boosters",
+						"<span class='event-list date'>16th-20th</span> - Deadpool 'Celebr8bitpool' Card Back, 65 Boosters",
+						"<span class='event-list date'>21st-25th</span> - Deadpool 'Celebr8bitpool' Card Back, 35 Boosters",
+						"<span class='event-list date'>26th-30th</span> - Deadpool 'Celebr8bitpool' Card Back, 15 Boosters"
 					]
 				},
 				{
@@ -224,21 +224,21 @@
 					"date": "Oct 12 - Oct 20",
 					"items": [
 						"Featuring over 100 Marvel SNAP creators",
-						"<span class='event-list'>Qualifiers</span>: October 12-13",
-						"<span class='event-list'>Top 32</span>: October 19th",
-						"<span class='event-list'>Top 8 Playoffs</span>: October 20th"
+						"<span class='event-list date'>Qualifiers</span>: October 12-13",
+						"<span class='event-list date'>Top 32</span>: October 19th",
+						"<span class='event-list date'>Top 8 Playoffs</span>: October 20th"
 					]
 				},
 				{
 					"title": "High Voltage",
 					"date": "Oct 16 - Oct 24",
 					"items": [
-						"<span class='event-list'>750 Volts</span> - Agony Avatar",
-						"<span class='event-list'>2,000 Volts</span> - 250 Credits",
-						"<span class='event-list'>3,500 Volts</span> - Red Neon Border",
-						"<span class='event-list'>5,000 Volts</span> - 250 Credits",
-						"<span class='event-list'>8,000 Volts</span> - Agony Card",
-						"<span class='event-list'>11,000 Volts</span> - Iron Man Variant"
+						"<span class='event-list date'>750 Volts</span> - Agony Avatar",
+						"<span class='event-list date'>2,000 Volts</span> - 250 Credits",
+						"<span class='event-list date'>3,500 Volts</span> - Red Neon Border",
+						"<span class='event-list date'>5,000 Volts</span> - 250 Credits",
+						"<span class='event-list date'>8,000 Volts</span> - Agony Card",
+						"<span class='event-list date'>11,000 Volts</span> - Iron Man Variant"
 					]
 				},
 				{
@@ -263,6 +263,18 @@
 					"date": "Oct 24 - Oct 29",
 					"items": [
 						"Acquire rare or exclusive bundle Variants that you may have previously missed from the shop"
+					]
+				},
+				{
+					"title": "Planned Updates (STC)",
+					"date": "October - December",
+					"items": [
+						"<span class='event-list date'>October 24</span> - OTA",
+						"<span class='event-list date'>November 12</span> - Patch",
+						"<span class='event-list date'>November 14</span> - OTA",
+						"<span class='event-list date'>November 28</span> - OTA",
+						"<span class='event-list date'>December 10</span> - Patch",
+						"<span class='event-list date'>December 12</span> - OTA"
 					]
 				},
 				{
