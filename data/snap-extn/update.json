@@ -1,9 +1,268 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
-  "cards":[],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "cards",
+    "events"
+  ],
+  "cards":[
+    {
+      "name": "Daredevil",
+      "cost": "2",
+      "power": "3",
+      "ability": "On turn 5, you get to see your opponent's plays before you make your own.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": [
+        "others"
+      ]
+    },
+    {
+      "name": "Electro",
+      "cost": "3",
+      "power": "3",
+      "ability": "On Reveal: +1 max Energy. Ongoing: You can only play 1 card a turn.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": [
+        "on reveal",
+        "ongoing"
+      ]
+    },
+    {
+      "name": "Klaw",
+      "cost": "5",
+      "power": "4",
+      "ability": "Ongoing: The location to the right has +7 Power.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": [
+        "ongoing"
+      ]
+    },
+    {
+      "name": "Miek",
+      "cost": "1",
+      "power": "1",
+      "ability": "When you discard a card, this gains +1 Power and can move next turn.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": [
+        "discard",
+        "move"
+      ]
+    },
+    {
+      "name": "Misery",
+      "cost": "4",
+      "power": "8",
+      "ability": "On Reveal: Repeat the On Reveal abilities of your other cards here, then destroy them.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": [
+        "on reveal",
+        "destroy"
+      ]
+    },
+    {
+      "name": "Rockslide",
+      "cost": "4",
+      "power": "5",
+      "ability": "On Reveal: Shuffle 2 Rocks into your opponent's deck.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": [
+        "on reveal"
+      ]
+    },
+    {
+      "name": "Shadow King",
+      "cost": "2",
+      "power": "3",
+      "ability": "On Reveal: Reset all cards here to their original Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": [
+        "on reveal"
+      ]
+    },
+    {
+      "name": "Storm",
+      "cost": "4",
+      "power": "5",
+      "ability": "On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
+      "released": true,
+      "series": "2",
+      "type": "character",
+      "tags": [
+        "on reveal"
+      ]
+    },
+    {
+      "name": "Typhoid Mary",
+      "cost": "4",
+      "power": "10",
+      "ability": "Ongoing: Your other cards here have -1 Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": [
+        "ongoing"
+      ]
+    }
+  ],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "October 10",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Zabu",
+							"changes": [
+								"2/3 - On Reveal: Until the end of next turn, your 4-Cost cards cost 1 less.",
+								"1/2 - On Reveal: Give each 4-Cost card in your deck -1 Cost."
+							]
+						},
+						{
+							"name": "Hellcow",
+							"changes": [
+								"4/6 - Activate: Discard 2 cards from your hand.",
+								"4/7 - Activate: Discard a card from your hand."
+							]
+						},
+						{
+							"name": "Widow's Kiss (White Widow)",
+							"changes": [
+								"0/0 - Ongoing: This has -3 Power. Disable this ability if your side of this location is full.",
+								"0/-4 - Destroy this when your side of this location is full."
+							]
+						},
+						{
+							"name": "Viper",
+							"changes": [
+								"3/5 - On Reveal: One of your other cards here with the lowest Power switches sides.",
+								"3/5 -> 3/4"
+							]
+						},
+						{
+							"name": "Kingpin, Scream, and Fisk Tower",
+							"changes": [
+								"---",
+								"No longer affects unrevealed cards."
+							]
+						},
+						{
+							"name": "Scream",
+							"changes": [
+								"2/2 - When an enemy card moves, steal 2 Power from it. (once per turn).",
+								"2/2 -> 2/3"
+							]
+						},
+						{
+							"name": "Grand Master",
+							"changes": [
+								"2/2 - On Reveal: Move one of your other On Reveal cards here to the middle location. Its ability happens again.",
+								"2/2 -> 2/3"
+							]
+						},
+						{
+							"name": "Emperor Hulkling",
+							"changes": [
+								"6/11 - At the start of the game, copy the text of a random 6-Cost card.",
+								"6/11 -> 6/12"
+							]
+						},
+						{
+							"name": "Okoye",
+							"changes": [
+								"2/2 - On Reveal: Give every card in your deck +1 Power.",
+								"2/2 -> 2/3"
+							]
+						}
+					]
+				},
+				{
+					"date": "October 24",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Storm",
+							"changes": [
+								"3/2 - On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
+								"3/2 -> 4/5"
+							]
+						},
+						{
+							"name": "Misery",
+							"changes": [
+								"4/7 - On Reveal: Repeat the On Reveal abilities of your other cards here, then destroy them.",
+								"4/7 -> 4/8"
+							]
+						},
+						{
+							"name": "Electro",
+							"changes": [
+								"3/2 - On Reveal: +1 max Energy. Ongoing: You can only play 1 card a turn.",
+								"3/2 -> 3/3"
+							]
+						},
+						{
+							"name": "Rockslide",
+							"changes": [
+								"3/3 - On Reveal: Shuffle 2 Rocks into your opponent's deck.",
+								"3/3 -> 4/5"
+							]
+						},
+						{
+							"name": "Shadow King",
+							"changes": [
+								"2/2 - On Reveal: Reset all cards here to their original Power.",
+								"2/2 -> 2/3"
+							]
+						},
+						{
+							"name": "Klaw",
+							"changes": [
+								"5/4 - Ongoing: The location to the right has +8 Power.",
+								"5/4 - Ongoing: The location to the right has +7 Power."
+							]
+						},
+						{
+							"name": "Daredevil",
+							"changes": [
+								"2/2 - On turn 5, you get to see your opponent's plays before you make your own.",
+								"2/2 -> 2/3"
+							]
+						},
+						{
+							"name": "Miek",
+							"changes": [
+								"1/0 - When you discard a card, this gains +1 Power and can move next turn.",
+								"1/0 -> 1/1"
+							]
+						},
+						{
+							"name": "Typhoid Mary",
+							"changes": [
+								"4/10 - Ongoing: Your other cards have -1 Power.",
+								"4/10 - Ongoing: Your other cards here have -1 Power."
+							]
+						}
+					]
+				}
+			]
+		}
+  ]
 }
