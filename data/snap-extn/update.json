@@ -5,6 +5,18 @@
     "events"
   ],
   "cards":[
+		{
+			"name": "Anti-Venom",
+			"cost": "4",
+			"power": "7",
+			"ability": "On Reveal: Set the Cost and Power of your deck's top card to 0.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
     {
       "name": "Daredevil",
       "cost": "2",
