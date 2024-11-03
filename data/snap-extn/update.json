@@ -3,7 +3,7 @@
   "partsToUpdate": [
     "cards",
 		"locations",
-    "events"
+    "season"
   ],
   "cards":[
 		{
@@ -186,10 +186,311 @@
 			"ability": "After turn 4, cards here repeat their On Reveal abilities."
 		}
 	],
-  "seasonInfo": [],
-  "seasonStyles": [],
+  "seasonInfo": [
+		{
+			"seasonTitle": "We Are Venom",
+			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=7415247892933352197",
+			"featuredCard": "Agent Venom",
+			"nextFeaturedCard": "Surtur",
+			"featuredLocations": ["F.E.A.S.T.", "Our Lady of Saints"],
+			"nextFeaturedLocations": ["Valhalla", "Yggdrasil"],
+			"seasonEndDate": [5, 10, 2024],
+			"nextSeasonEndDate": [3, 11, 2024]
+		}
+	],
+  "seasonStyles": [
+		{
+			"dateColor": "#cbeb00",
+			"headerStyle": {
+				"fontSize": "26px",
+				"letterSpacing": ".6px",
+				"padding": "3px 0",
+				"color": "#f6fcfc",
+				"backgroundImage": "linear-gradient(#070100, #000)",
+				"textShadow": "-1px -1px #520e4290,1px -1px #520e4290,-1px 1px #520e4290,1px 1px #520e4290"
+			},
+			"hoverStyle": {
+				"color": "#070100",
+				"backgroundImage": "linear-gradient(#f6fcfc, #fefefe)",
+				"textShadow": "-1px -1px #3adf0320,1px -1px #3adf0320,-1px 1px #3adf0320,1px 1px #3adf0320"
+			}
+		}
+	],
   "seasonEvents": [
     {
+			"title": "New Characters",
+			"items": [
+				{"name": "Agent Venom", "series": "Season Pass"},
+				{"name": "Scream", "series": "5"},
+				{"name": "Misery", "series": "5"},
+				{"name": "Scorn", "series": "5"},
+				{"name": "Toxin", "series": "5"},
+				{"name": "Anti-Venom", "series": "5"},
+				{"name": "Agony", "series": "4"},
+				{"name": "Symbiote Spider-Man", "series": "5"}
+			]
+		},
+    {
+      "title": "New Locations",
+      "items": ["F.E.A.S.T.", "Our Lady of Saints"]
+    },
+    {
+			"title": "Spotlight Caches",
+			"items": [
+				{
+					"date": "October 1",
+					"items": [
+						{"name": "Scream", "series": "5"},
+						{"name": "Man-Thing", "series": "4"},
+						{"name": "Mobius M. Mobius", "series": "4"}
+					]
+				},
+				{
+					"date": "October 8",
+					"items": [
+						{"name": "Misery", "series": "5"},
+						{"name": "Namora", "series": "5"},
+						{"name": "War Machine", "series": "5"}
+					]
+				},
+				{
+					"date": "October 15",
+					"items": [
+						{"name": "Scorn", "series": "5"},
+						{"name": "Jean Grey", "series": "4"},
+						{"name": "Sebastian Shaw", "series": "5"}
+					]
+				},
+				{
+					"date": "October 22",
+					"items": [
+						{"name": "Toxin", "series": "5"},
+						{"name": "Elsa Bloodstone", "series": "5"},
+						{"name": "Zabu", "series": "4"}
+					]
+				},
+        {
+					"date": "October 29",
+					"items": [
+						{"name": "Anti-Venom", "series": "5"},
+						{"name": "Supergiant", "series": "5"},
+						{"name": "Ghost-Spider", "series": "4"}
+					]
+				}
+			]
+		},
+		{
+			"title": "New Albums",
+			"items": [
+				{
+					"date": "October 1",
+					"name": "Venomized Vibes",
+					"items": [
+						"3:Wolverine Avatar",
+						"6:1,000 Collector's Tokens",
+						"9:Wolverine Variant",
+						"12:Venom Emote"
+					]
+				},
+				{
+					"date": "October 9",
+					"name": "Dream or Nightmare?",
+					"items": [
+						"3:Ghost-Spider Avatar",
+						"6:Ghost-Spider Variant",
+						"9:Spotlight Cache Key",
+						"12:Carnage Emote"
+					]
+				},
+				{
+					"date": "October 15",
+					"name": "Chaos and Carnage",
+					"items": [
+						"3:Carnage Avatar",
+						"6:Matte Red Border",
+						"8:Carnage Variant",
+						"9:Cletus Kasady Reaction Set"
+					]
+				},
+        {
+					"date": "October 21",
+					"name": "Venom in my Veins",
+					"items": [
+						"3:Venom Avatar",
+						"5:Matte Black Border",
+						"7:Venom Variant",
+						"8:Eddie Brock Reaction Set"
+					]
+				}
+			]
+		},
+		{
+			"title": "Shop Takeover",
+			"items": [
+				{
+					"date": "Oct 1 - Oct 9",
+					"name": "Venomized",
+					"cards": [
+						"X-23",
+						"Armor",
+						"Ghost-Spider",
+						"Hellcow",
+						"M'Baku",
+						"Medusa",
+						"Quicksilver",
+						"Silk"
+					]
+				},
+        {
+					"date": "Oct 12 - Oct 13",
+					"name": "Peach Momoko Nightmare",
+					"cards": [
+						"Black Panther",
+						"Captain Marvel",
+						"Carnage",
+						"Nightcrawler",
+						"Rogue",
+						"Sentry",
+						"Silver Surfer"
+					]
+				}
+			]
+		},
+		{
+			"title": "Twitch Drops",
+			"items": [
+				{
+					"date": "Oct 3 - Oct 10",
+					"items": [
+						"2:65 Spider-Man 2099 Boosters",
+						"4:250 Credits",
+						"6:Spider-Man 2099 Variant"
+					]
+				},
+				{
+					"date": "Oct 18 - Oct 24",
+					"items": [
+						"2:155 Random Boosters",
+						"4:350 Credits",
+						"6:Premium Mystery Variant"
+					]
+				}
+			]
+		},
+		{
+			"title": "7-Day Login",
+			"items": [
+				{
+					"date": "Oct 18 - Oct 26",
+					"items": [
+						"65 Random Boosters",
+						"250 Credits",
+						"“Live, Love, SNAP” Title",
+						"2x Neon White Borders",
+						"Premium Mystery Variant",
+						"155 Random Boosters",
+						"Cosmic Orange Border"
+					]
+				}
+			]
+		},
+		{
+			"title": "Features/Modes/Events",
+			"items": [
+				{
+					"title": "Celebr8bit Card Back",
+					"date": "Oct 7 - Oct 13",
+					"items": [
+						"Login on an iOS device to claim Wolverine 'Celebr8bit' Card Back"
+					]
+				},
+				{
+					"title": "League",
+					"date": "Oct 11 - Oct 13",
+					"items": [
+						"<span class='event-list date'>1st</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 3x Black Matte Borders, 310 Boosters",
+						"<span class='event-list date'>2nd</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 2x Black Matte Borders, 310 Boosters",
+						"<span class='event-list date'>3rd</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, Black Matte Border, 310 Boosters",
+						"<span class='event-list date'>4th-5th</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 310 Boosters",
+						"<span class='event-list date'>6th-10th</span> - Deadpool 'Celebr8bitpool' Card Back, 155 Boosters",
+						"<span class='event-list date'>11th-15th</span> - Deadpool 'Celebr8bitpool' Card Back, 105 Boosters",
+						"<span class='event-list date'>16th-20th</span> - Deadpool 'Celebr8bitpool' Card Back, 65 Boosters",
+						"<span class='event-list date'>21st-25th</span> - Deadpool 'Celebr8bitpool' Card Back, 35 Boosters",
+						"<span class='event-list date'>26th-30th</span> - Deadpool 'Celebr8bitpool' Card Back, 15 Boosters"
+					]
+				},
+				{
+					"title": "Creator Gauntlet ",
+					"date": "Oct 12 - Oct 20",
+					"items": [
+						"Featuring over 100 Marvel SNAP creators",
+						"<span class='event-list date'>Qualifiers</span>: October 12-13",
+						"<span class='event-list date'>Top 32</span>: October 19th",
+						"<span class='event-list date'>Top 8 Playoffs</span>: October 20th"
+					]
+				},
+				{
+					"title": "High Voltage",
+					"date": "Oct 16 - Oct 24",
+					"items": [
+						"<span class='event-list date'>750 Volts</span> - Agony Avatar",
+						"<span class='event-list date'>2,000 Volts</span> - 250 Credits",
+						"<span class='event-list date'>3,500 Volts</span> - Red Neon Border",
+						"<span class='event-list date'>5,000 Volts</span> - 250 Credits",
+						"<span class='event-list date'>8,000 Volts</span> - Agony Card",
+						"<span class='event-list date'>11,000 Volts</span> - Iron Man Variant"
+					]
+				},
+				{
+					"title": "Second Anniversary",
+					"date": "Oct 18",
+					"items": [
+						"Head to marvelsnap.com to vote for a free Variant: Destroyer, Armor, or Howard the Duck"
+					]
+				},
+				{
+					"title": "$9.99 Toonpool Deadpool Bundle",
+					"date": "Oct 22 - Oct 27",
+					"items": [
+						"Toonpool Deadpool Variant",
+						"Matte Red Border",
+						"1,200 Gold",
+						"500 Credits"
+					]
+				},
+				{
+					"title": "Collector's Vault",
+					"date": "Oct 24 - Oct 29",
+					"items": [
+						"Acquire rare or exclusive bundle Variants that you may have previously missed from the shop"
+					]
+				},
+				{
+					"title": "Planned Updates (STC)",
+					"date": "October - December",
+					"items": [
+						"<span class='event-list date'>October 24</span> - OTA",
+						"<span class='event-list date'>November 12</span> - Patch",
+						"<span class='event-list date'>November 14</span> - OTA",
+						"<span class='event-list date'>November 28</span> - OTA",
+						"<span class='event-list date'>December 10</span> - Patch",
+						"<span class='event-list date'>December 12</span> - OTA"
+					]
+				},
+				{
+					"title": "Series Drop",
+					"date": "December 2024",
+					"items": [
+						"Coming Soon™"
+					]
+				}
+			]
+		},
+		{
+			"title": "Series Drop",
+			"items": []
+		},
+		{
 			"title": "Balance Updates",
 			"items": [
 				{
