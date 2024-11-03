@@ -2,6 +2,7 @@
   "isUpdateAvailable": true,
   "partsToUpdate": [
     "cards",
+		"locations",
     "events"
   ],
   "cards":[
@@ -42,6 +43,20 @@
         "ongoing"
       ]
     },
+		{
+			"name": "Fenris Wolf",
+			"cost": "2",
+			"power": "3",
+			"ability": "Activate: Rusurrect your opponent's highest-Power discarded or destroyed card on your side of this location.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"activate",
+				"discard",
+				"destroy"
+			]
+		},
     {
       "name": "Klaw",
       "cost": "5",
@@ -54,6 +69,18 @@
         "ongoing"
       ]
     },
+		{
+			"name": "Malekith",
+			"cost": "4",
+			"power": "6",
+			"ability": "On Reveal: Add a 1, 2, or 3-Cost card from your deck here, but don't reveal it until the game ends.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
     {
       "name": "Miek",
       "cost": "1",
@@ -116,6 +143,18 @@
         "on reveal"
       ]
     },
+		{
+			"name": "Surtur",
+			"cost": "3",
+			"power": "5",
+			"ability": "After you play a card with 10 or more Power, this gains +3 Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
     {
       "name": "Typhoid Mary",
       "cost": "4",
@@ -129,7 +168,12 @@
       ]
     }
   ],
-  "locations": [],
+  "locations": [
+		{
+			"name": "Valhalla",
+			"ability": "After turn 4, cards here repeat their On Reveal abilities."
+		}
+	],
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
