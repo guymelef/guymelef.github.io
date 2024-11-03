@@ -57,6 +57,18 @@
 				"destroy"
 			]
 		},
+		{
+			"name": "King Eitri",
+			"cost": "1",
+			"power": "2",
+			"ability": "Activate: Draw a card from your deck that didn't start there.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"activate"
+			]
+		},
     {
       "name": "Klaw",
       "cost": "5",
