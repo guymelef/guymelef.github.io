@@ -7,6 +7,18 @@
   ],
   "cards":[
 		{
+			"name": "Agent Venom",
+			"cost": "2",
+			"power": "4",
+			"ability": "On Reveal: Set the Power of all cards in your deck to 4.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
 			"name": "Anti-Venom",
 			"cost": "4",
 			"power": "7",
@@ -48,8 +60,8 @@
 			"cost": "2",
 			"power": "3",
 			"ability": "Activate: Rusurrect your opponent's highest-Power discarded or destroyed card on your side of this location.",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "5",
 			"type": "character",
 			"tags": [
 				"activate",
@@ -58,12 +70,37 @@
 			]
 		},
 		{
+			"name": "Frigga",
+			"cost": "3",
+			"power": "3",
+			"ability": "On Reveal: Add a copy of the last card you played to your hand. <i>(if able)</i>",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Gorr",
+			"cost": "6",
+			"power": "-1",
+			"ability": "Ongoing: +2 Power for EACH On Reveal card in play.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"ongoing",
+				"on reveal"
+			]
+		},
+		{
 			"name": "King Eitri",
 			"cost": "1",
 			"power": "2",
 			"ability": "Activate: Draw a card from your deck that didn't start there.",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "4",
 			"type": "character",
 			"tags": [
 				"activate"
@@ -86,8 +123,8 @@
 			"cost": "4",
 			"power": "6",
 			"ability": "On Reveal: Add a 1, 2, or 3-Cost card from your deck here, but don't reveal it until the game ends.",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "5",
 			"type": "character",
 			"tags": [
 				"on reveal"
@@ -160,8 +197,8 @@
 			"cost": "3",
 			"power": "5",
 			"ability": "After you play a card with 10 or more Power, this gains +3 Power.",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "Season Pass",
 			"type": "character",
 			"tags": [
 				"others"
@@ -188,31 +225,31 @@
 	],
   "seasonInfo": [
 		{
-			"seasonTitle": "We Are Venom",
-			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=7415247892933352197",
-			"featuredCard": "Agent Venom",
-			"nextFeaturedCard": "Surtur",
-			"featuredLocations": ["F.E.A.S.T.", "Our Lady of Saints"],
-			"nextFeaturedLocations": ["Valhalla", "Yggdrasil"],
-			"seasonEndDate": [5, 10, 2024],
-			"nextSeasonEndDate": [3, 11, 2024]
+			"seasonTitle": "War of the Nine Realms",
+			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=7415247896284519174",
+			"featuredCard": "Surtur",
+			"nextFeaturedCard": "",
+			"featuredLocations": ["Valhalla", "Yggdrasil"],
+			"nextFeaturedLocations": [],
+			"seasonEndDate": [3, 11, 2024],
+			"nextSeasonEndDate": [7, 0, 2025]
 		}
 	],
   "seasonStyles": [
 		{
-			"dateColor": "#cbeb00",
+			"dateColor": "#f13b0d",
 			"headerStyle": {
-				"fontSize": "26px",
-				"letterSpacing": ".6px",
-				"padding": "3px 0",
-				"color": "#f6fcfc",
-				"backgroundImage": "linear-gradient(#070100, #000)",
-				"textShadow": "-1px -1px #520e4290,1px -1px #520e4290,-1px 1px #520e4290,1px 1px #520e4290"
+				"fontSize": "23px",
+				"letterSpacing": ".5px",
+				"padding": "5px 0",
+				"color": "#250700",
+				"backgroundImage": "linear-gradient(#ed9231, #f51609)",
+				"textShadow": "-1px -1px #96151e50,1px -1px #96151e50,-1px 1px #96151e50,1px 1px #96151e50"
 			},
 			"hoverStyle": {
-				"color": "#070100",
-				"backgroundImage": "linear-gradient(#f6fcfc, #fefefe)",
-				"textShadow": "-1px -1px #3adf0320,1px -1px #3adf0320,-1px 1px #3adf0320,1px 1px #3adf0320"
+				"color": "#5a0d09",
+				"backgroundImage": "linear-gradient(#ed9231, #f51609)",
+				"textShadow": "-1px -1px #92152180,1px -1px #92152180,-1px 1px #92152180,1px 1px #92152180"
 			}
 		}
 	],
@@ -220,61 +257,52 @@
     {
 			"title": "New Characters",
 			"items": [
-				{"name": "Agent Venom", "series": "Season Pass"},
-				{"name": "Scream", "series": "5"},
-				{"name": "Misery", "series": "5"},
-				{"name": "Scorn", "series": "5"},
-				{"name": "Toxin", "series": "5"},
-				{"name": "Anti-Venom", "series": "5"},
-				{"name": "Agony", "series": "4"},
-				{"name": "Symbiote Spider-Man", "series": "5"}
+				{"name": "Surtur", "series": "Season Pass"},
+				{"name": "Frigga", "series": "5"},
+				{"name": "Malekith", "series": "5"},
+				{"name": "Fenris Wolf", "series": "5"},
+				{"name": "Gorr", "series": "5"},
+				{"name": "King Eitri", "series": "4"},
+				{"name": "Agent Venom", "series": "5"}
 			]
 		},
     {
       "title": "New Locations",
-      "items": ["F.E.A.S.T.", "Our Lady of Saints"]
+      "items": ["Valhalla", "Yggdrasil"]
     },
     {
 			"title": "Spotlight Caches",
 			"items": [
 				{
-					"date": "October 1",
+					"date": "November 5",
 					"items": [
-						{"name": "Scream", "series": "5"},
-						{"name": "Man-Thing", "series": "4"},
-						{"name": "Mobius M. Mobius", "series": "4"}
+						{"name": "Frigga", "series": "5"},
+						{"name": "Red Guardian", "series": "5"},
+						{"name": "Copycat", "series": "5"}
 					]
 				},
 				{
-					"date": "October 8",
+					"date": "November 12",
 					"items": [
-						{"name": "Misery", "series": "5"},
-						{"name": "Namora", "series": "5"},
-						{"name": "War Machine", "series": "5"}
+						{"name": "Malekith", "series": "5"},
+						{"name": "Valentina", "series": "5"},
+						{"name": "Thena", "series": "5"}
 					]
 				},
 				{
-					"date": "October 15",
+					"date": "November 19",
 					"items": [
-						{"name": "Scorn", "series": "5"},
-						{"name": "Jean Grey", "series": "4"},
-						{"name": "Sebastian Shaw", "series": "5"}
+						{"name": "Fenris Wolf", "series": "5"},
+						{"name": "Werewolf By Night", "series": "4"},
+						{"name": "Annihilus", "series": "5"}
 					]
 				},
 				{
-					"date": "October 22",
+					"date": "November 26",
 					"items": [
-						{"name": "Toxin", "series": "5"},
-						{"name": "Elsa Bloodstone", "series": "5"},
-						{"name": "Zabu", "series": "4"}
-					]
-				},
-        {
-					"date": "October 29",
-					"items": [
-						{"name": "Anti-Venom", "series": "5"},
-						{"name": "Supergiant", "series": "5"},
-						{"name": "Ghost-Spider", "series": "4"}
+						{"name": "Gorr", "series": "5"},
+						{"name": "Havok", "series": "4"},
+						{"name": "Legion", "series": "4"}
 					]
 				}
 			]
@@ -283,43 +311,33 @@
 			"title": "New Albums",
 			"items": [
 				{
-					"date": "October 1",
-					"name": "Venomized Vibes",
+					"date": "November 5",
+					"name": "Twilight of the Thunder God",
 					"items": [
-						"3:Wolverine Avatar",
-						"6:1,000 Collector's Tokens",
-						"9:Wolverine Variant",
-						"12:Venom Emote"
+						"2:Alex Ross Thor Avatar",
+						"5:1x Metallic Gold Border",
+						"7:Alex Ross Thor Variant",
+						"9:Thor Ragnarok Reaction Set"
 					]
 				},
 				{
-					"date": "October 9",
-					"name": "Dream or Nightmare?",
+					"date": "November 12",
+					"name": "Trippy Surfer",
 					"items": [
-						"3:Ghost-Spider Avatar",
-						"6:Ghost-Spider Variant",
-						"9:Spotlight Cache Key",
-						"12:Carnage Emote"
+						"3:Vincenzo Riccardi Silver Surfer Avatar",
+						"6:2,000 Collector's Tokens",
+						"9:Emote - Silver Surfer Betrayed",
+						"12:Vincenzo Riccardi Silver Surfer Variant"
 					]
 				},
 				{
-					"date": "October 15",
-					"name": "Chaos and Carnage",
+					"date": "November 26",
+					"name": "Even Heroes Get Hungry",
 					"items": [
-						"3:Carnage Avatar",
-						"6:Matte Red Border",
-						"8:Carnage Variant",
-						"9:Cletus Kasady Reaction Set"
-					]
-				},
-        {
-					"date": "October 21",
-					"name": "Venom in my Veins",
-					"items": [
-						"3:Venom Avatar",
-						"5:Matte Black Border",
-						"7:Venom Variant",
-						"8:Eddie Brock Reaction Set"
+						"3:Wild Blue Death Avatar",
+						"6:2,000 Credits",
+						"9:Wild Blue Death Variant",
+						"12:Emote - Doom Is Supreme!"
 					]
 				}
 			]
@@ -328,30 +346,27 @@
 			"title": "Shop Takeover",
 			"items": [
 				{
-					"date": "Oct 1 - Oct 9",
-					"name": "Venomized",
+					"date": "Nov 12 - Nov 13",
+					"name": "Vincenzo Riccardi",
 					"cards": [
-						"X-23",
-						"Armor",
-						"Ghost-Spider",
-						"Hellcow",
-						"M'Baku",
-						"Medusa",
-						"Quicksilver",
-						"Silk"
+						"Killmonger",
+						"Juggernaut",
+						"Nakia",
+						"Nova",
+						"Okoye",
+						"Polaris"
 					]
 				},
         {
-					"date": "Oct 12 - Oct 13",
-					"name": "Peach Momoko Nightmare",
+					"date": "Nov 26 - Nov 27",
+					"name": "Wild Blue",
 					"cards": [
-						"Black Panther",
-						"Captain Marvel",
-						"Carnage",
-						"Nightcrawler",
-						"Rogue",
-						"Sentry",
-						"Silver Surfer"
+						"Leech",
+						"Beast",
+						"Devil Dinosaur",
+						"Dracula",
+						"Nebula",
+						"She-Hulk"
 					]
 				}
 			]
@@ -360,116 +375,31 @@
 			"title": "Twitch Drops",
 			"items": [
 				{
-					"date": "Oct 3 - Oct 10",
+					"date": "Nov 19 - Nov 25",
 					"items": [
-						"2:65 Spider-Man 2099 Boosters",
+						"2:65 Random Boosters",
 						"4:250 Credits",
-						"6:Spider-Man 2099 Variant"
-					]
-				},
-				{
-					"date": "Oct 18 - Oct 24",
-					"items": [
-						"2:155 Random Boosters",
-						"4:350 Credits",
-						"6:Premium Mystery Variant"
+						"6:Mystery Variant"
 					]
 				}
 			]
 		},
 		{
 			"title": "7-Day Login",
-			"items": [
-				{
-					"date": "Oct 18 - Oct 26",
-					"items": [
-						"65 Random Boosters",
-						"250 Credits",
-						"“Live, Love, SNAP” Title",
-						"2x Neon White Borders",
-						"Premium Mystery Variant",
-						"155 Random Boosters",
-						"Cosmic Orange Border"
-					]
-				}
-			]
+			"items": []
 		},
 		{
 			"title": "Features/Modes/Events",
 			"items": [
 				{
-					"title": "Celebr8bit Card Back",
-					"date": "Oct 7 - Oct 13",
-					"items": [
-						"Login on an iOS device to claim Wolverine 'Celebr8bit' Card Back"
-					]
-				},
-				{
-					"title": "League",
-					"date": "Oct 11 - Oct 13",
-					"items": [
-						"<span class='event-list date'>1st</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 3x Black Matte Borders, 310 Boosters",
-						"<span class='event-list date'>2nd</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 2x Black Matte Borders, 310 Boosters",
-						"<span class='event-list date'>3rd</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, Black Matte Border, 310 Boosters",
-						"<span class='event-list date'>4th-5th</span> - Deadpool 'Celebr8bitpool' Card Back, Moon Girl & Devil Dinosaur 'Games!' Variant, 310 Boosters",
-						"<span class='event-list date'>6th-10th</span> - Deadpool 'Celebr8bitpool' Card Back, 155 Boosters",
-						"<span class='event-list date'>11th-15th</span> - Deadpool 'Celebr8bitpool' Card Back, 105 Boosters",
-						"<span class='event-list date'>16th-20th</span> - Deadpool 'Celebr8bitpool' Card Back, 65 Boosters",
-						"<span class='event-list date'>21st-25th</span> - Deadpool 'Celebr8bitpool' Card Back, 35 Boosters",
-						"<span class='event-list date'>26th-30th</span> - Deadpool 'Celebr8bitpool' Card Back, 15 Boosters"
-					]
-				},
-				{
-					"title": "Creator Gauntlet ",
-					"date": "Oct 12 - Oct 20",
-					"items": [
-						"Featuring over 100 Marvel SNAP creators",
-						"<span class='event-list date'>Qualifiers</span>: October 12-13",
-						"<span class='event-list date'>Top 32</span>: October 19th",
-						"<span class='event-list date'>Top 8 Playoffs</span>: October 20th"
-					]
-				},
-				{
-					"title": "High Voltage",
-					"date": "Oct 16 - Oct 24",
-					"items": [
-						"<span class='event-list date'>750 Volts</span> - Agony Avatar",
-						"<span class='event-list date'>2,000 Volts</span> - 250 Credits",
-						"<span class='event-list date'>3,500 Volts</span> - Red Neon Border",
-						"<span class='event-list date'>5,000 Volts</span> - 250 Credits",
-						"<span class='event-list date'>8,000 Volts</span> - Agony Card",
-						"<span class='event-list date'>11,000 Volts</span> - Iron Man Variant"
-					]
-				},
-				{
-					"title": "Second Anniversary",
-					"date": "Oct 18",
-					"items": [
-						"Head to marvelsnap.com to vote for a free Variant: Destroyer, Armor, or Howard the Duck"
-					]
-				},
-				{
-					"title": "$9.99 Toonpool Deadpool Bundle",
-					"date": "Oct 22 - Oct 27",
-					"items": [
-						"Toonpool Deadpool Variant",
-						"Matte Red Border",
-						"1,200 Gold",
-						"500 Credits"
-					]
-				},
-				{
-					"title": "Collector's Vault",
-					"date": "Oct 24 - Oct 29",
-					"items": [
-						"Acquire rare or exclusive bundle Variants that you may have previously missed from the shop"
-					]
+					"title": "Deadpool's Diner",
+					"date": "Nov 21 - Dec 3",
+					"items": ["Earn 'Bubs' to get rewards and obtain King Eitri for free"]
 				},
 				{
 					"title": "Planned Updates (STC)",
-					"date": "October - December",
+					"date": "November - December",
 					"items": [
-						"<span class='event-list date'>October 24</span> - OTA",
 						"<span class='event-list date'>November 12</span> - Patch",
 						"<span class='event-list date'>November 14</span> - OTA",
 						"<span class='event-list date'>December 10</span> - Patch",
@@ -491,146 +421,7 @@
 		},
 		{
 			"title": "Balance Updates",
-			"items": [
-				{
-					"date": "October 10",
-					"type": "OTA",
-					"items": [
-						{
-							"name": "Zabu",
-							"changes": [
-								"2/3 - On Reveal: Until the end of next turn, your 4-Cost cards cost 1 less.",
-								"1/2 - On Reveal: Give each 4-Cost card in your deck -1 Cost."
-							]
-						},
-						{
-							"name": "Hellcow",
-							"changes": [
-								"4/6 - Activate: Discard 2 cards from your hand.",
-								"4/7 - Activate: Discard a card from your hand."
-							]
-						},
-						{
-							"name": "Widow's Kiss (White Widow)",
-							"changes": [
-								"0/0 - Ongoing: This has -3 Power. Disable this ability if your side of this location is full.",
-								"0/-4 - Destroy this when your side of this location is full."
-							]
-						},
-						{
-							"name": "Viper",
-							"changes": [
-								"3/5 - On Reveal: One of your other cards here with the lowest Power switches sides.",
-								"3/5 -> 3/4"
-							]
-						},
-						{
-							"name": "Kingpin, Scream, and Fisk Tower",
-							"changes": [
-								"---",
-								"No longer affects unrevealed cards."
-							]
-						},
-						{
-							"name": "Scream",
-							"changes": [
-								"2/2 - When an enemy card moves, steal 2 Power from it. (once per turn).",
-								"2/2 -> 2/3"
-							]
-						},
-						{
-							"name": "Grand Master",
-							"changes": [
-								"2/2 - On Reveal: Move one of your other On Reveal cards here to the middle location. Its ability happens again.",
-								"2/2 -> 2/3"
-							]
-						},
-						{
-							"name": "Emperor Hulkling",
-							"changes": [
-								"6/11 - At the start of the game, copy the text of a random 6-Cost card.",
-								"6/11 -> 6/12"
-							]
-						},
-						{
-							"name": "Okoye",
-							"changes": [
-								"2/2 - On Reveal: Give every card in your deck +1 Power.",
-								"2/2 -> 2/3"
-							]
-						}
-					]
-				},
-				{
-					"date": "October 24",
-					"type": "OTA",
-					"items": [
-						{
-							"name": "Storm",
-							"changes": [
-								"3/2 - On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
-								"3/2 -> 4/5"
-							]
-						},
-						{
-							"name": "Misery",
-							"changes": [
-								"4/7 - On Reveal: Repeat the On Reveal abilities of your other cards here, then destroy them.",
-								"4/7 -> 4/8"
-							]
-						},
-						{
-							"name": "Electro",
-							"changes": [
-								"3/2 - On Reveal: +1 max Energy. Ongoing: You can only play 1 card a turn.",
-								"3/2 -> 3/3"
-							]
-						},
-						{
-							"name": "Rockslide",
-							"changes": [
-								"3/3 - On Reveal: Shuffle 2 Rocks into your opponent's deck.",
-								"3/3 -> 4/5"
-							]
-						},
-						{
-							"name": "Shadow King",
-							"changes": [
-								"2/2 - On Reveal: Reset all cards here to their original Power.",
-								"2/2 -> 2/3"
-							]
-						},
-						{
-							"name": "Klaw",
-							"changes": [
-								"5/4 - Ongoing: The location to the right has +8 Power.",
-								"5/4 - Ongoing: The location to the right has +7 Power."
-							]
-						},
-						{
-							"name": "Daredevil",
-							"changes": [
-								"2/2 - On turn 5, you get to see your opponent's plays before you make your own.",
-								"2/2 -> 2/3"
-							]
-						},
-						{
-							"name": "Miek",
-							"changes": [
-								"1/0 - When you discard a card, this gains +1 Power and can move next turn.",
-								"1/0 -> 1/1"
-							]
-						},
-						{
-							"name": "Typhoid Mary",
-							"changes": [
-								"4/10 - Ongoing: Your other cards have -1 Power.",
-								"4/10 - Ongoing: Your other cards here have -1 Power."
-							]
-						}
-					]
-				}
-			]
+			"items": []
 		}
   ]
 }
