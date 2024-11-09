@@ -1,9 +1,29 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "events"
+  ],
   "cards":[],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "7-Day Login",
+			"items": [
+				{
+					"date": "Nov 8 - Nov 16",
+					"items": [
+						"150 Credits",
+						"65 Random Boosters",
+						"Mystery Variant",
+						"350 Credits",
+						"Green Neon Border",
+						"155 Random Boosters",
+						"Premium Mystery Variant"
+					]
+				}
+			]
+		}
+  ]
 }
