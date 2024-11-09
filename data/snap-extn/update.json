@@ -9,6 +9,43 @@
   "seasonStyles": [],
   "seasonEvents": [
     {
+			"title": "Spotlight Caches",
+			"items": [
+				{
+					"date": "November 5",
+					"items": [
+						{"name": "Frigga", "series": "5"},
+						{"name": "Red Guardian", "series": "5"},
+						{"name": "Copycat", "series": "5"}
+					]
+				},
+				{
+					"date": "November 12",
+					"items": [
+						{"name": "Malekith", "series": "5"},
+						{"name": "Valentina", "series": "5"},
+						{"name": "Thena", "series": "5"}
+					]
+				},
+				{
+					"date": "November 19",
+					"items": [
+						{"name": "Fenris Wolf", "series": "5"},
+						{"name": "Werewolf By Night", "series": "5"},
+						{"name": "Annihilus", "series": "5"}
+					]
+				},
+				{
+					"date": "November 26",
+					"items": [
+						{"name": "Gorr the God Butcher", "series": "5"},
+						{"name": "Havok", "series": "4"},
+						{"name": "Legion", "series": "4"}
+					]
+				}
+			]
+		},
+    {
 			"title": "7-Day Login",
 			"items": [
 				{
