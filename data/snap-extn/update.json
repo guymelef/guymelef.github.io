@@ -113,6 +113,18 @@
 			]
 		},
 		{
+			"name": "Lasher",
+			"cost": "2",
+			"power": "2",
+			"ability": "Activate: Afflict an enemy card here with negative Power equal to this card's Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": [
+				"activate"
+			]
+		},
+		{
 			"name": "Luna Snow",
 			"cost": "3",
 			"power": "5",
