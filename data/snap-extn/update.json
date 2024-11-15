@@ -446,7 +446,7 @@
 				{
 					"date": "November 14",
 					"type": "OTA",
-					"changes": [
+					"items": [
 						{
 							"name": "Agent Venom",
 							"changes": [
