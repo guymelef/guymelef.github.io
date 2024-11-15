@@ -423,6 +423,35 @@
 				}
 			]
 		},
+		{
+			"title": "Shop Takeover",
+			"items": [
+				{
+					"date": "Nov 12 - Nov 13",
+					"name": "Vincenzo Riccardi",
+					"cards": [
+						"Killmonger",
+						"Juggernaut",
+						"Nakia",
+						"Nova",
+						"Okoye",
+						"Polaris"
+					]
+				},
+        {
+					"date": "Nov 26 - Nov 27",
+					"name": "Wild Blue Food Variant",
+					"cards": [
+						"Leech",
+						"Beast",
+						"Devil Dinosaur",
+						"Dracula",
+						"Nebula",
+						"She-Hulk"
+					]
+				}
+			]
+		},
     {
 			"title": "7-Day Login",
 			"items": [
