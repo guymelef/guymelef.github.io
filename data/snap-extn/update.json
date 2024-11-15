@@ -190,7 +190,7 @@
 			"name": "Jessica Jones",
 			"cost": "4",
 			"power": "5",
-			"ability": "On Reveal: If you don't play a card here next turn, +5 Power.",
+			"ability": "On Reveal: If you don’t play a card at this location next turn, +4 Power.",
 			"released": true,
 			"series": "1",
 			"type": "character",
