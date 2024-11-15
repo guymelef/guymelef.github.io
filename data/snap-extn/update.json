@@ -7,6 +7,30 @@
   ],
   "cards":[
 		{
+			"name": "Agatha Harkness",
+			"cost": "6",
+			"power": "14",
+			"ability": "At the start of the game, draw Agatha. She controls your cards on even turns.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
+		{
+			"name": "Agent Venom",
+			"cost": "2",
+			"power": "5",
+			"ability": "On Reveal: Set the Power of all cards in your deck to 3.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
 			"name": "Ares",
 			"cost": "4",
 			"power": "6",
@@ -24,6 +48,18 @@
 			"power": "0",
 			"ability": "Unknown",
 			"type": "summon"
+		},
+		{
+			"name": "Black Widow",
+			"cost": "3",
+			"power": "4",
+			"ability": "Activate: Add a Widow's Bite to your opponent’s hand.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"activate"
+			]
 		},
 		{
 			"name": "Bruce Banner",
@@ -48,6 +84,31 @@
 			"tags": [
 				"activate",
 				"discard"
+			]
+		},
+		{
+			"name": "Crystal",
+			"cost": "3",
+			"power": "4",
+			"ability": "On Reveal: Each player draws a card.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Destroyer",
+			"cost": "6",
+			"power": "16",
+			"ability": "On Reveal: Destroy your other cards.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"on reveal",
+				"destroy"
 			]
 		},
 		{
@@ -94,6 +155,19 @@
 			]
 		},
 		{
+			"name": "Heimdall",
+			"cost": "6",
+			"power": "10",
+			"ability": "On Reveal: Move your other cards one location to the left.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": [
+				"on reveal",
+				"move"
+			]
+		},
+		{
 			"name": "Ice Cube",
 			"cost": "1",
 			"power": "0",
@@ -107,6 +181,18 @@
 			"ability": "On Reveal: Add a random 4, 5, or 6-Cost card to your hand. If you’re winning here after next turn, give it -4 Cost.",
 			"released": false,
 			"series": "NA",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Jessica Jones",
+			"cost": "4",
+			"power": "5",
+			"ability": "On Reveal: If you don't play a card here next turn, +5 Power.",
+			"released": true,
+			"series": "1",
 			"type": "character",
 			"tags": [
 				"on reveal"
@@ -173,11 +259,71 @@
 			]
 		},
 		{
+			"name": "Shadow King",
+			"cost": "2",
+			"power": "2",
+			"ability": "On Reveal: Reset all cards here to their original Power.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Silver Sable",
+			"cost": "1",
+			"power": "0",
+			"ability": "On Reveal: Steal 2 Power from the top card of your opponent's deck.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Skaar",
+			"cost": "6",
+			"power": "10",
+			"ability": "Costs 2 less for each of your cards that has 10 or more Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
+		{
 			"name": "SP//dr",
 			"cost": "3",
 			"power": "3",
 			"ability": "On Reveal: Merge with one of your cards here. You can move that card next turn.",
 			"type": "summon"
+		},
+		{
+			"name": "Surtur",
+			"cost": "3",
+			"power": "4",
+			"ability": "After you play a card with 10 or more Power, this gains +3 Power.",
+			"released": true,
+			"series": "Season Pass",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
+		{
+			"name": "Thanos",
+			"cost": "6",
+			"power": "10",
+			"ability": "At the start of the game, draw Thanos and shuffle the six Infinity Stones into your deck.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"others"
+			]
 		},
 		{
 			"name": "Toxie Doxie",
@@ -186,6 +332,18 @@
 			"ability": "On Reveal: Draw a card. You can't play cards next turn.",
 			"released": false,
 			"series": "NA",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Valentina",
+			"cost": "2",
+			"power": "3",
+			"ability": "On Reveal: Add a random 6-Cost card to your hand. Give it -2 Cost and -2 Power.",
+			"released": true,
+			"series": "5",
 			"type": "character",
 			"tags": [
 				"on reveal"
@@ -202,6 +360,13 @@
 			"tags": [
 				"ongoing"
 			]
+		},
+		{
+			"name": "Winter Soldier",
+			"cost": "2",
+			"power": "7",
+			"text": "“It's time for me to face the past.”",
+			"type": "summon"
 		}
 	],
   "locations": [
@@ -271,6 +436,114 @@
 						"Green Neon Border",
 						"155 Random Boosters",
 						"Premium Mystery Variant"
+					]
+				}
+			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "November 14",
+					"type": "OTA",
+					"changes": [
+						{
+							"name": "Agent Venom",
+							"changes": [
+								"2/4 - On Reveal: Set the Power of all cards in your deck to 4.",
+								"2/5 - On Reveal: Set the Power of all cards in your deck to 3."
+							]
+						},
+						{
+							"name": "Surtur",
+							"changes": [
+								"3/5 - After you play a card with 10 or more Power, this gains +3 Power.",
+								"3/5 -> 3/4"
+							]
+						},
+						{
+							"name": "Skaar",
+							"changes": [
+								"6/11 - Costs 2 less for each of your cards that has 10 or more Power.",
+								"6/11 -> 6/10"
+							]
+						},
+						{
+							"name": "Silver Sable",
+							"changes": [
+								"1/1 - On Reveal: Steal 2 Power from the top card of your opponent’s deck.",
+								"1/1 -> 1/0"
+							]
+						},
+						{
+							"name": "Shadow King",
+							"changes": [
+								"2/3 - On Reveal: Reset all cards here to their original Power.",
+								"2/3 -> 2/2"
+							]
+						},
+						{
+							"name": "Black Widow",
+							"changes": [
+								"3/3 - On Reveal: Add a Widow's Bite to your opponent’s hand.",
+								"3/4 - Activate: Add a Widow's Bite to your opponent’s hand."
+							]
+						},
+						{
+							"name": "Destroyer",
+							"changes": [
+								"6/14 - On Reveal: Destroy your cards at other locations.",
+								"6/14 -> 6/16"
+							]
+						},
+						{
+							"name": "Valentina",
+							"changes": [
+								"2/3 - On Reveal: Add a random 6-Cost card to your hand. Give it -2 Cost and -3 Power.",
+								"2/3 - On Reveal: Add a random 6-Cost card to your hand. Give it -2 Cost and -2 Power."
+							]
+						},
+						{
+							"name": "Winter Soldier (Bucky Barnes)",
+							"changes": [
+								"2/6 -> 2/7"
+							]
+						},
+						{
+							"name": "Jessica Jones",
+							"changes": [
+								"4/5 - On Reveal: If you don’t play a card at this location next turn, +4 Power.",
+								"4/5 - On Reveal: If you don’t play a card at this location next turn, +5 Power."
+							]
+						},
+						{
+							"name": "Heimdall",
+							"changes": [
+								"6/9 - On Reveal: Move your other cards one location to the left.",
+								"6/9 -> 6/10"
+							]
+						},
+						{
+							"name": "Crystal",
+							"changes": [
+								"3/3 - On Reveal: Each player draws a card.",
+								"3/3 -> 3/4"
+							]
+						},
+						{
+							"name": "Agatha Harkness (text only)",
+							"changes": [
+								"6/14 - Agatha starts in your hand. She plays your cards for you on even turns.",
+								"6/14 - At the start of the game, draw Agatha. She controls your cards on even turns."
+							]
+						},
+						{
+							"name": "Thanos",
+							"changes": [
+								"6/10 - Starts in your opening hand and shuffles the six Infinity Stones into your deck.",
+								"6/10 - At the start of the game, draw Thanos and shuffle the six Infinity Stones into your deck."
+							]
+						}
 					]
 				}
 			]
