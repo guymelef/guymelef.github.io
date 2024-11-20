@@ -1,9 +1,73 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "events"
+  ],
   "cards":[],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "Shop Takeover",
+			"items": [
+				{
+					"date": "Nov 12 - Nov 13",
+					"name": "Vincenzo Riccardi",
+					"cards": [
+						"Killmonger",
+						"Juggernaut",
+						"Nakia",
+						"Nova",
+						"Okoye",
+						"Polaris"
+					]
+				},
+        {
+					"date": "Nov 26 - Nov 27",
+					"name": "Wild Blue Food Variant",
+					"cards": [
+						"Leech",
+						"Beast",
+						"Devil Dinosaur",
+						"Dracula",
+						"Nebula",
+						"She-Hulk"
+					]
+				}
+			]
+		},
+    {
+			"title": "Features/Modes/Events",
+			"items": [
+				{
+					"title": "Collector's Vault",
+					"date": "Nov 19 - Nov 23",
+					"items": ["Exclusive variants available again for a limited time!"]
+				},
+				{
+					"title": "Deadpool's Diner",
+					"date": "Nov 21 - Dec 3",
+					"items": ["Earn 'Bubs' to get rewards and obtain King Eitri for free"]
+				},
+				{
+					"title": "Planned Updates (STC)",
+					"date": "November - December",
+					"items": [
+						"<span class='event-list date'>November 12</span> - Patch",
+						"<span class='event-list date'>November 14</span> - OTA",
+						"<span class='event-list date'>December 10</span> - Patch",
+						"<span class='event-list date'>December 12</span> - OTA"
+					]
+				},
+				{
+					"title": "Series Drop",
+					"date": "December 2024",
+					"items": [
+						"Coming Soon™"
+					]
+				}
+			]
+		}
+  ]
 }
