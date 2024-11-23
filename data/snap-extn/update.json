@@ -37,6 +37,35 @@
 				}
 			]
 		},
+		{
+			"title": "7-Day Login",
+			"items": [
+				{
+					"date": "Nov 8 - Nov 16",
+					"items": [
+						"150 Credits",
+						"65 Random Boosters",
+						"Mystery Variant",
+						"350 Credits",
+						"Green Neon Border",
+						"155 Random Boosters",
+						"Premium Mystery Variant"
+					]
+				},
+				{
+					"date": "Nov 22 - Nov 30",
+					"items": [
+						"150 Credits",
+						"65 Random Boosters",
+						"“My Other Ride is the Bifrost” Title",
+						"Mystery Variant",
+						"155 Random Boosters",
+						"Premium Mystery Variant",
+						"Copper Metallic Border"
+					]
+				}
+			]
+		},
     {
 			"title": "Features/Modes/Events",
 			"items": [
