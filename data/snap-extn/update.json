@@ -88,12 +88,33 @@
 						"<span class='event-list date'>December 10</span> - Patch",
 						"<span class='event-list date'>December 12</span> - OTA"
 					]
+				}
+			]
+		},
+		{
+			"title": "Series Drop",
+			"date": "December 2024",
+			"items": [
+				{
+					"name": "Series 3",
+					"cards": [
+						"Jean Grey",
+						"Kitty Pryde",
+						"Snowguard"
+					]
 				},
 				{
-					"title": "Series Drop",
-					"date": "December 2024",
-					"items": [
-						"Coming Soon™"
+					"name": "Series 4",
+					"cards": [
+						"X-23",
+						"Iron Lad",
+						"Sasquatch",
+						"Beta Ray Bill",
+						"Grand Master",
+						"Phastos",
+						"Pixie",
+						"Supergiant",
+						"Valentina"
 					]
 				}
 			]
