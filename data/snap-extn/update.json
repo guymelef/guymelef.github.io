@@ -282,7 +282,7 @@
 						"Title: On The Naughty List",
 						"Premium Mystery Variant",
 						"400 Credits",
-						"3 Snowflake Blue Card Borders"
+						"3x Snowflake Blue Card Borders"
 					]
 				}
 			]
@@ -291,8 +291,16 @@
 			"title": "Features/Modes/Events",
 			"items": [
 				{
+					"title": "Planned Updates (STC)",
+					"date": "December",
+					"items": [
+						"<span class='event-list date'>December 10</span> - Patch",
+						"<span class='event-list date'>December 12</span> - OTA"
+					]
+				},
+				{
 					"title": "High Voltage",
-					"date": "Dec 28 - Jan 4",
+					"date": "December 28",
 					"items": ["Play with more cards, more energy, and faster matches and unlock a new card, Lasher, for FREE!"]
 				}
 			]
