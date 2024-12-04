@@ -1,93 +1,279 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
-    "events"
+		"cards",
+    "season"
   ],
-  "cards":[],
+  "cards":[
+		{
+			"name": "Bruce Banner",
+			"cost": "2",
+			"power": "1",
+			"ability": "When you end a turn with unspent Energy, 25% chance to HULK OUT!",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
+		{
+			"name": "Doctor Doom 2099",
+			"cost": "4",
+			"power": "2",
+			"ability": "After each turn, add a DoomBot 2099 to a random location if you played (exactly) 1 card.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
+		{
+			"name": "Galacta",
+			"cost": "4",
+			"power": "6",
+			"ability": "Each turn, the first card you play at another location reveals with +3 Power.",
+			"released": true,
+			"series": "Season Pass",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		},
+		{
+			"name": "Lasher",
+			"cost": "2",
+			"power": "2",
+			"ability": "Activate: Afflict an enemy card here with negative Power equal to this card's Power.",
+			"released": true,
+			"series": "4",
+			"type": "character",
+			"tags": [
+				"activate"
+			]
+		},
+		{
+			"name": "Luna Snow",
+			"cost": "3",
+			"power": "5",
+			"ability": "On Reveal: Add an Ice Cube to each side of this location.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Peni Parker",
+			"cost": "2",
+			"power": "3",
+			"ability": "On Reveal: Add SP//dr to your hand. When this merges, you get +1 Energy next turn.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"on reveal"
+			]
+		},
+		{
+			"name": "Rocket and Groot",
+			"cost": "3",
+			"power": "3",
+			"ability": "You can move this once. After your opponent plays a card here, steal 1 Power from it.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"move"
+			]
+		},
+		{
+			"name": "Surtur",
+			"cost": "3",
+			"power": "4",
+			"ability": "After you play a card with 10 or more Power, this gains +3 Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": [
+				"others"
+			]
+		}
+	],
   "locations": [],
-  "seasonInfo": [],
-  "seasonStyles": [],
+  "seasonInfo": [
+		{
+			"seasonTitle": "Marvel Rivals",
+			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=",
+			"featuredCard": "Galacta",
+			"nextFeaturedCard": "Iron Patriot",
+			"featuredLocations": ["Spider Island", "Tokyo 2099"],
+			"nextFeaturedLocations": ["Asgard Besieged"],
+			"seasonEndDate": [7, 0, 2025],
+			"nextSeasonEndDate": [4, 1, 2025]
+		}
+	],
+  "seasonStyles": [
+		{
+			"dateColor": "#f5d62e",
+			"headerStyle": {
+				"fontSize": "28px",
+				"letterSpacing": "1px",
+				"padding": "3px 0",
+				"color": "#2f314a",
+				"backgroundImage": "linear-gradient(#f5d62e, #f9db28)",
+				"textShadow": "-1px -1px #33334530,1px -1px #33334530,-1px 1px #33334530,1px 1px #33334530"
+			},
+			"hoverStyle": {
+				"color": "#000",
+				"backgroundImage": "linear-gradient(#f5f5f5, #f5f5f5)",
+				"textShadow": "-1px -1px #00000020,1px -1px #00000020,-1px 1px #00000020,1px 1px #00000020"
+			}
+		}
+	],
   "seasonEvents": [
     {
+			"title": "New Characters",
+			"items": [
+				{"name": "Galacta", "series": "Season Pass"},
+				{"name": "Luna Snow", "series": "5"},
+				{"name": "Peni Parker", "series": "5"},
+				{"name": "Doom 2099", "series": "5"},
+				{"name": "Bruce Banner", "series": "5"},
+				{"name": "Rocket and Groot", "series": "5"},
+				{"name": "Lasher", "series": "4"},
+				{"name": "Surtur", "series": "5"}
+			]
+		},
+    {
+      "title": "New Locations",
+      "items": ["Spider Island", "Tokyo 2099"]
+    },
+    {
+			"title": "Spotlight Caches",
+			"items": [
+				{
+					"date": "December 3",
+					"items": [
+						{"name": "Luna Snow", "series": "5"},
+						{"name": "X-23", "series": "5"},
+						{"name": "Lady Deathstrike", "series": "4"}
+					]
+				},
+				{
+					"date": "December 10",
+					"items": [
+						{"name": "Peni Parker", "series": "5"},
+						{"name": "Sasquatch", "series": "5"},
+						{"name": "Gladiator", "series": "4"}
+					]
+				},
+				{
+					"date": "December 17",
+					"items": [
+						{"name": "Doctor Doom 2099", "series": "5"},
+						{"name": "Daken", "series": "4"},
+						{"name": "Miek", "series": "4"}
+					]
+				},
+				{
+					"date": "December 24",
+					"items": [
+						{"name": "Bruce Banner", "series": "5"},
+						{"name": "High Evolutionary", "series": "5"},
+						{"name": "Ravonna Renslayer", "series": "4"}
+					]
+				},
+				{
+					"date": "December 31",
+					"items": [
+						{"name": "Rocket and Groot", "series": "5"},
+						{"name": "Selene", "series": "4"},
+						{"name": "Blob", "series": "5"}
+					]
+				}
+			]
+		},
+		{
+			"title": "New Albums",
+			"items": [
+				{
+					"date": "December 10",
+					"name": "No One RIVALS Doom",
+					"items": [
+						"3:Doctor Doom – Marvel Rivals Avatar",
+						"6:2,000 Collector's Tokens",
+						"9:Rocket Racoon and Groot Emote",
+						"12:Doctor Doom – Marvel Rivals Variant"
+					]
+				},
+				{
+					"date": "December 24",
+					"name": "Nightmare Before Knullmas",
+					"items": [
+						"4:Knull – Tyler Kirkham Avatar",
+						"6:2x Red Snowflakes Card Border",
+						"8:Knull – Tyler Kirkham Variant",
+						"10:Daredevil Emote"
+					]
+				}
+			]
+		},
+		{
 			"title": "Shop Takeover",
 			"items": [
 				{
-					"date": "Nov 12 - Nov 13",
-					"name": "Vincenzo Riccardi",
+					"date": "Dec 10 - Dec 11",
+					"name": "Rivals",
 					"cards": [
-						"Killmonger",
-						"Juggernaut",
-						"Nakia",
-						"Nova",
-						"Okoye",
-						"Polaris"
+						"Iron Man",
+						"Jeff the Baby Land Shark",
+						"Loki",
+						"Star-Lord",
+						"Storm",
+						"Venom"
 					]
 				},
         {
-					"date": "Nov 26 - Nov 27",
-					"name": "Wild Blue Food Variant",
+					"date": "Dec 24 - Dec 25",
+					"name": "Knullified",
 					"cards": [
-						"Leech",
-						"Beast",
-						"Devil Dinosaur",
-						"Dracula",
-						"Nebula",
-						"She-Hulk"
+						"Iron Man",
+						"Daredevil",
+						"Ghost Rider",
+						"Shang-Chi",
+						"Storm",
+						"The Thing"
+					]
+				}
+			]
+		},
+		{
+			"title": "Twitch Drops",
+			"items": [
+				{
+					"date": "Dec 10 -  Dec 17",
+					"items": [
+						"2:155 Magneto Boosters",
+						"4:500 Credits",
+						"6:Magneto – Marvel Rivals Variant"
 					]
 				}
 			]
 		},
 		{
 			"title": "7-Day Login",
-			"items": [
-				{
-					"date": "Nov 8 - Nov 16",
-					"items": [
-						"150 Credits",
-						"65 Random Boosters",
-						"Mystery Variant",
-						"350 Credits",
-						"Green Neon Border",
-						"155 Random Boosters",
-						"Premium Mystery Variant"
-					]
-				},
-				{
-					"date": "Nov 22 - Nov 30",
-					"items": [
-						"150 Credits",
-						"65 Random Boosters",
-						"“My Other Ride is the Bifrost” Title",
-						"Mystery Variant",
-						"155 Random Boosters",
-						"Premium Mystery Variant",
-						"Copper Metallic Border"
-					]
-				}
-			]
+			"items": []
 		},
-    {
+		{
 			"title": "Features/Modes/Events",
 			"items": [
 				{
-					"title": "Collector's Vault",
-					"date": "Nov 19 - Nov 23",
-					"items": ["Exclusive variants available again for a limited time!"]
-				},
-				{
-					"title": "Deadpool's Diner",
-					"date": "Nov 21 - Dec 3",
-					"items": ["Earn 'Bubs' to get rewards and obtain King Eitri for free"]
-				},
-				{
-					"title": "Planned Updates (STC)",
-					"date": "November - December",
-					"items": [
-						"<span class='event-list date'>November 12</span> - Patch",
-						"<span class='event-list date'>November 14</span> - OTA",
-						"<span class='event-list date'>December 10</span> - Patch",
-						"<span class='event-list date'>December 12</span> - OTA"
-					]
+					"title": "High Voltage",
+					"date": "Dec 28 - Jan 4",
+					"items": ["Play with more cards, more energy, and faster matches and unlock a new card, Lasher, for FREE!"]
 				}
 			]
 		},
@@ -118,6 +304,10 @@
 					]
 				}
 			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": []
 		}
   ]
 }
