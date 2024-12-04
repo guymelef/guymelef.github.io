@@ -265,7 +265,27 @@
 		},
 		{
 			"title": "7-Day Login",
-			"items": []
+			"items": [
+				{
+					"date": "Dec 19 - Jan 3",
+					"items": [
+						"Title: Happy Holidays!",
+						"150 Credits",
+						"2 Ice Blue Card Borders",
+						"Elsa Bloodstone – Winter Vacation Avatar",
+						"155 Elsa Bloodstone Boosters",
+						"200 Gold",
+						"Elsa Bloodstone – Winter Vacation Variant",
+						"200 Credits",
+						"Premium Mystery Variant",
+						"250 Credits",
+						"Title: On The Naughty List",
+						"Premium Mystery Variant",
+						"400 Credits",
+						"3 Snowflake Blue Card Borders"
+					]
+				}
+			]
 		},
 		{
 			"title": "Features/Modes/Events",
