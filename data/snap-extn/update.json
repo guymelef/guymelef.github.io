@@ -2,6 +2,7 @@
   "isUpdateAvailable": true,
   "partsToUpdate": [
 		"cards",
+		"locations",
     "season"
   ],
   "cards":[
@@ -102,14 +103,19 @@
 			]
 		}
 	],
-  "locations": [],
+  "locations": [
+		{
+			"name": "Spider-Island",
+			"ability": "After you play a card here, move it."
+		}
+	],
   "seasonInfo": [
 		{
 			"seasonTitle": "Marvel Rivals",
 			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=7417688494958549766",
 			"featuredCard": "Galacta",
 			"nextFeaturedCard": "Iron Patriot",
-			"featuredLocations": ["Spider Island", "Tokyo 2099"],
+			"featuredLocations": ["Spider-Island", "Tokyo 2099"],
 			"nextFeaturedLocations": ["Asgard Besieged"],
 			"seasonEndDate": [7, 0, 2025],
 			"nextSeasonEndDate": [4, 1, 2025]
@@ -149,7 +155,7 @@
 		},
     {
       "title": "New Locations",
-      "items": ["Spider Island", "Tokyo 2099"]
+      "items": ["Spider-Island", "Tokyo 2099"]
     },
     {
 			"title": "Spotlight Caches",
