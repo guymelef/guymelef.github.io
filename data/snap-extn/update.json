@@ -1,9 +1,9 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"season",
 		"cards",
-		"locations",
-    "season"
+		"locations"
   ],
   "cards":[
 		{
@@ -14,21 +14,19 @@
 			"released": true,
 			"series": "5",
 			"type": "character",
-			"tags": [
-				"others"
-			]
+			"tags": ["others"],
+			"code": "BrcBnnrB"
 		},
 		{
-			"name": "Doctor Doom 2099",
+			"name": "Doom 2099",
 			"cost": "4",
 			"power": "2",
 			"ability": "After each turn, add a DoomBot 2099 to a random location if you played (exactly) 1 card.",
 			"released": true,
 			"series": "5",
 			"type": "character",
-			"tags": [
-				"others"
-			]
+			"tags": ["others"],
+			"code": "Dm20998"
 		},
 		{
 			"name": "Galacta",
@@ -38,9 +36,8 @@
 			"released": true,
 			"series": "Season Pass",
 			"type": "character",
-			"tags": [
-				"others"
-			]
+			"tags": ["others"],
+			"code": "Glct7"
 		},
 		{
 			"name": "Lasher",
@@ -50,9 +47,8 @@
 			"released": true,
 			"series": "4",
 			"type": "character",
-			"tags": [
-				"activate"
-			]
+			"tags": ["activate"],
+			"code": "Lshr6"
 		},
 		{
 			"name": "Luna Snow",
@@ -62,9 +58,8 @@
 			"released": true,
 			"series": "5",
 			"type": "character",
-			"tags": [
-				"on reveal"
-			]
+			"tags": ["on reveal"],
+			"code": "LnSnw8"
 		},
 		{
 			"name": "Peni Parker",
@@ -74,21 +69,19 @@
 			"released": true,
 			"series": "5",
 			"type": "character",
-			"tags": [
-				"on reveal"
-			]
+			"tags": ["on reveal"],
+			"code": "PnPrkrA"
 		},
 		{
-			"name": "Rocket and Groot",
+			"name": "Rocket Raccoon and Groot",
 			"cost": "3",
 			"power": "3",
 			"ability": "You can move this once. After your opponent plays a card here, steal 1 Power from it.",
 			"released": true,
 			"series": "5",
 			"type": "character",
-			"tags": [
-				"move"
-			]
+			"tags": ["move"],
+			"code": "RcktAndGrtE"
 		},
 		{
 			"name": "Surtur",
@@ -98,9 +91,8 @@
 			"released": true,
 			"series": "5",
 			"type": "character",
-			"tags": [
-				"others"
-			]
+			"tags": ["others"],
+			"code": "Srtr6"
 		}
 	],
   "locations": [
@@ -146,9 +138,9 @@
 				{"name": "Galacta", "series": "Season Pass"},
 				{"name": "Luna Snow", "series": "5"},
 				{"name": "Peni Parker", "series": "5"},
-				{"name": "Doctor Doom 2099", "series": "5"},
+				{"name": "Doom 2099", "series": "5"},
 				{"name": "Bruce Banner", "series": "5"},
-				{"name": "Rocket and Groot", "series": "5"},
+				{"name": "Rocket Raccoon and Groot", "series": "5"},
 				{"name": "Lasher", "series": "4"},
 				{"name": "Surtur", "series": "5"}
 			]
@@ -179,7 +171,7 @@
 				{
 					"date": "December 17",
 					"items": [
-						{"name": "Doctor Doom 2099", "series": "5"},
+						{"name": "Doom 2099", "series": "5"},
 						{"name": "Daken", "series": "4"},
 						{"name": "Miek", "series": "4"}
 					]
@@ -195,7 +187,7 @@
 				{
 					"date": "December 31",
 					"items": [
-						{"name": "Rocket and Groot", "series": "5"},
+						{"name": "Rocket Raccoon and Groot", "series": "5"},
 						{"name": "Selene", "series": "4"},
 						{"name": "Blob", "series": "5"}
 					]
@@ -270,7 +262,7 @@
 			]
 		},
 		{
-			"title": "7-Day Login",
+			"title": "Daily Login",
 			"items": [
 				{
 					"date": "Dec 19 - Jan 3",
