@@ -1,9 +1,191 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
-  "cards":[],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "cards",
+    "events"
+  ],
+  "cards":[
+    {
+      "name": "Beta Ray Bill",
+      "cost": "4",
+      "power": "5",
+      "ability": "On Reveal: Shuffle Stormbreaker into your deck.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "BtRBllB"
+    },
+    {
+      "name": "Grand Master",
+      "cost": "2",
+      "power": "3",
+      "ability": "On Reveal: Move one of your other On Reveal cards here to the middle location. Its ability happens again.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "move"],
+      "code": "GrndMstrB"
+    },
+    {
+      "name": "Iron Lad",
+      "cost": "4",
+      "power": "6",
+      "ability": "On Reveal: Copy the text of your deck's top card.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "IrnLd7"
+    },
+    {
+      "name": "Jean Grey",
+      "cost": "3",
+      "power": "4",
+      "ability": "Ongoing: Players must play their first card here each turn. <i>(if possible)</i>",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "JnGr8"
+    },
+    {
+      "name": "Kitty Pryde",
+      "cost": "1",
+      "power": "1",
+      "ability": "When this returns to your hand, +1 Power. Returns at the start of each turn.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["others"],
+      "code": "KttPrdA"
+    },
+    {
+      "name": "Phastos",
+      "cost": "3",
+      "power": "3",
+      "ability": "On Reveal: Give each card in your deck -1 Cost or +2 Power.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Phsts7"
+    },
+    {
+      "name": "Pixie",
+      "cost": "2",
+      "power": "1",
+      "ability": "On Reveal: Shuffle the base Costs of all cards in your deck that started there.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Px5"
+    },
+    {
+      "name": "Sasquatch",
+      "cost": "6",
+      "power": "10",
+      "ability": "Costs 1 less for each card you played last turn.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Ssqtch9"
+    },
+    {
+      "name": "Snowguard",
+      "cost": "1",
+      "power": "2",
+      "ability": "On Reveal: Add the Hawk and Bear auroras to your hand.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Snwgrd9"
+    },
+    {
+      "name": "Supergiant",
+      "cost": "4",
+      "power": "5",
+      "ability": "On Reveal: All cards played next turn don't reveal until the game ends.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "SprgntA"
+    },
+    {
+      "name": "Valentina",
+      "cost": "2",
+      "power": "3",
+      "ability": "On Reveal: Add a random 6-Cost card to your hand. Give it -2 Cost and -2 Power.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Vlntn9"
+    },
+    {
+      "name": "X-23",
+      "cost": "1",
+      "power": "2",
+      "ability": "When this is discarded or destroyed, regenerate it at a random location and you get +1 Energy next turn.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["discard", "destroy"],
+      "code": "X233"
+    }
+  ],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "Spotlight Caches",
+			"items": [
+				{
+					"date": "December 3",
+					"items": [
+						{"name": "Luna Snow", "series": "5"},
+						{"name": "X-23", "series": "4"},
+						{"name": "Lady Deathstrike", "series": "4"}
+					]
+				},
+				{
+					"date": "December 10",
+					"items": [
+						{"name": "Peni Parker", "series": "5"},
+						{"name": "Sasquatch", "series": "4"},
+						{"name": "Gladiator", "series": "4"}
+					]
+				},
+				{
+					"date": "December 17",
+					"items": [
+						{"name": "Doom 2099", "series": "5"},
+						{"name": "Daken", "series": "4"},
+						{"name": "Miek", "series": "4"}
+					]
+				},
+				{
+					"date": "December 24",
+					"items": [
+						{"name": "Bruce Banner", "series": "5"},
+						{"name": "High Evolutionary", "series": "5"},
+						{"name": "Ravonna Renslayer", "series": "4"}
+					]
+				},
+				{
+					"date": "December 31",
+					"items": [
+						{"name": "Rocket Raccoon and Groot", "series": "5"},
+						{"name": "Selene", "series": "4"},
+						{"name": "Blob", "series": "5"}
+					]
+				}
+			]
+		}
+  ]
 }
