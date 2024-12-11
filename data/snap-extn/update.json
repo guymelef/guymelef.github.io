@@ -6,6 +6,17 @@
   ],
   "cards":[
     {
+      "name": "Batroc the Leaper",
+      "cost": "1",
+      "power": "2",
+      "ability": "When a card moves, follow it to gain +2 Power. <i>(once per turn)</i>",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Btrc6"
+    },
+    {
       "name": "Beta Ray Bill",
       "cost": "4",
       "power": "5",
@@ -15,6 +26,48 @@
       "type": "character",
       "tags": ["on reveal"],
       "code": "BtRBllB"
+    },
+    {
+      "name": "Bullseye",
+      "cost": "3",
+      "power": "3",
+      "ability": "Activate: Discard all cards that cost 1 or less from your hand. Afflict that many different enemy cards with -2 Power.)",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate", "discard"],
+      "code": "Blls8"
+    },
+    {
+      "name": "Cap's Shield",
+      "cost": "1",
+      "power": "1",
+      "ability": "Ongoing: This can't be destroyed. Give your Cap +2 Power when this moves to Cap's location.",
+      "released": false,
+      "series": "NA",
+      "type": "summon"
+    },
+    {
+      "name": "Cobra",
+      "cost": "3",
+      "power": "6",
+      "ability": "You can only play this at a location where your opponent has exactly one card.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Cbr5"
+    },
+    {
+      "name": "Diamondback",
+      "cost": "3",
+      "power": "3",
+      "ability": "Ongoing: Enemy cards here afflicted with negative Power have an additional -2 Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "DmndbckB"
     },
     {
       "name": "Grand Master",
@@ -50,6 +103,17 @@
       "code": "JnGr8"
     },
     {
+      "name": "Joaquin Torres Falcon II",
+      "cost": "3",
+      "power": "3",
+      "ability": "Ongoing: The On Reveal abilities of your 1-Cost cards here happen twice.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["ongoing", "on reveal"],
+      "code": "JqnTrrsD"
+    },
+    {
       "name": "Kitty Pryde",
       "cost": "1",
       "power": "1",
@@ -59,6 +123,17 @@
       "type": "character",
       "tags": ["others"],
       "code": "KttPrdA"
+    },
+    {
+      "name": "Moonstone",
+      "cost": "4",
+      "power": "6",
+      "ability": "Ongoing: Has the Ongoing effects of your 1, 2, and 3-Cost cards here.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "Mnstn9"
     },
     {
       "name": "Phastos",
@@ -81,6 +156,30 @@
       "type": "character",
       "tags": ["on reveal"],
       "code": "Px5"
+    },
+    {
+    
+      "name": "Redwing",
+      "cost": "1",
+      "power": "2",
+      "ability": "On Reveal: Return one of your other 1-Cost cards here to your hand to give it +2 Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Rdwng7"
+    },
+    {
+    
+      "name": "Sam Wilson Captain America",
+      "cost": "2",
+      "power": "3",
+      "ability": "Game Start: Add Cap's Shield to a random location. Ongoing: You can move Cap's Shield.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "SmWlsn9"
     },
     {
       "name": "Sasquatch",
@@ -116,6 +215,18 @@
       "code": "SprgntA"
     },
     {
+    
+      "name": "Thaddeus Ross",
+      "cost": "2",
+      "power": "2",
+      "ability": "When your opponent ends a turn with unspent Energy, draw a card with 10 or more Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["others"],
+      "code": "ThddsRssC"
+    },
+    {
       "name": "Valentina",
       "cost": "2",
       "power": "3",
@@ -125,6 +236,17 @@
       "type": "character",
       "tags": ["on reveal"],
       "code": "Vlntn9"
+    },
+    {
+      "name": "Victoria Hand",
+      "cost": "2",
+      "power": "3",
+      "ability": "Ongoing: Your cards that were created in your hand have +2 Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "VctrHndC"
     },
     {
       "name": "X-23",
