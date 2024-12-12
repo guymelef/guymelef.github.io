@@ -308,6 +308,38 @@
 					]
 				}
 			]
+		},
+    {
+			"title": "Features/Modes/Events",
+			"items": [
+				{
+					"title": "Planned Updates (STC)",
+					"date": "December - March",
+					"items": [
+						"<span class='event-list date'>December 10</span> - Patch",
+						"<span class='event-list date'>December 12</span> - OTA",
+						"<span class='event-list date'>Jan 9</span> - OTA",
+						"<span class='event-list date'>Jan 14</span> - Patch",
+						"<span class='event-list date'>Jan 23</span> - OTA",
+						"<span class='event-list date'>Feb 4</span> - Patch",
+						"<span class='event-list date'>Feb 6</span> - OTA",
+						"<span class='event-list date'>Feb 20</span> - OTA",
+						"<span class='event-list date'>March 4</span> - Patch"
+					]
+				},
+				{
+					"title": "High Voltage",
+					"date": "Dec 28 - Jan 4",
+					"items": [
+						"<span class='event-list date'>200 Volts</span> - Credits",
+						"<span class='event-list date'>2,000 Volts</span> - Lasher Avatar",
+						"<span class='event-list date'>3,500 Volts</span> - Border",
+						"<span class='event-list date'>5,000 Volts</span> - Credits",
+						"<span class='event-list date'>10,000 Volts</span> - Spider-Man 2099 Variant",
+						"<span class='event-list date'>12,000 Volts</span> - Lasher Card"
+					]
+				}
+			]
 		}
   ]
 }
