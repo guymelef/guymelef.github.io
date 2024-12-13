@@ -340,6 +340,94 @@
 					]
 				}
 			]
+		},
+    {
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "Dec 12",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Arishem",
+							"changes": [
+								"7/7 - At the start of the game, +1 Max Energy. Shuffle 15 random cards into your deck.",
+								"7/7 - Game Start: Shuffle 12 new cards into your deck. On turn 3, get +1 Max Energy."
+							]
+						},
+						{
+							"name": "Typhoid Mary",
+							"changes": [
+								"4/10 - Ongoing: Your other cards here have -1 Power.",
+								"4/10 - Ongoing: Your other cards here have -2 Power."
+							]
+						},
+						{
+							"name": "Alioth",
+							"changes": [
+								"6/10 - On Reveal: Remove the text from all unrevealed enemy cards here.",
+								"6/10 -> 6/9"
+							]
+						},
+						{
+							"name": "Enchantress",
+							"changes": [
+								"4/5 - On Reveal: Remove the abilities from all Ongoing cards here.",
+								"4/5 - 4/6"
+							]
+						},
+						{
+							"name": "Black Widow",
+							"changes": [
+								"3/4 - Activate: Add a Widow's Bite to your opponent's hand.",
+								"3/4 -> 3/3"
+							]
+						},
+						{
+							"name": "Frigga",
+							"changes": [
+								"3/3 - On Reveal: Add a copy of the last card you played to your hand. (if able)",
+								"3/3 -> 3/4"
+							]
+						},
+						{
+							"name": "Shuri",
+							"changes": [
+								"4/1 - On Reveal: If you play your next card at this location, double its Power.",
+								"4/1 -> 4/3"
+							]
+						},
+						{
+							"name": "Lockjaw",
+							"changes": [
+								"4/4 - After you play a card here, swap it with a card in your deck.",
+								"4/4 -> 4/5"
+							]
+						},
+						{
+							"name": "Stormbreaker",
+							"changes": [
+								"0/1 - On Reveal: Double Beta Ray Bill's Power.",
+								"0/1 -> 0/3"
+							]
+						},
+						{
+							"name": "Cerebro",
+							"changes": [
+								"3/0 - Ongoing: Your highest-Power cards have +2 Power.",
+								"3/0 -> 2/0"
+							]
+						},
+						{
+							"name": "Elsa Bloodstone",
+							"changes": [
+								"3/3 - Each card you play to fill your side of a location gains +2 Power.",
+								"3/3 -> 3/4"
+							]
+						}
+					]
+				}
+			]
 		}
   ]
 }
