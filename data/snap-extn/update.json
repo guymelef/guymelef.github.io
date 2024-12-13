@@ -6,6 +6,28 @@
   ],
   "cards":[
     {
+      "name": "Alioth",
+      "cost": "6",
+      "power": "9",
+      "ability": "On Reveal: Remove the text from all unrevealed enemy cards here.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Alth6"
+    },
+    {
+      "name": "Arishem",
+      "cost": "7",
+      "power": "7",
+      "ability": "Game Start: Shuffle 12 new cards into your deck. On turn 3, get +1 Max Energy.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Arshm7"
+    },
+    {
       "name": "Batroc the Leaper",
       "cost": "1",
       "power": "2",
@@ -28,6 +50,17 @@
       "code": "BtRBllB"
     },
     {
+      "name": "Black Widow",
+      "cost": "3",
+      "power": "3",
+      "ability": "Activate: Add a Widow's Bite to your opponent’s hand.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "BlckWdwA"
+    },
+    {
       "name": "Bullseye",
       "cost": "3",
       "power": "3",
@@ -46,6 +79,17 @@
       "released": false,
       "series": "NA",
       "type": "summon"
+    },
+    {
+      "name": "Cerebro",
+      "cost": "2",
+      "power": "0",
+      "ability": "Ongoing: Your highest-Power cards have +2 Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "Crbr7"
     },
     {
       "name": "Cobra",
@@ -68,6 +112,39 @@
       "type": "character",
       "tags": ["ongoing"],
       "code": "DmndbckB"
+    },
+    {
+      "name": "Elsa Bloodstone",
+      "cost": "3",
+      "power": "4",
+      "ability": "Each card you play to fill your side of a location gains +2 Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "ElsBldstnE"
+    },
+    {
+      "name": "Enchantress",
+      "cost": "4",
+      "power": "6",
+      "ability": "On Reveal: Remove the abilities from all Ongoing cards here.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "EnchntrssB"
+    },
+    {
+      "name": "Frigga",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: Add a copy of the last card you played to your hand. <i>(if able)</i>",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Frgg6"
     },
     {
       "name": "Grand Master",
@@ -123,6 +200,17 @@
       "type": "character",
       "tags": ["others"],
       "code": "KttPrdA"
+    },
+    {
+      "name": "Lockjaw",
+      "cost": "4",
+      "power": "5",
+      "ability": "After you play a card here, swap it with a card in your deck.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Lckjw7"
     },
     {
       "name": "Moonstone",
@@ -193,6 +281,17 @@
       "code": "Ssqtch9"
     },
     {
+      "name": "Shuri",
+      "cost": "4",
+      "power": "3",
+      "ability": "On Reveal: If you play your next card here, double its Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Shr5"
+    },
+    {
       "name": "Snowguard",
       "cost": "1",
       "power": "2",
@@ -202,6 +301,13 @@
       "type": "character",
       "tags": ["on reveal"],
       "code": "Snwgrd9"
+    },
+    {
+      "name": "Stormbreaker",
+      "cost": "0",
+      "power": "3",
+      "ability": "On Reveal: Double Beta Ray Bill's Power.",
+      "type": "summon"
     },
     {
       "name": "Supergiant",
@@ -225,6 +331,17 @@
       "type": "character",
       "tags": ["others"],
       "code": "ThddsRssC"
+    },
+    {
+      "name": "Typhoid Mary",
+      "cost": "4",
+      "power": "10",
+      "ability": "Ongoing: Your other cards here have -2 Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "TphdMrB"
     },
     {
       "name": "Valentina",
