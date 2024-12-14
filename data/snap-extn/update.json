@@ -444,6 +444,11 @@
 						"<span class='event-list date'>Mar 4</span> - Patch"
 					]
 				},
+        {
+					"title": "Collector's Vault",
+					"date": "Dec 13 - Dec 17",
+					"items": ["Exclusive variants available again for a limited time!"]
+				},
 				{
 					"title": "High Voltage",
 					"date": "Dec 28 - Jan 4",
