@@ -1,10 +1,16 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"locations",
     "events"
   ],
   "cards": [],
-  "locations": [],
+  "locations": [
+		{
+			"name": "The Peak",
+			"ability": "Steal the leftmost card from your opponent's hand."
+		}
+	],
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
