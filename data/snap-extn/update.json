@@ -7,15 +7,70 @@
   ],
   "cards": [
 		{
+			"name": "Ares",
+			"cost": "4",
+			"power": "6",
+			"ability": "On Reveal: Compare the Power of the top 3 cards of both decks. If your total is higher, +6 Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Ars4"
+		},
+		{
 			"name": "Bullseye",
 			"cost": "3",
 			"power": "3",
 			"ability": "Activate: Discard all cards that cost 1 or less from your hand. Afflict that many different enemy cards with -2 Power.",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "5",
 			"type": "character",
 			"tags": ["activate", "discard"],
 			"code": "Blls8"
+		},
+		{
+			"name": "Galacta",
+			"cost": "4",
+			"power": "6",
+			"ability": "Each turn, the first card you play at another location reveals with +3 Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Glct7"
+		},
+		{
+			"name": "Iron Patriot",
+			"cost": "2",
+			"power": "3",
+			"ability": "On Reveal: Add a random 4, 5, or 6-Cost card to your hand. If you’re winning here after next turn, give it -4 Cost.",
+			"released": true,
+			"series": "Season Pass",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "IrnPtrtB"
+		},
+		{
+			"name": "Moonstone",
+			"cost": "4",
+			"power": "6",
+			"ability": "Ongoing: Has the Ongoing effects of your 1, 2, and 3-Cost cards here.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "Mnstn9"
+		},
+		{
+			"name": "Victoria Hand",
+			"cost": "2",
+			"power": "3",
+			"ability": "Ongoing: Your cards that were created in your hand have +2 Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "VctrHndC"
 		}
 	],
   "locations": [
@@ -26,31 +81,32 @@
 	],
   "seasonInfo": [
 		{
-			"seasonTitle": "Marvel Rivals",
-			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=7417688494958549766",
-			"featuredCard": "Galacta",
-			"nextFeaturedCard": "Iron Patriot",
-			"featuredLocations": ["Spider-Island", "Tokyo 2099"],
-			"nextFeaturedLocations": ["The Peak", "Asgard Besieged"],
-			"seasonEndDate": [7, 0, 2025],
-			"nextSeasonEndDate": [4, 1, 2025]
+			"seasonTitle": "Dark Avengers",
+			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=7424058142499068678",
+			"featuredCard": "Iron Patriot",
+			"nextFeaturedCard": "Sam Wilson Captain America",
+			"featuredLocations": ["Asgard Besieged", "The Peak"],
+			"nextfeaturedLocations": [],
+			"seasonEndDate": [4, 1, 2025],
+			"nextSeasonEndDate": [4, 2, 2025]
 		}
 	],
   "seasonStyles": [
 		{
-			"dateColor": "#f5d62e",
+			"dateColor": "#d02b3a",
 			"headerStyle": {
 				"fontSize": "26px",
 				"letterSpacing": "1px",
 				"padding": "3px 0",
-				"color": "#2f314a",
-				"backgroundImage": "linear-gradient(#f5d62e, #f9db28)",
-				"textShadow": "-1px -1px #33334530,1px -1px #33334530,-1px 1px #33334530,1px 1px #33334530"
+				"color": "#020000",
+				"font-style": "italic",
+				"backgroundImage": "linear-gradient(#ce2a3b, #d42d3a)",
+				"textShadow": "-1px -1px #e9faff30,1px -1px #e9faff30,-1px 1px #e9faff30,1px 1px #e9faff30"
 			},
 			"hoverStyle": {
-				"color": "#000",
-				"backgroundImage": "linear-gradient(#f5f5f5, #f5f5f5)",
-				"textShadow": "-1px -1px #00000020,1px -1px #00000020,-1px 1px #00000020,1px 1px #00000020"
+				"color": "#edf3fa",
+				"backgroundImage": "linear-gradient(#265c86, #29314e)",
+				"textShadow": "-1px -1px #ee415050,1px -1px #ee415050,-1px 1px #ee415050,1px 1px #ee415050"
 			}
 		}
 	],
@@ -58,61 +114,51 @@
     {
 			"title": "New Characters",
 			"items": [
-				{"name": "Galacta", "series": "Season Pass"},
-				{"name": "Luna Snow", "series": "5"},
-				{"name": "Peni Parker", "series": "5"},
-				{"name": "Doom 2099", "series": "5"},
-				{"name": "Bruce Banner", "series": "5"},
-				{"name": "Rocket Raccoon and Groot", "series": "5"},
-				{"name": "Lasher", "series": "4"},
-				{"name": "Surtur", "series": "5"}
+				{"name": "Iron Patriot", "series": "Season Pass"},
+				{"name": "Victoria Hand", "series": "5"},
+				{"name": "Moonstone", "series": "5"},
+				{"name": "Bullseye", "series": "5"},
+				{"name": "Ares", "series": "5"},
+				{"name": "Galacta", "series": "5"}
 			]
 		},
     {
       "title": "New Locations",
-      "items": ["Spider-Island", "Tokyo 2099"]
+      "items": ["The Peak", "Asgard Besieged"]
     },
     {
 			"title": "Spotlight Caches",
 			"items": [
 				{
-					"date": "December 3",
+					"date": "January 7",
 					"items": [
-						{"name": "Luna Snow", "series": "5"},
-						{"name": "X-23", "series": "4"},
-						{"name": "Lady Deathstrike", "series": "4"}
+						{"name": "Victoria Hand", "series": "5"},
+						{"name": "Grand Master", "series": "4"},
+						{"name": "Kate Bishop", "series": "5"}
 					]
 				},
 				{
-					"date": "December 10",
+					"date": "January 14",
 					"items": [
-						{"name": "Peni Parker", "series": "5"},
-						{"name": "Sasquatch", "series": "4"},
-						{"name": "Gladiator", "series": "4"}
+						{"name": "Moonstone", "series": "5"},
+						{"name": "Black Swan", "series": "5"},
+						{"name": "Nocturne", "series": "5"}
 					]
 				},
 				{
-					"date": "December 17",
+					"date": "January 21",
 					"items": [
-						{"name": "Doom 2099", "series": "5"},
-						{"name": "Daken", "series": "4"},
-						{"name": "Miek", "series": "4"}
+						{"name": "Bullseye", "series": "5"},
+						{"name": "Marvel Boy", "series": "5"},
+						{"name": "Caiera", "series": "5"}
 					]
 				},
 				{
-					"date": "December 24",
+					"date": "January 28",
 					"items": [
-						{"name": "Bruce Banner", "series": "5"},
-						{"name": "High Evolutionary", "series": "5"},
-						{"name": "Ravonna Renslayer", "series": "4"}
-					]
-				},
-				{
-					"date": "December 31",
-					"items": [
-						{"name": "Rocket Raccoon and Groot", "series": "5"},
-						{"name": "Selene", "series": "4"},
-						{"name": "Blob", "series": "5"}
+						{"name": "Ares", "series": "5"},
+						{"name": "Misery", "series": "5"},
+						{"name": "Ms. Marvel", "series": "5"}
 					]
 				}
 			]
@@ -121,23 +167,23 @@
 			"title": "New Albums",
 			"items": [
 				{
-					"date": "December 10",
-					"name": "No One RIVALS Doom",
+					"date": "January 7",
+					"name": "Peculiar Pantheon",
 					"items": [
-						"3:Doctor Doom – Marvel Rivals Avatar",
-						"6:2,000 Collector's Tokens",
-						"9:Rocket Racoon and Groot Emote",
-						"12:Doctor Doom – Marvel Rivals Variant"
+						"3:White Widow - Rose Besch Avatar",
+						"6:2000 Collector's Tokens",
+						"9:Nightcrawler Emote - Big Mistake",
+						"12:White Widow - Rose Besch Variant"
 					]
 				},
 				{
-					"date": "December 24",
-					"name": "Nightmare Before Knullmas",
+					"date": "January 28",
+					"name": "Rose Tinted Variants",
 					"items": [
-						"4:Knull – Tyler Kirkham Avatar",
-						"6:2x Red Snowflakes Card Border",
-						"8:Knull – Tyler Kirkham Variant",
-						"10:Daredevil Emote"
+						"3:Hela - Pantheon Avatar",
+						"6:Premium Mystery Variant",
+						"9:2x Distressed Blue Border",
+						"12:Hela - Pantheon Variant"
 					]
 				}
 			]
@@ -146,27 +192,27 @@
 			"title": "Shop Takeover",
 			"items": [
 				{
-					"date": "Dec 10 - Dec 11",
-					"name": "Rivals",
+					"date": "Jan 7 - Jan 8",
+					"name": "Rose Besch",
 					"cards": [
-						"Iron Man",
-						"Jeff the Baby Land Shark",
-						"Loki",
-						"Star-Lord",
-						"Storm",
-						"Venom"
+						"Ghost-Spider",
+						"Captain Marvel",
+						"Miles Morales",
+						"Thanos",
+						"White Queen",
+						"Wave"
 					]
 				},
         {
-					"date": "Dec 24 - Dec 25",
-					"name": "Knullified",
+					"date": "Jan 28 - Jan 29",
+					"name": "Pantheon",
 					"cards": [
-						"Iron Man",
-						"Daredevil",
-						"Ghost Rider",
-						"Shang-Chi",
-						"Storm",
-						"The Thing"
+						"Annihilus",
+						"Baron Mordo",
+						"Crossbones",
+						"Martyr",
+						"Sauron",
+						"Nova"
 					]
 				}
 			]
@@ -175,48 +221,26 @@
 			"title": "Twitch Drops",
 			"items": [
 				{
-					"date": "Dec 10 -  Dec 17",
+					"date": "Jan 14 -  Jan 20",
 					"items": [
-						"2:155 Magneto Boosters",
-						"4:500 Credits",
-						"6:Magneto – Marvel Rivals Variant"
+						"2:65 Random Boosters",
+						"4:250 Credits",
+						"6:Premium Mystery Variant"
 					]
 				}
 			]
 		},
 		{ 
 			"title": "Daily Login",
-			"items": [
-				{
-					"date": "Dec 19 - Jan 3",
-					"items": [
-						"Title: Happy Holidays!",
-						"150 Credits",
-						"2 Ice Blue Card Borders",
-						"Elsa Bloodstone – Winter Vacation Avatar",
-						"155 Elsa Bloodstone Boosters",
-						"200 Gold",
-						"Elsa Bloodstone – Winter Vacation Variant",
-						"200 Credits",
-						"Premium Mystery Variant",
-						"250 Credits",
-						"Title: On The Naughty List",
-						"Premium Mystery Variant",
-						"400 Credits",
-						"3x Snowflake Blue Card Borders"
-					]
-				}
-			]
+			"items": []
 		},
 		{
 			"title": "Features/Modes/Events",
 			"items": [
 				{
 					"title": "Planned Updates (STC)",
-					"date": "Dec '24 - Mar '25",
+					"date": "Jan - Mar",
 					"items": [
-						"<span class='event-list date'>Dec 10</span> - Patch",
-						"<span class='event-list date'>Dec 12</span> - OTA",
 						"<span class='event-list date'>Jan 9</span> - OTA",
 						"<span class='event-list date'>Jan 14</span> - Patch",
 						"<span class='event-list date'>Jan 16</span> - OTA",
@@ -226,151 +250,17 @@
 						"<span class='event-list date'>Feb 27</span> - OTA",
 						"<span class='event-list date'>Mar 4</span> - Patch"
 					]
-				},
-        {
-					"title": "Collector's Vault",
-					"date": "Dec 13 - Dec 17",
-					"items": ["Exclusive variants available again for a limited time!"]
-				},
-				{
-					"title": "High Voltage",
-					"date": "Dec 28 - Jan 4",
-					"items": [
-						"<span class='event-list date'>200 Volts</span> - 500 Credits",
-						"<span class='event-list date'>2,000 Volts</span> - Lasher Avatar",
-						"<span class='event-list date'>3,500 Volts</span> - 2x Blue Ice Border",
-						"<span class='event-list date'>5,000 Volts</span> - 1,000 Credits",
-						"<span class='event-list date'>10,000 Volts</span> - Spider-Man 2099 Variant",
-						"<span class='event-list date'>12,000 Volts</span> - Lasher Card"
-					]
-				},
-				{
-					"title": "Collector's Vault",
-					"date": "Jan 1 - Jan 3",
-					"items": ["Exclusive variants available again for a limited time!"]
-				},
-				{
-					"title": "Collector's Chest",
-					"date": "Jan 3 - Jan 7",
-					"items": ["Complete Quests, unlock Chests and obtain an exclusive Black Panther Variant!"]
 				}
 			]
 		},
 		{
 			"title": "Series Drop",
 			"date": "December 10",
-			"items": [
-				{
-					"name": "Series 3",
-					"cards": [
-						"Jean Grey",
-						"Kitty Pryde",
-						"Snowguard"
-					]
-				},
-				{
-					"name": "Series 4",
-					"cards": [
-						"X-23",
-						"Iron Lad",
-						"Sasquatch",
-						"Beta Ray Bill",
-						"Grand Master",
-						"Phastos",
-						"Pixie",
-						"Supergiant",
-						"Valentina"
-					]
-				}
-			]
+			"items": []
 		},
 		{
 			"title": "Balance Updates",
-			"items": [
-				{
-					"date": "Dec 12",
-					"type": "OTA",
-					"items": [
-						{
-							"name": "Arishem",
-							"changes": [
-								"7/7 - At the start of the game, +1 Max Energy. Shuffle 15 random cards into your deck.",
-								"7/7 - Game Start: Shuffle 12 new cards into your deck. On turn 3, get +1 Max Energy."
-							]
-						},
-						{
-							"name": "Typhoid Mary",
-							"changes": [
-								"4/10 - Ongoing: Your other cards here have -1 Power.",
-								"4/10 - Ongoing: Your other cards here have -2 Power."
-							]
-						},
-						{
-							"name": "Alioth",
-							"changes": [
-								"6/10 - On Reveal: Remove the text from all unrevealed enemy cards here.",
-								"6/10 -> 6/9"
-							]
-						},
-						{
-							"name": "Enchantress",
-							"changes": [
-								"4/5 - On Reveal: Remove the abilities from all Ongoing cards here.",
-								"4/5 - 4/6"
-							]
-						},
-						{
-							"name": "Black Widow",
-							"changes": [
-								"3/4 - Activate: Add a Widow's Bite to your opponent's hand.",
-								"3/4 -> 3/3"
-							]
-						},
-						{
-							"name": "Frigga",
-							"changes": [
-								"3/3 - On Reveal: Add a copy of the last card you played to your hand. (if able)",
-								"3/3 -> 3/4"
-							]
-						},
-						{
-							"name": "Shuri",
-							"changes": [
-								"4/1 - On Reveal: If you play your next card at this location, double its Power.",
-								"4/1 -> 4/3"
-							]
-						},
-						{
-							"name": "Lockjaw",
-							"changes": [
-								"4/4 - After you play a card here, swap it with a card in your deck.",
-								"4/4 -> 4/5"
-							]
-						},
-						{
-							"name": "Stormbreaker",
-							"changes": [
-								"0/1 - On Reveal: Double Beta Ray Bill's Power.",
-								"0/1 -> 0/3"
-							]
-						},
-						{
-							"name": "Cerebro",
-							"changes": [
-								"3/0 - Ongoing: Your highest-Power cards have +2 Power.",
-								"3/0 -> 2/0"
-							]
-						},
-						{
-							"name": "Elsa Bloodstone",
-							"changes": [
-								"3/3 - Each card you play to fill your side of a location gains +2 Power.",
-								"3/3 -> 3/4"
-							]
-						}
-					]
-				}
-			]
+			"items": []
 		}
   ]
 }
