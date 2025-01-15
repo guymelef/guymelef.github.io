@@ -1,9 +1,42 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "events"
+  ],
   "cards": [],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "Features/Modes/Events",
+			"items": [
+        {
+					"title": "Dark Avengers’ Global Bounty",
+					"date": "Jan 14 - Jan 28",
+					"items": [
+						"Win games using any of the designated Dark Avengers-themed cards: Iron Patriot, Victoria Hand, Moonstone, Luke Cage, USAgent, Daken, Devil Dinosaur",
+						"<span class='event-list date'>5M Wins</span> - 500 Credits",
+						"<span class='event-list date'>8M Wins</span> - Premium Mystery Variant",
+						"<span class='event-list date'>10M Wins</span> - 3x Snowflake Red Borders",
+						"<span class='event-list date'>15M Wins</span> - Exclusive Knull Variant",
+						"<span class='event-list date'>20M Wins</span> - Exclusive X-23 Variant"
+					]
+				},
+				{
+					"title": "Planned Updates (STC)",
+					"date": "Jan - Mar",
+					"items": [
+						"<span class='event-list date'>Jan 14</span> - Patch",
+						"<span class='event-list date'>Jan 16</span> - OTA",
+						"<span class='event-list date'>Jan 30</span> - OTA",
+						"<span class='event-list date'>Feb 4</span> - Patch",
+						"<span class='event-list date'>Feb 13</span> - OTA",
+						"<span class='event-list date'>Feb 27</span> - OTA",
+						"<span class='event-list date'>Mar 4</span> - Patch"
+					]
+				}
+			]
+		}
+  ]
 }
