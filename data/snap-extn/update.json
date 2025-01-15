@@ -2,6 +2,7 @@
   "isUpdateAvailable": true,
   "partsToUpdate": [
 		"cards",
+		"locations",
     "events"
   ],
   "cards": [
@@ -187,7 +188,16 @@
 			"type": "summon"
 		}
 	],
-  "locations": [],
+  "locations": [
+		{
+			"name": "Madripoor",
+			"ability": "After each turn, give each highest-Cost card here +2 Power."
+		},
+		{
+			"name": "Smithsonian Museum",
+			"ability": "Your cards here have +1 Power for each Ongoing among them."
+		}
+	],
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
