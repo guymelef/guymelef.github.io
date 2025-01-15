@@ -1,9 +1,192 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"cards",
     "events"
   ],
-  "cards": [],
+  "cards": [
+		{
+			"name": "Agamotto",
+			"cost": "6",
+			"power": "12",
+			"ability": "At the start of the game, shuffle 5 spells into your deck.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Agmtt8"
+		},
+		{
+			"name": "Agatha Harkness",
+			"cost": "6",
+			"power": "14",
+			"ability": "Game Start: Draw Agatha. She controls your cards on even turns.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["others"],
+			"code": "AgthHrknssE"
+		},
+		{
+			"name": "Bolts of Balthaak",
+			"cost": "5",
+			"power": "0",
+			"ability": "Unknown",
+			"type": "summon"
+		},
+		{
+			"name": "Cobra",
+			"cost": "2",
+			"power": "3",
+			"ability": "Activate: Switch an enemy card here that didn't start in your opponent's deck to your side.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["activate"],
+			"code": "Cbr5"
+		},
+		{
+			"name": "Emperor Hulkling",
+			"cost": "6",
+			"power": "12",
+			"ability": "Game Start: Copy the text of a random 6-Cost card.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Hlklng8"
+		},
+		{
+			"name": "Eson",
+			"cost": "6",
+			"power": "13",
+			"ability": "Legendary. At the start of the game, if all your cards have different Powers, give them +2 Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Esn4"
+		},
+		{
+			"name": "Firehair",
+			"cost": "2",
+			"power": "2",
+			"ability": "You can move this once. When this moves, revive one of your destroyed cards here.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["move, destroy"],
+			"code": "Frhr8"
+		},
+		{
+			"name": "Flames of the Faltine",
+			"cost": "5",
+			"power": "0",
+			"ability": "Unknown",
+			"type": "summon"
+		},
+		{
+    
+			"name": "Ghost, the First Rider",
+			"cost": "2",
+			"power": "4",
+			"ability": "Unknown",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["others"],
+			"code": "GhstThFrstRdr12"
+		},
+		{
+			"name": "High Evolutionary",
+			"cost": "4",
+			"power": "6",
+			"ability": "Game Start: Unlock the potential of your cards with no abilities.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["others"],
+			"code": "HghEvltnr10"
+		},
+		{
+			"name": "Images of Ikonn",
+			"cost": "5",
+			"power": "0",
+			"ability": "Unknown",
+			"type": "summon"
+		},
+		{
+			"name": "Khonshu",
+			"cost": "2",
+			"power": "1",
+			"ability": "Unknown",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Khnsh7"
+		},
+		{
+    
+			"name": "Redwing",
+			"cost": "3",
+			"power": "3",
+			"ability": "The first time this moves, add a card from your hand to the old location.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["move"],
+			"code": "Rdwng7"
+		},
+		{
+    
+			"name": "Starbrand",
+			"cost": "6",
+			"power": "8",
+			"ability": "At the start of the game, +2 Power for each card in your deck with 10 or more Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Strbrnd9"
+		},
+		{
+			"name": "Temporal Manipulation",
+			"cost": "2",
+			"power": "0",
+			"ability": "Unknown",
+			"type": "summon"
+		},
+		{
+			"name": "Thanos",
+			"cost": "6",
+			"power": "10",
+			"ability": "Game Start: Draw Thanos and shuffle the six Infinity Stones into your deck.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Thns6"
+		},
+		{
+			"name": "Uatu the Watcher",
+			"cost": "1",
+			"power": "2",
+			"ability": "Game Start: You can see the unrevealed locations.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Ut4"
+		},
+		{
+			"name": "Winds of Watoomb",
+			"cost": "3",
+			"power": "0",
+			"ability": "Unknown",
+			"type": "summon"
+		}
+	],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
