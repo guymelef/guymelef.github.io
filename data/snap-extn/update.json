@@ -99,6 +99,17 @@
 			"code": "GhstThFrstRdr12"
 		},
 		{
+			"name": "Hela",
+			"cost": "6",
+			"power": "9",
+			"ability": "On Reveal: For each different Cost among them, resurrect a card you discarded to a random location.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["on reveal", "discard"],
+			"code": "Hl4"
+		},
+		{
 			"name": "High Evolutionary",
 			"cost": "4",
 			"power": "6",
@@ -110,11 +121,33 @@
 			"code": "HghEvltnr10"
 		},
 		{
+			"name": "Hydra Bob",
+			"cost": "1",
+			"power": "4",
+			"ability": "After each turn, this moves if a player Snapped.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["move"],
+			"code": "HdrBb8"
+		},
+		{
 			"name": "Images of Ikonn",
 			"cost": "5",
 			"power": "0",
 			"ability": "Unknown",
 			"type": "summon"
+		},
+		{
+			"name": "Ka-Zar",
+			"cost": "4",
+			"power": "5",
+			"ability": "Ongoing: Your 1-Cost cards have +1 Power.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "KZr5"
 		},
 		{
 			"name": "Khonshu",
@@ -128,6 +161,39 @@
 			"code": "Khnsh7"
 		},
 		{
+			"name": "Luke Cage",
+			"cost": "3",
+			"power": "2",
+			"ability": "Ongoing: Your cards can't have their Power reduced.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "LkCg8"
+		},
+		{
+			"name": "Mister Fantastic",
+			"cost": "3",
+			"power": "1",
+			"ability": "Ongoing: Adjacent locations have +3 Power.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "MrFntstcB"
+		},
+		{
+			"name": "Onslaught",
+			"cost": "6",
+			"power": "8",
+			"ability": "Ongoing: Double your other Ongoing effects here.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "Onslght9"
+		},
+		{
     
 			"name": "Redwing",
 			"cost": "3",
@@ -138,6 +204,39 @@
 			"type": "character",
 			"tags": ["move"],
 			"code": "Rdwng7"
+		},
+		{
+			"name": "Scream",
+			"cost": "2",
+			"power": "2",
+			"ability": "When an enemy card moves, steal 2 Power from it. <i>(once per turn)</i>",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["move"],
+			"code": "Scrm6"
+		},
+		{
+			"name": "Sentry",
+			"cost": "4",
+			"power": "9",
+			"ability": "You can't play this at the right location. On Reveal: Add a -9 Power Void to the right location.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Sntr6"
+		},
+		{
+			"name": "Spider-Man",
+			"cost": "2",
+			"power": "4",
+			"ability": "On Reveal: Move to another location and pull an enemy card from here to there.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["on reveal", "move"],
+			"code": "SpdrMn9"
 		},
 		{
     
@@ -168,6 +267,24 @@
 			"type": "character",
 			"tags": ["others"],
 			"code": "Thns6"
+		},
+		{
+			"name": "The Void",
+			"cost": "4",
+			"power": "-9",
+			"text": "Hello again…",
+			"type": "summon"
+		},
+		{
+			"name": "U.S. Agent",
+			"cost": "2",
+			"power": "3",
+			"ability": "Ongoing: 4, 5, and 6-Cost cards here have -3 Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "USAgnt7"
 		},
 		{
 			"name": "Uatu the Watcher",
