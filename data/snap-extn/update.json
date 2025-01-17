@@ -228,6 +228,94 @@
 						"<span class='event-list date'>Feb 27</span> - OTA",
 						"<span class='event-list date'>Mar 4</span> - Patch"
 					]
+				}	
+			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "January 16",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Scream",
+							"changes": [
+								"2/3 - When an enemy card moves, steal 2 Power from it. (once per turn)",
+								"2/3 -> 2/2"
+							]
+						},
+						{
+							"name": "Spider-Man",
+							"changes": [
+								"3/5 - On Reveal: Move to another location and pull an enemy card from here to there.",
+								"3/5 -> 2/4"
+							]
+						},
+						{
+							"name": "Luke Cage",
+							"changes": [
+								"3/3 - Ongoing: Your cards can’t have their Power reduced.",
+								"3/3 -> 3/2"
+							]
+						},
+						{
+							"name": "U.S. Agent",
+							"changes": [
+								"2/3 - Ongoing: 4, 5, and 6-Cost cards here have -4 Power.",
+								"2/3 - Ongoing: 4, 5, and 6-Cost cards here have -3 Power."
+							]
+						},
+						{
+							"name": "Ka-Zar",
+							"changes": [
+								"4/4 - Ongoing: Your 1-Cost cards have +1 Power.",
+								"4/4 -> 4/5"
+							]
+						},
+						{
+							"name": "Hydra Bob",
+							"changes": [
+								"1/5 - After each turn, this moves if a player Snapped.",
+								"1/5 -> 1/4"
+							]
+						},
+						{
+							"name": "Sentry",
+							"changes": [
+								"4/8 - You can't play this at the right location. On Reveal: Add a -8 Power Void to the right location.",
+								"4/9 - You can't play this at the right location. On Reveal: Add a -9 Power Void to the right location"
+							]
+						},
+						{
+							"name": "The Void",
+							"changes": [
+								"4/-8",
+								"4/-8 -> 4/-9"
+							]
+						},
+						{
+							"name": "Onslaught",
+							"changes": [
+								"6/7 - Ongoing: Double your other Ongoing effects here.",
+								"6/7 -> 6/8"
+							]
+						},
+						{
+							"name": "Mister Fantastic",
+							"changes": [
+								"3/2 - Ongoing: Adjacent locations have +2 Power.",
+								"3/1 - Ongoing: Adjacent locations have +3 Power."
+							]
+						},
+						{
+							"name": "Hela",
+							"changes": [
+								"6/7 - On Reveal: Resurrect all cards you discarded to random locations with -3 Power.",
+								"6/9 - On Reveal: For each different Cost among them, resurrect a card you discarded to a random location."
+							]
+						}
+					]
 				}
 			]
 		}
