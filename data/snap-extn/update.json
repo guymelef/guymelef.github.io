@@ -201,6 +201,23 @@
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
+		{ 
+			"title": "Daily Login",
+			"items": [
+				{
+					"date": "Jan 16 - Jan 24",
+					"items": [
+						"150 Credits",
+						"65 Random Boosters",
+						"Mystery Variant",
+						"350 Credits",
+						"1x Black Matte Border",
+						"155 Random Boosters",
+						"Premium Mystery Variant"
+					]
+				}
+			]
+		},
     {
 			"title": "Features/Modes/Events",
 			"items": [
