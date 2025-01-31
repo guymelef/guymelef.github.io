@@ -1,9 +1,99 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"cards",
     "events"
   ],
-  "cards": [],
+  "cards": [
+		{
+			"name": "Araña",
+			"cost": "1",
+			"power": "2",
+			"ability": "Activate: Give the next card you play +1 Power and move it to the right.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["activate", "move"],
+			"code": "Arn5"
+		},
+		{
+			"name": "Dagger",
+			"cost": "2",
+			"power": "2",
+			"ability": "When this moves to a location, +2 Power for each enemy card there.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["move"],
+			"code": "Dggr6"
+		},
+		{
+			"name": "Leader",
+			"cost": "6",
+			"power": "4",
+			"ability": "On Reveal: Copy the enemy card(s) with the highest Power played this turn, but on your side.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Ldr6"
+		},
+		{
+			"name": "Luna Snow",
+			"cost": "3",
+			"power": "6",
+			"ability": "On Reveal: Add an Ice Cube to each side of this location.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "LnSnw8"
+		},
+		{
+			"name": "Ms. Marvel",
+			"cost": "4",
+			"power": "5",
+			"ability": "Ongoing: Your adjacent locations with 2+ cards and no repeated Costs have +5 Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "MsMrvl8"
+		},
+		{
+			"name": "Namora",
+			"cost": "5",
+			"power": "7",
+			"ability": "On Reveal: Give +5 Power to each of your cards alone at another location.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Nmr6"
+		},
+		{
+			"name": "Sandman",
+			"cost": "5",
+			"power": "8",
+			"ability": "On Reveal: Next turn, cards cost 1 more. (maximum 6)",
+			"released": true,
+			"series": "2",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Sndmn7"
+		},
+		{
+			"name": "Spectrum",
+			"cost": "6",
+			"power": "7",
+			"ability": "On Reveal: Give your Ongoing cards +2 Power.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Spctrm8"
+		}
+	],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
