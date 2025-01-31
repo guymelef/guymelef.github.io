@@ -42,6 +42,156 @@
 					]
 				}
 			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "January 16",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Scream",
+							"changes": [
+								"2/3 - When an enemy card moves, steal 2 Power from it. (once per turn)",
+								"2/3 -> 2/2"
+							]
+						},
+						{
+							"name": "Spider-Man",
+							"changes": [
+								"3/5 - On Reveal: Move to another location and pull an enemy card from here to there.",
+								"3/5 -> 2/4"
+							]
+						},
+						{
+							"name": "Luke Cage",
+							"changes": [
+								"3/3 - Ongoing: Your cards can’t have their Power reduced.",
+								"3/3 -> 3/2"
+							]
+						},
+						{
+							"name": "U.S. Agent",
+							"changes": [
+								"2/3 - Ongoing: 4, 5, and 6-Cost cards here have -4 Power.",
+								"2/3 - Ongoing: 4, 5, and 6-Cost cards here have -3 Power."
+							]
+						},
+						{
+							"name": "Ka-Zar",
+							"changes": [
+								"4/4 - Ongoing: Your 1-Cost cards have +1 Power.",
+								"4/4 -> 4/5"
+							]
+						},
+						{
+							"name": "Hydra Bob",
+							"changes": [
+								"1/5 - After each turn, this moves if a player Snapped.",
+								"1/5 -> 1/4"
+							]
+						},
+						{
+							"name": "Sentry",
+							"changes": [
+								"4/8 - You can't play this at the right location. On Reveal: Add a -8 Power Void to the right location.",
+								"4/9 - You can't play this at the right location. On Reveal: Add a -9 Power Void to the right location"
+							]
+						},
+						{
+							"name": "The Void",
+							"changes": [
+								"4/-8",
+								"4/-8 -> 4/-9"
+							]
+						},
+						{
+							"name": "Onslaught",
+							"changes": [
+								"6/7 - Ongoing: Double your other Ongoing effects here.",
+								"6/7 -> 6/8"
+							]
+						},
+						{
+							"name": "Mister Fantastic",
+							"changes": [
+								"3/2 - Ongoing: Adjacent locations have +2 Power.",
+								"3/1 - Ongoing: Adjacent locations have +3 Power."
+							]
+						},
+						{
+							"name": "Hela",
+							"changes": [
+								"6/7 - On Reveal: Resurrect all cards you discarded to random locations with -3 Power.",
+								"6/9 - On Reveal: For each different Cost among them, resurrect a card you discarded to a random location."
+							]
+						}
+					]
+				},
+				{
+					"date": "January 30",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Dagger",
+							"changes": [
+								"2/0 - When this moves to a location, +3 Power for each enemy card there.",
+								"2/2 - When this moves to a location, +2 Power for each enemy card there."
+							]
+						},
+						{
+							"name": "Araña",
+							"changes": [
+								"1/1 - Activate: Give the next card you play +2 Power and move it to the right.",
+								"1/2 - Activate: Give the next card you play +1 Power and move it to the right."
+							]
+						},
+						{
+							"name": "Spectrum",
+							"changes": [
+								"6/6 - On Reveal: Give your Ongoing cards +2 Power.",
+								"6/6 -> 6/7"
+							]
+						},
+						{
+							"name": "Namora",
+							"changes": [
+								"5/6 - On Reveal: Give +5 Power to each of your cards alone at another location.",
+								"5/6 -> 5/7"
+							]
+						},
+						{
+							"name": "Leader",
+							"changes": [
+								"6/3 - On Reveal: Copy the enemy card(s) with the highest Power played this turn, but on your side.",
+								"6/3 -> 6/4"
+							]
+						},
+						{
+							"name": "Sandman",
+							"changes": [
+								"5/7 - On Reveal: Next turn, cards cost 1 more. (maximum 6)",
+								"5/7 -> 5/8"
+							]
+						},
+						{
+							"name": "Ms. Marvel",
+							"changes": [
+								"Ongoing: Your adjacent locations with 2+ cards and no repeated Costs have +5 Power.",
+								"4/4 -> 4/5"
+							]
+						},
+						{
+							"name": "Luna Snow",
+							"changes": [
+								"3/5 - On Reveal: Add an Ice Cube to each side of this location.",
+								"3/5 -> 3/6"
+							]
+						}
+					]
+				}
+			]
 		}
   ]
 }
