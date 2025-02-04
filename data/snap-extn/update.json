@@ -2,6 +2,7 @@
   "isUpdateAvailable": true,
   "partsToUpdate": [
 		"cards",
+		"locations",
     "events"
   ],
   "cards": [
@@ -26,6 +27,28 @@
 			"type": "character",
 			"tags": ["move"],
 			"code": "Dggr6"
+		},
+		{
+			"name": "Gorgon",
+			"cost": "2",
+			"power": "3",
+			"ability": "Ongoing: Your opponent's cards that didn't start in their deck cost 1 more. <i>(maximum 6)</i>",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "Grgn6"
+		},
+		{
+			"name": "Joaquin Torres Falcon II",
+			"cost": "3",
+			"power": "4",
+			"ability": "Ongoing: The On Reveal abilities of your 1-Cost cards here happen twice.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["ongoing", "on reveal"],
+			"code": "JqnTrrsD"
 		},
 		{
 			"name": "Leader",
@@ -94,8 +117,24 @@
 			"code": "Spctrm8"
 		}
 	],
-  "locations": [],
-  "seasonInfo": [],
+  "locations": [
+		{
+			"name": "Madripoor",
+			"ability": "After each turn, give the highest-Cost card(s) here +2 Power."
+		}
+	],
+  "seasonInfo": [
+		{
+			"seasonTitle": "Dark Avengers",
+			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=7424058142499068678",
+			"featuredCard": "Iron Patriot",
+			"nextFeaturedCard": "Sam Wilson Captain America",
+			"featuredLocations": ["Asgard Besieged", "The Peak"],
+			"nextfeaturedLocations": ["Madripoor", "Smithsonian Museum"],
+			"seasonEndDate": [4, 1, 2025],
+			"nextSeasonEndDate": [4, 2, 2025]
+		}
+	],
   "seasonStyles": [],
   "seasonEvents": [
     {
