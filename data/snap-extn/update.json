@@ -3,7 +3,7 @@
   "partsToUpdate": [
 		"cards",
 		"locations",
-    "events"
+    "season"
   ],
   "cards": [
 		{
@@ -135,9 +135,163 @@
 			"nextSeasonEndDate": [4, 2, 2025]
 		}
 	],
-  "seasonStyles": [],
+  "seasonStyles": [
+		{
+			"dateColor": "#d02b3a",
+			"headerStyle": {
+				"fontSize": "26px",
+				"letterSpacing": "1px",
+				"padding": "3px 0",
+				"color": "#020000",
+				"font-style": "italic",
+				"backgroundImage": "linear-gradient(#ce2a3b, #d42d3a)",
+				"textShadow": "-1px -1px #e9faff30,1px -1px #e9faff30,-1px 1px #e9faff30,1px 1px #e9faff30"
+			},
+			"hoverStyle": {
+				"color": "#edf3fa",
+				"backgroundImage": "linear-gradient(#265c86, #29314e)",
+				"textShadow": "-1px -1px #ee415050,1px -1px #ee415050,-1px 1px #ee415050,1px 1px #ee415050"
+			}
+		}
+	],
   "seasonEvents": [
     {
+			"title": "New Characters",
+			"items": [
+				{"name": "Iron Patriot", "series": "Season Pass"},
+				{"name": "Victoria Hand", "series": "5"},
+				{"name": "Moonstone", "series": "5"},
+				{"name": "Bullseye", "series": "5"},
+				{"name": "Ares", "series": "5"},
+				{"name": "Galacta", "series": "5"}
+			]
+		},
+    {
+      "title": "New Locations",
+      "items": ["Asgard Besieged", "The Peak"]
+    },
+    {
+			"title": "Spotlight Caches",
+			"items": [
+				{
+					"date": "January 7",
+					"items": [
+						{"name": "Victoria Hand", "series": "5"},
+						{"name": "Grand Master", "series": "4"},
+						{"name": "Kate Bishop", "series": "5"}
+					]
+				},
+				{
+					"date": "January 14",
+					"items": [
+						{"name": "Moonstone", "series": "5"},
+						{"name": "Black Swan", "series": "5"},
+						{"name": "Nocturne", "series": "5"}
+					]
+				},
+				{
+					"date": "January 21",
+					"items": [
+						{"name": "Bullseye", "series": "5"},
+						{"name": "Marvel Boy", "series": "5"},
+						{"name": "Caiera", "series": "5"}
+					]
+				},
+				{
+					"date": "January 28",
+					"items": [
+						{"name": "Ares", "series": "5"},
+						{"name": "Misery", "series": "5"},
+						{"name": "Ms. Marvel", "series": "5"}
+					]
+				}
+			]
+		},
+		{
+			"title": "New Albums",
+			"items": [
+				{
+					"date": "January 7",
+					"name": "Rose Tinted Variants",
+					"items": [
+						"3:White Widow - Rose Besch Avatar",
+						"6:2000 Collector's Tokens",
+						"9:Nightcrawler Emote - Big Mistake",
+						"12:White Widow - Rose Besch Variant"
+					]
+				},
+				{
+					"date": "January 28",
+					"name": "Peculiar Pantheon",
+					"items": [
+						"3:Hela - Pantheon Avatar",
+						"6:Premium Mystery Variant",
+						"9:2x Distressed Blue Border",
+						"12:Hela - Pantheon Variant"
+					]
+				}
+			]
+		},
+		{
+			"title": "Shop Takeover",
+			"items": [
+				{
+					"date": "Jan 7 - Jan 8",
+					"name": "Rose Besch",
+					"cards": [
+						"Ghost-Spider",
+						"Captain Marvel",
+						"Miles Morales",
+						"Thanos",
+						"White Queen",
+						"Wave"
+					]
+				},
+        {
+					"date": "Jan 28 - Jan 29",
+					"name": "Pantheon",
+					"cards": [
+						"Annihilus",
+						"Baron Mordo",
+						"Crossbones",
+						"Martyr",
+						"Sauron",
+						"Nova"
+					]
+				}
+			]
+		},
+		{
+			"title": "Twitch Drops",
+			"items": [
+				{
+					"date": "Jan 14 -  Jan 20",
+					"items": [
+						"2:65 Random Boosters",
+						"4:250 Credits",
+						"6:Premium Mystery Variant"
+					]
+				}
+			]
+		},
+		{ 
+			"title": "Daily Login",
+			"items": [
+				{
+					"date": "Jan 16 - Jan 24",
+					"items": [
+						"150 Credits",
+						"65 Random Boosters",
+						"Mystery Variant",
+						"350 Credits",
+						"1x Black Matte Border",
+						"155 Random Boosters",
+						"Premium Mystery Variant"
+					]
+				}
+			]
+		},
+		{
 			"title": "Features/Modes/Events",
 			"items": [
         {
@@ -176,6 +330,11 @@
 					]
 				}
 			]
+		},
+		{
+			"title": "Series Drop",
+			"date": "",
+			"items": []
 		},
 		{
 			"title": "Balance Updates",
