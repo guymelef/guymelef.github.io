@@ -29,26 +29,59 @@
 			"code": "Dggr6"
 		},
 		{
+			"name": "Diamondback",
+			"cost": "3",
+			"power": "3",
+			"ability": "Ongoing: Enemy cards here afflicted with negative Power have an additional -2 Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "DmndbckB"
+		},
+		{
 			"name": "Gorgon",
 			"cost": "2",
 			"power": "3",
 			"ability": "Ongoing: Your opponent's cards that didn't start in their deck cost 1 more. <i>(maximum 6)</i>",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "5",
 			"type": "character",
 			"tags": ["ongoing"],
 			"code": "Grgn6"
 		},
 		{
-			"name": "Joaquin Torres Falcon II",
+			"name": "Iron Patriot",
+			"cost": "2",
+			"power": "3",
+			"ability": "On Reveal: Add a random 4, 5, or 6-Cost card to your hand. If you’re winning here after next turn, give it -4 Cost.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "IrnPtrtB"
+		},
+		{
+			"name": "Joaquin Torres",
 			"cost": "3",
 			"power": "4",
 			"ability": "Ongoing: The On Reveal abilities of your 1-Cost cards here happen twice.",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "5",
 			"type": "character",
 			"tags": ["ongoing", "on reveal"],
 			"code": "JqnTrrsD"
+		},
+		{
+			"name": "Laufey",
+			"cost": "4",
+			"power": "5",
+			"ability": "On Reveal: Steal 1 Power from each other card here.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Lf6"
 		},
 		{
 			"name": "Leader",
@@ -95,6 +128,30 @@
 			"code": "Nmr6"
 		},
 		{
+    
+			"name": "Redwing",
+			"cost": "3",
+			"power": "3",
+			"ability": "The first time this moves, add a card from your hand to the old location.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["move"],
+			"code": "Rdwng7"
+		},
+		{
+    
+			"name": "Sam Wilson Captain America",
+			"cost": "2",
+			"power": "3",
+			"ability": "Game Start: Add Cap's Shield to a random location. Ongoing: You can move Cap's Shield.",
+			"released": true,
+			"series": "Season Pass",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "SmWlsn9"
+		},
+		{
 			"name": "Sandman",
 			"cost": "5",
 			"power": "8",
@@ -115,6 +172,29 @@
 			"type": "character",
 			"tags": ["on reveal"],
 			"code": "Spctrm8"
+		},
+		{
+    
+			"name": "Thaddeus Ross",
+			"cost": "2",
+			"power": "2",
+			"ability": "When your opponent ends a turn with unspent Energy, draw a card with 10 or more Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["others"],
+			"code": "ThddsRssC"
+		},
+		{
+			"name": "Uncle Ben",
+			"cost": "1",
+			"power": "2",
+			"ability": "When this card is destroyed, replace it with Spider-Man.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["destroy"],
+			"code": "UnclBn8"
 		}
 	],
   "locations": [
@@ -125,32 +205,32 @@
 	],
   "seasonInfo": [
 		{
-			"seasonTitle": "Dark Avengers",
-			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=7424058142499068678",
-			"featuredCard": "Iron Patriot",
-			"nextFeaturedCard": "Sam Wilson Captain America",
-			"featuredLocations": ["Asgard Besieged", "The Peak"],
-			"nextfeaturedLocations": ["Madripoor", "Smithsonian Museum"],
-			"seasonEndDate": [4, 1, 2025],
-			"nextSeasonEndDate": [4, 2, 2025]
+			"seasonTitle": "Brave New World",
+			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=",
+			"featuredCard": "Sam Wilson Captain America",
+			"nextFeaturedCard": "Agamotto",
+			"featuredLocations": ["Madripoor", "Smithsonian Museum"],
+			"nextfeaturedLocations": [],
+			"seasonEndDate": [4, 2, 2025],
+			"nextSeasonEndDate": [1, 3, 2025]
 		}
 	],
   "seasonStyles": [
 		{
-			"dateColor": "#d02b3a",
+			"dateColor": "#97a9b7",
 			"headerStyle": {
 				"fontSize": "26px",
 				"letterSpacing": "1px",
 				"padding": "3px 0",
-				"color": "#020000",
-				"font-style": "italic",
-				"backgroundImage": "linear-gradient(#ce2a3b, #d42d3a)",
+				"color": "#06072d",
+				"font-style": "normal",
+				"backgroundImage": "linear-gradient(to right bottom, #0a3161, #44527d, #707699, #9b9cb7, #c6c5d5, #cdc8dc, #d6cbe3, #e0cde8, #d5a5cc, #cf7ba6, #c54f77, #b31942)",
 				"textShadow": "-1px -1px #e9faff30,1px -1px #e9faff30,-1px 1px #e9faff30,1px 1px #e9faff30"
 			},
 			"hoverStyle": {
-				"color": "#edf3fa",
-				"backgroundImage": "linear-gradient(#265c86, #29314e)",
-				"textShadow": "-1px -1px #ee415050,1px -1px #ee415050,-1px 1px #ee415050,1px 1px #ee415050"
+				"color": "#B31942",
+				"backgroundImage": "linear-gradient(to right bottom, #0a3161, #44527d, #707699, #9b9cb7, #c6c5d5, #cdc8dc, #d6cbe3, #e0cde8, #d5a5cc, #cf7ba6, #c54f77, #b31942)",
+				"textShadow": "-1px -1px #299aca50,1px -1px #299aca50,-1px 1px #299aca50,1px 1px #299aca50"
 			}
 		}
 	],
@@ -158,51 +238,54 @@
     {
 			"title": "New Characters",
 			"items": [
-				{"name": "Iron Patriot", "series": "Season Pass"},
-				{"name": "Victoria Hand", "series": "5"},
-				{"name": "Moonstone", "series": "5"},
-				{"name": "Bullseye", "series": "5"},
-				{"name": "Ares", "series": "5"},
-				{"name": "Galacta", "series": "5"}
+				{"name": "Sam Wilson Captain America", "series": "Season Pass"},
+				{"name": "Joaquin Torres", "series": "5"},
+				{"name": "Thaddeus Ross", "series": "5"},
+				{"name": "Redwing", "series": "5"},
+				{"name": "Diamondback", "series": "5"},
+				{"name": "Uncle Ben", "series": "5"},
+				{"name": "Gorgon", "series": "5"},
+				{"name": "Laufey", "series": "5"},
+				{"name": "Iron Patriot", "series": "5"}
 			]
 		},
     {
       "title": "New Locations",
-      "items": ["Asgard Besieged", "The Peak"]
+      "items": ["Madripoor", "Smithsonian Museum"]
     },
     {
 			"title": "Spotlight Caches",
 			"items": [
 				{
-					"date": "January 7",
+					"date": "February 4",
 					"items": [
-						{"name": "Victoria Hand", "series": "5"},
-						{"name": "Grand Master", "series": "4"},
-						{"name": "Kate Bishop", "series": "5"}
+						{"name": "Joaquin Torres Falcon", "series": "5"},
+						{"name": "Makkari", "series": "5"},
+						{"name": "Namora", "series": "5"}
 					]
 				},
 				{
-					"date": "January 14",
+					"date": "February 11",
 					"items": [
-						{"name": "Moonstone", "series": "5"},
-						{"name": "Black Swan", "series": "5"},
-						{"name": "Nocturne", "series": "5"}
+						{"name": "Thaddeus Ross", "series": "5"},
+						{"name": "Blink", "series": "5"},
+						{"name": "Nebula", "series": "4"}
 					]
 				},
 				{
-					"date": "January 21",
+					"date": "February 18",
 					"items": [
-						{"name": "Bullseye", "series": "5"},
-						{"name": "Marvel Boy", "series": "5"},
-						{"name": "Caiera", "series": "5"}
+						{"name": "Redwing", "series": "5"},
+						{"name": "Loki", "series": "5"},
+						{"name": "Baron Zemo", "series": "5"}
 					]
 				},
 				{
-					"date": "January 28",
+					"date": "February 25",
 					"items": [
-						{"name": "Ares", "series": "5"},
-						{"name": "Misery", "series": "5"},
-						{"name": "Ms. Marvel", "series": "5"}
+						{"name": "Diamondback", "series": "5"},
+						{"name": "Nimrod", "series": "4"},
+						{"name": "The Phoenix Force", "series": "4"}
 					]
 				}
 			]
@@ -211,23 +294,23 @@
 			"title": "New Albums",
 			"items": [
 				{
-					"date": "January 7",
-					"name": "Rose Tinted Variants",
+					"date": "February 4",
+					"name": "Near, Farro, Wherever You Are-o",
 					"items": [
-						"3:White Widow - Rose Besch Avatar",
-						"6:2000 Collector's Tokens",
-						"9:Nightcrawler Emote - Big Mistake",
-						"12:White Widow - Rose Besch Variant"
+						"3:Darkhawk - Viktor Farro Avatar",
+						"6:2,000 Collector's Tokens",
+						"9:Darkhawk Emote - 3X Value",
+						"12:Darkhawk - Viktor Farro Variant"
 					]
 				},
 				{
-					"date": "January 28",
-					"name": "Peculiar Pantheon",
+					"date": "February 25",
+					"name": "Fashion is my Passion",
 					"items": [
-						"3:Hela - Pantheon Avatar",
-						"6:Premium Mystery Variant",
-						"9:2x Distressed Blue Border",
-						"12:Hela - Pantheon Variant"
+						"2:Elsa Bloodstone - Lemon Fashion Avatar",
+						"4:2x Neon White Border",
+						"6:2,000 Collector's Tokens",
+						"8:Elsa Bloodstone - Lemon Fashion Variant"
 					]
 				}
 			]
@@ -236,27 +319,27 @@
 			"title": "Shop Takeover",
 			"items": [
 				{
-					"date": "Jan 7 - Jan 8",
-					"name": "Rose Besch",
+					"date": "Feb 4 - Feb 5",
+					"name": "Viktor Farro",
 					"cards": [
-						"Ghost-Spider",
-						"Captain Marvel",
-						"Miles Morales",
-						"Thanos",
-						"White Queen",
-						"Wave"
+						"Black Widow",
+						"Rockslide",
+						"Ms. Marvel",
+						"Malekith",
+						"Frigga",
+						"Fenris Wolf"
 					]
 				},
         {
-					"date": "Jan 28 - Jan 29",
-					"name": "Pantheon",
+					"date": "Feb 25",
+					"name": "Lemon Fashion",
 					"cards": [
-						"Annihilus",
-						"Baron Mordo",
-						"Crossbones",
-						"Martyr",
-						"Sauron",
-						"Nova"
+						"Hope Summers",
+						"Jessica Jones",
+						"Marvel Boy",
+						"Sage",
+						"Speed",
+						"Star-Lord"
 					]
 				}
 			]
@@ -265,7 +348,7 @@
 			"title": "Twitch Drops",
 			"items": [
 				{
-					"date": "Jan 14 -  Jan 20",
+					"date": "Feb 18 -  Feb 24",
 					"items": [
 						"2:65 Random Boosters",
 						"4:250 Credits",
@@ -276,53 +359,25 @@
 		},
 		{ 
 			"title": "Daily Login",
-			"items": [
-				{
-					"date": "Jan 16 - Jan 24",
-					"items": [
-						"150 Credits",
-						"65 Random Boosters",
-						"Mystery Variant",
-						"350 Credits",
-						"1x Black Matte Border",
-						"155 Random Boosters",
-						"Premium Mystery Variant"
-					]
-				}
-			]
+			"items": []
 		},
 		{
 			"title": "Features/Modes/Events",
 			"items": [
-        {
-					"title": "Dark Avengers’ Global Bounty",
-					"date": "Jan 14 - Jan 28",
-					"items": [
-						"Win games using any of the designated Dark Avengers-themed cards: <span class='event-list date'>Iron Patriot, Victoria Hand, Moonstone, Luke Cage, U.S. Agent, Daken, Devil Dinosaur</span>",
-						"<span class='event-list date'>5M Wins</span> - 500 Credits",
-						"<span class='event-list date'>8M Wins</span> - Premium Mystery Variant",
-						"<span class='event-list date'>10M Wins</span> - 3x Snowflake Red Borders",
-						"<span class='event-list date'>15M Wins</span> - Exclusive Knull Variant",
-						"<span class='event-list date'>20M Wins</span> - Exclusive X-23 Variant"
-					]
+				{
+					"title": "Character Mastery",
+					"date": "February 11",
+					"items": ["The Character Mastery system rewards you for growing your unique collection and favorite characters!"]
 				},
 				{
-					"title": "Collector's Vault",
-					"date": "Jan 29 - Feb 2",
-					"items": ["Exclusive variants available again for a limited time!"]
-				},
-				{
-					"title": "Collector's Chest",
-					"date": "Jan 31 - Feb 4",
-					"items": ["A free chance everyday to obtain the Exclusive Cable Variant!"]
+					"title": "Sanctum Showdown",
+					"date": "Feb 18 - Mar 4",
+					"items": ["Earn points each turn from the locations you’re winning, first player to reach 16 points wins!"]
 				},
 				{
 					"title": "Planned Updates (STC)",
-					"date": "Jan - Mar",
+					"date": "Feb - Mar",
 					"items": [
-						"<span class='event-list date'>Jan 14</span> - Patch",
-						"<span class='event-list date'>Jan 16</span> - OTA",
-						"<span class='event-list date'>Jan 30</span> - OTA",
 						"<span class='event-list date'>Feb 11</span> - Patch",
 						"<span class='event-list date'>Feb 13</span> - OTA",
 						"<span class='event-list date'>Feb 27</span> - OTA",
@@ -338,153 +393,7 @@
 		},
 		{
 			"title": "Balance Updates",
-			"items": [
-				{
-					"date": "January 16",
-					"type": "OTA",
-					"items": [
-						{
-							"name": "Scream",
-							"changes": [
-								"2/3 - When an enemy card moves, steal 2 Power from it. (once per turn)",
-								"2/3 -> 2/2"
-							]
-						},
-						{
-							"name": "Spider-Man",
-							"changes": [
-								"3/5 - On Reveal: Move to another location and pull an enemy card from here to there.",
-								"3/5 -> 2/4"
-							]
-						},
-						{
-							"name": "Luke Cage",
-							"changes": [
-								"3/3 - Ongoing: Your cards can’t have their Power reduced.",
-								"3/3 -> 3/2"
-							]
-						},
-						{
-							"name": "U.S. Agent",
-							"changes": [
-								"2/3 - Ongoing: 4, 5, and 6-Cost cards here have -4 Power.",
-								"2/3 - Ongoing: 4, 5, and 6-Cost cards here have -3 Power."
-							]
-						},
-						{
-							"name": "Ka-Zar",
-							"changes": [
-								"4/4 - Ongoing: Your 1-Cost cards have +1 Power.",
-								"4/4 -> 4/5"
-							]
-						},
-						{
-							"name": "Hydra Bob",
-							"changes": [
-								"1/5 - After each turn, this moves if a player Snapped.",
-								"1/5 -> 1/4"
-							]
-						},
-						{
-							"name": "Sentry",
-							"changes": [
-								"4/8 - You can't play this at the right location. On Reveal: Add a -8 Power Void to the right location.",
-								"4/9 - You can't play this at the right location. On Reveal: Add a -9 Power Void to the right location"
-							]
-						},
-						{
-							"name": "The Void",
-							"changes": [
-								"4/-8",
-								"4/-8 -> 4/-9"
-							]
-						},
-						{
-							"name": "Onslaught",
-							"changes": [
-								"6/7 - Ongoing: Double your other Ongoing effects here.",
-								"6/7 -> 6/8"
-							]
-						},
-						{
-							"name": "Mister Fantastic",
-							"changes": [
-								"3/2 - Ongoing: Adjacent locations have +2 Power.",
-								"3/1 - Ongoing: Adjacent locations have +3 Power."
-							]
-						},
-						{
-							"name": "Hela",
-							"changes": [
-								"6/7 - On Reveal: Resurrect all cards you discarded to random locations with -3 Power.",
-								"6/9 - On Reveal: For each different Cost among them, resurrect a card you discarded to a random location."
-							]
-						}
-					]
-				},
-				{
-					"date": "January 30",
-					"type": "OTA",
-					"items": [
-						{
-							"name": "Dagger",
-							"changes": [
-								"2/0 - When this moves to a location, +3 Power for each enemy card there.",
-								"2/2 - When this moves to a location, +2 Power for each enemy card there."
-							]
-						},
-						{
-							"name": "Araña",
-							"changes": [
-								"1/1 - Activate: Give the next card you play +2 Power and move it to the right.",
-								"1/2 - Activate: Give the next card you play +1 Power and move it to the right."
-							]
-						},
-						{
-							"name": "Spectrum",
-							"changes": [
-								"6/6 - On Reveal: Give your Ongoing cards +2 Power.",
-								"6/6 -> 6/7"
-							]
-						},
-						{
-							"name": "Namora",
-							"changes": [
-								"5/6 - On Reveal: Give +5 Power to each of your cards alone at another location.",
-								"5/6 -> 5/7"
-							]
-						},
-						{
-							"name": "Leader",
-							"changes": [
-								"6/3 - On Reveal: Copy the enemy card(s) with the highest Power played this turn, but on your side.",
-								"6/3 -> 6/4"
-							]
-						},
-						{
-							"name": "Sandman",
-							"changes": [
-								"5/7 - On Reveal: Next turn, cards cost 1 more. (maximum 6)",
-								"5/7 -> 5/8"
-							]
-						},
-						{
-							"name": "Ms. Marvel",
-							"changes": [
-								"Ongoing: Your adjacent locations with 2+ cards and no repeated Costs have +5 Power.",
-								"4/4 -> 4/5"
-							]
-						},
-						{
-							"name": "Luna Snow",
-							"changes": [
-								"3/5 - On Reveal: Add an Ice Cube to each side of this location.",
-								"3/5 -> 3/6"
-							]
-						}
-					]
-				}
-			]
+			"items": []
 		}
   ]
 }
