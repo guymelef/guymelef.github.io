@@ -238,7 +238,7 @@
 			"noArt": true,
 			"cost": "0",
 			"power": "0",
-			"description": "On Reveal: Put a card from your hand here.",
+			"ability": "On Reveal: Put a card from your hand here.",
 			"type": "summon"
 		},
 		{
@@ -246,7 +246,7 @@
 			"noArt": true,
 			"cost": "0",
 			"power": "0",
-			"description": "Ongoing: Your On Reveal abilities here happen twice.",
+			"ability": "Ongoing: Your On Reveal abilities here happen twice.",
 			"type": "summon"
 		},
 		{
@@ -254,7 +254,7 @@
 			"noArt": true,
 			"cost": "0",
 			"power": "0",
-			"description": "On Reveal: Double Infinity Ultron’s Power.",
+			"ability": "On Reveal: Double Infinity Ultron’s Power.",
 			"type": "summon"
 		},
 		{
@@ -262,22 +262,22 @@
 			"noArt": true,
 			"cost": "0",
 			"power": "0",
-			"description": "On Reveal: For each full location you have, give a friendly card there +2 Power.",
+			"ability": "On Reveal: For each full location you have, give a friendly card there +2 Power.",
 			"type": "summon"
 		}
 	],
   "locations": [
 		{
 			"name": "Celestial Burial Ground",
-			"description": "Discard a card. Replace it with one that costs the same."
+			"ability": "Discard a card. Replace it with one that costs the same."
 		},
 		{
 			"name": "Sakaar Grand Prix",
-			"description": "After turn 4, the winner here gets +1 max Energy."
+			"ability": "After turn 4, the winner here gets +1 max Energy."
 		},
 		{
 			"name": "Star Brand Crater",
-			"description": "If you have 10 or more Power here, +1 Energy each turn."
+			"ability": "If you have 10 or more Power here, +1 Energy each turn."
 		}
 	],
   "seasonInfo": [],
