@@ -1,10 +1,295 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"cards",
+		"locations",
     "events"
   ],
-  "cards": [],
-  "locations": [],
+  "cards": [
+		{
+			"name": "Agamotto",
+			"cost": "5",
+			"power": "10",
+			"ability": "Game Start: Shuffle 4 Ancient Arcana into your deck.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Agmtt8"
+		},
+		{
+			"name": "Banner Hulk",
+			"cost": "6",
+			"power": "12",
+			"text": "“HULK SMASH!”",
+			"type": "summon"
+		},
+		{
+			"name": "Bolts of Balthaak",
+			"cost": "3",
+			"power": "0",
+			"ability": "Next turn, you get +4 Energy. <i>(Banish this.)</i>",
+			"type": "summon"
+		},
+		{
+			"name": "Captain Carter",
+			"noArt": true,
+			"cost": "4",
+			"power": "2",
+			"ability": "Ongoing: Your other cards in the back row here gain this card's Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": ""
+		},
+		{
+			"name": "Dum Dum Dugan",
+			"noArt": true,
+			"cost": "2",
+			"power": "2",
+			"ability": "Ongoing: Your cards in the front row here have +1 Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": ""
+		},
+		{
+			"name": "Eson",
+			"cost": "6",
+			"power": "9",
+			"ability": "After each turn, put a card from your hand that didn't start in your deck here.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Esn4"
+		},
+		{
+			"name": "Fan Fei",
+			"noArt": true,
+			"cost": "0",
+			"power": "0",
+			"ability": "Activate: Move your other cards here away.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["activate"],
+			"code": ""
+		},
+		{
+			"name": "Firehair",
+			"cost": "2",
+			"power": "3",
+			"ability": "When one of your cards is destroyed, this uses that card’s On Reveal.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["destroy", "on reveal"],
+			"code": "Frhr8"
+		},
+		{
+			"name": "Ghost, the First Rider",
+			"cost": "2",
+			"power": "6",
+			"ability": "On Reveal: Discard the lowest-Power card for your hand. Remove that card's Power from this.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["on reveal", "discard"],
+			"code": "GhstThFrstRdr12"
+		},
+		{
+			"name": "Goliath",
+			"noArt": true,
+			"cost": "2",
+			"power": "1",
+			"ability": "Ongoing: +1 Power for each other Ongoing you have in play.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": ""
+		},
+		{
+    
+			"name": "Hydra Stomper",
+			"noArt": true,
+			"cost": "3",
+			"power": "1",
+			"ability": "Ongoing: +1 Power for each card you moved this game.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["ongoing", "move"],
+			"code": ""
+		},
+		{
+			"name": "Images of Ikonn",
+			"cost": "4",
+			"power": "0",
+			"ability": "On Reveal: Transform your other cards here into copies of the highest-Power one. <i>(Banish this.)<i/>",
+			"type": "summon"
+		},
+		{
+    
+			"name": "Infinity Ultron",
+			"noArt": true,
+			"cost": "5",
+			"power": "6",
+			"ability": "On Reveal: Add 2 Ultron Infinity Stones to your hand.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": ""
+		},
+		{
+    
+			"name": "Kahhori",
+			"noArt": true,
+			"cost": "4",
+			"power": "6",
+			"ability": "On Reveal: For each card in your hand, give a friendly card +1 Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": ""
+		},
+		{
+			"name": "Khonshu",
+			"cost": "6",
+			"power": "5",
+			"ability": "When discarded, returns in its next phase. On Reveal: Resurrect a card you discarded to another location with its Power set to 5.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["discard", "on reveal"],
+			"code": "Khnsh7"
+		},
+		{
+			"name": "Khonshu Full",
+			"noArt": true,
+			"cost": "6",
+			"power": "12",
+			"ability": "On Reveal: Resurrect a card you discarded to another location with its Power set to 12.",
+			"type": "summon"
+		},
+		{
+			"name": "Khonshu Waxing",
+			"noArt": true,
+			"cost": "6",
+			"power": "7",
+			"ability": "When discarded, returns in its final phase. On Reveal: Resurrect a card you discarded to another location with its Power set to 7.",
+			"type": "summon"
+		},
+		{
+			"name": "Starbrand",
+			"cost": "3",
+			"power": "10",
+			"ability": "Ongoing: Your opponent has +3 Power at each other location.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "Strbrnd9"
+		},
+		{
+			"name": "Strange Supreme",
+			"noArt": true,
+			"cost": "2",
+			"power": "0",
+			"ability": "Give this +2 Power whenever it merges. After each turn, merge one of your cards that didn't start in your deck into this.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["other"],
+			"code": ""
+		},
+		{
+			"name": "Temporal Manipulation",
+			"cost": "1",
+			"power": "0",
+			"ability": "On Reveal: Give Agamotto +3 Power. Put him into your hand if he’s not in play. <i>(Banish this.)</i>",
+			"type": "summon"
+		},
+		{
+			"name": "Topaz",
+			"noArt": true,
+			"cost": "3",
+			"power": "4",
+			"ability": "After you play a card here, move it to the middle location.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["move"],
+			"code": ""
+		},
+		{
+			"name": "Ultron Space Stone",
+			"noArt": true,
+			"cost": "0",
+			"power": "0",
+			"ability": "On Reveal: Move the lowest-Power enemy card here to _ location.",
+			"type": "summon"
+		},
+		{
+			"name": "Ultron Reality Stone",
+			"noArt": true,
+			"cost": "0",
+			"power": "0",
+			"ability": "On Reveal: Add a _ here. Set its Power to _.",
+			"type": "summon"
+		},
+		{
+			"name": "Ultron Time Stone",
+			"noArt": true,
+			"cost": "0",
+			"power": "0",
+			"description": "On Reveal: Put a card from your hand here.",
+			"type": "summon"
+		},
+		{
+			"name": "Ultron Mind Stone",
+			"noArt": true,
+			"cost": "0",
+			"power": "0",
+			"description": "Ongoing: Your On Reveal abilities here happen twice.",
+			"type": "summon"
+		},
+		{
+			"name": "Ultron Power Stone",
+			"noArt": true,
+			"cost": "0",
+			"power": "0",
+			"description": "On Reveal: Double Infinity Ultron’s Power.",
+			"type": "summon"
+		},
+		{
+			"name": "Ultron Soul Stone",
+			"noArt": true,
+			"cost": "0",
+			"power": "0",
+			"description": "On Reveal: For each full location you have, give a friendly card there +2 Power.",
+			"type": "summon"
+		}
+	],
+  "locations": [
+		{
+			"name": "Celestial Burial Ground",
+			"description": "Discard a card. Replace it with one that costs the same."
+		},
+		{
+			"name": "Sakaar Grand Prix",
+			"description": "After turn 4, the winner here gets +1 max Energy."
+		},
+		{
+			"name": "Star Brand Crater",
+			"description": "If you have 10 or more Power here, +1 Energy each turn."
+		}
+	],
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
