@@ -33,7 +33,6 @@
 		},
 		{
 			"name": "Captain Carter",
-			"noArt": true,
 			"cost": "4",
 			"power": "2",
 			"ability": "Ongoing: Your other cards in the back row here gain this card's Power.",
@@ -45,7 +44,6 @@
 		},
 		{
 			"name": "Dum Dum Dugan",
-			"noArt": true,
 			"cost": "2",
 			"power": "2",
 			"ability": "Ongoing: Your cards in the front row here have +1 Power.",
@@ -102,7 +100,6 @@
 		},
 		{
 			"name": "Goliath",
-			"noArt": true,
 			"cost": "2",
 			"power": "1",
 			"ability": "Ongoing: +1 Power for each other Ongoing you have in play.",
@@ -115,7 +112,6 @@
 		{
     
 			"name": "Hydra Stomper",
-			"noArt": true,
 			"cost": "3",
 			"power": "1",
 			"ability": "Ongoing: +1 Power for each card you moved this game.",
@@ -135,7 +131,6 @@
 		{
     
 			"name": "Infinity Ultron",
-			"noArt": true,
 			"cost": "5",
 			"power": "6",
 			"ability": "On Reveal: Add 2 Ultron Infinity Stones to your hand.",
@@ -148,7 +143,6 @@
 		{
     
 			"name": "Kahhori",
-			"noArt": true,
 			"cost": "4",
 			"power": "6",
 			"ability": "On Reveal: For each card in your hand, give a friendly card +1 Power.",
@@ -171,7 +165,6 @@
 		},
 		{
 			"name": "Khonshu Full",
-			"noArt": true,
 			"cost": "6",
 			"power": "12",
 			"ability": "On Reveal: Resurrect a card you discarded to another location with its Power set to 12.",
@@ -179,7 +172,6 @@
 		},
 		{
 			"name": "Khonshu Waxing",
-			"noArt": true,
 			"cost": "6",
 			"power": "7",
 			"ability": "When discarded, returns in its final phase. On Reveal: Resurrect a card you discarded to another location with its Power set to 7.",
@@ -198,7 +190,6 @@
 		},
 		{
 			"name": "Strange Supreme",
-			"noArt": true,
 			"cost": "2",
 			"power": "0",
 			"ability": "Give this +2 Power whenever it merges. After each turn, merge one of your cards that didn't start in your deck into this.",
@@ -217,7 +208,6 @@
 		},
 		{
 			"name": "Topaz",
-			"noArt": true,
 			"cost": "3",
 			"power": "4",
 			"ability": "After you play a card here, move it to the middle location.",
