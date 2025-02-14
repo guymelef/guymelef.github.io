@@ -7,6 +7,17 @@
   ],
   "cards": [
 		{
+			"name": "Adam Warlock",
+			"cost": "5",
+			"power": "5",
+			"ability": "At the end of each turn, if you are winning this location, draw a card.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["others"],
+			"code": "AdmWrlckB"
+		},
+		{
 			"name": "Agamotto",
 			"cost": "5",
 			"power": "10",
@@ -41,6 +52,24 @@
 			"type": "character",
 			"tags": ["ongoing"],
 			"code": ""
+		},
+		{
+			"name": "Doom 2099",
+			"cost": "4",
+			"power": "3",
+			"ability": "After each turn, add a DoomBot 2099 to a random location if you played <i>(exactly)</i> 1 card.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Dm20998"
+		},
+		{
+			"name": "DoomBot 2099",
+			"cost": "4",
+			"power": "1",
+			"ability": "Ongoing: Your other DoomBots and Doom have +1 Power.",
+			"type": "summon"
 		},
 		{
 			"name": "Dum Dum Dugan",
@@ -178,6 +207,28 @@
 			"type": "summon"
 		},
 		{
+			"name": "Scorpion",
+			"cost": "2",
+			"power": "3",
+			"ability": "On Reveal: Afflict cards in your opponent's hand with -1 Power.",
+			"released": true,
+			"series": "2",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Scrpn8"
+		},
+		{
+			"name": "Sera",
+			"cost": "5",
+			"power": "5",
+			"ability": "Ongoing: Cards in your hand cost 1 less. <i>(minimum 1)</i>",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "Sr4"
+		},
+		{
 			"name": "Starbrand",
 			"cost": "3",
 			"power": "10",
@@ -198,6 +249,28 @@
 			"type": "character",
 			"tags": ["other"],
 			"code": ""
+		},
+		{
+			"name": "Sunspot",
+			"cost": "1",
+			"power": "1",
+			"ability": "At the end of each turn, gain +1 Power for each unspent Energy.",
+			"released": true,
+			"series": "2",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Snspt7"
+		},
+		{
+			"name": "Surtur",
+			"cost": "3",
+			"power": "5",
+			"ability": "After you play a card with 10 or more Power, this gains +3 Power. <i>(twice per game)</i>",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Srtr6"
 		},
 		{
 			"name": "Temporal Manipulation",
@@ -264,6 +337,17 @@
 			"power": "0",
 			"ability": "On Reveal: For each full location you have, give a friendly card there +2 Power.",
 			"type": "summon"
+		},
+		{
+			"name": "Wiccan",
+			"cost": "4",
+			"power": "6",
+			"ability": "On Reveal: If you've spent all your Energy on previous turns, +2 Max Energy.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Wccn6"
 		}
 	],
   "locations": [
