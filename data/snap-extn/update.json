@@ -10,7 +10,7 @@
 			"name": "Adam Warlock",
 			"cost": "2",
 			"power": "0",
-			"ability": "At the end of each turn, if you are winning this location, draw a card.",
+			"ability": "After each turn, draw a card if you're winning here. Otherwise, +1 Power.",
 			"released": true,
 			"series": "3",
 			"type": "character",
