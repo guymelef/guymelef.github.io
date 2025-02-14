@@ -8,8 +8,8 @@
   "cards": [
 		{
 			"name": "Adam Warlock",
-			"cost": "5",
-			"power": "5",
+			"cost": "2",
+			"power": "0",
 			"ability": "At the end of each turn, if you are winning this location, draw a card.",
 			"released": true,
 			"series": "3",
