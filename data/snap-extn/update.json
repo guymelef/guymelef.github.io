@@ -315,6 +315,73 @@
 					]
 				}
 			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "Feb 13",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Doom 2099",
+							"changes": [
+								"4/2 - After each turn, add a DoomBot 2099 to a random location if you played (exactly) 1 card.",
+								"4/2 -> 4/3"
+							]
+						},
+						{
+							"name": "DoomBot 2099",
+							"changes": [
+								"4/2 - Ongoing: Your other DoomBots and Doom have +1 Power.",
+								"4/2 -> 4/1"
+							]
+						},
+						{
+							"name": "Wiccan",
+							"changes": [
+								"4/7 - On Reveal: If you’ve spent all your Energy on previous turns, +2 Max Energy.",
+								"4/7 -> 4/6"
+							]
+						},
+						{
+							"name": "Surtur",
+							"changes": [
+								"3/4 - After you play a card with 10 or more Power, this gains +3 Power.",
+								"3/5 - After you play a card with 10 or more Power, this gains +3 Power. (twice per game)"
+							]
+						},
+						{
+							"name": "Scorpion",
+							"changes": [
+								"2/2 - On Reveal: Afflict cards in your opponent’s hand with -1 Power.",
+								"2/2 -> 2/3"
+							]
+						},
+						{
+							"name": "Sunspot",
+							"changes": [
+								"1/0 - After each turn, gain +1 Power for each unspent Energy.",
+								"1/0 -> 1/1"
+							]
+						},
+						{
+							"name": "Sera",
+							"changes": [
+								"5/4 - Ongoing: Cards in your hand cost 1 less. (minimum 1)",
+								"5/4 -> 5/5"
+							]
+						},
+						{
+							"name": "Adam Warlock",
+							"changes": [
+								"5/5 - After each turn, draw a card if you're winning here.",
+								"2/0 - After each turn, draw a card if you're winning here. Otherwise, +1 Power."
+							]
+						}
+					]
+				}
+			]
 		}
   ]
 }
