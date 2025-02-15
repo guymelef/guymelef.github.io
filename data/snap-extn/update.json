@@ -368,6 +368,23 @@
   "seasonStyles": [],
   "seasonEvents": [
     {
+     "title": "Daily Login",
+     "items": [
+      {
+       "date": "Feb 14 - Feb 22",
+       "items: [
+         "65 Random Boosters",
+         "100 Credits",
+         "Rock Pillow Fight!!! Title",
+         "150 Credits",
+         "Mystery Variant",
+         "155 Random Boosters",
+         "Blue Neon Border"
+       ]
+      }
+     ]
+    },
+    {
 			"title": "Features/Modes/Events",
 			"items": [
 				{
