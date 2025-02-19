@@ -402,14 +402,6 @@
 					"date": "Feb 25 - Mar 11",
 					"items": ["Earn points each turn from the locations you’re winning, first player to reach 16 points wins!"]
 				},
-        {
-					"title": "Series Drop",
-					"date": "March 4",
-					"items": [
-						"Nebula S4 -> S3",
-						"More details soon™"
-					]
-				},
 				{
 					"title": "Planned Updates (STC)",
 					"date": "Feb - Mar",
@@ -418,6 +410,47 @@
 						"<span class='event-list date'>Feb 13</span> - OTA",
 						"<span class='event-list date'>Feb 27</span> - OTA",
 						"<span class='event-list date'>Mar 4</span> - Patch"
+					]
+				}
+			]
+		},
+		{
+			"title": "Series Drop",
+			"date": "March 4",
+			"items": [
+				{
+					"name": "Series 3",
+					"cards": [
+						"Knull",
+						"Zabu",
+						"M.O.D.O.K.",
+						"Nimrod",
+						"Ghost-Spider",
+						"Nebula",
+						"Silk",
+						"Spider-Ham",
+						"Lady Deathstrike",
+						"Mobius M. Mobius",
+						"Havok",
+						"Selene",
+						"Hercules"
+					]
+				},
+				{
+					"name": "Series 4",
+					"cards": [
+						"Loki",
+						"Blob",
+						"Sebastian Shaw",
+						"Elsa Bloodstone",
+						"Ms. Marvel",
+						"Werewolf By Night",
+						"Skaar",
+						"Black Knight",
+						"Corvus Glaive",
+						"Cull Obsidian",
+						"Cannonball",
+						"Annihilus"
 					]
 				}
 			]
