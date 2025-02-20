@@ -367,6 +367,27 @@
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
+		{
+			"title": "Twitch Drops",
+			"items": [
+				{
+					"date": "Feb 18 -  Feb 24",
+					"items": [
+						"2:65 Random Boosters",
+						"4:250 Credits",
+						"6:Premium Mystery Variant"
+					]
+				},
+				{
+					"date": "Feb 25 -  March 5",
+					"items": [
+						"2:2 Scrolls",
+						"4:2 Scrolls + 400 Charms",
+						"6:6 Scrolls + 600 Charms"
+					]
+				}
+			]
+		},
     {
      "title": "Daily Login",
      "items": [
