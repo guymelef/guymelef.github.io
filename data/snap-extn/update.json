@@ -425,12 +425,18 @@
 				},
 				{
 					"title": "Planned Updates (STC)",
-					"date": "Feb - Mar",
+					"date": "Feb - Apr",
 					"items": [
 						"<span class='event-list date'>Feb 11</span> - Patch",
 						"<span class='event-list date'>Feb 13</span> - OTA",
 						"<span class='event-list date'>Feb 27</span> - OTA",
-						"<span class='event-list date'>Mar 4</span> - Patch"
+						"<span class='event-list date'>Mar 4</span> - Patch",
+						"<span class='event-list date'>Mar 13</span> - OTA",
+						"<span class='event-list date'>Mar 27</span> - OTA",
+						"<span class='event-list date'>Apr 1</span> - Patch",
+						"<span class='event-list date'>Apr 10</span> - OTA",
+						"<span class='event-list date'>Apr 24</span> - OTA",
+						"<span class='event-list date'>Apr 29</span> - Patch"
 					]
 				}
 			]
