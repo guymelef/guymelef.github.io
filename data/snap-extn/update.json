@@ -546,6 +546,89 @@
 							]
 						}
 					]
+				},
+				{
+					"date": "Feb 27",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Surtur",
+							"changes": [
+								"3/5 - After you play a card with 10 or more Power, this gains +3 Power. (twice per game)",
+								"3/5 - After you play a card with 10 or more Power, this gains +2 Power."
+							]
+						},
+						{
+							"name": "Skaar",
+							"changes": [
+								"6/10 - Costs 2 less for each of your cards that has 10 or more Power.",
+								"6/10 -> 7/12"
+							]
+						},
+						{
+							"name": "Aero",
+							"changes": [
+								"5/10 - On Reveal: Move the last enemy card played anywhere to this location",
+								"5/10 -> 5/9"
+							]
+						},
+						{
+							"name": "Werewolf By Night",
+							"changes": [
+								"3/2 - After you play a card, move there to gain +2 Power if it has an On Reveal.",
+								"3/2 -> 3/3"
+							]
+						},
+						{
+							"name": "Annihilus",
+							"changes": [
+								"5/6 - On Reveal: Your cards with Power below 0 switch sides. Destroy those that can’t.",
+								"5/6 -> 5/7"
+							]
+						},
+						{
+							"name": "White Queen",
+							"changes": [
+								"4/6 - On Reveal: Copy the card that costs the most from your opponent’s hand into your hand.",
+								"4/6 -> 3/4"
+							]
+						},
+						{
+							"name": "Lizard",
+							"changes": [
+								"2/5 - Ongoing: -4 Power if your opponent has 4 cards here.",
+								"2/5 -> 2/6"
+							]
+						},
+						{
+							"name": "High Evolutionary",
+							"changes": [
+								"4/6 - Game Start: Unlock the potential of your cards with no abilities.",
+								"4/6 -> 4/7"
+							]
+						},
+						{
+							"name": "Joaquin Torres Falcon",
+							"changes": [
+								"3/4 - Ongoing: The On Reveal abilities of your 1-Cost cards here happen twice.",
+								"3/4 -> 2/2"
+							]
+						},
+						{
+							"name": "Alioth",
+							"changes": [
+								"On Reveal: Remove the text from all unrevealed enemy cards here.",
+								"On Reveal: Remove the text from all unrevealed enemy characters here."
+							]
+						},
+						{
+							"name": "Gwenpool",
+							"changes": [
+								"On Reveal: Pick a random card in your hand 3 times. Give +2 Power each time.",
+								"On Reveal: Pick a random character in your hand 3 times. Give +2 Power each time."
+							]
+						}
+					]
 				}
 			]
 		}
