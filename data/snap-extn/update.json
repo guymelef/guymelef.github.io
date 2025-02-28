@@ -18,6 +18,17 @@
 			"code": "AdmWrlckB"
 		},
 		{
+			"name": "Aero",
+			"cost": "5",
+			"power": "9",
+			"ability": "On Reveal: Move the last enemy card played anywhere to this location.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["on reveal", "move"],
+			"code": "Ar4"
+		},
+		{
 			"name": "Agamotto",
 			"cost": "5",
 			"power": "10",
@@ -27,6 +38,28 @@
 			"type": "character",
 			"tags": ["others"],
 			"code": "Agmtt8"
+		},
+		{
+			"name": "Alioth",
+			"cost": "6",
+			"power": "9",
+			"ability": "On Reveal: Remove the text from all unrevealed enemy characters here.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Alth6"
+		},
+		{
+			"name": "Annihilus",
+			"cost": "5",
+			"power": "7",
+			"ability": "On Reveal: Your cards with Power below 0 switch sides. Destroy those that can't.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal", "destroy"],
+			"code": "Annhls9"
 		},
 		{
 			"name": "Banner Hulk",
@@ -139,6 +172,28 @@
 			"code": ""
 		},
 		{
+			"name": "Gwenpool",
+			"cost": "4",
+			"power": "6",
+			"ability": "On Reveal: Pick a random character in your hand 3 times. Give +2 Power each time.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Gwnpl8"
+		},
+		{
+			"name": "High Evolutionary",
+			"cost": "4",
+			"power": "7",
+			"ability": "Game Start: Unlock the potential of your cards with no abilities.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["game start"],
+			"code": "HghEvltnr10"
+		},
+		{
     
 			"name": "Hydra Stomper",
 			"cost": "3",
@@ -168,6 +223,17 @@
 			"type": "character",
 			"tags": ["on reveal"],
 			"code": ""
+		},
+		{
+			"name": "Joaquin Torres",
+			"cost": "2",
+			"power": "2",
+			"ability": "Ongoing: The On Reveal abilities of your 1-Cost cards here happen twice.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["ongoing", "on reveal"],
+			"code": "JqnTrrsD"
 		},
 		{
     
@@ -207,6 +273,17 @@
 			"type": "summon"
 		},
 		{
+			"name": "Lizard",
+			"cost": "2",
+			"power": "6",
+			"ability": "Ongoing: -4 Power if your opponent has 4 cards here.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "Lzrd6"
+		},
+		{
 			"name": "Scorpion",
 			"cost": "2",
 			"power": "3",
@@ -227,6 +304,17 @@
 			"type": "character",
 			"tags": ["ongoing"],
 			"code": "Sr4"
+		},
+		{
+			"name": "Skaar",
+			"cost": "7",
+			"power": "12",
+			"ability": "Costs 2 less for each of your cards that has 10 or more Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Skr5"
 		},
 		{
 			"name": "Starbrand",
@@ -265,7 +353,7 @@
 			"name": "Surtur",
 			"cost": "3",
 			"power": "5",
-			"ability": "After you play a card with 10 or more Power, this gains +3 Power. <i>(twice per game)</i>",
+			"ability": "After you play a card with 10 or more Power, this gains +2 Power.",
 			"released": true,
 			"series": "5",
 			"type": "character",
@@ -337,6 +425,28 @@
 			"power": "0",
 			"ability": "On Reveal: For each full location you have, give a friendly card there +2 Power.",
 			"type": "summon"
+		},
+		{
+			"name": "Werewolf By Night",
+			"cost": "3",
+			"power": "3",
+			"ability": "After you play an On Reveal card at another location, move there to gain +2 Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["move"],
+			"code": "WrwlfBNghtF"
+		},
+		{
+			"name": "White Queen",
+			"cost": "3",
+			"power": "4",
+			"ability": "On Reveal: Copy the card that costs the most from your opponent's hand into your hand.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "WhtQnA"
 		},
 		{
 			"name": "Wiccan",
@@ -608,7 +718,7 @@
 							]
 						},
 						{
-							"name": "Joaquin Torres Falcon",
+							"name": "Joaquin Torres",
 							"changes": [
 								"3/4 - Ongoing: The On Reveal abilities of your 1-Cost cards here happen twice.",
 								"3/4 -> 2/2"
