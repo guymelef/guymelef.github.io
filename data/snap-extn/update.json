@@ -133,7 +133,7 @@
       "power": "3",
       "ability": "Ongoing: Your opponent’s created cards cost 1 more. <i>(maximum 6)</i>",
       "released": true,
-      "series": "5",
+      "series": "4",
       "type": "character",
       "tags": ["ongoing"],
       "code": "Grgn6"
@@ -210,6 +210,17 @@
       "type": "character",
       "tags": ["on reveal", "destroy"],
       "code": "LdDthstrkF"
+    },
+    {
+      "name": "Laufey",
+      "cost": "4",
+      "power": "5",
+      "ability": "On Reveal: Steal 1 Power from each other card here.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Lf6"
     },
     {
       "name": "Loki",
@@ -391,6 +402,17 @@
       "code": "GhstThFrstRdr12"
     },
     {
+      "name": "Uncle Ben",
+      "cost": "1",
+      "power": "2",
+      "ability": "When this card is destroyed, replace it with Spider-Man.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["destroy"],
+      "code": "UnclBn8"
+    },
+    {
       "name": "Werewolf By Night",
       "cost": "3",
       "power": "3",
@@ -477,6 +499,9 @@
 				{"name": "Starbrand", "series": "5"},
 				{"name": "Firehair", "series": "5"},
 				{"name": "Khonshu", "series": "5"},
+        {"name": "Uncle Ben", "series": "4"},
+				{"name": "Gorgon", "series": "4"},
+				{"name": "Laufey", "series": "4"},
 				{"name": "The First Ghost Rider", "series": "4"},
 				{"name": "Sam Wilson Captain America", "series": "5"}
 			]
