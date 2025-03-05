@@ -777,7 +777,6 @@
       "cost": "3",
       "power": "4",
       "ability": "On Reveal: Move the lowest-Power enemy card here to the location of Infinity Ultron.",
-      "noArt": true,
       "type": "summon"
     },
     {
@@ -785,7 +784,6 @@
       "cost": "3",
       "power": "1",
       "ability": "On Reveal: Add a Drone here. Set its Power to Infinity Ultron's.",
-      "noArt": true,
       "type": "summon"
     },
     {
@@ -793,7 +791,6 @@
       "cost": "3",
       "power": "3",
       "ability": "On Reveal: For each of your full locations, give one of your cards there +2 Power.",
-      "noArt": true,
       "type": "summon"
     },
     {
