@@ -7,6 +7,17 @@
   ],
   "cards": [
     {
+      "name": "Adam Warlock",
+      "cost": "2",
+      "power": "0",
+      "ability": "End of Turn: Draw a card if you're winning here. Otherwise, +1 Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["others"],
+      "code": "AdmWrlckB"
+    },
+    {
       "name": "Agamotto",
       "cost": "5",
       "power": "10",
@@ -40,6 +51,28 @@
       "code": "BlckKnghtB"
     },
     {
+      "name": "Attuma",
+      "cost": "4",
+      "power": "10",
+      "ability": "End of Turn: Destroy one of your cards here with less Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["destroy"],
+      "code": "Attm6"
+    },
+    {
+      "name": "Black Cat",
+      "cost": "4",
+      "power": "10",
+      "ability": "End of Turn: Discard this from your hand.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["discard"],
+      "code": "BlckCt8"
+    },
+    {
       "name": "Blob",
       "cost": "6",
       "power": "0",
@@ -51,6 +84,17 @@
       "code": "Blb4"
     },
     {
+      "name": "Bruce Banner",
+      "cost": "2",
+      "power": "1",
+      "ability": "End of Turn: If you have unspent Energy, 25% chance to HULK OUT!",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "BrcBnnrB"
+    },
+    {
       "name": "Cannonball",
       "cost": "5",
       "power": "8",
@@ -60,6 +104,35 @@
       "type": "character",
       "tags": ["on reveal", "move", "destroy"],
       "code": "CnnnbllA"
+    },
+    {
+      "name": "Cap's Shield",
+      "cost": "1",
+      "power": "1",
+      "ability": "Ongoing: This can't be destroyed. Give your Cap +2 Power when this moves to Cap's location.",
+      "type": "summon"
+    },
+    {
+      "name": "Captain Carter",
+      "cost": "4",
+      "power": "3",
+      "ability": "Ongoing: Add this card's Power to your back-row cards here. <i>(can't add to itself)</i>",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "CptnCrtrD"
+    },
+    {
+      "name": "Cobra",
+      "cost": "2",
+      "power": "3",
+      "ability": "Activate: Switch one of your opponent's created cards here to your side.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "Cbr5"
     },
     {
       "name": "Corvus Glaive",
@@ -84,6 +157,51 @@
       "code": "CllObsdnC"
     },
     {
+      "name": "Cyclops",
+      "cost": "3",
+      "power": "4",
+      "text": "“Let's move, X-Men.”",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "evolved": "End of Turn: If you have unspent Energy, afflict 2 enemy cards here with -1 Power.",
+      "tags": ["no ability"],
+      "code": "Cclps7"
+    },
+    {
+      "name": "Doom 2099",
+      "cost": "4",
+      "power": "3",
+      "ability": "End of Turn: Add a DoomBot 2099 to a random location if you played <i>(exactly)</i> 1 card.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Dm20998"
+    },
+    {
+      "name": "Dum Dum Dugan",
+      "cost": "2",
+      "power": "3",
+      "ability": "Ongoing: Your front-row cards here have +1 Power. <i>(can't add to itself)</i>",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "DmDmDgnB"
+    },
+    {
+      "name": "Elixir",
+      "cost": "1",
+      "power": "1",
+      "ability": "Activate: The next time one of your cards is destroyed this turn, revive it here.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate", "destroy"],
+      "code": "Elxr6"
+    },
+    {
       "name": "Elsa Bloodstone",
       "cost": "3",
       "power": "4",
@@ -95,6 +213,17 @@
       "code": "ElsBldstnE"
     },
     {
+      "name": "Esme Cuckoo",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: Copy a card from your deck into your hand. Set its Cost to 3 and Power to 4.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "EsmCckA"
+    },
+    {
       "name": "Eson",
       "cost": "6",
       "power": "10",
@@ -104,6 +233,17 @@
       "type": "character",
       "tags": ["others"],
       "code": "Esn4"
+    },
+    {
+      "name": "Fan Fei",
+      "cost": "4",
+      "power": "7",
+      "ability": "Activate: Move your other cards here to the right.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate", "move"],
+      "code": "FnF6"
     },
     {
       "name": "Firehair",
@@ -128,6 +268,17 @@
       "code": "GhstSpdrB"
     },
     {
+      "name": "Goliath",
+      "cost": "2",
+      "power": "1",
+      "ability": "Ongoing: +1 Power for each other Ongoing card you have in play.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "Glth7"
+    },
+    {
       "name": "Gorgon",
       "cost": "2",
       "power": "3",
@@ -142,12 +293,23 @@
       "name": "Havok",
       "cost": "2",
       "power": "0",
-      "ability": "After each turn, you lose 1 Max Energy and this gains +4 Power.",
+      "ability": "End of Turn: You lose 1 Max Energy and this gains +4 Power.",
       "released": true,
       "series": "3",
       "type": "character",
       "tags": ["others"],
       "code": "Hvk5"
+    },
+    {
+      "name": "Hellion",
+      "cost": "5",
+      "power": "8",
+      "ability": "On Reveal: Next turn, you can move cards to this location.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal", "move"],
+      "code": "Hlln7"
     },
     {
       "name": "Hercules",
@@ -159,6 +321,62 @@
       "type": "character",
       "tags": ["move"],
       "code": "Hrcls8"
+    },
+    {
+      "name": "Hulk",
+      "cost": "6",
+      "power": "12",
+      "text": "“HULK SMASH!”",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "evolved": "End of Turn: If you have unspent Energy, +2 Power. <i>(if in hand or in play)</i>",
+      "tags": ["no ability"],
+      "code": "Hlk4"
+    },
+    {
+      "name": "Hydra Bob",
+      "cost": "1",
+      "power": "4",
+      "ability": "End of Turn: This moves if a player Snapped.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["move"],
+      "code": "HdrBb8"
+    },
+    {
+      "name": "Hydra Stomper",
+      "cost": "3",
+      "power": "2",
+      "ability": "Ongoing: +1 Power for each time one of your cards moved this game.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["ongoing", "move"],
+      "code": "HdrStmprC"
+    },
+    {
+      "name": "Infinity Ultron",
+      "cost": "5",
+      "power": "6",
+      "ability": "On Reveal: Add 2 of Ultron's Stones to your hand.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "InfntUltrnE"
+    },
+    {
+      "name": "Kahhori",
+      "cost": "4",
+      "power": "6",
+      "ability": "On Reveal: Each card in your hand gives one of your cards in play +1 Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Khhr7"
     },
     {
       "name": "Khonshu",
@@ -177,6 +395,17 @@
       "power": "8",
       "ability": "When discarded, returns in its final phase. On Reveal: Resurrect a card you discarded to another location with its Power set to 8.",
       "type": "summon"
+    },
+    {
+      "name": "Kid Omega",
+      "cost": "2",
+      "power": "2",
+      "ability": "Activate: Destroy the next card you play this turn to gain its Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate", "destroy"],
+      "code": "KdOmg8"
     },
     {
       "name": "King Eitri",
@@ -232,6 +461,51 @@
       "type": "character",
       "tags": ["on reveal"],
       "code": "Lk4"
+    },
+    {
+      "name": "Makkari",
+      "cost": "3",
+      "power": "4",
+      "ability": "End of Turn: Runs from your hand to a random location. <i>(if possible)</i>",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Mkkr7"
+    },
+    {
+      "name": "Marvel Boy",
+      "cost": "3",
+      "power": "1",
+      "ability": "End of Turn: Give 3 of your 1-Cost cards +1 Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "MrvlB9"
+    },
+    {
+      "name": "Mercury",
+      "cost": "2",
+      "power": "2",
+      "ability": "You can move this once. Ongoing: Enemy cards here can't move.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["move", "ongoing"],
+      "code": "Mrcr7"
+    },
+    {
+      "name": "Misty Knight",
+      "cost": "1",
+      "power": "2",
+      "text": "“We've got to save this city.”",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "evolved": "End of Turn: If you have unspent Energy, give one of your other cards +1 Power.",
+      "tags": ["no ability"],
+      "code": "MstKnghtB"
     },
     {
       "name": "M.O.D.O.K.",
@@ -300,6 +574,17 @@
       "code": "Nmrd6"
     },
     {
+      "name": "Prodigy",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: If this is in the back row, copy the text of the card in front of it.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Prdg7"
+    },
+    {
       "name": "Quinjet",
       "cost": "1",
       "power": "2",
@@ -311,7 +596,17 @@
       "code": "Qnjt7"
     },
     {
-    
+      "name": "Red Hulk",
+      "cost": "6",
+      "power": "10",
+      "ability": "End of Turn: If your opponent has unspent Energy, +3 Power. <i>(if in hand or in play)</i>",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "RdHlk7"
+    },
+    {
       "name": "Sam Wilson Captain America",
       "cost": "2",
       "power": "3",
@@ -378,7 +673,6 @@
       "code": "SpdrHm9"
     },
     {
-    
       "name": "Starbrand",
       "cost": "3",
       "power": "10",
@@ -390,7 +684,62 @@
       "code": "Strbrnd9"
     },
     {
+      "name": "Strange Supreme",
+      "cost": "2",
+      "power": "2",
+      "ability": "Gains +2 Power from merging. End of Turn: Merge one of your created cards into this.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["others"],
+      "code": "StrngSprmE"
+    },
+    {
+      "name": "Sunspot",
+      "cost": "1",
+      "power": "1",
+      "ability": "End of Turn: Gain +1 Power for each unspent Energy.",
+      "released": true,
+      "series": "2",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Snspt7"
+    },
+    {
+      "name": "Surge",
+      "cost": "2",
+      "power": "2",
+      "ability": "On Reveal: Give the top card of your deck -1 Cost and +1 Power. After you play it, repeat this ability.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Srg5"
+    },
+    {
     
+      "name": "Thaddeus Ross",
+      "cost": "2",
+      "power": "2",
+      "ability": "End of Turn: If your opponent has unspent Energy, draw a card with 10 or more Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "ThddsRssC"
+    },
+    {
+      "name": "Thena",
+      "cost": "2",
+      "power": "0",
+      "ability": "End of Turn: +3 Power if you played (exactly) 2 cards.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Thn5"
+    },
+    {
       "name": "The First Ghost Rider",
       "cost": "2",
       "power": "5",
@@ -400,6 +749,17 @@
       "type": "character",
       "tags": ["on reveal", "discard"],
       "code": "GhstThFrstRdr12"
+    },
+    {
+      "name": "Topaz",
+      "cost": "3",
+      "power": "4",
+      "ability": "After you play a card here, move it to the middle location.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Tpz5"
     },
     {
       "name": "Uncle Ben",
@@ -413,6 +773,30 @@
       "code": "UnclBn8"
     },
     {
+      "name": "Ultron Space Stone",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: Move the lowest-Power enemy card here to the location of Infinity Ultron.",
+      "noArt": true,
+      "type": "summon"
+    },
+    {
+      "name": "Ultron Reality Stone",
+      "cost": "3",
+      "power": "1",
+      "ability": "On Reveal: Add a Drone here. Set its Power to Infinity Ultron's.",
+      "noArt": true,
+      "type": "summon"
+    },
+    {
+      "name": "Ultron Soul Stone",
+      "cost": "3",
+      "power": "3",
+      "ability": "On Reveal: For each of your full locations, give one of your cards there +2 Power.",
+      "noArt": true,
+      "type": "summon"
+    },
+    {
       "name": "Werewolf By Night",
       "cost": "3",
       "power": "3",
@@ -424,6 +808,17 @@
       "code": "WrwlfBNghtF"
     },
     {
+      "name": "Xorn",
+      "cost": "2",
+      "power": "3",
+      "ability": "After ANY 3 or 4-Cost card is played here, move it to another location.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Xrn4"
+    },
+    {
       "name": "Yondu",
       "cost": "1",
       "power": "2",
@@ -431,7 +826,7 @@
       "released": true,
       "series": "1",
       "type": "character",
-      "tags": ["on reveal", "destroy"],
+      "tags": ["on reveal", "banish"],
       "code": "Ynd5"
     },
     {
@@ -454,6 +849,10 @@
     {
       "name": "Panoptichron",
       "ability": "Created cards here have +2 Power."
+    },
+    {
+      "name": "Pit of Exile",
+      "ability": "Cards with 10 or more Power can't be played here."
     },
     {
       "name": "The Sandbar",
