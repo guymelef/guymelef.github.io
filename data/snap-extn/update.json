@@ -732,7 +732,7 @@
       "name": "Thena",
       "cost": "2",
       "power": "0",
-      "ability": "End of Turn: +3 Power if you played (exactly) 2 cards.",
+      "ability": "End of Turn: +3 Power if you played <i>(exactly)</i> 2 cards.",
       "released": true,
       "series": "5",
       "type": "character",
