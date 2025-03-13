@@ -1,9 +1,162 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "events"
+  ],
   "cards": [],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "March 4",
+					"type": "Patch",
+					"items": [
+						{
+							"name": "Yondu",
+							"changes": [
+								"1/2 - On Reveal: Destroy the card that costs the least in your opponent’s deck.",
+								"1/2 - On Reveal: Banish the card that costs the least in your opponent’s deck."
+							]
+						},
+						{
+							"name": "Gorgon",
+							"changes": [
+								"2/3 - Ongoing: Your opponent’s cards that didn’t start in their deck cost 1 more. (maximum 6)",
+								"2/3 - Ongoing: Your opponent’s created cards cost 1 more. (maximum 6)"
+							]
+						},
+						{
+							"name": "King Eitri",
+							"changes": [
+								"1/2 - Activate: Draw a card from your deck that didn’t start there.",
+								"1/2 - Activate: Draw a created card from your deck."
+							]
+						},
+						{
+							"name": "Quinjet",
+							"changes": [
+								"1/2 - Ongoing: Cards that didn’t start in your deck cost 1 less. (minimum 1)",
+								"1/2 - Ongoing: Your created cards cost 1 less. (minimum 1)"
+							]
+						},
+						{
+							"name": "Mockingbird",
+							"changes": [
+								"6/9 - Costs 1 less for each of your cards in play that didn’t start in your deck.",
+								"6/9 - Costs 1 less for each of your created cards in play."
+							]
+						},
+						{
+							"name": "Hotel Inferno",
+							"changes": [
+								"After you play a card here this turn, destroy the top card of your opponent’s deck.",
+								"After you play a card here this turn, banish the top card of your opponent’s deck."
+							]
+						},
+						{
+							"name": "The Sandbar",
+							"changes": [
+								"Cards that didn’t start in your deck cost 1 more. (max 6)",
+								"Created cards cost 1 more. (max 6)"
+							]
+						},
+						{
+							"name": "Panoptichron",
+							"changes": [
+								"Cards that didn't start in your deck get +2 Power here.",
+								"Created cards here have +2 Power."
+							]
+						}
+					]
+				},
+				{
+					"date": "March 13",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Hela",
+							"changes": [
+								"6/9 - On Reveal: For each different Cost among them, resurrect a card you discarded to a random location.",
+								"6/9 -> 6/6"
+							]
+						},
+						{
+							"name": "Sword Master",
+							"changes": [
+								"3/7 - On Reveal: Discard an odd-costed card from your hand.",
+								"3/7 -> 3/6"
+							]
+						},
+						{
+							"name": "Hellcow",
+							"changes": [
+								"4/7 - Activate: Discard a card from your hand.",
+								"4/7 -> 4/6"
+							]
+						},
+						{
+							"name": "Black Cat",
+							"changes": [
+								"4/10 - End of Turn: Discard this from your hand.",
+								"4/10 -> 2/6"
+							]
+						},
+						{
+							"name": "DoomBot 2099",
+							"changes": [
+								"4/1 - Ongoing: Your other DoomBots and Doom have +1 Power.",
+								"4/1 -> 4/0"
+							]
+						},
+						{
+							"name": "Cap's Shield",
+							"changes": [
+								"1/1 - Ongoing: This can’t be destroyed. Give your Cap +2 Power when this moves to Cap’s location.",
+								"1/1 -> 0/1"
+							]
+						},
+						{
+							"name": "Loki",
+							"changes": [
+								"2/2 - On Reveal: Replace your deck with your opponent’s starting deck. Give those cards -1 Cost.",
+								"2/2 -> 1/2"
+							]
+						},
+						{
+							"name": "Thanos",
+							"changes": [
+								"6/10 - Game Start: Draw Thanos and shuffle the six Infinity Stones into your deck.",
+								"6/10 -> 6/12"
+							]
+						},
+						{
+							"name": "Space Stone",
+							"changes": [
+								"1/1 - On Reveal: Draw a card. Ongoing: Nothing can stop you from playing or moving Thanos.",
+								"1/1 -> 1/2"
+							]
+						},
+						{
+							"name": "Wolverine",
+							"changes": [
+								"2/2 - When this is discarded or destroyed, regenerate it with +2 Power at a random location.",
+								"2/2 -> 2/3"
+							]
+						},
+						{
+							"name": "Bruce Banner",
+							"changes": [
+								"2/1 - End of Turn: If you have unspent Energy, 25% chance to HULK OUT!",
+								"2/1 -> End of Turn: If you have unspent Energy, 33% chance to HULK OUT!"
+							]
+						}
+					]
+				}
+			]
+		}
+  ]
 }
