@@ -1,9 +1,133 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
-    "events"
+    "events",
+    "cards"
   ],
-  "cards": [],
+  "cards": [
+    {
+      "name": "Black Cat",
+      "cost": "2",
+      "power": "6",
+      "ability": "End of Turn: Discard this from your hand.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["end of turn", "discard"],
+      "code": "BlckCt8",
+      "id": 37
+    },
+    {
+      "name": "Bruce Banner",
+      "cost": "2",
+      "power": "1",
+      "ability": "End of Turn: If you have unspent Energy, 33% chance to <mark>HULK OUT</mark>!",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["end of turn"],
+      "code": "BrcBnnrB",
+      "id": 49,
+      "refs": [27]
+    },
+    {
+      "name": "Cap's Shield",
+      "cost": "0",
+      "power": "1",
+      "ability": "Ongoing: This can't be destroyed. Give your Cap +2 Power when this moves to Cap's location.",
+      "type": "token",
+      "id": 55
+    },
+    {
+      "name": "DoomBot 2099",
+      "cost": "4",
+      "power": "0",
+      "ability": "Ongoing: Your other DoomBots and Doom have +1 Power.",
+      "type": "token",
+      "id": 94
+    },
+    {
+      "name": "Hela",
+      "cost": "6",
+      "power": "6",
+      "ability": "On Reveal: For each different Cost among them, resurrect a card you discarded to a random location.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal", "discard"],
+      "code": "Hl4",
+      "id": 143
+    },
+    {
+      "name": "Hellcow",
+      "cost": "4",
+      "power": "6",
+      "ability": "Activate: Discard a card from your hand.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["activate", "discard"],
+      "code": "Hllcw7",
+      "id": 145
+    },
+    {
+      "name": "Loki",
+      "cost": "1",
+      "power": "2",
+      "ability": "On Reveal: Replace your deck with your opponent's starting deck. Give those cards -1 Cost and draw a card.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Lk4",
+      "id": 201
+    },
+    {
+      "name": "Sword Master",
+      "cost": "3",
+      "power": "6",
+      "ability": "On Reveal: Discard an odd-costed card from your hand.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": ["on reveal", "discard"],
+      "code": "SwrdMstrB",
+      "id": 363
+    },
+    {
+      "name": "Space Stone",
+      "cost": "1",
+      "power": "2",
+      "ability": "On Reveal: Draw a card. Ongoing: Nothing can stop you from playing or moving Thanos.",
+      "type": "token",
+      "id": 339
+    },
+    {
+      "name": "Thanos",
+      "cost": "6",
+      "power": "12",
+      "ability": "Game Start: Draw Thanos and shuffle the six <mark>Infinity Stones</mark> into your deck.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["game start"],
+      "code": "Thns6",
+      "id": 369,
+      "refs": [223, 278, 291, 337, 339, 381]
+    },
+    {
+      "name": "Wolverine",
+      "cost": "2",
+      "power": "3",
+      "ability": "When this is discarded or destroyed, regenerate it at a random location with +2 Power.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": ["discard", "destroy"],
+      "code": "Wlvrn9",
+      "id": 423
+    }
+  ],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
@@ -152,6 +276,13 @@
 							"changes": [
 								"2/1 - End of Turn: If you have unspent Energy, 25% chance to HULK OUT!",
 								"2/1 -> End of Turn: If you have unspent Energy, 33% chance to HULK OUT!"
+							]
+						},
+						{
+							"name": "Deep Space",
+							"changes": [
+								"On Reveal abilities won't happen at this location.",
+								"<i>Temporarily removed due to Iron Patriot bug</i>"
 							]
 						}
 					]
