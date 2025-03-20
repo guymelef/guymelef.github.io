@@ -1,9 +1,59 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "events"
+  ],
   "cards": [],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    { 
+			"title": "Daily Login",
+			"items": [
+				{
+					"date": "Mar 19 - Mar 27",
+					"items": [
+						"250 Credits",
+						"65 Random Boosters",
+						"Title: Formerly Deceased",
+						"500 Credits",
+						"Green Cosmic Border",
+						"155 Random Boosters",  
+						"Premium Mystery Variant"
+					]
+				}
+			]
+		},
+    {
+			"title": "Features/Modes/Events",
+			"items": [
+        {
+					"title": "Collector's Vault",
+					"date": "Mar 19 - Mar 21",
+					"items": ["Exclusive variants available again for a limited time!"]
+				},
+        {
+          "title": "High Voltage",
+					"date": "Mar 21 - Mar 28",
+					"items": [
+            "The ultra fast game mode with three turns and tons of energy returns. Play and unlock The First Ghost Rider, for FREE!"
+          ]
+        },
+				{
+					"title": "Planned Updates (STC)",
+					"date": "Mar - Apr",
+					"items": [
+						"<span class='event-list date'>Mar 4</span> - Patch",
+						"<span class='event-list date'>Mar 13</span> - OTA",
+						"<span class='event-list date'>Mar 27</span> - OTA",
+						"<span class='event-list date'>Apr 1</span> - Patch",
+						"<span class='event-list date'>Apr 10</span> - OTA",
+						"<span class='event-list date'>Apr 24</span> - OTA",
+						"<span class='event-list date'>Apr 29</span> - Patch"
+					]
+				}
+			]
+		}
+  ]
 }
