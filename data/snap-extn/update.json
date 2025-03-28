@@ -1,9 +1,71 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"cards",
     "events"
   ],
-  "cards": [],
+  "cards": [
+		{
+			"name": "Galacta",
+			"cost": "4",
+			"power": "5",
+			"ability": "Each turn, the first card you play at another location reveals with +3 Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Glct7",
+			"id": 119
+		},
+		{
+			"name": "Ghost Rider",
+			"cost": "4",
+			"power": "5",
+			"ability": "On Reveal: Bring back one of your discarded cards to this location.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["on reveal", "discard"],
+			"code": "GhstRdrA",
+			"id": 124
+		},
+		{
+			"name": "Iron Patriot",
+			"cost": "2",
+			"power": "3",
+			"ability": "On Reveal: Add a random 4, 5, or 6-Cost card to your hand. If you’re winning here after next turn, give it -3 Cost.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "IrnPtrtB",
+			"id": 166
+		},
+		{
+			"name": "Pixie",
+			"cost": "2",
+			"power": "2",
+			"ability": "On Reveal: Shuffle the base Costs of all cards in your deck that started there.",
+			"released": true,
+			"series": "4",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Px5",
+			"id": 276
+		},
+		{
+			"name": "Sauron",
+			"cost": "2",
+			"power": "2",
+			"ability": "On Reveal: Remove the abilities from all Ongoing cards in your hand and deck.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Srn6",
+			"id": 309
+		}
+	],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
@@ -56,6 +118,204 @@
 						"<span class='event-list date'>Apr 10</span> - OTA",
 						"<span class='event-list date'>Apr 24</span> - OTA",
 						"<span class='event-list date'>Apr 29</span> - Patch"
+					]
+				}
+			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "March 4",
+					"type": "Patch",
+					"items": [
+						{
+							"name": "Yondu",
+							"changes": [
+								"1/2 - On Reveal: Destroy the card that costs the least in your opponent’s deck.",
+								"1/2 - On Reveal: Banish the card that costs the least in your opponent’s deck."
+							]
+						},
+						{
+							"name": "Gorgon",
+							"changes": [
+								"2/3 - Ongoing: Your opponent’s cards that didn’t start in their deck cost 1 more. (maximum 6)",
+								"2/3 - Ongoing: Your opponent’s created cards cost 1 more. (maximum 6)"
+							]
+						},
+						{
+							"name": "King Eitri",
+							"changes": [
+								"1/2 - Activate: Draw a card from your deck that didn’t start there.",
+								"1/2 - Activate: Draw a created card from your deck."
+							]
+						},
+						{
+							"name": "Quinjet",
+							"changes": [
+								"1/2 - Ongoing: Cards that didn’t start in your deck cost 1 less. (minimum 1)",
+								"1/2 - Ongoing: Your created cards cost 1 less. (minimum 1)"
+							]
+						},
+						{
+							"name": "Mockingbird",
+							"changes": [
+								"6/9 - Costs 1 less for each of your cards in play that didn’t start in your deck.",
+								"6/9 - Costs 1 less for each of your created cards in play."
+							]
+						},
+						{
+							"name": "Hotel Inferno",
+							"changes": [
+								"After you play a card here this turn, destroy the top card of your opponent’s deck.",
+								"After you play a card here this turn, banish the top card of your opponent’s deck."
+							]
+						},
+						{
+							"name": "The Sandbar",
+							"changes": [
+								"Cards that didn’t start in your deck cost 1 more. (max 6)",
+								"Created cards cost 1 more. (max 6)"
+							]
+						},
+						{
+							"name": "Panoptichron",
+							"changes": [
+								"Cards that didn't start in your deck get +2 Power here.",
+								"Created cards here have +2 Power."
+							]
+						}
+					]
+				},
+				{
+					"date": "March 13",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Hela",
+							"changes": [
+								"6/9 - On Reveal: For each different Cost among them, resurrect a card you discarded to a random location.",
+								"6/9 -> 6/6"
+							]
+						},
+						{
+							"name": "Sword Master",
+							"changes": [
+								"3/7 - On Reveal: Discard an odd-costed card from your hand.",
+								"3/7 -> 3/6"
+							]
+						},
+						{
+							"name": "Hellcow",
+							"changes": [
+								"4/7 - Activate: Discard a card from your hand.",
+								"4/7 -> 4/6"
+							]
+						},
+						{
+							"name": "Black Cat",
+							"changes": [
+								"4/10 - End of Turn: Discard this from your hand.",
+								"4/10 -> 2/6"
+							]
+						},
+						{
+							"name": "DoomBot 2099",
+							"changes": [
+								"4/1 - Ongoing: Your other DoomBots and Doom have +1 Power.",
+								"4/1 -> 4/0"
+							]
+						},
+						{
+							"name": "Cap's Shield",
+							"changes": [
+								"1/1 - Ongoing: This can’t be destroyed. Give your Cap +2 Power when this moves to Cap’s location.",
+								"1/1 -> 0/1"
+							]
+						},
+						{
+							"name": "Loki",
+							"changes": [
+								"2/2 - On Reveal: Replace your deck with your opponent’s starting deck. Give those cards -1 Cost.",
+								"2/2 -> 1/2"
+							]
+						},
+						{
+							"name": "Thanos",
+							"changes": [
+								"6/10 - Game Start: Draw Thanos and shuffle the six Infinity Stones into your deck.",
+								"6/10 -> 6/12"
+							]
+						},
+						{
+							"name": "Space Stone",
+							"changes": [
+								"1/1 - On Reveal: Draw a card. Ongoing: Nothing can stop you from playing or moving Thanos.",
+								"1/1 -> 1/2"
+							]
+						},
+						{
+							"name": "Wolverine",
+							"changes": [
+								"2/2 - When this is discarded or destroyed, regenerate it with +2 Power at a random location.",
+								"2/2 -> 2/3"
+							]
+						},
+						{
+							"name": "Bruce Banner",
+							"changes": [
+								"2/1 - End of Turn: If you have unspent Energy, 25% chance to HULK OUT!",
+								"2/1 -> End of Turn: If you have unspent Energy, 33% chance to HULK OUT!"
+							]
+						},
+						{
+							"name": "Deep Space",
+							"changes": [
+								"On Reveal abilities won't happen at this location.",
+								"<i>Temporarily removed due to Iron Patriot bug</i>"
+							]
+						}
+					]
+				},
+				{
+					"date": "March 27",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Iron Patriot",
+							"changes": [
+								"2/3 - On Reveal: Add a random 4, 5, or 6-Cost card to your hand. If you’re winning here after next turn, give it -4 Cost.",
+								"2/3 - On Reveal: Add a random 4, 5, or 6-Cost card to your hand. If you’re winning here after next turn, give it -3 Cost."
+							]
+						},
+						{
+							"name": "Galacta",
+							"changes": [
+								"4/6 - Each turn, the first card you play at another location reveals with +3 Power.",
+								"4/6 -> 4/5"
+							]
+						},
+						{
+							"name": "Pixie",
+							"changes": [
+								"2/1 - On Reveal: Shuffle the base Costs of all cards in your deck that started there.",
+								"2/1 -> 2/2"
+							]
+						},
+						{
+							"name": "Sauron",
+							"changes": [
+								"3/4 - On Reveal: Remove the abilities from all Ongoing cards in your hand and deck.",
+								"3/4 -> 2/2"
+							]
+						},
+						{
+							"name": "Ghost Rider",
+							"changes": [
+								"4/4 - On Reveal: Bring back one of your discarded cards to this location.",
+								"4/4 -> 4/5"
+							]
+						}
 					]
 				}
 			]
