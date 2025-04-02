@@ -325,6 +325,7 @@
 			"power": "0",
 			"ability": "On Reveal: Merge your highest-Power destroyed card with Dormammu to continue the ritual. <i>(Banish this.)</i>",
 			"type": "skill",
+			"noArt": true,
 			"id": 435
 		},
 		{
@@ -332,10 +333,8 @@
 			"cost": "0",
 			"power": "0",
 			"ability": "On Reveal: Dormammu steals 1 Power from EACH other card here to continue the ritual. <i>(Banish this.)</i>",
-			"released": false,
-			"series": "NA",
 			"type": "skill",
-			"tags": ["game start"],
+			"noArt": true,
 			"id": 436
 		},
 		{
@@ -344,6 +343,7 @@
 			"power": "0",
 			"ability": "On Reveal:</b> Destroy 2 of your other cards here to summon Dormammu. <i>(Banish this.)</i>",
 			"type": "skill",
+			"noArt": true,
 			"id": 437
 		},
 		{
