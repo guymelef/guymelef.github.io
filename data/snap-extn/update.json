@@ -236,13 +236,13 @@
 				"letterSpacing": ".5px",
 				"padding": "2px 0",
 				"color": "#CAC5C6",
-				"backgroundImage": "transparent",
+				"backgroundImage": "none",
 				"border": "3px inset #F4F5F0",
 				"textShadow": "2px -2px 2px rgba(187,32,40,0.8)"
 			},
 			"hoverStyle": {
 				"color": "#CAC5C6",
-				"backgroundImage": "transparent",
+				"backgroundImage": "none",
 				"textShadow": "-2px -2px 2px rgba(6,21,58,0.8)"
 			}
 		}
