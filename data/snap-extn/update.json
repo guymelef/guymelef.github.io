@@ -1,92 +1,9 @@
 {
-  "isUpdateAvailable": true,
-  "partsToUpdate": [
-		"cards",
-    "events"
-  ],
-  "cards": [
-		{
-			"name": "Summoning Ritual #1",
-			"cost": "0",
-			"power": "0",
-			"ability": "On Reveal: Merge your highest-Power destroyed card with Dormammu to continue the ritual. <i>(Banish this.)</i>",
-			"type": "skill",
-			"noArt": true,
-			"id": 435
-		},
-		{
-			"name": "Summoning Ritual #2",
-			"cost": "0",
-			"power": "0",
-			"ability": "On Reveal: Dormammu steals 1 Power from EACH other card here to continue the ritual. <i>(Banish this.)</i>",
-			"type": "skill",
-			"noArt": true,
-			"id": 436
-		},
-		{
-			"name": "Summoning Ritual #3",
-			"cost": "0",
-			"power": "0",
-			"ability": "On Reveal:</b> Destroy 2 of your other cards here to summon Dormammu. <i>(Banish this.)</i>",
-			"type": "skill",
-			"noArt": true,
-			"id": 437
-		},
-		{
-			"name": "Ultron Mind Stone",
-			"cost": "3",
-			"power": "2",
-			"ability": "Ongoing: Your On Reveal abilities here happen twice.",
-			"type": "token",
-			"id": 395
-		},
-		{
-			"name": "Ultron Time Stone",
-			"cost": "3",
-			"power": "1",
-			"ability": "On Reveal: Put a card from your hand here.",
-			"type": "token",
-			"id": 394
-		},
-		{
-			"name": "Ultron Power Stone",
-			"cost": "3",
-			"power": "2 ",
-			"ability": "On Reveal: Double Infinity Ultron’s Power.",
-			"type": "token",
-			"id": 396
-		}
-	],
+  "isUpdateAvailable": false,
+  "partsToUpdate": [],
+  "cards": [],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": [
-		{
-			"title": "Features/Modes/Events",
-			"items": [
-				{
-					"title": "Collector's Vault",
-					"date": "Apr 24 - Apr 26",
-					"items": ["Exclusive variants available again for a limited time!"]
-				},
-				{
-					"title": "High Voltage",
-					"date": "Apr 17 - Apr 24",
-					"items": [
-             "The ultra fast game mode with three turns and tons of energy returns. Play and unlock Dum Dum Dugan, for FREE!"
-           ]
-				},
-				{
-					"title": "Planned Updates (STC)",
-					"date": "Mar - Apr",
-					"items": [
-						"<span class='event-list date'>Apr 1</span> - Patch",
-						"<span class='event-list date'>Apr 10</span> - OTA",
-						"<span class='event-list date'>Apr 24</span> - OTA",
-						"<span class='event-list date'>Apr 29</span> - Patch"
-					]
-				}
-			]
-		}
-  ]
+  "seasonEvents": []
 }
