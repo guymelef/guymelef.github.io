@@ -1,9 +1,73 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "events"
+  ],
   "cards": [],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "Balance Updates",
+			"items": [
+				{
+					"date": "April 10",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Rocket & Groot",
+							"changes": [
+								"3/3 - You can move this once. After your opponent plays a card here, steal 1 Power from it.",
+								"3/3 -> 3/2"
+							]
+						},
+						{
+							"name": "M.O.D.O.K.",
+							"changes": [
+								"5/8 - On Reveal: Discard your hand.",
+								"5/8 -> 5/7"
+							]
+						},
+						{
+							"name": "The First Ghost Rider",
+							"changes": [
+								"2/5 - On Reveal: Discard the lowest-Power card from your hand. Remove that card’s Power from this..",
+								"2/5 -> 2/6"
+							]
+						},
+						{
+							"name": "Devil Dinosaur",
+							"changes": [
+								"5/3 - Ongoing: +2 Power for each card in your hand.",
+								"5/3 -> 5/4"
+							]
+						},
+						{
+							"name": "Bishop",
+							"changes": [
+								"3/1 - After you play a card, this gains +1 Power.",
+								"3/1 -> 3/2"
+							]
+						},
+						{
+							"name": "Patriot",
+							"changes": [
+								"3/1 - Ongoing: Your cards with no abilities have +2 Power.",
+								"3/1 -> 3/2"
+							]
+						},
+						{
+							"name": "Redwing",
+							"changes": [
+								"3/4 - The first time this moves, add a card from your hand to the old location.",
+								"3/4 -> 3/5"
+							]
+						}
+					]
+				}
+				
+			]
+		}
+  ]
 }
