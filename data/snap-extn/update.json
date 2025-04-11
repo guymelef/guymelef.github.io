@@ -1,9 +1,95 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+    "cards",
     "events"
   ],
-  "cards": [],
+  "cards": [
+    {
+      "name": "Bishop",
+      "cost": "3",
+      "power": "2",
+      "ability": "After you play a card, this gains +1 Power.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Bshp6",
+      "id": 35
+    },
+    {
+      "name": "Devil Dinosaur",
+      "cost": "5",
+      "power": "4",
+      "ability": "Ongoing: +2 Power for each card in your hand.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "DvlDnsrD",
+      "id": 85
+    },
+    {
+      "name": "M.O.D.O.K.",
+      "cost": "5",
+      "power": "7",
+      "ability": "On Reveal: Discard your hand.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal", "discard"],
+      "code": "Mdk5",
+      "id": 207
+    },
+    {
+      "name": "Patriot",
+      "cost": "3",
+      "power": "2",
+      "ability": "Ongoing: Your cards with no abilities have +2 Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "Ptrt7",
+      "id": 272
+    },
+    {
+      "name": "Redwing",
+      "cost": "3",
+      "power": "5",
+      "ability": "The first time this moves, add a card from your hand to the old location.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Rdwng7",
+      "id": 292
+    },
+    {
+      "name": "Rocket Raccoon and Groot",
+      "cost": "3",
+      "power": "2",
+      "ability": "You can move this once. After your opponent plays a card here, steal 1 Power from it.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["move"],
+      "code": "RcktAndGrtE",
+      "id": 300
+    },
+    {
+      "name": "The First Ghost Rider",
+      "cost": "2",
+      "power": "6",
+      "ability": "On Reveal: Discard the lowest-Power card from your hand. Remove that card's Power from this.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "discard"],
+      "code": "GhstThFrstRdr12",
+      "id": 371
+    }
+  ],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
@@ -16,7 +102,7 @@
 					"type": "OTA",
 					"items": [
 						{
-							"name": "Rocket & Groot",
+							"name": "Rocket Raccoon and Groot",
 							"changes": [
 								"3/3 - You can move this once. After your opponent plays a card here, steal 1 Power from it.",
 								"3/3 -> 3/2"
