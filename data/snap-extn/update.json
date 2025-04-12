@@ -95,6 +95,43 @@
   "seasonStyles": [],
   "seasonEvents": [
     {
+			"title": "Features/Modes/Events",
+			"items": [
+				{
+					"title": "Collector's Vault",
+					"date": "Apr 24 - Apr 26",
+					"items": ["Exclusive variants available again for a limited time!"]
+				},
+				{
+					"title": "High Voltage",
+					"date": "Apr 17 - Apr 24",
+					"items": [
+             "The ultra fast game mode with three turns and tons of energy returns. Play and unlock Dum Dum Dugan, for FREE!"
+           ]
+				},
+				{
+					"title": "Snap Packs",
+					"date": "Apr 29",
+					"items": [
+						"Each guarantee 1 unowned card (no dupes!) and 2 bonus rewards",
+						"Spotlight Cards & Rotating Pinnable Cards",
+						"Free Daily Tokens",
+						"Token Packs — Purchase Tokens right from the Card Shop with Gold"
+					]
+				},
+				{
+					"title": "Planned Updates (STC)",
+					"date": "Mar - Apr",
+					"items": [
+						"<span class='event-list date'>Apr 1</span> - Patch",
+						"<span class='event-list date'>Apr 10</span> - OTA",
+						"<span class='event-list date'>Apr 24</span> - OTA",
+						"<span class='event-list date'>Apr 29</span> - Patch"
+					]
+				}
+			]
+		},
+    {
 			"title": "Balance Updates",
 			"items": [
 				{
