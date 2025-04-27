@@ -18,6 +18,18 @@
       "id": 35
     },
     {
+      "name": "Captain Carter",
+      "cost": "3",
+      "power": "2",
+      "ability": "Ongoing: Add this card's Power to your back-row cards here. <i>(can't add to itself)</i>",
+      "released": true,
+      "series": "Season Pass",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "CptnCrtrD",
+      "id": 57
+    },
+    {
       "name": "Devil Dinosaur",
       "cost": "5",
       "power": "4",
@@ -28,6 +40,31 @@
       "tags": ["ongoing"],
       "code": "DvlDnsrD",
       "id": 85
+    },
+    {
+      "name": "Dum Dum Dugan",
+      "cost": "2",
+      "power": "3",
+      "ability": "Ongoing: Your front-row cards here have +1 Power. <i>(can't add to itself)</i>",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "DmDmDgnB",
+      "id": 98
+    },
+    {
+      "name": "Infinity Ultron",
+      "cost": "5",
+      "power": "8",
+      "ability": "On Reveal: Add 2 of <mark>Ultron's Stones</mark> to your hand.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "InfntUltrnE",
+      "id": 161,
+      "refs": [392, 393, 394, 395, 396, 397]
     },
     {
       "name": "M.O.D.O.K.",
@@ -54,6 +91,18 @@
       "id": 272
     },
     {
+      "name": "Phastos",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: Give each card in your deck -1 Cost or +2 Power.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Phsts7",
+      "id": 274
+    },
+    {
       "name": "Redwing",
       "cost": "3",
       "power": "5",
@@ -64,6 +113,19 @@
       "tags": ["move"],
       "code": "Rdwng7",
       "id": 292
+    },
+    {
+      "name": "Rhino",
+      "cost": "3",
+      "power": "6",
+      "ability": "On Reveal: Add a <mark>Rock</mark> to your side of this location.",
+      "released": true,
+      "series": "2",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Rhn5",
+      "id": 297,
+      "refs": [298]
     },
     {
       "name": "Rocket Raccoon and Groot",
@@ -78,6 +140,39 @@
       "id": 300
     },
     {
+      "name": "Sam Wilson Captain America",
+      "cost": "2",
+      "power": "2",
+      "ability": "Game Start: Add <mark>Cap's Shield</mark> to a random location. Ongoing: You can move <mark>Cap's Shield</mark>.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["game start", "ongoing"],
+      "code": "SmWlsn9",
+      "id": 306,
+      "refs": [55]
+    },
+    {
+      "name": "Scream",
+      "cost": "2",
+      "power": "1",
+      "ability": "When an enemy card moves, steal 2 Power from it. <i>(once per turn)</i>",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Scrm6",
+      "id": 315
+    },
+    {
+      "name": "SP//dr",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: Merge with one of your cards here. You can move that card next turn.",
+      "type": "token",
+      "id": 338
+    },
+    {
       "name": "The First Ghost Rider",
       "cost": "2",
       "power": "6",
@@ -88,12 +183,66 @@
       "tags": ["on reveal", "discard"],
       "code": "GhstThFrstRdr12",
       "id": 371
+    },
+    {
+      "name": "Toxie Doxie",
+      "cost": "2",
+      "power": "1",
+      "ability": "On Reveal: Give 2 cards in your hand +2 Power. You can't play them next turn.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "TxDxA",
+      "id": 386
+    },
+    {
+      "name": "Toxin",
+      "cost": "2",
+      "power": "2",
+      "ability": "On Reveal: Return your other cards here to your hand. +2 Power for each returned.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Txn5",
+      "id": 387
     }
   ],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
+    {
+			"title": "New Characters",
+			"items": [
+				{"name": "Captain Carter", "series": "Season Pass"},
+				{"name": "Goliath", "series": "5"},
+				{"name": "Kahhori", "series": "5"},
+				{"name": "Infinity Ultron", "series": "5"},
+				{"name": "Strange Supreme", "series": "5"},
+				{"name": "Toxie Doxie", "series": "4"},
+				{"name": "Hydra Stomper", "series": "5"},
+				{"name": "Agamotto", "series": "5"}
+			]
+		},
+    { 
+			"title": "Daily Login",
+			"items": [
+				{
+					"date": "Apr 26 - May 4",
+					"items": [
+						"Title: My Synthezoid Body is Ready",
+						"150 Credits",
+						"155 Random Boosters",
+						"Premium Mystery Variant",
+						"250 Credits",
+						"Mystery Border",
+						"Magik: Derrick Chew Variant"
+					]
+				}
+			]
+		},
     {
 			"title": "Features/Modes/Events",
 			"items": [
@@ -106,7 +255,7 @@
 					"title": "High Voltage",
 					"date": "Apr 17 - Apr 24",
 					"items": [
-             "The ultra fast game mode with three turns and tons of energy returns. Play and unlock Dum Dum Dugan, for FREE!"
+             "The ultra fast game mode with three turns and tons of energy returns. Play and unlock Toxie Doxie, for FREE!"
            ]
 				},
 				{
@@ -126,7 +275,14 @@
 						"<span class='event-list date'>Apr 1</span> - Patch",
 						"<span class='event-list date'>Apr 10</span> - OTA",
 						"<span class='event-list date'>Apr 24</span> - OTA",
-						"<span class='event-list date'>Apr 29</span> - Patch"
+						"<span class='event-list date'>Apr 29</span> - Patch",
+						"<span class='event-list date'>May 29</span> - OTA",
+						"<span class='event-list date'>Jun 3</span> - Patch",
+						"<span class='event-list date'>Jun 12</span> - OTA",
+						"<span class='event-list date'>Jun 24</span> - Patch",
+						"<span class='event-list date'>Jun 26</span> - OTA",
+						"<span class='event-list date'>Jul 17</span> - OTA",
+						"<span class='event-list date'>Jul 22</span> - Patch"
 					]
 				}
 			]
@@ -185,6 +341,75 @@
 							"changes": [
 								"3/4 - The first time this moves, add a card from your hand to the old location.",
 								"3/4 -> 3/5"
+							]
+						}
+					]
+				},
+        {
+					"date": "April 24",
+					"type": "OTA",
+					"items": [
+						{
+							"name": "Sam Wilson Captain America",
+							"changes": [
+								"2/3 - Game Start: Add Cap’s Shield to a random location. Ongoing: You can move Cap’s Shield.",
+								"2/3 -> 2/2"
+							]
+						},
+						{
+							"name": "Scream",
+							"changes": [
+								"2/2 - When an enemy card moves, steal 2 Power from it. (once per turn).",
+								"2/2 -> 2/1"
+							]
+						},
+						{
+							"name": "Captain Carter",
+							"changes": [
+								"4/3 - Ongoing: Add this card’s Power to your back-row cards here. (can’t add to itself)",
+								"4/3 -> 3/2"
+							]
+						},
+						{
+							"name": "Infinity Ultron",
+							"changes": [
+								"5/6 - On Reveal: Add 2 of Ultron’s Stones to your hand.",
+								"5/6 -> 5/8"
+							]
+						},
+						{
+							"name": "Toxin",
+							"changes": [
+								"2/1 - On Reveal: Return your other cards here to your hand. +2 Power for each returned.",
+								"2/1 -> 2/2"
+							]
+						},
+						{
+							"name": "SP//dr",
+							"changes": [
+								"3/3 - On Reveal: Merge with one of your cards here. You can move that card next turn.",
+								"3/3 -> 3/4"
+							]
+						},
+						{
+							"name": "Phastos",
+							"changes": [
+								"3/3 - On Reveal: Give each card in your deck -1 Cost or +2 Power.",
+								"3/3 -> 3/4"
+							]
+						},
+						{
+							"name": "Rhino",
+							"changes": [
+								"3/3 - On Reveal: Ruin this location.",
+								"3/6 - On Reveal: Add a Rock to your side of this location."
+							]
+						},
+						{
+							"name": "Toxie Doxie",
+							"changes": [
+								"---",
+								"<i>Will no longer be able to hit skills in your hand.</i>"
 							]
 						}
 					]
