@@ -165,6 +165,18 @@
       "id": 315
     },
     {
+      "name": "Sebastian Shaw",
+      "cost": "3",
+      "power": "4",
+      "ability": "When this permanently gains Power, gain +2 more Power. <i>(wherever this is)</i>",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["others"],
+      "code": "SbstnShwD",
+      "id": 316
+    },
+    {
       "name": "SP//dr",
       "cost": "3",
       "power": "4",
