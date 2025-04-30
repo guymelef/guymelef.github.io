@@ -6,6 +6,18 @@
   ],
   "cards": [
     {
+      "name": "Batroc the Leaper",
+      "cost": "1",
+      "power": "2",
+      "ability": "When a card moves, follow it to gain +2 Power. <i>(once per turn)</i>",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Btrc6",
+      "id": 30
+    },
+    {
       "name": "Bishop",
       "cost": "3",
       "power": "2",
@@ -52,6 +64,18 @@
       "tags": ["ongoing"],
       "code": "DmDmDgnB",
       "id": 98
+    },
+    {
+      "name": "Fan Fei",
+      "cost": "4",
+      "power": "7",
+      "ability": "Activate: Move your other cards here to the right.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["activate", "move"],
+      "code": "FnF6",
+      "id": 111
     },
     {
       "name": "Infinity Ultron",
@@ -195,6 +219,18 @@
       "tags": ["on reveal", "discard"],
       "code": "GhstThFrstRdr12",
       "id": 371
+    },
+    {
+      "name": "Topaz",
+      "cost": "3",
+      "power": "4",
+      "ability": "After you play a card here, move it to the middle location.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Tpz5",
+      "id": 385
     },
     {
       "name": "Toxie Doxie",
