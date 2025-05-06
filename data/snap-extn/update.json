@@ -2,9 +2,18 @@
   "isUpdateAvailable": true,
   "partsToUpdate": [
     "cards",
-    "events"
+    "locations",
+    "season"
   ],
   "cards": [
+    {
+      "name": "Astral Projection",
+      "cost": "3",
+      "power": "0",
+      "ability": "On Reveal: Copy the text of an On Reveal card in your hand.",
+      "type": "skill",
+      "id": 432
+    },
     {
       "name": "Batroc the Leaper",
       "cost": "1",
@@ -35,11 +44,24 @@
       "power": "2",
       "ability": "Ongoing: Add this card's Power to your back-row cards here. <i>(can't add to itself)</i>",
       "released": true,
-      "series": "Season Pass",
+      "series": "5",
       "type": "character",
       "tags": ["ongoing"],
       "code": "CptnCrtrD",
       "id": 57
+    },
+    {
+      "name": "Clea",
+      "cost": "1",
+      "power": "1",
+      "ability": "When this permanently gains Power, add a <mark>Flames Of The Faltine</mark> to your hand. <i>(if in hand or in play)</i>",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Cl4",
+      "id": 433,
+      "refs": [115]
     },
     {
       "name": "Devil Dinosaur",
@@ -54,6 +76,19 @@
       "id": 85
     },
     {
+      "name": "Dormammu",
+      "cost": "7",
+      "power": "10",
+      "ability": "Game Start: Begin a <mark>Summoning Ritual</mark>. <i>(Add step 1 to hand.)</i>",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["game start"],
+      "code": "Drmmm8",
+      "id": 434,
+      "refs": [435, 436, 437]
+    },
+    {
       "name": "Dum Dum Dugan",
       "cost": "2",
       "power": "3",
@@ -66,6 +101,30 @@
       "id": 98
     },
     {
+      "name": "Elixir",
+      "cost": "2",
+      "power": "3",
+      "ability": "On Reveal: One of your cards destroyed last turn gets revived here.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal", "destroy"],
+      "code": "Elxr6",
+      "id": 104
+    },
+    {
+      "name": "Esme Cuckoo",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: Copy a card from your deck into your hand. Set its Cost to 3 and Power to 4.",
+      "released": true,
+      "series": "Season Pass",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "EsmCckA",
+      "id": 108
+    },
+    {
       "name": "Fan Fei",
       "cost": "4",
       "power": "7",
@@ -76,6 +135,14 @@
       "tags": ["activate", "move"],
       "code": "FnF6",
       "id": 111
+    },
+    {
+      "name": "Flames of the Faltine",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Afflict an enemy card here with -2 Power. <i>(Banish this.)</i>",
+      "type": "skill",
+      "id": 115
     },
     {
       "name": "Infinity Ultron",
@@ -91,6 +158,31 @@
       "refs": [392, 393, 394, 395, 396, 397]
     },
     {
+      "name": "Jennifer Kale",
+      "cost": "2",
+      "power": "2",
+      "ability": "Activate: Next turn, you get +1 Energy.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "JnnfrKlC",
+      "id": 438
+    },
+    {
+      "name": "Merlin",
+      "cost": "2",
+      "power": "3",
+      "ability": "At the start of each turn, add an<mark>Incantation</mark> to your hand.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Mrln6",
+      "id": 439,
+      "refs": [443, 444, 445]
+    },
+    {
       "name": "M.O.D.O.K.",
       "cost": "5",
       "power": "7",
@@ -101,6 +193,58 @@
       "tags": ["on reveal", "discard"],
       "code": "Mdk5",
       "id": 207
+    },
+    {
+      "name": "Morgan le Fay",
+      "cost": "4",
+      "power": "5",
+      "ability": "On Reveal: Return all your discarded and destroyed cards to hand with +3 Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal", "discard", "destroy"],
+      "code": "MrgnLFB",
+      "id": 440
+    },
+    {
+      "name": "Nicholas Scratch",
+      "cost": "1",
+      "power": "2",
+      "ability": "After you play a Skill, +1 Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["others"],
+      "code": "NchlsScrtchF",
+      "id": 441
+    },
+    {
+      "name": "Nightmare",
+      "cost": "2",
+      "power": "2",
+      "ability": "On Reveal: Replace the text of each card in your hand with text from a random card of the same Cost.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Nghtmr9",
+      "id": 442
+    },
+    {
+      "name": "Omniversal Presence",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Replace this location with a new one and give Merlin +2 Power.",
+      "type": "skill",
+      "id": 443
+    },
+    {
+      "name": "Once and Future",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Shuffle your lowest-Power card here into your deck to get +2 Energy next turn.",
+      "type": "skill",
+      "id": 444
     },
     {
       "name": "Patriot",
@@ -125,6 +269,26 @@
       "tags": ["on reveal"],
       "code": "Phsts7",
       "id": 274
+    },
+    {
+      "name": "Polymorph",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Transform your lowest-Power card here into one that costs 2 more.",
+      "type": "skill",
+      "id": 445
+    },
+    {
+      "name": "Prodigy",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: If this is in the back row, copy the text of the card in front of it.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Prdg7",
+      "id": 279
     },
     {
       "name": "Redwing",
@@ -209,6 +373,63 @@
       "id": 338
     },
     {
+      "name": "Summoning Ritual #1",
+      "cost": "0",
+      "power": "0",
+      "ability": "On Reveal: Merge your highest-Power destroyed card with Dormammu to continue. <i>(step 1/3)</i>",
+      "type": "skill",
+      "id": 435
+    },
+    {
+      "name": "Summoning Ritual #2",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Dormammu steals 1 Power from EACH card here to continue. <i>(step 2/3)</i>",
+      "type": "skill",
+      "id": 436
+    },
+    {
+      "name": "Summoning Ritual #3",
+      "cost": "3",
+      "power": "0",
+      "ability": "On Reveal: Destroy 2 of your characters here to summon Dormammu. <i>(step 3/3)</i>",
+      "type": "skill",
+      "id": 437
+    },
+    {
+      "name": "Surge",
+      "cost": "2",
+      "power": "2",
+      "ability": "On Reveal: Give the top card of your deck -1 Cost and +1 Power. After you play it, repeat this ability.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Srg5",
+      "id": 360
+    },
+    {
+      "name": "Tao Mandala",
+      "cost": "3",
+      "power": "0",
+      "ability": "On Reveal: Copy the text of one of your Ongoing cards here onto your other characters here.",
+      "type": "skill",
+      "id": 446
+    },
+    {
+      "name": "The Ancient One",
+      "cost": "3",
+      "power": "5",
+      "ability": "On Reveal: Add <mark>Tao Mandala</mark> to your hand.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "ThAncntOnD",
+      "id": 447,
+      "refs": [446]
+    },
+    {
       "name": "The First Ghost Rider",
       "cost": "2",
       "power": "6",
@@ -255,75 +476,214 @@
       "tags": ["on reveal"],
       "code": "Txn5",
       "id": 387
+    },
+    {
+      "name": "Xorn",
+      "cost": "2",
+      "power": "3",
+      "ability": "After ANY 3 or 4-Cost card is played here, move it to another location.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Xrn4",
+      "id": 426
     }
   ],
-  "locations": [],
-  "seasonInfo": [],
-  "seasonStyles": [],
+  "locations": [
+    {
+      "name": "Reed's Lab",
+      "ability": "+1 Energy each turn if your side here is full.",
+      "id": 163
+    },
+    {
+      "name": "Rocket Pad",
+      "ability": "After turn 4, give cards on the winning side here +1 Power.",
+      "id": 164
+    }
+  ],
+  "seasonInfo": [
+    {
+      "seasonTitle": "New X-Men",
+      "seasonUrl": "https://www.marvelsnap.com/newsdetail?id=7477464763836930871",
+      "featuredCard": "Esme Cuckoo",
+      "nextFeaturedCard": "Merlin",
+      "featuredLocations": ["Pit of Exile", "Genosha"],
+      "nextfeaturedLocations": ["Camelot", "Astral Plane"],
+      "seasonEndDate": [3, 5, 2025],
+      "nextSeasonEndDate": [1, 7, 2025]
+    }
+  ],
+  "seasonStyles": [
+    {
+      "dateColor": "#fcef01",
+      "headerStyle": {
+        "fontSize": "28px",
+        "letterSpacing": "1px",
+        "padding": "2px 0",
+        "color": "#fcef01",
+        "backgroundImage": "none",
+        "border": "3px solid #fcef01",
+        "textShadow": "-2px 2px 1px #1593e9"
+      },
+      "hoverStyle": {
+        "color": "#fcef01",
+        "backgroundColor": "#1593e9",
+        "border": "3px solid #1593e9",
+        "textShadow": "-2px 2px 1px gray"
+      }
+    }
+  ],
   "seasonEvents": [
     {
 			"title": "New Characters",
 			"items": [
-				{"name": "Captain Carter", "series": "Season Pass"},
-				{"name": "Goliath", "series": "5"},
-				{"name": "Kahhori", "series": "5"},
-				{"name": "Infinity Ultron", "series": "5"},
-				{"name": "Strange Supreme", "series": "5"},
-				{"name": "Toxie Doxie", "series": "4"},
-				{"name": "Hydra Stomper", "series": "5"},
-				{"name": "Agamotto", "series": "5"}
+				{"name": "Esme Cuckoo", "series": "Season Pass"},
+				{"name": "Surge", "series": "5"},
+				{"name": "Prodigy", "series": "5"},
+				{"name": "Elixir", "series": "5"},
+				{"name": "Xorn", "series": "5"},
+				{"name": "Captain Carter", "series": "5"}
 			]
 		},
-    { 
-			"title": "Daily Login",
+    {
+      "title": "New Locations",
+      "items": ["Pit of Exile", "Genosha"]
+    },
+    {
+			"title": "Spotlight Caches",
 			"items": [
 				{
-					"date": "Apr 26 - May 4",
+					"date": "May 6",
 					"items": [
-						"Title: My Synthezoid Body is Ready",
-						"150 Credits",
-						"155 Random Boosters",
-						"Premium Mystery Variant",
-						"250 Credits",
-						"Mystery Border",
-						"Magik: Derrick Chew Variant"
+						{"name": "Surge", "series": "5"}
+					]
+				},
+				{
+					"date": "May 13",
+					"items": [
+						{"name": "Prodigy", "series": "5"}
+					]
+				},
+				{
+					"date": "May 20",
+					"items": [
+						{"name": "Elixir", "series": "5"}
+					]
+				},
+				{
+					"date": "May 27",
+					"items": [
+						{"name": "Xorn", "series": "5"}
 					]
 				}
 			]
 		},
-    {
+		{
+			"title": "New Albums",
+			"items": [
+				{
+					"date": "May 8",
+					"name": "Take a Penny, Leave a Penny",
+					"items": [
+						"2:1,000 Credits",
+						"4:Devil Dinosaur - “Cool” Emote",
+						"6:Devil Dinosaur - Penny Arcade Variant",
+						"7:8x Penny Arcade Border"
+					]
+				},
+				{
+					"date": "May 15",
+					"name": "Chibi Supremacy",
+					"items": [
+						"3:Redwing - “Shocked” Emote",
+						"6:3x Cosmic Rainbow Border",
+						"9:Cassandra Nova - Rian Gonzales Variant",
+						"12:6,000 Collector's Tokens"
+					]
+				},
+				{
+					"date": "May 30",
+					"name": "Disco's Not Dead",
+					"items": [
+						"3:2x Cosmic Red Border",
+						"6:Dazzler - “Vibin” Emote",
+						"9:Deadpool - Disco Variant",
+						"12:Spider-Man - Disco Variant"
+					]
+				}
+			]
+		},
+		{
+			"title": "Shop Takeover",
+			"items": [
+				{
+					"date": "May 8 - May 9",
+					"name": "Penny Arcade",
+					"cards": [
+						"Deadpool",
+						"Doctor Strange",
+						"Ghost-Spider",
+						"Jeff the Baby Land Shark",
+						"Galactus",
+						"Kate Bishop"
+					]
+				},
+        {
+					"date": "May 15 - May 16",
+					"name": "Chibi Rian Gonzales",
+					"cards": [
+						"Bullseye",
+						"Victoria Hand",
+						"Cull Obsidian",
+						"Fenris Wolf",
+						"Hydra Bob",
+						"Iron Patriot"
+					]
+				},
+				{
+					"date": "May 30 - May 31",
+					"name": "Disco",
+					"cards": [
+						"Captain America",
+						"Forge",
+						"Hulk",
+						"Human Torch",
+						"Magik",
+						"Shang-Chi"
+					]
+				}
+			]
+		},
+		{
+			"title": "Twitch Drops",
+			"items": [
+				{
+					"date": "May 6 -  May 13",
+					"items": [
+						"2:65 Random Boosters",
+						"4:Penny Arcade Border",
+						"6:Penny Arcade Card Back 2024"
+					]
+				}
+			]
+		},
+		{ 
+			"title": "Daily Login",
+			"items": []
+		},
+		{
 			"title": "Features/Modes/Events",
 			"items": [
 				{
 					"title": "Collector's Vault",
-					"date": "Apr 24 - Apr 26",
+					"date": "May 6 - May 8",
 					"items": ["Exclusive variants available again for a limited time!"]
 				},
 				{
-					"title": "High Voltage",
-					"date": "Apr 17 - Apr 24",
-					"items": [
-             "The ultra fast game mode with three turns and tons of energy returns. Play and unlock Toxie Doxie, for FREE!"
-           ]
-				},
-				{
-					"title": "Snap Packs",
-					"date": "Apr 29",
-					"items": [
-						"Each guarantee 1 unowned card (no dupes!) and 2 bonus rewards",
-						"Spotlight Cards & Rotating Pinnable Cards",
-						"Free Daily Tokens",
-						"Token Packs — Purchase Tokens right from the Card Shop with Gold"
-					]
-				},
-				{
 					"title": "Planned Updates (STC)",
-					"date": "Apr - Jul",
+					"date": "May - Jul",
 					"items": [
-						"<span class='event-list date'>Apr 1</span> - Patch",
-						"<span class='event-list date'>Apr 10</span> - OTA",
-						"<span class='event-list date'>Apr 24</span> - OTA",
-						"<span class='event-list date'>Apr 29</span> - Patch",
 						"<span class='event-list date'>May 29</span> - OTA",
 						"<span class='event-list date'>Jun 3</span> - Patch",
 						"<span class='event-list date'>Jun 12</span> - OTA",
@@ -335,134 +695,14 @@
 				}
 			]
 		},
-    {
+		{
+			"title": "Series Drop",
+			"date": "",
+			"items": []
+		},
+		{
 			"title": "Balance Updates",
-			"items": [
-				{
-					"date": "April 10",
-					"type": "OTA",
-					"items": [
-						{
-							"name": "Rocket Raccoon and Groot",
-							"changes": [
-								"3/3 - You can move this once. After your opponent plays a card here, steal 1 Power from it.",
-								"3/3 -> 3/2"
-							]
-						},
-						{
-							"name": "M.O.D.O.K.",
-							"changes": [
-								"5/8 - On Reveal: Discard your hand.",
-								"5/8 -> 5/7"
-							]
-						},
-						{
-							"name": "The First Ghost Rider",
-							"changes": [
-								"2/5 - On Reveal: Discard the lowest-Power card from your hand. Remove that card’s Power from this..",
-								"2/5 -> 2/6"
-							]
-						},
-						{
-							"name": "Devil Dinosaur",
-							"changes": [
-								"5/3 - Ongoing: +2 Power for each card in your hand.",
-								"5/3 -> 5/4"
-							]
-						},
-						{
-							"name": "Bishop",
-							"changes": [
-								"3/1 - After you play a card, this gains +1 Power.",
-								"3/1 -> 3/2"
-							]
-						},
-						{
-							"name": "Patriot",
-							"changes": [
-								"3/1 - Ongoing: Your cards with no abilities have +2 Power.",
-								"3/1 -> 3/2"
-							]
-						},
-						{
-							"name": "Redwing",
-							"changes": [
-								"3/4 - The first time this moves, add a card from your hand to the old location.",
-								"3/4 -> 3/5"
-							]
-						}
-					]
-				},
-        {
-					"date": "April 24",
-					"type": "OTA",
-					"items": [
-						{
-							"name": "Sam Wilson Captain America",
-							"changes": [
-								"2/3 - Game Start: Add Cap’s Shield to a random location. Ongoing: You can move Cap’s Shield.",
-								"2/3 -> 2/2"
-							]
-						},
-						{
-							"name": "Scream",
-							"changes": [
-								"2/2 - When an enemy card moves, steal 2 Power from it. (once per turn).",
-								"2/2 -> 2/1"
-							]
-						},
-						{
-							"name": "Captain Carter",
-							"changes": [
-								"4/3 - Ongoing: Add this card’s Power to your back-row cards here. (can’t add to itself)",
-								"4/3 -> 3/2"
-							]
-						},
-						{
-							"name": "Infinity Ultron",
-							"changes": [
-								"5/6 - On Reveal: Add 2 of Ultron’s Stones to your hand.",
-								"5/6 -> 5/8"
-							]
-						},
-						{
-							"name": "Toxin",
-							"changes": [
-								"2/1 - On Reveal: Return your other cards here to your hand. +2 Power for each returned.",
-								"2/1 -> 2/2"
-							]
-						},
-						{
-							"name": "SP//dr",
-							"changes": [
-								"3/3 - On Reveal: Merge with one of your cards here. You can move that card next turn.",
-								"3/3 -> 3/4"
-							]
-						},
-						{
-							"name": "Phastos",
-							"changes": [
-								"3/3 - On Reveal: Give each card in your deck -1 Cost or +2 Power.",
-								"3/3 -> 3/4"
-							]
-						},
-						{
-							"name": "Rhino",
-							"changes": [
-								"3/3 - On Reveal: Ruin this location.",
-								"3/6 - On Reveal: Add a Rock to your side of this location."
-							]
-						},
-						{
-							"name": "Toxie Doxie",
-							"changes": [
-								"---",
-								"<i>Will no longer be able to hit skills in your hand.</i>"
-							]
-						}
-					]
-				}
-			]
+			"items": []
 		}
   ]
 }
