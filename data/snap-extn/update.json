@@ -1,9 +1,55 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "events"
+  ],
   "cards": [],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "Features/Modes/Events",
+			"items": [
+				{
+					"title": "Collector's Vault",
+					"date": "May 6 - May 8",
+					"items": ["Exclusive variants available again for a limited time!"]
+				},
+				{
+					"title": "New X-Men Global Bounty",
+					"date": "May 12 - May 16",
+					"items": [
+						"<b>Bounty Cards</b>: Esme Cuckoo, Surge, Prodigy, Elixir, Rockslide, Pixie, X-23, White Queen, Wolfsbane, Wolverine, Gambit",
+						"<b>5M Wins</b> - 500 Credits",
+						"<b>8M Wins</b> - Mystery Border",
+						"<b>10M Wins</b> - Premium Mystery Variant",
+						"<b>15M Wins</b> - Exclusive Wolverine Variant",
+						"<b>25M Wins</b> - Exclusive Gambit Variant",
+						"<b>40M Wins</b> - Collector's Series 5 Snap Pack"
+					]
+				},
+				{
+					"title": "Golden Gauntlet",
+					"date": "May 24 4PM",
+					"items": [
+						"There will be a total of 85 content creators and 175 community players participating in this event."
+					]
+				},
+				{
+					"title": "Planned Updates (STC)",
+					"date": "May - Jul",
+					"items": [
+						"<span class='event-list date'>May 29</span> - OTA",
+						"<span class='event-list date'>Jun 3</span> - Patch",
+						"<span class='event-list date'>Jun 12</span> - OTA",
+						"<span class='event-list date'>Jun 24</span> - Patch",
+						"<span class='event-list date'>Jun 26</span> - OTA",
+						"<span class='event-list date'>Jul 17</span> - OTA",
+						"<span class='event-list date'>Jul 22</span> - Patch"
+					]
+				}
+			]
+		}
+  ]
 }
