@@ -8,6 +8,23 @@
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
+		{ 
+			"title": "Daily Login",
+			"items": [
+				{
+					"date": "May 23 - May 31",
+					"items": [
+						"Title: Got You An M-Day Present",
+						"150 Credits",
+						"155 Colossus Boosters",
+						"Premium Mystery Variant",
+						"250 Credits",
+						"Mystery Border",
+						"Colossus: A.J. Nazzaro Variant"
+					]
+				}
+			]
+		},
     {
 			"title": "Features/Modes/Events",
 			"items": [
