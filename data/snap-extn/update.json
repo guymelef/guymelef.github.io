@@ -145,7 +145,7 @@
 			"name": "Toxie Doxie",
 			"cost": "2",
 			"power": "3",
-			"ability": "On Reveal: Give 2 cards in your hand +2 Power. You can't play them next turn.",
+			"ability": "On Reveal: Give 2 characters in your hand +2 Power. You can't play them next turn.",
 			"released": true,
 			"series": "4",
 			"type": "character",
