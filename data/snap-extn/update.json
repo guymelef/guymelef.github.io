@@ -1,9 +1,159 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"cards",
     "events"
   ],
-  "cards": [],
+  "cards": [
+		{
+			"name": "Annihilus",
+			"cost": "5",
+			"power": "8",
+			"ability": "On Reveal: Your cards with Power below 0 switch sides. Destroy those that can't.",
+			"released": true,
+			"series": "4",
+			"type": "character",
+			"tags": ["on reveal", "destroy"],
+			"code": "Annhls9",
+			"id": 17
+		},
+		{
+			"name": "Cap's Shield",
+			"cost": "0",
+			"power": "0",
+			"ability": "Ongoing: This can't be destroyed. Give your Cap +2 Power when this moves to Cap's location.",
+			"type": "token",
+			"id": 55
+		},
+		{
+			"name": "Cerebro",
+			"cost": "3",
+			"power": "0",
+			"ability": "Ongoing: Your highest-Power cards have +2 Power.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "Crbr7",
+			"id": 61
+		},
+		{
+			"name": "Electro",
+			"cost": "3",
+			"power": "4",
+			"ability": "On Reveal: +1 max Energy. Ongoing: You can only play 1 card a turn.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["on reveal", "ongoing"],
+			"code": "Elctr7",
+			"id": 102
+		},
+		{
+			"name": "Hazmat",
+			"cost": "3",
+			"power": "3",
+			"ability": "On Reveal: Afflict all other cards with -1 Power.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Hzmt6",
+			"id": 141
+		},
+		{
+			"name": "Hercules",
+			"cost": "3",
+			"power": "5",
+			"ability": "The first time another one of your cards moves here each turn, move it to another location.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["move"],
+			"code": "Hrcls8",
+			"id": 147
+		},
+		{
+			"name": "Kahhori",
+			"cost": "4",
+			"power": "6",
+			"ability": "On Reveal: Each card in your hand gives one of your other cards in play +1 Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Khhr7",
+			"id": 177
+		},
+		{
+			"name": "Makkari",
+			"cost": "3",
+			"power": "3",
+			"ability": "End of Turn: Runs from your hand to a random location. <i>(if possible)</i>",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["end of turn"],
+			"code": "Mkkr7",
+			"id": 210
+		},
+		{
+			"name": "Sauron",
+			"cost": "1",
+			"power": "3",
+			"ability": "On Reveal: Remove the abilities from all Ongoing cards in your deck.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Srn6",
+			"id": 309
+		},
+		{
+			"name": "Storm",
+			"cost": "3",
+			"power": "2",
+			"ability": "On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
+			"released": true,
+			"series": "2",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Strm5",
+			"id": 352
+		},
+		{
+			"name": "Strange Supreme",
+			"cost": "2",
+			"power": "1",
+			"ability": "Gains +2 Power from merging. End of Turn: Merge one of your created cards into this.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["end of turn"],
+			"code": "StrngSprmE",
+			"id": 354
+		},
+		{
+			"name": "Time Stone",
+			"cost": "1",
+			"power": "1",
+			"ability": "On Reveal: Give Thanos -1 Cost.",
+			"type": "token",
+			"id": 381
+		},
+		{
+			"name": "Toxie Doxie",
+			"cost": "2",
+			"power": "3",
+			"ability": "On Reveal: Give 2 cards in your hand +2 Power. You can't play them next turn.",
+			"released": true,
+			"series": "4",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "TxDxA",
+			"id": 386
+		}
+	],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
