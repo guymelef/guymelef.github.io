@@ -132,6 +132,19 @@
 			"id": 210
 		},
 		{
+			"name": "Merlin",
+			"cost": "2",
+			"power": "3",
+			"ability": "At the start of each turn, add an <mark>Incantation</mark> to your hand.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Mrln6",
+			"id": 439,
+			"refs": [443, 444, 445]
+		},
+		{
 			"name": "Morgan le Fay",
 			"cost": "4",
 			"power": "7",
