@@ -1,6 +1,7 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"season",
 		"cards",
     "events"
   ],
@@ -16,6 +17,14 @@
 			"tags": ["on reveal", "destroy"],
 			"code": "Annhls9",
 			"id": 17
+		},
+		{
+			"name": "Bolts of Balthaak",
+			"cost": "3",
+			"power": "0",
+			"ability": "Next turn, you get +4 Energy.",
+			"type": "skill",
+			"id": 46
 		},
 		{
 			"name": "Cap's Shield",
@@ -42,8 +51,8 @@
 			"cost": "1",
 			"power": "2",
 			"ability": "When this permanently gains Power, add a <mark>Flames Of The Faltine</mark> to your hand. <i>(if in hand or in play)</i>",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "5",
 			"type": "character",
 			"tags": ["others"],
 			"code": "Cl4",
@@ -55,8 +64,8 @@
 			"cost": "7",
 			"power": "11",
 			"ability": "Game Start: Begin a <mark>Summoning Ritual</mark>. <i>(Add step 1 to hand.)</i>",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "5",
 			"type": "character",
 			"tags": ["game start"],
 			"code": "Drmmm8",
@@ -74,6 +83,18 @@
 			"tags": ["on reveal", "ongoing"],
 			"code": "Elctr7",
 			"id": 102
+		},
+		{
+			"name": "Esme Cuckoo",
+			"cost": "3",
+			"power": "4",
+			"ability": "On Reveal: Copy a card from your deck into your hand. Set its Cost to 3 and Power to 4.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "EsmCckA",
+			"id": 108
 		},
 		{
 			"name": "Flames of the Faltine",
@@ -108,6 +129,18 @@
 			"id": 147
 		},
 		{
+			"name": "Jennifer Kale",
+			"cost": "2",
+			"power": "2",
+			"ability": "Activate: Next turn, you get +1 Energy.",
+			"released": true,
+			"series": "4",
+			"type": "character",
+			"tags": ["activate"],
+			"code": "JnnfrKlC",
+			"id": 438
+		},
+		{
 			"name": "Kahhori",
 			"cost": "4",
 			"power": "6",
@@ -136,8 +169,8 @@
 			"cost": "2",
 			"power": "3",
 			"ability": "At the start of each turn, add an <mark>Incantation</mark> to your hand.",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "Season Pass",
 			"type": "character",
 			"tags": ["others"],
 			"code": "Mrln6",
@@ -149,20 +182,32 @@
 			"cost": "4",
 			"power": "7",
 			"ability": "On Reveal: Return all your discarded and destroyed cards to hand with +3 Power.",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "5",
 			"type": "character",
 			"tags": ["on reveal", "discard", "destroy"],
 			"code": "MrgnLFB",
 			"id": 440
 		},
 		{
+			"name": "Nicholas Scratch",
+			"cost": "1",
+			"power": "2",
+			"ability": "After you play a Skill, +1 Power.",
+			"released": true,
+			"series": "4",
+			"type": "character",
+			"tags": ["others"],
+			"code": "NchlsScrtchF",
+			"id": 441
+		},
+		{
 			"name": "Nightmare",
 			"cost": "3",
 			"power": "-1",
 			"ability": "On Reveal: Replace the text of each card in your hand with text from a random card of the same Cost.",
-			"released": false,
-			"series": "NA",
+			"released": true,
+			"series": "5",
 			"type": "character",
 			"tags": ["on reveal"],
 			"code": "Nghtmr9",
@@ -213,6 +258,27 @@
 			"id": 354
 		},
 		{
+			"name": "Temporal Manipulation",
+			"cost": "1",
+			"power": "0",
+			"ability": "On Reveal: Give Agamotto +3 Power. Put him into your hand if he’s not in play.",
+			"type": "skill",
+			"id": 367
+		},
+		{
+			"name": "The Ancient One",
+			"cost": "3",
+			"power": "5",
+			"ability": "On Reveal: Add <mark>Tao Mandala</mark> to your hand.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "ThAncntOnD",
+			"id": 447,
+			"refs": [446]
+		},
+		{
 			"name": "Time Stone",
 			"cost": "1",
 			"power": "1",
@@ -231,50 +297,111 @@
 			"tags": ["on reveal"],
 			"code": "TxDxA",
 			"id": 386
+		},
+		{
+			"name": "Winds of Watoomb",
+			"cost": "2",
+			"power": "0",
+			"ability": "On Reveal: Afflict an enemy card here with -5 Power and move it right.",
+			"type": "skill",
+			"id": 417
 		}
 	],
   "locations": [],
-  "seasonInfo": [],
-  "seasonStyles": [],
+  "seasonInfo": [
+		{
+			"seasonTitle": "Masters of the Arcane",
+			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=",
+			"featuredCard": "Merlin",	
+			"nextFeaturedCard": "Mister Fantastic First Steps",
+			"featuredLocations": ["Camelot", "Astral Plane"],
+			"nextfeaturedLocations": ["Rocket Pad", "Reed's Lab"],
+			"seasonEndDate": [1, 6, 2025],
+			"nextSeasonEndDate": [5, 7, 2025]
+		}
+	],
+  "seasonStyles": [
+		{
+			"dateColor": "#6c6d9c",
+			"headerStyle": {
+				"fontSize": "22px",
+				"padding": "6px 0",
+				"color": "#efeafe",
+				"backgroundColor": "#696a9e",
+				"border": "none",
+				"borderRadius": "20px",
+				"textShadow": "none"
+			},
+			"hoverStyle": {
+				"color": "#696a9e",
+				"backgroundColor": "#efeafe",
+				"border": "none",
+				"textShadow": "none"
+			}
+		}
+	],
   "seasonEvents": [
-		{ 
-			"title": "Daily Login",
+		{
+			"title": "New Characters",
 			"items": [
 				{
-					"date": "May 23 - May 31",
+					"date": "Jun 3",
 					"items": [
-						"Title: Got You An M-Day Present",
-						"150 Credits",
-						"155 Colossus Boosters",
-						"Premium Mystery Variant",
-						"250 Credits",
-						"Mystery Border",
-						"Colossus: A.J. Nazzaro Variant"
+						{"name": "Merlin", "series": "Season Pass"},
+						{"name": "Morgan le Fay", "series": "5"},
+						{"name": "Jennifer Kale", "series": "4"},
+						{"name": "Nicholas Scratch", "series": "4"}
+					]
+				},
+				{
+					"date": "Jun 10",
+					"items": [
+						{"name": "The Ancient One", "series": "5"}
+					]
+				},
+				{
+					"date": "Jun 17",
+					"items": [
+						{"name": "Nightmare", "series": "5"}
+					]
+				},
+				{
+					"date": "Jun 24",
+					"items": [
+						{"name": "Clea", "series": "5"}
+					]
+				},
+				{
+					"date": "Jul 1",
+					"items": [
+						{"name": "Dormammu", "series": "5"}
 					]
 				}
 			]
 		},
     {
+      "title": "New Locations",
+      "items": ["Camelot", "Astral Plane"]
+    },
+		{
+			"title": "New Albums",
+			"items": []
+		},
+		{
+			"title": "Shop Takeover",
+			"items": []
+		},
+		{
+			"title": "Twitch Drops",
+			"items": []
+		},
+		{ 
+			"title": "Daily Login",
+			"items": []
+		},
+		{
 			"title": "Features/Modes/Events",
 			"items": [
-				{
-					"title": "New X-Men Global Bounty",
-					"date": "May 12 - May 16",
-					"items": [
-						"Bounty Cards: Esme Cuckoo, Surge, Prodigy, Elixir, Rockslide, Pixie, X-23, White Queen, Wolfsbane, Wolverine, Gambit",
-						"5M Wins - 500 Credits",
-						"8M Wins - Mystery Border",
-						"10M Wins - Premium Mystery Variant",
-						"15M Wins - Exclusive Wolverine Variant",
-						"25M Wins - Exclusive Gambit Variant",
-						"40M Wins - Collector's Series 5 Snap Pack"
-					]
-				},
-				{
-					"title": "Collector's Vault",
-					"date": "May 20 - May 22",
-					"items": ["Exclusive variants available again for a limited time!"]
-				},
 				{
 					"title": "Golden Gauntlet II",
 					"date": "Jun 7 - Jun 8",
@@ -282,11 +409,17 @@
 						"The event will be open to the public and will have 1,200 players. Visit Discord for more info."
 					]
 				},
+        {
+					"title": "High Voltage Overdrive",
+					"date": "Jun 16",
+					"items": [
+						"The ultra fast game mode with three turns and tons of energy returns."
+					]
+				},
 				{
 					"title": "Planned Updates (STC)",
-					"date": "May - Jul",
+					"date": "Jun - Jul",
 					"items": [
-						"<span class='event-list date'>May 29</span> - OTA",
 						"<span class='event-list date'>Jun 3</span> - Patch",
 						"<span class='event-list date'>Jun 5</span> - OTA",
 						"<span class='event-list date'>Jun 24</span> - Patch",
@@ -298,120 +431,13 @@
 			]
 		},
 		{
+			"title": "Series Drop",
+			"date": "",
+			"items": []
+		},
+		{
 			"title": "Balance Updates",
-			"items": [
-				{
-					"date": "May 29",
-					"type": "OTA",
-					"items": [
-						{
-							"name": "Strange Supreme",
-							"changes": [
-								"2/2 - Gains +2 Power from merging. End of Turn: Merge one of your created cards into this.",
-								"2/2 -> 2/1"
-							]
-						},
-						{
-							"name": "Cap's Shield (Sam Wilson)",
-							"changes": [
-								"0/1 - Ongoing: This can't be destroyed. Give your Cap +2 Power when this moves to Cap's location.",
-								"0/1 -> 0/0"
-							]
-						},
-						{
-							"name": "Time Stone",
-							"changes": [
-								"1/1 - On Reveal: Give Thanos -1 Cost. Draw a card.",
-								"1/1 - On Reveal: Give Thanos -1 Cost."
-							]
-						},
-						{
-							"name": "Hazmat",
-							"changes": [
-								"2/2 - On Reveal: Afflict all other cards with -1 Power.",
-								"2/2 -> 3/3"
-							]
-						},
-						{
-							"name": "Sauron",
-							"changes": [
-								"2/2 - On Reveal: Remove the abilities from all Ongoing cards in your hand and deck.",
-								"1/3 - On Reveal: Remove the abilities from all Ongoing cards in your deck."
-							]
-						},
-						{
-							"name": "Makkari",
-							"changes": [
-								"3/4 - End of Turn: Runs from your hand to a random location (if possible).",
-								"3/4 -> 3/3"
-							]
-						},
-						{
-							"name": "Kahhori (Text Update)",
-							"changes": [
-								"4/6 - On Reveal: Each card in your hand gives one of your cards in play +1 Power.",
-								"4/6 - On Reveal: Each card in your hand gives one of your other cards in play +1 Power."
-							]
-						},
-						{
-							"name": "Storm",
-							"changes": [
-								"4/5 - On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
-								"4/5 -> 3/2"
-							]
-						},
-						{
-							"name": "Toxie Doxie",
-							"changes": [
-								"2/1 - On Reveal: Give 2 cards in your hand +2 Power. You can't play them next turn.",
-								"2/3 - On Reveal: Give 2 characters in your hand +2 Power. You can't play them next turn."
-							]
-						},
-						{
-							"name": "Hercules",
-							"changes": [
-								"3/5 - The first time another card moves here each turn, move it to another location.",
-								"3/5 - The first time another one of your cards moves here each turn, move it to another location."
-							]
-						},
-						{
-							"name": "Annihilus",
-							"changes": [
-								"5/7 - On Reveal: Your cards with Power below 0 switch sides. Destroy those that can't.",
-								"5/7 -> 5/8"
-							]
-						},
-						{
-							"name": "Electro",
-							"changes": [
-								"3/3 - On Reveal: +1 Max Energy. Ongoing: You can only play 1 card a turn.",
-								"3/3 -> 3/4"
-							]
-						},
-						{
-							"name": "Cerebro",
-							"changes": [
-								"2/0 - Ongoing: Your highest-Power cards have +2 Power.",
-								"3/0 - Ongoing: Your highest-Power cards have +3 Power."
-							]
-						},
-						{
-							"name": "Isle of Silence",
-							"changes": [
-								"Ongoing effects are disabled here.",
-								"Location Enabled"
-							]
-						},
-						{
-							"name": "Flooding",
-							"changes": [
-								"This is the last turn cards can be played here.",
-								"Functional Change: Flooding no longer 'combos' with Legion"
-							]
-						}
-					]
-				}
-			]
+			"items": []
 		}
   ]
 }
