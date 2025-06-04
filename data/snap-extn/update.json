@@ -60,6 +60,18 @@
 			"refs": [115]
 		},
 		{
+			"name": "Cobra",
+			"cost": "2",
+			"power": "3",
+			"ability": "Activate: Destroy an enemy created card here.",
+			"released": true,
+			"series": "Ltd. Time Event",
+			"type": "character",
+			"tags": ["activate", "destroy"],
+			"code": "Cbr5",
+			"id": 64
+		},
+		{
 			"name": "Dormammu",
 			"cost": "7",
 			"power": "11",
@@ -151,6 +163,18 @@
 			"tags": ["on reveal"],
 			"code": "Khhr7",
 			"id": 177
+		},
+		{
+			"name": "Kid Omega",
+			"cost": "2",
+			"power": "1",
+			"ability": "Activate: Destroy the next card you play this turn to gain its Power.",
+			"released": true,
+			"series": "Ltd. Time Event",
+			"type": "character",
+			"tags": ["activate", "destroy"],
+			"code": "KdOmg8",
+			"id": 183
 		},
 		{
 			"name": "Makkari",
@@ -311,7 +335,7 @@
   "seasonInfo": [
 		{
 			"seasonTitle": "Masters of the Arcane",
-			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=",
+			"seasonUrl": "https://www.marvelsnap.com/newsdetail?id=7477880898189269766",
 			"featuredCard": "Merlin",	
 			"nextFeaturedCard": "Mister Fantastic First Steps",
 			"featuredLocations": ["Camelot", "Astral Plane"],
@@ -360,6 +384,13 @@
 					]
 				},
 				{
+					"date": "Jun 16",
+					"items": [
+						{"name": "Kid Omega", "series": "Ltd. Time Event"},
+						{"name": "Cobra", "series": "Ltd. Time Event"}
+					]
+				},
+				{
 					"date": "Jun 17",
 					"items": [
 						{"name": "Nightmare", "series": "5"}
@@ -368,13 +399,13 @@
 				{
 					"date": "Jun 24",
 					"items": [
-						{"name": "Clea", "series": "5"}
+						{"name": "Dormammu", "series": "5"}
 					]
 				},
 				{
 					"date": "Jul 1",
 					"items": [
-						{"name": "Dormammu", "series": "5"}
+						{"name": "Clea", "series": "5"}
 					]
 				}
 			]
@@ -385,15 +416,70 @@
     },
 		{
 			"title": "New Albums",
-			"items": []
+			"items": [
+				{
+					"date": "Jun 3",
+					"name": "PANdora's Box Pt. III",
+					"items": [
+						"3:Premium Mystery Variant",
+						"6:3x Cosmic Black Border",
+						"9:Nico Minoru - Pandart Studio Variant",
+						"12:6,000 Collector's Tokens"
+					]
+				},
+				{
+					"date": "Jun 17",
+					"name": "Cosmic Conquerors",
+					"items": [
+						"3:2,000 Credits",
+						"6:4x Neon Purple Border",
+						"9:Grand Master - “Golden Ticket” Emote",
+						"12:Kate Bishop - Dan Hipp Variant"
+					]
+				}
+			]
 		},
 		{
 			"title": "Shop Takeover",
-			"items": []
+			"items": [
+				{
+					"date": "Jun 3",
+					"name": "Pandart Studio",
+					"cards": [
+						"Annihilus",
+						"Darkhawk",
+						"Iron Lad",
+						"Korg",
+						"Mystique",
+						"Rockslide"
+					]
+				},
+				{
+					"date": "Jun 17",
+					"name": "Dan Hipp",
+					"cards": [
+						"Grand Master",
+						"Emperoro Hulkling",
+						"Blink",
+						"Black Swan",
+						"Phastos",
+						"Caiera"
+					]
+				}
+			]
 		},
 		{
 			"title": "Twitch Drops",
-			"items": []
+			"items": [
+				{
+					"date": "Jun 17 -  Jun 23",
+					"items": [
+						"2:155 Iceman Boosters",
+						"4:1,000 Volts + Ice Border",
+						"6:2,000 Volts + Iceman Envar Anime Variant"
+					]
+				}
+			]
 		},
 		{ 
 			"title": "Daily Login",
@@ -410,10 +496,10 @@
 					]
 				},
         {
-					"title": "High Voltage Overdrive",
-					"date": "Jun 16",
+					"title": "High Voltage: Overdrive",
+					"date": "Jun 16 - Jun 25",
 					"items": [
-						"The ultra fast game mode with three turns and tons of energy returns."
+						"Play to earn Volts to earn rewards and unlock new cards - Kid Omega and Cobra!"
 					]
 				},
 				{
