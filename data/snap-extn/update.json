@@ -3,6 +3,7 @@
   "partsToUpdate": [
 		"season",
 		"cards",
+		"locations",
     "events"
   ],
   "cards": [
@@ -344,7 +345,18 @@
 			"id": 417
 		}
 	],
-  "locations": [],
+  "locations": [
+		{
+			"name": "The Seventh Cosmos",
+			"ability": "Replace ALL locations.",
+			"id": 165
+		},
+		{
+			"name": "Zenn-La",
+			"ability": "Add a 3-Cost card from your deck here.",
+			"id": 166
+		}
+	],
   "seasonInfo": [
 		{
 			"seasonTitle": "Masters of the Arcane",
