@@ -141,6 +141,19 @@
 			"id": 147
 		},
 		{
+			"name": "Infinity Ultron",
+			"cost": "5",
+			"power": "6",
+			"ability": "On Reveal: Add 2 of <mark>Ultron's Stones</mark> to your hand.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "InfntUltrnE",
+			"id": 161,
+			"refs": [392, 393, 394, 395, 396, 397]
+		},
+		{
 			"name": "Jennifer Kale",
 			"cost": "2",
 			"power": "2",
