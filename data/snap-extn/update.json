@@ -260,6 +260,18 @@
 			"id": 141
 		},
 		{
+			"name": "Hellion",
+			"cost": "5",
+			"power": "8",
+			"ability": "On Reveal: Next turn, you can move cards to this location.",
+			"released": true,
+			"series": "4",
+			"type": "character",
+			"tags": ["on reveal", "move"],
+			"code": "Hlln7",
+			"id": 146
+		},
+		{
 			"name": "Hercules",
 			"cost": "3",
 			"power": "5",
@@ -367,6 +379,18 @@
 			"tags": ["end of turn"],
 			"code": "Mkkr7",
 			"id": 210
+		},
+		{
+			"name": "Mercury",
+			"cost": "2",
+			"power": "2",
+			"ability": "You can move this once. Ongoing: Enemy cards here can't move.",
+			"released": true,
+			"series": "4",
+			"type": "character",
+			"tags": ["move", "ongoing"],
+			"code": "Mrcr7",
+			"id": 220
 		},
 		{
 			"name": "Merlin",
@@ -740,7 +764,9 @@
 						{"name": "Merlin", "series": "Season Pass"},
 						{"name": "Morgan le Fay", "series": "5"},
 						{"name": "Jennifer Kale", "series": "4"},
-						{"name": "Nicholas Scratch", "series": "4"}
+						{"name": "Nicholas Scratch", "series": "4"},
+						{"name": "Hellion", "series": "4"},
+						{"name": "Mercury", "series": "4"}
 					]
 				},
 				{
