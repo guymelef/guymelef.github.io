@@ -1,9 +1,56 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": [
+    "events"
+  ],
   "cards": [],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+			"title": "Features/Modes/Events",
+			"items": [
+				{
+					"title": "Collector's Vault",
+					"date": "Jun 3 - Jun 5",
+					"items": ["Exclusive variants available again for a limited time!"]
+				},
+				{
+					"title": "Golden Gauntlet II",
+					"date": "Jun 7 - Jun 8",
+					"items": [
+						"The event will be open to the public and will have 1,200 players. Visit Discord for more info."
+					]
+				},
+        {
+					"title": "High Voltage: Overdrive",
+					"date": "Jun 16 - Jun 25",
+					"items": [
+						"Play to earn Volts to earn rewards and unlock new cards - Kid Omega and Cobra!"
+					]
+				},
+        {
+					"title": "Sanctum Showdown",
+					"date": "Jun 26 - Jul 3",
+					"items": [
+						"Your favorite mind-bending location dominating limited time game mode returns!"
+					]
+				},
+				{
+					"title": "Planned Updates (STC)",
+					"date": "Jun - Jul",
+					"items": [
+						"<span class='event-list date'>Jun 3</span> - Patch",
+						"<span class='event-list date'>Jun 5</span> - OTA",
+						"<span class='event-list date'>Jun 10</span> - Patch",
+						"<span class='event-list date'>Jun 24</span> - Patch",
+						"<span class='event-list date'>Jun 26</span> - OTA",
+						"<span class='event-list date'>Jul 17</span> - OTA",
+						"<span class='event-list date'>Jul 22</span> - Patch"
+					]
+				}
+			]
+		}
+  ]
 }
