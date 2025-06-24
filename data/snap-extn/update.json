@@ -8,6 +8,59 @@
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
+		{
+			"title": "New Characters",
+			"items": [
+				{
+					"date": "Jun 3",
+					"items": [
+						{"name": "Merlin", "series": "Season Pass"},
+						{"name": "Morgan le Fay", "series": "5"},
+						{"name": "Jennifer Kale", "series": "4"},
+						{"name": "Nicholas Scratch", "series": "4"},
+						{"name": "Hellion", "series": "4"},
+						{"name": "Mercury", "series": "4"}
+					]
+				},
+				{
+					"date": "Jun 10",
+					"items": [
+						{"name": "The Ancient One", "series": "5"}
+					]
+				},
+				{
+					"date": "Jun 16",
+					"items": [
+						{"name": "Kid Omega", "series": "Ltd. Time Event"},
+						{"name": "Cobra", "series": "Ltd. Time Event"}
+					]
+				},
+				{
+					"date": "Jun 17",
+					"items": [
+						{"name": "Nightmare", "series": "5"}
+					]
+				},
+				{
+					"date": "Jun 24",
+					"items": [
+						{"name": "Dormammu", "series": "5"}
+					]
+				},
+				{
+					"date": "Jun 26",
+					"items": [
+						{"name": "Astral Projection", "series": "Ltd. Time Event"}
+					]
+				},
+				{
+					"date": "Jul 1",
+					"items": [
+						{"name": "Clea", "series": "5"}
+					]
+				}
+			]
+		},
     {
 			"title": "Twitch Drops",
 			"items": [
