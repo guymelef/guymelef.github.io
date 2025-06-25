@@ -6,6 +6,43 @@
   ],
   "cards": [
 		{
+			"name": "Fantasticar",
+			"cost": "4",
+			"power": "7",
+			"ability": "Activate: Give your End of Turn cards +2 Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["activate", "end of turn"],
+			"code": "FntstcrB",
+			"id": 450
+		},
+		{
+			"name": "H.E.R.B.I.E.",
+			"cost": "2",
+			"power": "3",
+			"ability": "Each turn this is in play, swap to a <mark>new Activate ability</mark> until one is used.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["activate"],
+			"code": "Hrb6",
+			"id": 454,
+			"refs": [455, 456, 457, 458]
+		},
+		{
+			"name": "Mister Fantastic First Steps",
+			"cost": "2",
+			"power": "2",
+			"ability": "End of Turn: Give a card in your hand -1 Cost or +2 Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["end of turn"],
+			"code": "MrFntstcFrstStps15",
+			"id": 462
+		},
+		{
 			"name": "Moon Girl",
 			"cost": "4",
 			"power": "5",
