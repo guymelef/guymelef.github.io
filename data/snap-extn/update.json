@@ -5,6 +5,15 @@
     "events"
   ],
   "cards": [
+		 {
+			"name": "Astral Projection",
+			"cost": "3",
+			"power": "0",
+			"ability": "On Reveal: Copy the text of an On Reveal card in your hand.",
+			"type": "skill",
+			"series": "Ltd. Time Event",
+			"id": 432
+		},
 		{
 			"name": "Fantasticar",
 			"cost": "4",
