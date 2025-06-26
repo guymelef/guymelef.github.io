@@ -207,7 +207,7 @@
 				},
 				{
 					"title": "Planned Updates (STC)",
-					"date": "Jun - Jul",
+					"date": "Jun - Aug",
 					"items": [
 						"<span class='event-list date'>Jun 3</span> - Patch",
 						"<span class='event-list date'>Jun 5</span> - OTA",
@@ -215,7 +215,11 @@
 						"<span class='event-list date'>Jun 24</span> - Patch",
 						"<span class='event-list date'>Jun 26</span> - OTA",
 						"<span class='event-list date'>Jul 17</span> - OTA",
-						"<span class='event-list date'>Jul 22</span> - Patch"
+						"<span class='event-list date'>Jul 17</span> - Patch",
+						"<span class='event-list date'>Jul 31</span> - OTA",
+						"<span class='event-list date'>Aug 14</span> - OTA",
+						"<span class='event-list date'>Aug 19</span> - Patch",
+						"<span class='event-list date'>Aug 28</span> - OTA"
 					]
 				}
 			]
