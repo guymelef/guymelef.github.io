@@ -5,6 +5,18 @@
     "events"
   ],
   "cards": [
+		{
+			"name": "Absorbing Man",
+			"cost": "4",
+			"power": "5",
+			"ability": "On Reveal: If the last card you played has an On Reveal, copy its text. <i>(if it's in play)</i>",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "AbsrbngMnC",
+			"id": 2
+		},
 		 {
 			"name": "Astral Projection",
 			"cost": "3",
@@ -27,6 +39,18 @@
 			"id": 450
 		},
 		{
+			"name": "Galacta",
+			"cost": "4",
+			"power": "6",
+			"ability": "Each turn, the first card you play at another location reveals with +2 Power.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["others"],
+			"code": "Glct7",
+			"id": 119
+		},
+		{
 			"name": "H.E.R.B.I.E.",
 			"cost": "2",
 			"power": "3",
@@ -38,6 +62,42 @@
 			"code": "Hrb6",
 			"id": 454,
 			"refs": [455, 456, 457, 458]
+		},
+		{
+			"name": "Ironheart",
+			"cost": "3",
+			"power": "0",
+			"ability": "On Reveal: Give 3 of your other cards +3 Power.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Irnhrt9",
+			"id": 167
+		},
+		{
+			"name": "Lockjaw",
+			"cost": "2",
+			"power": "2",
+			"ability": "Activate: After you play your next card, swap it with a card in your deck.",
+			"released": true,
+			"series": "3",
+			"type": "character",
+			"tags": ["activate"],
+			"code": "Lckjw7",
+			"id": 200
+		},
+		{
+			"name": "Misery",
+			"cost": "4",
+			"power": "9",
+			"ability": "On Reveal: Repeat the On Reveal abilities of your other cards here, then destroy them.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal", "destroy"],
+			"code": "Msr6",
+			"id": 225
 		},
 		{
 			"name": "Mister Fantastic First Steps",
@@ -64,6 +124,51 @@
 			"id": 235
 		},
 		{
+			"name": "Professor X",
+			"cost": "5",
+			"power": "2",
+			"ability": "Ongoing: Moving is the only way to add or remove a character from here.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": ["ongoing"],
+			"code": "PrfssrXA",
+			"id": 280
+		},
+		{
+			"name": "Reality Stone",
+			"cost": "1",
+			"power": "2",
+			"ability": "On Reveal: Replace this location with a new one.",
+			"type": "token",
+			"id": 291
+		},
+		{
+			"name": "Red Guardian",
+			"cost": "3",
+			"power": "2",
+			"ability": "On Reveal: Afflict the lowest-Power enemy card here with -2 Power and remove its text.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "RdGrdnB",
+			"id": 293
+		},
+		{
+			"name": "Rhino",
+			"cost": "2",
+			"power": "5",
+			"ability": "On Reveal: Add a <mark>Rock</mark> to your side of this location.",
+			"released": true,
+			"series": "2",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Rhn5",
+			"id": 297,
+			"refs": [298]
+		},
+		{
 			"name": "Silk",
 			"cost": "2",
 			"power": "5",
@@ -74,6 +179,14 @@
 			"tags": ["move"],
 			"code": "Slk4",
 			"id": 328
+		},
+		{
+			"name": "Space Stone",
+			"cost": "1",
+			"power": "3",
+			"ability": "On Reveal: Draw Thanos. Ongoing: Nothing can stop you from playing Thanos.",
+			"type": "token",
+			"id": 339
 		},
 		{
 			"name": "Spider-Ham",
@@ -87,6 +200,47 @@
 			"code": "SpdrHm9",
 			"id": 342,
 			"refs": [275]
+		},
+		{
+			"name": "Thanos",
+			"cost": "6",
+			"power": "12",
+			"ability": "Game Start: Shuffle the six <mark>Infinity Stones</mark> into your deck.",
+			"released": true,
+			"series": "5",
+			"type": "character",
+			"tags": ["game start"],
+			"code": "Thns6",
+			"id": 369,
+			"refs": [223, 278, 291, 337, 339, 381]
+		},
+		{
+			"name": "Time Stone",
+			"cost": "1",
+			"power": "1",
+			"ability": "On Reveal: Draw a card. Give Thanos -1 Cost.",
+			"type": "token",
+			"id": 381
+		},
+		{
+			"name": "Wolfsbane",
+			"cost": "3",
+			"power": "2",
+			"ability": "On Reveal: +2 Power for each other card you have here.",
+			"released": true,
+			"series": "1",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Wlfsbn9",
+			"id": 422
+		},
+		{
+			"name": "Tao Mandala",
+			"cost": "2",
+			"power": "0",
+			"ability": "On Reveal: Copy the text of one of your Ongoing cards here onto your other characters here.",
+			"type": "skill",
+			"id": 446
 		}
 	],
   "locations": [],
