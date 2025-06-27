@@ -64,6 +64,38 @@
 			"refs": [455, 456, 457, 458]
 		},
 		{
+			"name": "H.E.R.B.I.E. Ability #1",
+			"cost": "2",
+			"power": "3",
+			"ability": "Activate: Double this card's Power.",
+			"type": "token",
+			"id": 455
+		},
+		{
+			"name": "H.E.R.B.I.E. Ability #2",
+			"cost": "2",
+			"power": "3",
+			"ability": "Activate: Give 2 of your cards at each other location +1 Power.",
+			"type": "token",
+			"id": 456
+		},
+		{
+			"name": "H.E.R.B.I.E. Ability #3",
+			"cost": "2",
+			"power": "3",
+			"ability": "Activate: Create a Rock here. Set its Power to 4.",
+			"type": "token",
+			"id": 457
+		},
+		{
+			"name": "H.E.R.B.I.E. Ability #4",
+			"cost": "2",
+			"power": "3",
+			"ability": "Activate: Next turn, you get +2 Energy.",
+			"type": "token",
+			"id": 458
+		},
+		{
 			"name": "Ironheart",
 			"cost": "3",
 			"power": "0",
