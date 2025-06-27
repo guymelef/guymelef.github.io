@@ -96,6 +96,18 @@
 			"id": 458
 		},
 		{
+			"name": "Invisible Woman First Steps",
+			"cost": "3",
+			"power": "5",
+			"ability": "Activate: This turn, your End of Turn abilities happen twice.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["activate", "end of turn"],
+			"code": "InvsblWmnFrstStps18",
+			"id": 460
+		},
+		{
 			"name": "Ironheart",
 			"cost": "3",
 			"power": "0",
