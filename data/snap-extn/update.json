@@ -267,6 +267,19 @@
 			"id": 381
 		},
 		{
+			"name": "Viv Vision",
+			"cost": "3",
+			"power": "3",
+			"ability": "End of Turn: Give each card in your hand +1 Power if you’re winning here. Otherwise, move this to another location.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"noArt": true,
+			"tags": ["end of turn"],
+			"code": "Vv3",
+			"id": 406
+		},
+		{
 			"name": "Wolfsbane",
 			"cost": "3",
 			"power": "2",
@@ -285,6 +298,91 @@
 			"ability": "On Reveal: Copy the text of one of your Ongoing cards here onto your other characters here.",
 			"type": "skill",
 			"id": 446
+		},
+		{
+			"name": "Galactus First Steps",
+			"cost": "6",
+			"power": "10",
+			"ability": "My Herald is the next character I see you play. End of Turn: +3 Power if you're winning my Herald's location. <i>(if in hand or in play)</i>",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["end of turn"],
+			"code": "GlctsFrstStps12",
+			"id": 453
+		},
+		{
+			"name": "Invisible Woman First Steps",
+			"cost": "3",
+			"power": "5",
+			"ability": "Activate: This turn, your End of Turn abilities happen twice.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["activate", "end of turn"],
+			"code": "InvsblWmnFrstStps18",
+			"id": 460
+		},
+		{
+			"name": "Red Shift",
+			"cost": "2",
+			"power": "3",
+			"ability": "On Reveal: Discard the leftmost card in your hand to add a random card with the same Cost to your hand.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["on reveal", "discard"],
+			"code": "RdShft8",
+			"id": 464
+		},
+		{
+			"name": "Silver Surfer First Steps",
+			"cost": "3",
+			"power": "4",
+			"ability": "End of Turn: If you're winning this location with an On Reveal card, copy its text.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["end of turn", "on reveal"],
+			"code": "SlvrSrfrFrstStps16",
+			"id": 465
+		},
+		{
+			"name": "Stardust",
+			"cost": "4",
+			"power": "7",
+			"ability": "Ongoing: Cards can’t be added to locations except by playing or moving them.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["ongoing", "move"],
+			"code": "Strdst8",
+			"id": 466
+		},
+		{
+			"name": "Terrax the Tamer",
+			"cost": "3",
+			"power": "3",
+			"ability": "On Reveal: For each location, shuffle a <mark>Rock</mark> into the losing player's deck.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "Trrx6",
+			"id": 467,
+			"refs": [298]
+		},
+		{
+			"name": "The Fallen One",
+			"cost": "5",
+			"power": "5",
+			"ability": "On Reveal: Set your Max Energy equal to this card's Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["on reveal"],
+			"code": "FllnOn9",
+			"id": 468
 		}
 	],
   "locations": [],
