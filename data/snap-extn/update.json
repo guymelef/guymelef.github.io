@@ -111,7 +111,7 @@
 			"id": 458
 		},
 		{
-			"name": "Invisible Woman First Steps",
+			"name": "Invisible Woman: First Steps",
 			"cost": "3",
 			"power": "5",
 			"ability": "Activate: This turn, your End of Turn abilities happen twice.",
@@ -159,7 +159,7 @@
 			"id": 225
 		},
 		{
-			"name": "Mister Fantastic First Steps",
+			"name": "Mister Fantastic: First Steps",
 			"cost": "2",
 			"power": "2",
 			"ability": "End of Turn: Give a card in your hand -1 Cost or +2 Power.",
@@ -315,7 +315,7 @@
 			"id": 446
 		},
 		{
-			"name": "Galactus First Steps",
+			"name": "Galactus: First Steps",
 			"cost": "6",
 			"power": "10",
 			"ability": "My Herald is the next character I see you play. End of Turn: +3 Power if you're winning my Herald's location. <i>(if in hand or in play)</i>",
@@ -327,16 +327,16 @@
 			"id": 453
 		},
 		{
-			"name": "Invisible Woman First Steps",
+			"name": "Human Torch: First Steps",
 			"cost": "3",
-			"power": "5",
-			"ability": "Activate: This turn, your End of Turn abilities happen twice.",
+			"power": "2",
+			"ability": "End of Turn: +1 Power. Once per game, if your side here is full, double this card’s Power instead.",
 			"released": false,
 			"series": "NA",
 			"type": "character",
-			"tags": ["activate", "end of turn"],
-			"code": "InvsblWmnFrstStps18",
-			"id": 460
+			"tags": ["end of turn"],
+			"code": "HmnTrchFrstStps14",
+			"id": 459
 		},
 		{
 			"name": "Red Shift",
@@ -351,7 +351,7 @@
 			"id": 464
 		},
 		{
-			"name": "Silver Surfer First Steps",
+			"name": "Silver Surfer: First Steps",
 			"cost": "3",
 			"power": "4",
 			"ability": "End of Turn: If you're winning this location with an On Reveal card, copy its text.",
@@ -398,6 +398,18 @@
 			"tags": ["on reveal"],
 			"code": "FllnOn9",
 			"id": 468
+		},
+		{
+			"name": "The Thing: First Steps",
+			"cost": "5",
+			"power": "6",
+			"ability": "End of Turn: +2 Power. Once per game, if your side here is full, destroy an enemy card here with less Power.",
+			"released": false,
+			"series": "NA",
+			"type": "character",
+			"tags": ["end of turn", "destroy"],
+			"code": "ThThngFrstStps12",
+			"id": 469
 		},
 		{
 			"name": "Super-Adaptoid",
