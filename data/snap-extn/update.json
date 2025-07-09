@@ -66,7 +66,23 @@
 			"tags": ["activate"],
 			"code": "Hrb6",
 			"id": 454,
-			"refs": [455, 456, 457, 458]
+			"refs": [458, 456, 457, 455]
+		},
+		{
+			"name": "H.E.R.B.I.E. Ability #1",
+			"cost": "2",
+			"power": "3",
+			"ability": "Activate: Next turn, you get +2 Energy.",
+			"type": "token",
+			"id": 458
+		},
+		{
+			"name": "H.E.R.B.I.E. Ability #4",
+			"cost": "2",
+			"power": "3",
+			"ability": "Activate: Double this card's Power.",
+			"type": "token",
+			"id": 455
 		},
 		{
 			"name": "Invisible Woman: First Steps",
