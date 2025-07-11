@@ -11,13 +11,18 @@
     { 
 			"title": "Daily Login",
 			"items": [
-				 "Title: Bathed In Cosmic Radiation",
-				 "65 Random Boosters",
-				 "100 Credits",
-				 "155 Random Boosters",
-				 "150 Credits",
-				 "Mystery Variant",
-				 "Mystery Border"
+        {
+					"date": "Jul 10 - Jul 18",
+          "items": [
+            "Title: Bathed In Cosmic Radiation",
+            "65 Random Boosters",
+            "100 Credits",
+            "155 Random Boosters",
+            "150 Credits",
+            "Mystery Variant",
+            "Mystery Border"
+          ]
+        }
 			]
 		}
   ]
