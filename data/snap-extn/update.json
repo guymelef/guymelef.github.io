@@ -1,6 +1,8 @@
 {
   "isUpdateAvailable": true,
-  "partsToUpdate": [],
+  "partsToUpdate": [
+    "events"
+  ],
   "cards": [],
   "locations": [],
   "seasonInfo": [],
