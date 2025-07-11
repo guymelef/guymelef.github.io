@@ -24,6 +24,37 @@
           ]
         }
 			]
+		},
+    {
+			"title": "Features/Modes/Events",
+			"items": [
+				{
+					"title": "High Voltage",
+					"date": "Jul 17 - Jul 21",
+					"items": [
+						"Welcome back to High Voltage! Play to earn Volts and unlock rewards."
+					]
+				},
+				{
+					"title": "Grand Arena",
+					"date": "Jul 24 - Aug 7",
+					"items": [
+						"Choose your Champion from a roster of eight iconic characters, then battle using unique decks and powerful skill cards tailored to each hero."
+					]
+				},
+				{
+					"title": "Planned Updates (STC)",
+					"date": "Jul - Aug",
+					"items": [
+						"<span class='event-list date'>Jul 17</span> - OTA",
+						"<span class='event-list date'>Jul 17</span> - Patch",
+						"<span class='event-list date'>Jul 31</span> - OTA",
+						"<span class='event-list date'>Aug 14</span> - OTA",
+						"<span class='event-list date'>Aug 19</span> - Patch",
+						"<span class='event-list date'>Aug 28</span> - OTA"
+					]
+				}
+			]
 		}
   ]
 }
