@@ -1,10 +1,17 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
-    "events"
+    "events",
+		"locations"
   ],
   "cards": [],
-  "locations": [],
+  "locations": [
+		{
+			"name": "Rocket Pad",
+			"ability": "After turn 4, give cards on the winning side here +1 Power.",
+			"id": 164
+		}
+	],
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
