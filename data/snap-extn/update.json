@@ -1,26 +1,133 @@
 {
   "isUpdateAvailable": true,
-  "partsToUpdate": [
-		"cards",
-    "events",
-		"locations"
+  "partsToUpdate": ["cards", "events", "locations"],
+  "cards": [
+    {
+      "name": "Bullseye",
+      "cost": "3",
+      "power": "2",
+      "ability": "Activate: Discard all cards that cost 1 or less from your hand. Afflict that many different enemy cards with -2 Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["activate", "discard"],
+      "code": "Blls8",
+      "id": 51
+    },
+    {
+      "name": "Doom 2099",
+      "cost": "4",
+      "power": "4",
+      "ability": "End of Turn: Add a <mark>DoomBot 2099</mark> to a random location if you played <i>(exactly)</i> 1 card.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["end of turn"],
+      "code": "Dm20998",
+      "id": 92,
+      "refs": [94]
+    },
+    {
+      "name": "Green Goblin",
+      "cost": "3",
+      "power": "-4",
+      "ability": "On Reveal: Your opponent gains control of this.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "GrnGblnB",
+      "id": 136
+    },
+    {
+      "name": "Marvel Boy",
+      "cost": "3",
+      "power": "2",
+      "ability": "End of Turn: Give 3 of your 1-Cost cards +1 Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["end of turn"],
+      "code": "MrvlB9",
+      "id": 206
+    },
+    {
+      "name": "Mirage",
+      "cost": "2",
+      "power": "3",
+      "ability": "On Reveal: Copy the character that costs the least from your opponent’s hand into your hand. Give it +2 Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Mrg6",
+      "id": 224
+    },
+    {
+      "name": "Negasonic Teenage Warhead",
+      "cost": "3",
+      "power": "3",
+      "ability": "After an enemy character is played here, destroy it. <i>(once per game)</i>",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["destroy"],
+      "code": "NgsncTngWrhd17",
+      "id": 251
+    },
+    {
+      "name": "The Thing",
+      "cost": "4",
+      "power": "7",
+      "text": "“It's clobberin' time!”",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "evolved": "On Reveal: Afflict 3 enemy cards here with -1 Power.",
+      "tags": ["no ability", "on reveal"],
+      "code": "ThThng8",
+      "id": 376
+    },
+    {
+      "name": "Zabu",
+      "cost": "1",
+      "power": "1",
+      "ability": "On Reveal: Give each 4-Cost card in your deck -1 Cost.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Zb4",
+      "id": 430
+    },
+    {
+      "name": "Jennifer Kale",
+      "cost": "2",
+      "power": "3",
+      "ability": "Activate: Next turn, you get +1 Energy.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "JnnfrKlC",
+      "id": 438
+    }
   ],
-  "cards": [],
   "locations": [
-		{
-			"name": "Rocket Pad",
-			"ability": "After turn 4, give cards on the winning side here +1 Power.",
-			"id": 164
-		}
-	],
+    {
+      "name": "Rocket Pad",
+      "ability": "After turn 4, give cards on the winning side here +1 Power.",
+      "id": 164
+    }
+  ],
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
-    { 
-			"title": "Daily Login",
-			"items": [
+    {
+      "title": "Daily Login",
+      "items": [
         {
-					"date": "Jul 10 - Jul 18",
+          "date": "Jul 10 - Jul 18",
           "items": [
             "Title: Bathed In Cosmic Radiation",
             "65 Random Boosters",
@@ -31,46 +138,46 @@
             "Mystery Border"
           ]
         }
-			]
-		},
+      ]
+    },
     {
-			"title": "Features/Modes/Events",
-			"items": [
-				{
-					"title": "High Voltage",
-					"date": "Jul 17 - Jul 21",
-					"items": [
-						"500 Volts - Heavy Metal Border",
-						"2,00 Volts - Neon Nights Border",
-						"4,000 Volts - Mystery Border",
-						"6,000 Volts - Premium Mystery Variant",
-						"10,000 Volts - Premium Mystery Border"
-					]
-				},
-				{
-					"title": "Grand Arena",
-					"date": "Jul 24 - Aug 7",
-					"items": [
-						"Choose your Champion from a roster of eight iconic characters, then battle using unique decks and powerful skill cards tailored to each hero."
-					]
-				},
-				{
-					"title": "Planned Updates (STC)",
-					"date": "Jul - Aug",
-					"items": [
-						"<span class='event-list date'>Jul 17</span> - Patch + OTA",
-						"<span class='event-list date'>Jul 31</span> - OTA",
-						"<span class='event-list date'>Aug 14</span> - OTA",
-						"<span class='event-list date'>Aug 19</span> - Patch",
-						"<span class='event-list date'>Aug 28</span> - OTA"
-					]
-				}
-			]
-		},
-		{
-			"title": "Balance Updates",
-			"items": [
-				{
+      "title": "Features/Modes/Events",
+      "items": [
+        {
+          "title": "High Voltage",
+          "date": "Jul 17 - Jul 21",
+          "items": [
+            "500 Volts - Heavy Metal Border",
+            "2,00 Volts - Neon Nights Border",
+            "4,000 Volts - Mystery Border",
+            "6,000 Volts - Premium Mystery Variant",
+            "10,000 Volts - Premium Mystery Border"
+          ]
+        },
+        {
+          "title": "Grand Arena",
+          "date": "Jul 24 - Aug 7",
+          "items": [
+            "Choose your Champion from a roster of eight iconic characters, then battle using unique decks and powerful skill cards tailored to each hero."
+          ]
+        },
+        {
+          "title": "Planned Updates (STC)",
+          "date": "Jul - Aug",
+          "items": [
+            "<span class='event-list date'>Jul 17</span> - Patch + OTA",
+            "<span class='event-list date'>Jul 31</span> - OTA",
+            "<span class='event-list date'>Aug 14</span> - OTA",
+            "<span class='event-list date'>Aug 19</span> - Patch",
+            "<span class='event-list date'>Aug 28</span> - OTA"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Balance Updates",
+      "items": [
+        {
           "date": "Jul 17",
           "type": "OTA",
           "items": [
@@ -99,7 +206,7 @@
               "name": "Mirage",
               "changes": [
                 "2/2 – On Reveal: Copy the card that costs the least from your opponent’s hand into your hand. Give it +2 Power.",
-                "2/3 – On Reveal: Copy the character that costs the least from your opponent’s hand into your hand. Give it +2 Power"
+                "2/3 – On Reveal: Copy the character that costs the least from your opponent’s hand into your hand. Give it +2 Power."
               ]
             },
             {
@@ -133,7 +240,7 @@
             }
           ]
         }
-			]
-		}
+      ]
+    }
   ]
 }
