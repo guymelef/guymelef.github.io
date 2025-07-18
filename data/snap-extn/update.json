@@ -1,6 +1,7 @@
 {
   "isUpdateAvailable": true,
   "partsToUpdate": [
+		"cards",
     "events",
 		"locations"
   ],
@@ -64,6 +65,74 @@
 						"<span class='event-list date'>Aug 28</span> - OTA"
 					]
 				}
+			]
+		},
+		{
+			"title": "Balance Updates",
+			"items": [
+				{
+          "date": "Jul 17",
+          "type": "OTA",
+          "items": [
+            {
+              "name": "Zabu",
+              "changes": [
+                "1/2 – On Reveal: Give each 4-Cost card in your deck -1 Cost.",
+                "1/2 -> 1/1"
+              ]
+            },
+            {
+              "name": "Bullseye",
+              "changes": [
+                "3/3 – Activate: Discard all cards that cost 1 or less from your hand. Afflict that many different enemy cards with -2 Power.",
+                "3/3 -> 3/2"
+              ]
+            },
+            {
+              "name": "Negasonic Teenage Warhead",
+              "changes": [
+                "3/3 – After an enemy card is played here, destroy it. (once per game)",
+                "After an enemy character is played here, destroy it. (once per game)"
+              ]
+            },
+            {
+              "name": "Mirage",
+              "changes": [
+                "2/2 – On Reveal: Copy the card that costs the least from your opponent’s hand into your hand. Give it +2 Power.",
+                "2/3 – On Reveal: Copy the character that costs the least from your opponent’s hand into your hand. Give it +2 Power"
+              ]
+            },
+            {
+              "name": "The Thing",
+              "changes": ["4/6", "4/6 -> 4/7"]
+            },
+            {
+              "name": "Marvel Boy",
+              "changes": [
+                "3/1 – End of turn: Give 3 of your 1-Cost cards +1 Power.",
+                "3/1 -> 3/2"
+              ]
+            },
+            {
+              "name": "Jennifer Kale",
+              "changes": [
+                "2/2 – Activate: Next turn, you get +1 Energy.",
+                "2/2 -> 2/3"
+              ]
+            },
+            {
+              "name": "Green Goblin",
+              "changes": ["3/-3 – On Reveal: Switch sides.", "3/-3 -> 3/-4"]
+            },
+            {
+              "name": "Doctor Doom 2099",
+              "changes": [
+                "4/3 End of Turn: Add a DoomBot 2099 to a random location if you played (exactly) 1 card.",
+                "4/3 -> 4/4"
+              ]
+            }
+          ]
+        }
 			]
 		}
   ]
