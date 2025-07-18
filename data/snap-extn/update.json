@@ -111,6 +111,187 @@
       "tags": ["activate"],
       "code": "JnnfrKlC",
       "id": 438
+    },
+    {
+      "name": "Viv Vision",
+      "cost": "3",
+      "power": "3",
+      "ability": "End of Turn: Give each card in your hand +1 Power if you’re winning here. Otherwise, move this to another location.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["end of turn"],
+      "code": "Vv3",
+      "id": 406
+    },
+    {
+      "name": "Air-Walker",
+      "cost": "3",
+      "power": "3",
+      "ability": "When this is destroyed, replace it with a 4-Cost card from your hand or deck.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["destroy"],
+      "code": "ArWlkr9",
+      "id": 448
+    },
+    {
+      "name": "Frankie Raye",
+      "cost": "2",
+      "power": "3",
+      "ability": "After the next time you play a 6-Cost card, double this card's Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["others"],
+      "code": "FrnkRB",
+      "id": 452
+    },
+    {
+      "name": "Galactus: First Steps",
+      "cost": "6",
+      "power": "12",
+      "ability": "My Herald is the next character I see you play. End of Turn: +3 Power if you're winning my Herald's location. <i>(if in hand or in play)</i>",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["end of turn"],
+      "code": "GlctsFrstStps12",
+      "id": 453
+    },
+    {
+      "name": "Super-Adaptoid",
+      "cost": "3",
+      "power": "5",
+      "ability": "On Reveal: Steal the text from an enemy Activate card here.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal", "activate"],
+      "code": "SprAdptdD",
+      "id": 470
+    },
+    {
+      "name": "Danger",
+      "cost": "4",
+      "power": "6",
+      "ability": "Activate: Destroy an enemy card here with less Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate", "destroy"],
+      "code": "Dngr6",
+      "id": 471
+    },
+    {
+      "name": "Karima Shapandar Omega Sentinel",
+      "cost": "4",
+      "power": "3",
+      "ability": "Activate: Afflict the highest-Power enemy card with -7 Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "KrmShpndrF",
+      "id": 472
+    },
+    {
+      "name": "Awesome Andy",
+      "cost": "2",
+      "power": "1",
+      "ability": "Activate: Give one of your cards at each other location +2 Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "AwsmAndB",
+      "id": 473
+    },
+    {
+      "name": "Sparky",
+      "cost": "2",
+      "power": "3",
+      "ability": "Activate: Give your card that last moved +2 Power and move it back to its previous location.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate", "move"],
+      "code": "Sprk6",
+      "id": 474
+    },
+    {
+      "name": "Jocasta",
+      "cost": "3",
+      "power": "3",
+      "ability": "Activate: Immediately Activate your other cards here. <i>(without using up their Activate abilities)</i>",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "Jcst7",
+      "id": 475
+    },
+    {
+      "name": "Warlock",
+      "cost": "3",
+      "power": "4",
+      "ability": "Activate: For each unspent Energy, give a card in your hand -1 Cost.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "Wrlck7",
+      "id": 476
+    },
+    {
+      "name": "Jim Hammond Human Torch",
+      "cost": "1",
+      "power": "1",
+      "ability": "At the start of each turn, +1 Power for each bonus Energy you have.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["others"],
+      "code": "JmHmmndA",
+      "id": 477
+    },
+    {
+      "name": "Bastion",
+      "cost": "4",
+      "power": "5",
+      "ability": "On Reveal: Add copies of your other cards here to your hand. Set their Costs to 2 and Power to 3.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Bstn7",
+      "id": 478
+    },
+    {
+      "name": "Moira X",
+      "cost": "1",
+      "power": "2",
+      "ability": "When this is destroyed, get a copy of your opening hand.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["destroy"],
+      "code": "MrX6",
+      "id": 479
+    },
+    {
+      "name": "Headpool",
+      "cost": "1",
+      "power": "1",
+      "ability": "When this is destroyed, return it to your hand then give cards there +1 Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["destroy"],
+      "code": "Hdpl8",
+      "noArt": true,
+      "id": 480
     }
   ],
   "locations": [
@@ -158,7 +339,7 @@
           "title": "Grand Arena",
           "date": "Jul 24 - Aug 7",
           "items": [
-            "Choose your Champion from a roster of eight iconic characters, then battle using unique decks and powerful skill cards tailored to each hero."
+            "Choose your Champion from a roster of eight iconic characters, then battle using unique decks and powerful skill cards tailored to each hero. Mole Man and Mad Thinker will be available as rewards during the event!"
           ]
         },
         {
