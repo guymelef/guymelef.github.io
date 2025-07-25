@@ -9,6 +9,19 @@
   "seasonStyles": [],
   "seasonEvents": [
     {
+      "title": "Twitch Drops",
+      "items": [
+        {
+          "date": "Jul 24 - Aug 1 (Delayed)",
+          "items": [
+            "2:65 Boosters",
+            "4:Premium Mystery Border",
+            "6:Premium Mystery Variant"
+          ]
+        }
+      ]
+    },
+    {
       "title": "Features/Modes/Events",
       "items": [
         {
