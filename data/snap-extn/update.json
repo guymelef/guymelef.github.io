@@ -78,6 +78,150 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Balance Updates",
+      "items": [
+        {
+          "date": "Jul 17",
+          "type": "OTA",
+          "items": [
+            {
+              "name": "Zabu",
+              "changes": [
+                "1/2 – On Reveal: Give each 4-Cost card in your deck -1 Cost.",
+                "1/2 -> 1/1"
+              ]
+            },
+            {
+              "name": "Bullseye",
+              "changes": [
+                "3/3 – Activate: Discard all cards that cost 1 or less from your hand. Afflict that many different enemy cards with -2 Power.",
+                "3/3 -> 3/2"
+              ]
+            },
+            {
+              "name": "Negasonic Teenage Warhead",
+              "changes": [
+                "3/3 – After an enemy card is played here, destroy it. (once per game)",
+                "3/3 – After an enemy character is played here, destroy it. (once per game)"
+              ]
+            },
+            {
+              "name": "Mirage",
+              "changes": [
+                "2/2 – On Reveal: Copy the card that costs the least from your opponent’s hand into your hand. Give it +2 Power.",
+                "2/3 – On Reveal: Copy the character that costs the least from your opponent’s hand into your hand. Give it +2 Power."
+              ]
+            },
+            {
+              "name": "The Thing",
+              "changes": ["4/6", "4/6 -> 4/7"]
+            },
+            {
+              "name": "Marvel Boy",
+              "changes": [
+                "3/1 – End of turn: Give 3 of your 1-Cost cards +1 Power.",
+                "3/1 -> 3/2"
+              ]
+            },
+            {
+              "name": "Jennifer Kale",
+              "changes": [
+                "2/2 – Activate: Next turn, you get +1 Energy.",
+                "2/2 -> 2/3"
+              ]
+            },
+            {
+              "name": "Green Goblin",
+              "changes": ["3/-3 – On Reveal: Switch sides.", "3/-3 -> 3/-4"]
+            },
+            {
+              "name": "Doctor Doom 2099",
+              "changes": [
+                "4/3 End of Turn: Add a DoomBot 2099 to a random location if you played (exactly) 1 card.",
+                "4/3 -> 4/4"
+              ]
+            }
+          ]
+        },
+        {
+          "date": "Jul 31",
+          "type": "OTA",
+          "items": [
+            {
+              "name": "Sunspot",
+              "changes": [
+                "1/1 – End of Turn: Gain +1 Power for each unspent Energy.",
+                "1/1 -> 1/0"
+              ]
+            },
+            {
+              "name": "Gwenpool",
+              "changes": [
+                "4/6 – On Reveal: Pick a random character in your hand 3 times. Give +2 Power each time.",
+                "4/6 -> 4/5"
+              ]
+            },
+            {
+              "name": "Dormammu",
+              "changes": [
+                "7/11 – Game Start: Begin a Summoning Ritual. (Add step 1 to hand.)",
+                "7/11 -> 7/10"
+              ]
+            },
+            {
+              "name": "Dormammu Summoning Ritual #3",
+              "changes": [
+                "3 Cost – On Reveal: Destroy 2 of your characters here to summon Dormammu. (step 3/3)",
+                "3 Cost -> 2 Cost"
+              ]
+            },
+            {
+              "name": "Black Cat",
+              "changes": [
+                "2/6 – End of Turn: Discard this from your hand.",
+                "2/6 -> 1/5"
+              ]
+            },
+            {
+              "name": "Invisible Woman",
+              "changes": [
+                "2/3 – Ongoing: Cards you play here are not revealed until the game ends.",
+                "2/3 -> 2/4"
+              ]
+            },
+            {
+              "name": "Domino",
+              "changes": [
+                "2/3 – You always draw this card on turn 2, and not before.",
+                "2/3 -> 2/4"
+              ]
+            },
+            {
+              "name": "Mobius M. Mobius",
+              "changes": [
+                "3/3 – Ongoing: Your Costs can’t be increased. Your opponent’s Costs can’t be reduced.",
+                "3/3 -> 3/4"
+              ]
+            },
+            {
+              "name": "Agony",
+              "changes": [
+                "1/2 – After you play a card here, merge this with it.",
+                "1/2 -> 1/3"
+              ]
+            },
+            {
+              "name": "Blink",
+              "changes": [
+                "5/7 – On Reveal: Swap the last card you played with a card that costs more from your deck.",
+                "5/7 –> 5/8"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
