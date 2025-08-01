@@ -1,9 +1,137 @@
 {
   "isUpdateAvailable": true,
-  "partsToUpdate": [
-    "events"
+  "partsToUpdate": ["events", "cards"],
+  "cards": [
+    {
+      "name": "Agony",
+      "cost": "1",
+      "power": "3",
+      "ability": "After you play a card here, merge this with it.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Agn5",
+      "id": 11
+    },
+    {
+      "name": "Black Cat",
+      "cost": "1",
+      "power": "5",
+      "ability": "End of Turn: Discard this from your hand.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["end of turn", "discard"],
+      "code": "BlckCt8",
+      "id": 37
+    },
+    {
+      "name": "Blink",
+      "cost": "5",
+      "power": "8",
+      "ability": "On Reveal: Swap the last card you played with a card that costs more from your deck.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Blnk5",
+      "id": 43
+    },
+    {
+      "name": "Domino",
+      "cost": "2",
+      "power": "4",
+      "ability": "You always draw this card on Turn 2, and not before.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": ["others"],
+      "code": "Dmn6",
+      "id": 91
+    },
+    {
+      "name": "Gwenpool",
+      "cost": "4",
+      "power": "5",
+      "ability": "On Reveal: Pick a random character in your hand 3 times. Give +2 Power each time.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Gwnpl8",
+      "id": 138
+    },
+    {
+      "name": "Invisible Woman",
+      "cost": "2",
+      "power": "4",
+      "ability": "Ongoing: Cards you play here are not revealed until the game ends.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "InvsblWmnE",
+      "id": 162
+    },
+    {
+      "name": "Mobius M. Mobius",
+      "cost": "3",
+      "power": "4",
+      "ability": "Ongoing: Your Costs can't be increased. Your opponent's Costs can't be reduced.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "MbsMMbsD",
+      "id": 231
+    },
+    {
+      "name": "She-Hulk",
+      "cost": "6",
+      "power": "10",
+      "ability": "Costs 1 less for each unspent Energy last turn.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["end of turn"],
+      "code": "ShHlk7",
+      "id": 325
+    },
+    {
+      "name": "Sunspot",
+      "cost": "1",
+      "power": "0",
+      "ability": "End of Turn: Gain +1 Power for each unspent Energy.",
+      "released": true,
+      "series": "2",
+      "type": "character",
+      "tags": ["end of turn"],
+      "code": "Snspt7",
+      "id": 357
+    },
+    {
+      "name": "Dormammu",
+      "cost": "7",
+      "power": "10",
+      "ability": "Game Start: Begin a <mark>Summoning Ritual</mark>. <i>(Add step 1 to hand.)</i>",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["game start"],
+      "code": "Drmmm8",
+      "id": 434,
+      "refs": [435, 436, 437]
+    },
+    {
+      "name": "Summoning Ritual #3",
+      "cost": "2",
+      "power": "0",
+      "ability": "On Reveal: Destroy 2 of your characters here to summon Dormammu. <i>(step 3/3)</i>",
+      "type": "skill",
+      "id": 437
+    }
   ],
-  "cards": [],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
