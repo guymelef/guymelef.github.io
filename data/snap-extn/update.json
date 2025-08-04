@@ -142,6 +142,17 @@
       "tags": ["end of turn"],
       "code": "GlctsFrstStps12",
       "id": 453
+    },
+    {
+      "name": "Astral Projection",
+      "cost": "3",
+      "power": "0",
+      "ability": "On Reveal: Copy the text of an On Reveal card in your hand.",
+      "released": true,
+      "type": "skill",
+      "series": "4",
+      "code": "AstrlPrjctn10",
+      "id": 432
     }
   ],
   "locations": [],
