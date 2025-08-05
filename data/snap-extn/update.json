@@ -1,6 +1,6 @@
 {
   "isUpdateAvailable": true,
-  "partsToUpdate": ["events", "cards"],
+  "partsToUpdate": ["events", "cards", "seasonInfo"],
   "cards": [
     {
       "name": "Agony",
@@ -156,7 +156,18 @@
     }
   ],
   "locations": [],
-  "seasonInfo": [],
+  "seasonInfo": [
+    {
+      "seasonTitle": "Fantastic 4",
+      "seasonUrl": "https://marvelsnap.com/new-season-fantastic-4/",
+      "featuredCard": "Mister Fantastic: First Steps",
+      "nextFeaturedCard": "Galactus: First Steps",
+      "featuredLocations": ["Reed's Lab", "Rocket Pad"],
+      "nextfeaturedLocations": ["The Seventh Cosmos", "Zenn-La"],
+      "seasonEndDate": [5, 7, 2025],
+      "nextSeasonEndDate": [2, 8, 2025]
+    }
+  ],
   "seasonStyles": [],
   "seasonEvents": [
     {
