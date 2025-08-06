@@ -1,6 +1,6 @@
 {
   "isUpdateAvailable": true,
-  "partsToUpdate": ["events", "cards", "seasonInfo"],
+  "partsToUpdate": ["season", "cards"],
   "cards": [
     {
       "name": "Agony",
@@ -136,8 +136,8 @@
       "cost": "6",
       "power": "12",
       "ability": "My Herald is the next character I see you play. End of Turn: +2 Power if you're winning my Herald's location. <i>(if in hand or in play)</i>",
-      "released": false,
-      "series": "NA",
+      "released": true,
+      "series": "Season Pass",
       "type": "character",
       "tags": ["end of turn"],
       "code": "GlctsFrstStps12",
@@ -153,74 +153,300 @@
       "series": "4",
       "code": "AstrlPrjctn10",
       "id": 432
+    },
+    {
+      "name": "Air-Walker",
+      "cost": "3",
+      "power": "3",
+      "ability": "When this is destroyed, replace it with a 4-Cost card from your hand or deck.",
+      "released": true,
+      "series": "Ltd. Time Event",
+      "type": "character",
+      "tags": ["destroy"],
+      "code": "ArWlkr9",
+      "id": 448
+    },
+    {
+      "name": "Cosmic Ghost Rider",
+      "cost": "5",
+      "power": "7",
+      "ability": "On Reveal: Remove the text from front-row enemy cards here.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "CsmcGhstRdr10",
+      "id": 449
+    },
+    {
+      "name": "Fantasticar",
+      "cost": "4",
+      "power": "7",
+      "ability": "Activate: Give your End of Turn cards +2 Power.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["activate", "end of turn"],
+      "code": "FntstcrB",
+      "id": 450
+    },
+    {
+      "name": "Firelord",
+      "cost": "4",
+      "power": "6",
+      "ability": "On Reveal: Revive one of your discarded or destroyed 3-Cost cards here.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "discard", "destroy"],
+      "code": "Frlrd8",
+      "id": 451
+    },
+    {
+      "name": "Frankie Raye",
+      "cost": "2",
+      "power": "3",
+      "ability": "After the next time you play a 6-Cost card, double this card's Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "FrnkRB",
+      "id": 452
+    },
+    {
+      "name": "Mad Thinker",
+      "cost": "1",
+      "power": "1",
+      "ability": "At the start of each turn <i>(after drawing)</i>, +2 Power if your hand is full.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["others"],
+      "code": "MdThnkrA",
+      "id": 461
+    },
+    {
+      "name": "Mister Fantastic: First Steps",
+      "cost": "2",
+      "power": "2",
+      "ability": "End of Turn: Give a card in your hand -1 Cost or +2 Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["end of turn"],
+      "code": "MrFntstcFrstStps15",
+      "id": 462
+    },
+    {
+      "name": "Mole Man",
+      "cost": "3",
+      "power": "3",
+      "ability": "On Reveal: Banish the top card of your deck. Add 2 <mark>Rocks</mark> to your hand. Set their Power to the banished card’s Cost.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "banish"],
+      "code": "MlMn7",
+      "id": 463,
+      "refs": [298]
+    },
+    {
+      "name": "Red Shift",
+      "cost": "2",
+      "power": "3",
+      "ability": "On Reveal: Discard the leftmost card in your hand to add a random card with the same Cost to your hand.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "discard"],
+      "code": "RdShft8",
+      "id": 464
+    },
+    {
+      "name": "Silver Surfer: First Steps",
+      "cost": "3",
+      "power": "4",
+      "ability": "End of Turn: If you're winning this location with an On Reveal card, copy its text.",
+      "released": true,
+      "series": "Super Premium",
+      "type": "character",
+      "tags": ["end of turn", "on reveal"],
+      "code": "SlvrSrfrFrstStps16",
+      "id": 465
+    },
+    {
+      "name": "Stardust",
+      "cost": "4",
+      "power": "7",
+      "ability": "Ongoing: Cards can’t be added to locations except by playing or moving them.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["ongoing", "move"],
+      "code": "Strdst8",
+      "id": 466
+    },
+    {
+      "name": "Terrax the Tamer",
+      "cost": "3",
+      "power": "3",
+      "ability": "On Reveal: For each location, shuffle a <mark>Rock</mark> into the losing player's deck.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Trrx6",
+      "id": 467,
+      "refs": [298]
+    },
+    {
+      "name": "The Fallen One",
+      "cost": "5",
+      "power": "5",
+      "ability": "On Reveal: Set your Max Energy equal to this card's Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "FllnOn9",
+      "id": 468
     }
   ],
   "locations": [],
   "seasonInfo": [
     {
-      "seasonTitle": "Fantastic 4",
-      "seasonUrl": "https://marvelsnap.com/new-season-fantastic-4/",
-      "featuredCard": "Mister Fantastic: First Steps",
-      "nextFeaturedCard": "Galactus: First Steps",
-      "featuredLocations": ["Reed's Lab", "Rocket Pad"],
-      "nextfeaturedLocations": ["The Seventh Cosmos", "Zenn-La"],
-      "seasonEndDate": [5, 7, 2025],
-      "nextSeasonEndDate": [2, 8, 2025]
+      "seasonTitle": "Heralds of Galactus",
+      "seasonUrl": "https://marvelsnap.com/new-season-heralds-of-galactus/",
+      "featuredCard": "Galactus: First Steps",
+      "nextFeaturedCard": "Viv Vision",
+      "featuredLocations": ["The Seventh Cosmos", "Zenn-La"],
+      "nextfeaturedLocations": ["Stark Industries", "Kvch"],
+      "seasonEndDate": [2, 8, 2025],
+      "nextSeasonEndDate": [7, 9, 2025]
     }
   ],
-  "seasonStyles": [],
+  "seasonStyles": [
+    {
+      "dateColor": "#e15fec",
+      "headerStyle": {
+        "fontSize": "24px",
+        "padding": "3px 0",
+        "color": "#ccccd2",
+        "backgroundColor": "transparent",
+        "border": "2px solid #e15fec"
+      },
+      "hoverStyle": {
+        "color": "#ccccd2",
+        "backgroundColor": "transparent",
+        "border": "2px solid #7268d7"
+      }
+    }
+  ],
   "seasonEvents": [
     {
-      "title": "Twitch Drops",
+      "title": "New Characters",
       "items": [
         {
-          "date": "Jul 24 - Aug 1 (Delayed)",
+          "date": "Aug 5",
           "items": [
-            "2:65 Boosters",
-            "4:Premium Mystery Border",
-            "6:Premium Mystery Variant"
+            { "name": "Galactus: First Steps", "series": "Season Pass" },
+            { "name": "Silver Surfer: First Steps", "series": "Super Premium" },
+            { "name": "Stardust", "series": "5" },
+            { "name": "Red Shift", "series": "4" },
+            { "name": "Terrax the Tamer", "series": "4" }
+          ]
+        },
+        {
+          "date": "Aug 12",
+          "items": [
+            { "name": "Frankie Raye", "series": "5" },
+            { "name": "Firelord", "series": "4" }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "items": [{ "name": "The Fallen One", "series": "5" }]
+        },
+        {
+          "date": "Aug 21",
+          "items": [{ "name": "Air-Walker", "series": "Ltd. Time Event" }]
+        },
+        {
+          "date": "Aug 26",
+          "items": [{ "name": "Cosmic Ghost Rider", "series": "5" }]
+        }
+      ]
+    },
+    {
+      "title": "New Locations",
+      "items": ["The Seventh Cosmos", "Zenn-La"]
+    },
+    {
+      "title": "New Albums",
+      "items": [
+        {
+          "date": "Aug 12",
+          "name": "Keep it Casual",
+          "items": [
+            "3:Gamora Deadliest Emote",
+            "6:2x Premium Mystery Border",
+            "9:4,000 Collector’s Tokens",
+            "11:Hope Summers – InHyuk Lee Casual Variant"
+          ]
+        },
+        {
+          "date": "Aug 26",
+          "name": "Penciled Pan Perfection",
+          "items": [
+            "3:3x Premium Mystery Border",
+            "6:Shang-Chi Rings Ready Emote",
+            "9:4,000 Collector's Tokens",
+            "12:Arishem – Pan Comic Variant"
           ]
         }
       ]
     },
     {
-      "title": "Daily Login",
+      "title": "Shop Takeover",
       "items": [
         {
-          "date": "Jul 25 - Aug 2",
-          "items": [
-            "65 Random Boosters",
-            "100 Credits",
-            "Mystery Border",
-            "155 Random Boosters",
-            "Premium Mystery Border",
-            "250 Credits",
-            "Premium Mystery Variant"
+          "date": "Aug 12 - Aug 13",
+          "name": "InHyuk Lee",
+          "cards": [
+            "Enchantress",
+            "Speed",
+            "Wolverine",
+            "Wiccan",
+            "Magik",
+            "Gamora"
+          ]
+        },
+        {
+          "date": "Aug 29 - Aug 30",
+          "name": "Pandart Studio",
+          "cards": [
+            "Zabu",
+            "Thanos",
+            "Venom",
+            "Nico Minoru",
+            "Carnage",
+            "Jeff the Baby Land Shark"
           ]
         }
       ]
+    },
+    {
+      "title": "Twitch Drops",
+      "items": []
+    },
+    {
+      "title": "Daily Login",
+      "items": []
     },
     {
       "title": "Features/Modes/Events",
       "items": [
-        {
-          "title": "High Voltage",
-          "date": "Jul 17 - Jul 21",
-          "items": [
-            "500 Volts - Heavy Metal Border",
-            "2,000 Volts - Neon Nights Border",
-            "4,000 Volts - Mystery Border",
-            "6,000 Volts - Premium Mystery Variant",
-            "10,000 Volts - Premium Mystery Border"
-          ]
-        },
-        {
-          "title": "Grand Arena",
-          "date": "Jul 24 - Aug 7",
-          "items": [
-            "Choose your Champion from a roster of eight iconic characters, then battle using unique decks and powerful skill cards tailored to each hero. Mole Man and Mad Thinker will be available as rewards during the event!"
-          ]
-        },
         {
           "title": "Golden Gauntlet World Championship Series",
           "date": "Aug 9",
@@ -229,11 +455,29 @@
           ]
         },
         {
-          "title": "Planned Updates (STC)",
-          "date": "Jul - Aug",
+          "title": "High Voltage",
+          "date": "Aug 21 - Aug 28",
           "items": [
-            "<span class='event-list date'>Jul 17</span> - Patch + OTA",
-            "<span class='event-list date'>Jul 31</span> - OTA",
+            "<span class='event-list date'>500 Volts</span> - Air-Walker Avatar",
+            "<span class='event-list date'>1,500 Volts</span> - Purple Cosmic Border",
+            "<span class='event-list date'>4,000 Volts</span> - Mystery Variant",
+            "<span class='event-list date'>7,000 Volts</span> - Premium Mystery Border",
+            "<span class='event-list date'>12,000 Volts</span> - Air-Walker Card",
+            "<span class='event-list date'>18,000 Volts</span> - Premium Mystery Variant"
+          ]
+        },
+        {
+          "title": "Featured Sets",
+          "date": "Aug - Sep",
+          "items": [
+            "<span class='event-list date'>Aug 19 - Aug 25</span> - X-Men",
+            "<span class='event-list date'>Aug 28 - Sep 1</span> - Destroy"
+          ]
+        },
+        {
+          "title": "Planned Updates (STC)",
+          "date": "Aug",
+          "items": [
             "<span class='event-list date'>Aug 14</span> - OTA",
             "<span class='event-list date'>Aug 19</span> - Patch",
             "<span class='event-list date'>Aug 28</span> - OTA"
@@ -242,148 +486,13 @@
       ]
     },
     {
+      "title": "Series Drop",
+      "date": "",
+      "items": []
+    },
+    {
       "title": "Balance Updates",
-      "items": [
-        {
-          "date": "Jul 17",
-          "type": "OTA",
-          "items": [
-            {
-              "name": "Zabu",
-              "changes": [
-                "1/2 – On Reveal: Give each 4-Cost card in your deck -1 Cost.",
-                "1/2 -> 1/1"
-              ]
-            },
-            {
-              "name": "Bullseye",
-              "changes": [
-                "3/3 – Activate: Discard all cards that cost 1 or less from your hand. Afflict that many different enemy cards with -2 Power.",
-                "3/3 -> 3/2"
-              ]
-            },
-            {
-              "name": "Negasonic Teenage Warhead",
-              "changes": [
-                "3/3 – After an enemy card is played here, destroy it. (once per game)",
-                "3/3 – After an enemy character is played here, destroy it. (once per game)"
-              ]
-            },
-            {
-              "name": "Mirage",
-              "changes": [
-                "2/2 – On Reveal: Copy the card that costs the least from your opponent’s hand into your hand. Give it +2 Power.",
-                "2/3 – On Reveal: Copy the character that costs the least from your opponent’s hand into your hand. Give it +2 Power."
-              ]
-            },
-            {
-              "name": "The Thing",
-              "changes": ["4/6", "4/6 -> 4/7"]
-            },
-            {
-              "name": "Marvel Boy",
-              "changes": [
-                "3/1 – End of turn: Give 3 of your 1-Cost cards +1 Power.",
-                "3/1 -> 3/2"
-              ]
-            },
-            {
-              "name": "Jennifer Kale",
-              "changes": [
-                "2/2 – Activate: Next turn, you get +1 Energy.",
-                "2/2 -> 2/3"
-              ]
-            },
-            {
-              "name": "Green Goblin",
-              "changes": ["3/-3 – On Reveal: Switch sides.", "3/-3 -> 3/-4"]
-            },
-            {
-              "name": "Doctor Doom 2099",
-              "changes": [
-                "4/3 End of Turn: Add a DoomBot 2099 to a random location if you played (exactly) 1 card.",
-                "4/3 -> 4/4"
-              ]
-            }
-          ]
-        },
-        {
-          "date": "Jul 31",
-          "type": "OTA",
-          "items": [
-            {
-              "name": "Sunspot",
-              "changes": [
-                "1/1 – End of Turn: Gain +1 Power for each unspent Energy.",
-                "1/1 -> 1/0"
-              ]
-            },
-            {
-              "name": "Gwenpool",
-              "changes": [
-                "4/6 – On Reveal: Pick a random character in your hand 3 times. Give +2 Power each time.",
-                "4/6 -> 4/5"
-              ]
-            },
-            {
-              "name": "Dormammu",
-              "changes": [
-                "7/11 – Game Start: Begin a Summoning Ritual. (Add step 1 to hand.)",
-                "7/11 -> 7/10"
-              ]
-            },
-            {
-              "name": "Dormammu Summoning Ritual #3",
-              "changes": [
-                "3 Cost – On Reveal: Destroy 2 of your characters here to summon Dormammu. (step 3/3)",
-                "3 Cost -> 2 Cost"
-              ]
-            },
-            {
-              "name": "Black Cat",
-              "changes": [
-                "2/6 – End of Turn: Discard this from your hand.",
-                "2/6 -> 1/5"
-              ]
-            },
-            {
-              "name": "Invisible Woman",
-              "changes": [
-                "2/3 – Ongoing: Cards you play here are not revealed until the game ends.",
-                "2/3 -> 2/4"
-              ]
-            },
-            {
-              "name": "Domino",
-              "changes": [
-                "2/3 – You always draw this card on turn 2, and not before.",
-                "2/3 -> 2/4"
-              ]
-            },
-            {
-              "name": "Mobius M. Mobius",
-              "changes": [
-                "3/3 – Ongoing: Your Costs can’t be increased. Your opponent’s Costs can’t be reduced.",
-                "3/3 -> 3/4"
-              ]
-            },
-            {
-              "name": "Agony",
-              "changes": [
-                "1/2 – After you play a card here, merge this with it.",
-                "1/2 -> 1/3"
-              ]
-            },
-            {
-              "name": "Blink",
-              "changes": [
-                "5/7 – On Reveal: Swap the last card you played with a card that costs more from your deck.",
-                "5/7 –> 5/8"
-              ]
-            }
-          ]
-        }
-      ]
+      "items": []
     }
   ]
 }
