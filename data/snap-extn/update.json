@@ -442,7 +442,20 @@
     },
     {
       "title": "Daily Login",
-      "items": []
+      "items": [
+        {
+          "date": "Aug 6 - Aug 14",
+          "items": [
+            "65 Random Boosters",
+            "100 Credits",
+            "Title - Golden Horn Tooter",
+            "155 Random Boosters",
+            "Mystery Variant",
+            "150 Credits",
+            "Mystery Border"
+          ]
+        }
+      ]
     },
     {
       "title": "Features/Modes/Events",
