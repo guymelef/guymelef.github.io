@@ -1,9 +1,44 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": ["events"],
   "cards": [],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+      "title": "New Characters",
+      "items": [
+        {
+          "date": "Aug 5",
+          "items": [
+            { "name": "Galactus: First Steps", "series": "Season Pass" },
+            { "name": "Silver Surfer: First Steps", "series": "Super Premium" },
+            { "name": "Stardust", "series": "5" },
+            { "name": "Red Shift", "series": "4" },
+            { "name": "Terrax the Tamer", "series": "4" }
+          ]
+        },
+        {
+          "date": "Aug 12",
+          "items": [{ "name": "Frankie Raye", "series": "5" }]
+        },
+        {
+          "date": "Aug 19",
+          "items": [{ "name": "The Fallen One", "series": "5" }]
+        },
+        {
+          "date": "Aug 21",
+          "items": [
+            { "name": "Firelord", "series": "4" },
+            { "name": "Air-Walker", "series": "Ltd. Time Event" }
+          ]
+        },
+        {
+          "date": "Aug 26",
+          "items": [{ "name": "Cosmic Ghost Rider", "series": "5" }]
+        }
+      ]
+    }
+  ]
 }
