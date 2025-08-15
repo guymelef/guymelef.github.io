@@ -1,7 +1,138 @@
 {
   "isUpdateAvailable": true,
-  "partsToUpdate": ["events"],
-  "cards": [],
+  "partsToUpdate": ["cards", "events"],
+  "cards": [
+    {
+      "name": "Doctor Strange",
+      "cost": "2",
+      "power": "4",
+      "ability": "On Reveal: Move your highest-Power card(s) to this location.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": ["on reveal", "move"],
+      "code": "DctrStrngD",
+      "id": 90
+    },
+    {
+      "name": "Ghost",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: Remove the abilities from all End of Turn cards here.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Ghst5",
+      "id": 123
+    },
+    {
+      "name": "Havok",
+      "cost": "2",
+      "power": "1",
+      "ability": "End of Turn: You lose 1 Max Energy and this gains +3 Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["end of turn"],
+      "code": "Hvk5",
+      "id": 139
+    },
+    {
+      "name": "Human Torch",
+      "cost": "3",
+      "power": "3",
+      "ability": "When this moves, double its Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["move"],
+      "code": "HmnTrchA",
+      "id": 155
+    },
+    {
+      "name": "Surge",
+      "cost": "2",
+      "power": "1",
+      "ability": "On Reveal: Give the top card of your deck -1 Cost and +1 Power. After you play it, repeat this ability.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Srg5",
+      "id": 360
+    },
+    {
+      "name": "Tiger Spirit",
+      "cost": "5",
+      "power": "9",
+      "text": "“Vengeance is mine!”",
+      "type": "token",
+      "id": 380
+    },
+    {
+      "name": "Topaz",
+      "cost": "3",
+      "power": "5",
+      "ability": "After you play a card here, move it to the middle location.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Tpz5",
+      "id": 385
+    },
+    {
+      "name": "Vulture",
+      "cost": "1",
+      "power": "2",
+      "ability": "When this card moves, +3 Power.",
+      "released": true,
+      "series": "2",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Vltr7",
+      "id": 407
+    },
+    {
+      "name": "White Tiger",
+      "cost": "5",
+      "power": "1",
+      "ability": "On Reveal: Add an 9-Power <mark>Tiger</mark> to another location.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "WhtTgrA",
+      "id": 414,
+      "refs": [380]
+    },
+    {
+      "name": "Mister Fantastic: First Steps",
+      "cost": "3",
+      "power": "4",
+      "ability": "End of Turn: Give a card in your hand -1 Cost or +2 Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["end of turn"],
+      "code": "MrFntstcFrstStps15",
+      "id": 462
+    },
+    {
+      "name": "Terrax the Tamer",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: For each location, shuffle a <mark>Rock</mark> into the losing player's deck.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Trrx6",
+      "id": 467,
+      "refs": [298]
+    }
+  ],
   "locations": [],
   "seasonInfo": [],
   "seasonStyles": [],
@@ -37,6 +168,87 @@
         {
           "date": "Aug 26",
           "items": [{ "name": "Cosmic Ghost Rider", "series": "5" }]
+        }
+      ]
+    },
+    {
+      "title": "Balance Updates",
+      "items": [
+        {
+          "date": "Aug 14",
+          "type": "OTA",
+          "items": [
+            {
+              "name": "Mister Fantastic: First Steps",
+              "changes": [
+                "2/2 – End of Turn: Give a card in your hand -1 Cost or +2 Power.",
+                "2/2 -> 3/4"
+              ]
+            },
+            {
+              "name": "Surge",
+              "changes": [
+                "2/2 – On Reveal: Give the top card of your deck -1 Cost and +1 Power. After you play it, repeat this ability.",
+                "2/2 -> 2/1"
+              ]
+            },
+            {
+              "name": "Havok",
+              "changes": [
+                "2/0 – End of Turn: You lose 1 Max Energy and this gains +4 Power.",
+                "2/1 – End of Turn: You lose 1 Max Energy and this gains +3 Power."
+              ]
+            },
+            {
+              "name": "Ghost",
+              "changes": [
+                "3/5 – Ongoing: Your cards are always revealed last. (Their On Reveal abilities happen last.).",
+                "3/4 – On Reveal: Remove the abilities from all End of Turn cards here."
+              ]
+            },
+            {
+              "name": "Vulture",
+              "changes": [
+                "3/3 – When this card moves, +6 Power.",
+                "1/2 – When this card moves, +3 Power."
+              ]
+            },
+            {
+              "name": "Human Torch",
+              "changes": [
+                "1/2 – When this moves, double its Power.",
+                "1/2 -> 3/3"
+              ]
+            },
+            {
+              "name": "Topaz",
+              "changes": [
+                "3/4 – After you play a card here, move it to the middle location.",
+                "3/4 -> 3/5"
+              ]
+            },
+            {
+              "name": "Doctor Strange",
+              "changes": [
+                "2/3 – On Reveal: Move your highest-Power card(s) to this location.",
+                "2/3 -> 2/4"
+              ]
+            },
+            {
+              "name": "White Tiger",
+              "changes": [
+                "5/1 – On Reveal: Add an 8-Power Tiger to another location.",
+                "8-Power Tiger -> 9-Power Tiger"
+              ]
+            },
+            {
+              "name": "Terrax the Tamer",
+              "changes": [
+                "3/3 – On Reveal: For each location, shuffle a Rock into the losing player’s deck.",
+                "3/3 -> 3/4"
+              ]
+            }
+          ]
         }
       ]
     }
