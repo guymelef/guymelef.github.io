@@ -172,6 +172,47 @@
       ]
     },
     {
+      "title": "Features/Modes/Events",
+      "items": [
+        {
+          "title": "Golden Gauntlet World Championship Series",
+          "date": "Aug 9",
+          "items": [
+            "A celebration of player-powered competition—open to all, free to enter, and full of SNAP energy. Visit Discord for more info."
+          ]
+        },
+        {
+          "title": "High Voltage",
+          "date": "Aug 21 - Aug 28",
+          "items": [
+            "<span class='event-list date'>500 Volts</span> - Air-Walker Avatar",
+            "<span class='event-list date'>1,500 Volts</span> - 2x Purple Cosmic Border",
+            "<span class='event-list date'>4,000 Volts</span> - Mystery Variant",
+            "<span class='event-list date'>7,000 Volts</span> - 2x Premium Mystery Border",
+            "<span class='event-list date'>12,000 Volts</span> - Air-Walker Card",
+            "<span class='event-list date'>18,000 Volts</span> - Premium Mystery Variant"
+          ]
+        },
+        {
+          "title": "Featured Sets",
+          "date": "Aug - Sep",
+          "items": [
+            "<span class='event-list date'>Aug 19 - Aug 25</span> - X-Men",
+            "<span class='event-list date'>Aug 28 - Sep 1</span> - Destroy"
+          ]
+        },
+        {
+          "title": "Planned Updates (STC)",
+          "date": "Aug",
+          "items": [
+            "<span class='event-list date'>Aug 14</span> - OTA",
+            "<span class='event-list date'>Aug 19</span> - Patch",
+            "<span class='event-list date'>Aug 28</span> - OTA"
+          ]
+        }
+      ]
+    },
+    {
       "title": "Balance Updates",
       "items": [
         {
