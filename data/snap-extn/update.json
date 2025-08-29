@@ -330,6 +330,115 @@
       "tags": ["on reveal"],
       "code": "ZmbSntrC",
       "id": 490
+    },
+    {
+      "name": "America Chavez",
+      "cost": "1",
+      "power": "2",
+      "ability": "On Reveal: Give the top card of your deck +3 Power.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "AmrcChvzD",
+      "id": 14
+    },
+    {
+      "name": "Cannonball",
+      "cost": "5",
+      "power": "6",
+      "ability": "On Reveal: Move the highest-Power enemy card here away. If you can't, destroy it with a <mark>Rock</mark>.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "move", "destroy"],
+      "code": "CnnnbllA",
+      "id": 54,
+      "refs": [298]
+    },
+    {
+      "name": "Fenris Wolf",
+      "cost": "3",
+      "power": "4",
+      "ability": "Activate: Rusurrect your opponent's highest-Power discarded or destroyed card on your side of this location.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["activate", "discard", "destroy"],
+      "code": "FnrsWlfA",
+      "id": 112
+    },
+    {
+      "name": "Ghost-Spider",
+      "cost": "1",
+      "power": "3",
+      "ability": "On Reveal: The last card you played moves here.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal", "move"],
+      "code": "GhstSpdrB",
+      "id": 125
+    },
+    {
+      "name": "Juggernaut",
+      "cost": "4",
+      "power": "5",
+      "ability": "On Reveal: Move away all enemy cards played here this turn. <i>(including unrevealed cards)</i>",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal", "move"],
+      "code": "JggrntA",
+      "id": 175
+    },
+    {
+      "name": "Nightmare",
+      "cost": "3",
+      "power": "1",
+      "ability": "On Reveal: Replace the text of each card in your hand with text from a random card of the same Cost.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Nghtmr9",
+      "id": 442
+    },
+    {
+      "name": "Fantasticar",
+      "cost": "4",
+      "power": "5",
+      "ability": "Activate: Give your End of Turn cards +2 Power.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["activate", "end of turn"],
+      "code": "FntstcrB",
+      "id": 450
+    },
+    {
+      "name": "Mad Thinker",
+      "cost": "1",
+      "power": "2",
+      "ability": "At the start of each turn <i>(after drawing)</i>, +2 Power if your hand is full.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["others"],
+      "code": "MdThnkrA",
+      "id": 461
+    },
+    {
+      "name": "Silver Surfer: First Steps",
+      "cost": "3",
+      "power": "5",
+      "ability": "End of Turn: If you're winning this location with an On Reveal card, copy its text.",
+      "released": true,
+      "series": "Super Premium",
+      "type": "character",
+      "tags": ["end of turn", "on reveal"],
+      "code": "SlvrSrfrFrstStps16",
+      "id": 465
     }
   ],
   "locations": [],
@@ -492,6 +601,75 @@
               "changes": [
                 "3/3 – On Reveal: For each location, shuffle a Rock into the losing player’s deck.",
                 "3/3 -> 3/4"
+              ]
+            }
+          ]
+        },
+        {
+          "date": "Aug 28",
+          "type": "OTA",
+          "items": [
+            {
+              "name": "Fenris Wolf",
+              "changes": [
+                "2/3 – Activate: Resurrect your opponent’s highest-Power discarded or destroyed card on your side of this location.",
+                "2/3 -> 3/4"
+              ]
+            },
+            {
+              "name": "Cannonball",
+              "changes": [
+                "5/8 – On Reveal: Move the highest-Power enemy card here away. If you can’t, destroy it with a Rock.",
+                "5/8 -> 5/6"
+              ]
+            },
+            {
+              "name": "Juggernaut",
+              "changes": [
+                "3/3 – On Reveal: Move away all enemy cards played here this turn. (including unrevealed cards)",
+                "3/3 -> 4/5"
+              ]
+            },
+            {
+              "name": "Fantasticar",
+              "changes": [
+                "4/7 – Activate: Give your End of Turn cards +2 Power.",
+                "4/7 -> 4/5"
+              ]
+            },
+            {
+              "name": "Mad Thinker",
+              "changes": [
+                "1/1 – At the start of each turn (after drawing), +2 Power if your hand is full.",
+                "1/1 -> 1/2"
+              ]
+            },
+            {
+              "name": "Nightmare",
+              "changes": [
+                "3/-1- On Reveal: Replace the text of each card in your hand with text from a random card of the same Cost.",
+                "3/-1 -> 3/1"
+              ]
+            },
+            {
+              "name": "Silver Surfer: First Steps",
+              "changes": [
+                "3/4 – End of Turn: If you’re winning this location with an On Reveal card, copy its text.",
+                "3/4 -> 3/5"
+              ]
+            },
+            {
+              "name": "America Chavez",
+              "changes": [
+                "1/2 – On Reveal: Give the top card of your deck +2 Power.",
+                "1/2 – On Reveal: Give the top card of your deck +3 Power."
+              ]
+            },
+            {
+              "name": "Ghost-Spider",
+              "changes": [
+                "1/2 – On Reveal: The last card you played moves here.",
+                "1/2 -> 1/3"
               ]
             }
           ]
