@@ -439,6 +439,18 @@
       "tags": ["end of turn", "on reveal"],
       "code": "SlvrSrfrFrstStps16",
       "id": 465
+    },
+    {
+      "name": "Omega Sentinel",
+      "cost": "4",
+      "power": "3",
+      "ability": "Activate: Afflict the highest-Power enemy card with -7 Power.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["activate", "afflict"],
+      "code": "KrmShpndrF",
+      "id": 472
     }
   ],
   "locations": [],
