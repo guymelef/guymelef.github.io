@@ -135,8 +135,8 @@
     {
       "name": "Viv Vision",
       "cost": "3",
-      "power": "3",
-      "ability": "At the start of each turn, give all cards in your hand +1 Power if you’re winning here. Otherwise, move this to another location. ",
+      "power": "2",
+      "ability": "At the start of each turn, give all cards in your hand +1 Power if you’re winning here. Otherwise, move this to another location.",
       "released": false,
       "series": "NA",
       "type": "character",
@@ -159,7 +159,7 @@
     {
       "name": "Jocasta",
       "cost": "3",
-      "power": "4",
+      "power": "3",
       "ability": "Activate: Immediately Activate your other cards here. <i>(without using up their Activate abilities)</i>",
       "released": false,
       "series": "NA",
