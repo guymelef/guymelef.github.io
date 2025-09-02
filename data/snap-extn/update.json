@@ -1,9 +1,378 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
-  "cards": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": ["season", "cards"],
+  "cards": [
+    {
+      "name": "Viv Vision",
+      "cost": "3",
+      "power": "2",
+      "ability": "At the start of each turn, give all cards in your hand +1 Power if you’re winning here. Otherwise, move this to another location.",
+      "released": true,
+      "series": "Season Pass",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Vv3",
+      "id": 406
+    },
+    {
+      "name": "Air-Walker",
+      "cost": "3",
+      "power": "3",
+      "ability": "When this is destroyed, replace it with a 4-Cost card from your hand or deck.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["destroy"],
+      "code": "ArWlkr9",
+      "id": 448
+    },
+    {
+      "name": "Galactus: First Steps",
+      "cost": "6",
+      "power": "12",
+      "ability": "My Herald is the next character I see you play. End of Turn: +2 Power if you're winning my Herald's location. <i>(if in hand or in play)</i>",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["end of turn"],
+      "code": "GlctsFrstStps12",
+      "id": 453
+    },
+    {
+      "name": "Silver Surfer: First Steps",
+      "cost": "3",
+      "power": "5",
+      "ability": "End of Turn: If you're winning this location with an On Reveal card, copy its text.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["end of turn", "on reveal"],
+      "code": "SlvrSrfrFrstStps16",
+      "id": 465
+    },
+    {
+      "name": "Super-Adaptoid",
+      "cost": "3",
+      "power": "5",
+      "ability": "On Reveal: Steal the text from an enemy Activate card here.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "activate", "steal"],
+      "code": "SprAdptdD",
+      "id": 470
+    },
+    {
+      "name": "Danger",
+      "cost": "4",
+      "power": "6",
+      "ability": "Activate: Destroy an enemy card here with less Power.",
+      "released": true,
+      "series": "Ltd. Time Event",
+      "type": "character",
+      "tags": ["activate", "destroy"],
+      "code": "Dngr6",
+      "id": 471
+    },
+    {
+      "name": "Omega Sentinel",
+      "cost": "4",
+      "power": "3",
+      "ability": "Activate: Afflict the highest-Power enemy card with -7 Power.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["activate", "afflict"],
+      "code": "KrmShpndrF",
+      "id": 472
+    },
+    {
+      "name": "Awesome Andy",
+      "cost": "2",
+      "power": "1",
+      "ability": "Activate: Give one of your cards at each other location +2 Power.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "AwsmAndB",
+      "id": 473
+    },
+    {
+      "name": "Sparky",
+      "cost": "2",
+      "power": "1",
+      "ability": "Activate: Give your card that last moved +3 Power and move it back to its previous location.",
+      "released": true,
+      "series": "Super Premium",
+      "type": "character",
+      "tags": ["activate", "move"],
+      "code": "Sprk6",
+      "id": 474
+    },
+    {
+      "name": "Jocasta",
+      "cost": "3",
+      "power": "3",
+      "ability": "Activate: Immediately Activate your other cards here. <i>(without using up their Activate abilities)</i>",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "Jcst7",
+      "id": 475
+    },
+    {
+      "name": "Warlock",
+      "cost": "3",
+      "power": "3",
+      "ability": "Activate: For each unspent Energy, give a card in your hand -1 Cost.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "Wrlck7",
+      "id": 476
+    },
+    {
+      "name": "Jim Hammond Human Torch",
+      "cost": "1",
+      "power": "2",
+      "ability": "At the start of each turn, +1 Power for each bonus Energy you have.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "JmHmmndA",
+      "id": 477
+    },
+    {
+      "name": "Bastion",
+      "cost": "4",
+      "power": "3",
+      "ability": "On Reveal: Add copies of your other cards here to your hand. Set their Costs to 2 and Power to 3.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Bstn7",
+      "id": 478
+    },
+    {
+      "name": "Moira X",
+      "cost": "1",
+      "power": "2",
+      "ability": "When this is destroyed, get a copy of your opening hand.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["destroy"],
+      "code": "MrX6",
+      "id": 479
+    }
+  ],
   "locations": [],
-  "seasonInfo": [],
-  "seasonStyles": [],
-  "seasonEvents": []
+  "seasonInfo": [
+    {
+      "seasonTitle": "Visions of the Future",
+      "seasonUrl": "https://marvelsnap.com/new-season-visions-of-the-future/",
+      "featuredCard": "Viv Vision",
+      "nextFeaturedCard": "Zombie Scarlet Witch",
+      "featuredLocations": ["Stark Industries", "Kvch"],
+      "nextfeaturedLocations": ["Survivor's Camp", "The Deadlands"],
+      "seasonEndDate": [7, 9, 2025],
+      "nextSeasonEndDate": [4, 10, 2025]
+    }
+  ],
+  "seasonStyles": [
+    {
+      "dateColor": "#b6e605",
+      "headerStyle": {
+        "fontSize": "24px",
+        "padding": "4px 0",
+        "color": "#f82296",
+        "border": "2px solid #b6e605"
+      },
+      "hoverStyle": {
+        "color": "#f82296",
+        "border": "2px solid #fcf997"
+      }
+    }
+  ],
+  "seasonEvents": [
+    {
+      "title": "New Characters",
+      "items": [
+        {
+          "date": "Sep 2",
+          "items": [
+            { "name": "Viv Vision", "series": "Season Pass" },
+            { "name": "Sparky ", "series": "Super Premium" },
+            { "name": "Moira X", "series": "5" },
+            { "name": "Awesome Andy", "series": "4" },
+            { "name": "Omega Sentinel", "series": "4" }
+          ]
+        },
+        {
+          "date": "Sep 9",
+          "items": [{ "name": "Bastion", "series": "5" }]
+        },
+        {
+          "date": "Sep 16",
+          "items": [{ "name": "Jim Hammond Human Torch", "series": "5" }]
+        },
+        {
+          "date": "Sep 18",
+          "items": [{ "name": "Danger", "series": "Ltd. Time Event" }]
+        },
+        {
+          "date": "Sep 23",
+          "items": [{ "name": "Warlock", "series": "5" }]
+        },
+        {
+          "date": "Sep 30",
+          "items": [
+            { "name": "Jocasta", "series": "5" },
+            { "name": "Super-Adaptoid", "series": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "New Locations",
+      "items": ["Stark Industries", "Kvch"]
+    },
+    {
+      "title": "New Albums",
+      "items": [
+        {
+          "date": "Sep 16",
+          "name": "Alex Maleev",
+          "items": [
+            "3:1,500 Credits",
+            "6:3x Mystery Border",
+            "9:Doctor Doom – Toots As He Pleases Emote",
+            "12:Khonshu – Alex Maleev Variant"
+          ]
+        },
+        {
+          "date": "Sep 23",
+          "name": "Rodgon Chibi",
+          "items": [
+            "3:Premium Mystery Variant",
+            "6:3x Mystery Border",
+            "9:3x Premium Mystery Border",
+            "12:Strange Supreme – Rodgon Chibi Variant"
+          ]
+        },
+        {
+          "date": "Sep 30",
+          "name": "James Ryman",
+          "items": [
+            "3:2,000 Credits",
+            "6:3x Premium Mystery Border",
+            "9:Dormammu – James Ryman Variant",
+            "12:5,000 Collector’s Tokens"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Shop Takeover",
+      "items": [
+        {
+          "date": "Sep 16 - Sep 17",
+          "name": "Alex Maleev",
+          "cards": [
+            "Daredevil",
+            "Doctor Doom",
+            "Elektra",
+            "Namor",
+            "Spider-Man",
+            "Jessica Jones"
+          ]
+        },
+        {
+          "date": "Sep 23 - Sep 24",
+          "name": "Rodgon Chibi",
+          "cards": [
+            "Joaquin Torres",
+            "Prodigy",
+            "Sam Wilson Captain America",
+            "Doctor Strange",
+            "Captain Carter",
+            "Redwing"
+          ]
+        },
+        {
+          "date": "Sep 30 - Oct 1",
+          "name": "James Ryman",
+          "cards": [
+            "Hulkbuster",
+            "Iron Lad",
+            "Jennifer Kale",
+            "Merlin",
+            "Morgan le Fay",
+            "Thanos"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Twitch Drops",
+      "items": []
+    },
+    {
+      "title": "Daily Login",
+      "items": []
+    },
+    {
+      "title": "Features/Modes/Events",
+      "items": [
+        {
+          "title": "Deadpool's Diner",
+          "date": "Sep 18 - Sep 25",
+          "items": [
+            "Win matches, complete missions, progress on the Maximum Effort Reward Track, and cash in on new rewards like the new Red Fire Borders, Gold Chain Borders, and the new Series 4 Card, Danger!"
+          ]
+        },
+        {
+          "title": "High Voltage",
+          "date": "Oct 2 - Oct 6",
+          "items": [
+            "High Voltage is coming back for another weekend edition. This four day event will be another purely cosmetic event, with no unlockable cards."
+          ]
+        },
+        {
+          "title": "Featured Sets",
+          "date": "September",
+          "items": [
+            "<span class='event-list date'>Sep 16 - Sep 22</span> - Discard",
+            "<span class='event-list date'>Sep 23 - Sep 29</span> - Activate"
+          ]
+        },
+        {
+          "title": "Planned Updates (STC)",
+          "date": "Sep - Oct",
+          "items": [
+            "<span class='event-list date'>Sep 11</span> - OTA",
+            "<span class='event-list date'>Sep 16</span> - Patch",
+            "<span class='event-list date'>Sep 25</span> - OTA",
+            "<span class='event-list date'>Oct 14</span> - Patch",
+            "<span class='event-list date'>Oct 16</span> - OTA",
+            "<span class='event-list date'>Oct 30</span> - OTA"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Series Drop",
+      "date": "",
+      "items": []
+    },
+    {
+      "title": "Balance Updates",
+      "items": []
+    }
+  ]
 }
