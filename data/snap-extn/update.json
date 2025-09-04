@@ -324,7 +324,20 @@
     },
     {
       "title": "Daily Login",
-      "items": []
+      "items": [
+        {
+          "date": "Sep 3 - Sep 11",
+          "items": [
+            "Title - Solar-Powered",
+            "100 Credits",
+            "65 Random Boosters",
+            "155 Random Boosters",
+            "150 Credits",
+            "Mystery Border",
+            "Mystery Variant"
+          ]
+        }
+      ]
     },
     {
       "title": "Features/Modes/Events",
