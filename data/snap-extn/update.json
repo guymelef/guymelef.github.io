@@ -22,6 +22,73 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Balance Updates",
+      "items": [
+        {
+          "date": "Sep 11",
+          "type": "OTA",
+          "items": [
+            {
+              "name": "Shang-Chi",
+              "changes": [
+                "4/3 – On Reveal: Destroy all enemy cards here that have 10 or more Power.",
+                "4/2 – On Reveal: Destroy an enemy card here that has 10 or more Power."
+              ]
+            },
+            {
+              "name": "Killmonger",
+              "changes": [
+                "3/3 – On Reveal: Destroy ALL 1-Cost cards.",
+                "3/3 – On Reveal: Destroy ALL 1-Cost cards here."
+              ]
+            },
+            {
+              "name": "Enchantress",
+              "changes": [
+                "4/6 – On Reveal: Remove the abilities from all Ongoing cards here.",
+                "4/6 -> 5/8"
+              ]
+            },
+            {
+              "name": "Shadow King",
+              "changes": [
+                "2/2 On Reveal: Set all cards here to their original base Power.",
+                "2/2 -> 3/3"
+              ]
+            },
+            {
+              "name": "Negasonic Teenage Warhead",
+              "changes": [
+                "3/3 – After an enemy character is played here, destroy it. (once per game)",
+                "3/3 -> 4/5"
+              ]
+            },
+            {
+              "name": "Alioth",
+              "changes": [
+                "6/9 – On Reveal: Remove the text from all unrevealed enemy characters here.",
+                "6/9 -> 6/6"
+              ]
+            },
+            {
+              "name": "Red Guardian",
+              "changes": [
+                "3/2 – On Reveal: Afflict the lowest-Power enemy card here with -2 Power and remove its text.",
+                "3/2 -> 3/0"
+              ]
+            },
+            {
+              "name": "Cosmo",
+              "changes": [
+                "3/3 – Ongoing: On Reveal abilities won’t happen here.",
+                "3/3 -> 4/6"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
