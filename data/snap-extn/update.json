@@ -97,6 +97,18 @@
       "tags": ["on reveal", "destroy"],
       "code": "ShngCh8",
       "id": 323
+    },
+    {
+      "name": "Kang",
+      "cost": "3",
+      "power": "4",
+      "ability": "Game Start: Replace this with 4 Kangs with text from random cards that Cost 3 or more.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["game start"],
+      "code": "Kng4",
+      "id": 178
     }
   ],
   "locations": [],
@@ -181,6 +193,19 @@
               "changes": [
                 "3/3 – Ongoing: On Reveal abilities won’t happen here.",
                 "3/3 -> 4/6"
+              ]
+            }
+          ]
+        },
+        {
+          "date": "Sep 16",
+          "type": "Patch",
+          "items": [
+            {
+              "name": "Kang",
+              "changes": [
+                "5/0 – On Reveal: Look at what your opponent did, then restart the turn. (without this)",
+                "3/4 – Game Start: Replace this with 4 Kangs with text from random cards that Cost 3 or more."
               ]
             }
           ]
