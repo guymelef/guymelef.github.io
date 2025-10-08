@@ -1,9 +1,312 @@
 {
-  "isUpdateAvailable": false,
-  "partsToUpdate": [],
-  "cards": [],
-  "locations": [],
+  "isUpdateAvailable": true,
+  "partsToUpdate": ["season", "cards", "locations"],
+  "cards": [
+    {
+      "name": "Viv Vision",
+      "cost": "3",
+      "power": "3",
+      "ability": "At the start of each turn, give all cards in your hand +1 Power if you’re winning here. Otherwise, move this to another location.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["move"],
+      "code": "Vv3",
+      "id": 406
+    },
+    {
+      "name": "Sparky",
+      "cost": "2",
+      "power": "1",
+      "ability": "Activate: Give your card that last moved +3 Power and move it back to its previous location.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["activate", "move"],
+      "code": "Sprk6",
+      "id": 474
+    },
+    {
+      "name": "Astral Projection",
+      "cost": "3",
+      "power": "0",
+      "ability": "On Reveal: Copy the text of an On Reveal card in your hand.",
+      "released": true,
+      "series": "4",
+      "type": "skill",
+      "tags": ["on reveal"],
+      "code": "AstrlPrjctn10",
+      "id": 432
+    },
+    {
+      "name": "Headpool",
+      "cost": "1",
+      "power": "1",
+      "ability": "When this is destroyed, return it to your hand, then give all cards in your hand +1 Power. ",
+      "released": true,
+      "series": "Super Premium",
+      "type": "character",
+      "tags": ["destroy"],
+      "code": "Hdpl8",
+      "id": 480
+    },
+    {
+      "name": "Colonel America",
+      "cost": "3",
+      "power": "3",
+      "ability": "Ongoing: Your other cards here have +1 Power for each turn you've discarded a card.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["ongoing", "discard"],
+      "code": "ClnlAmrcE",
+      "id": 481
+    },
+    {
+      "name": "The Hunger",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Horde +3.",
+      "released": true,
+      "series": "Ltd. Time Event",
+      "type": "skill",
+      "tags": ["on reveal", "horde"],
+      "code": "ThHngr9",
+      "id": 482
+    },
+    {
+      "name": "Zombie Captain Marvel",
+      "cost": "4",
+      "power": "4",
+      "ability": "Activate: Destroy your other cards here to get +3 Power for each. Move to a location you're losing.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["activate", "destroy", "move"],
+      "code": "ZmbCptnMrvl13",
+      "id": 483
+    },
+    {
+      "name": "Zombie Galacti",
+      "cost": "7",
+      "power": "4",
+      "ability": "Start of Game: Choose 6 other cards in your deck. On Reveal: Transform those cards into copies of this.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["game start", "on reveal"],
+      "code": "ZmbGlctD",
+      "id": 484
+    },
+    {
+      "name": "Zombie Giant-Man",
+      "cost": "5",
+      "power": "3",
+      "ability": "On Reveal: Horde +1, then this gains Power equal to your Zombie Horde.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "horde"],
+      "code": "ZmbGntMnE",
+      "id": 485
+    },
+    {
+      "name": "Zombie Mister Fantastic",
+      "cost": "2",
+      "power": "2",
+      "ability": "On Reveal: Horde +2. Activate: Give 4 of your created cards +1 Power.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal", "activate", "horde"],
+      "code": "ZmbMstrFntstc15",
+      "id": 487
+    },
+    {
+      "name": "Zombie Power Man",
+      "cost": "2",
+      "power": "4",
+      "ability": "End of Turn: If you're winning here, discard the leftmost card from your hand.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["end of turn", "discard"],
+      "code": "ZmbPwrMnE",
+      "id": 488
+    },
+    {
+      "name": "Zombie Scarlet Witch",
+      "cost": "3",
+      "power": "2",
+      "ability": "After you play a card here, Horde +2.",
+      "released": true,
+      "series": "Season Pass",
+      "type": "character",
+      "tags": ["others", "horde"],
+      "code": "ZmbScrltWtch12",
+      "id": 489
+    },
+    {
+      "name": "Zombie Sentry",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: Horde +1 for each of your cards at the right location.",
+      "released": true,
+      "series": "Ltd. Time Event",
+      "type": "character",
+      "tags": ["on reveal", "horde"],
+      "code": "ZmbSntrC",
+      "id": 490
+    }
+  ],
+  "locations": [
+    {
+      "name": "Survivors' Camp",
+      "ability": "After turn 4, draw if you're winning here. If not, Horde +2.",
+      "id": 169
+    }
+  ],
   "seasonInfo": [],
   "seasonStyles": [],
-  "seasonEvents": []
+  "seasonEvents": [
+    {
+      "title": "New Characters",
+      "items": [
+        {
+          "date": "Oct 7",
+          "items": [
+            { "name": "Zombie Scarlet Witch", "series": "Season Pass" },
+            { "name": "Headpool ", "series": "Super Premium" },
+            { "name": "Colonel America", "series": "5" },
+            { "name": "Zombie Giant-Man", "series": "4" },
+            { "name": "Zombie Power Man", "series": "4" }
+          ]
+        },
+        {
+          "date": "Oct 14",
+          "items": [{ "name": "Zombie Mister Fantastic", "series": "5" }]
+        },
+        {
+          "date": "Oct 15",
+          "items": [{ "name": "The Hunger", "series": "Ltd. Time Event" }]
+        },
+        {
+          "date": "Oct 21",
+          "items": [{ "name": "Zombie Captain Marvel", "series": "5" }]
+        },
+        {
+          "date": "Oct 27",
+          "items": [{ "name": "Zombie Sentry", "series": "Ltd. Time Event" }]
+        },
+        {
+          "date": "Oct 28",
+          "items": [{ "name": "Zombie Galacti", "series": "5" }]
+        }
+      ]
+    },
+    {
+      "title": "New Locations",
+      "items": ["The Deadlands", "Survivors' Camp"]
+    },
+    {
+      "title": "New Albums",
+      "items": [
+        {
+          "date": "Oct 14",
+          "name": "Pocket Cyberpunk",
+          "items": [
+            "3:Premium Mystery Variant",
+            "5:4x Neon Nights Border",
+            "7:Viv Vision – Pocket Cyberpunk Variant",
+            "9:Jim Hammond – Pocket Cyberpunk Variant"
+          ]
+        },
+        {
+          "date": "Oct 31",
+          "name": "Mooncolony Tarot",
+          "items": [
+            "3:Premium Mystery Variant",
+            "6:Zombie Thumbs Up Emote",
+            "9:6x Gold Chain Border",
+            "12:Living Tribunal – Mooncolony Tarot Variant"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Shop Takeover",
+      "items": [
+        {
+          "date": "Oct 14 - Oct 15",
+          "name": "Pocket Cyberpunk",
+          "cards": [
+            "Awesome Andy",
+            "Bastion",
+            "Danger",
+            "Jocasta",
+            "Omega Sentinel",
+            "Super-Adaptoid"
+          ]
+        },
+        {
+          "date": "Oct 31 - Nov 1",
+          "name": "Mooncolony Tarot",
+          "cards": ["Ares", "Gwenpool", "Legion", "Thanos", "Odin", "Sersi"]
+        }
+      ]
+    },
+    {
+      "title": "Twitch Drops",
+      "items": []
+    },
+    {
+      "title": "Daily Login",
+      "items": []
+    },
+    {
+      "title": "Features/Modes/Events",
+      "items": [
+        {
+          "title": "Sanctum Showdown",
+          "date": "Oct 15 - Oct 22",
+          "items": [
+            "This event features exciting new rewards including the brand new Skill card, <span class='event-list date'>The Hunger</span> to keep feeding your Horde. This run of Sanctum Showdown will also include a new 7 day Premium Event Pass for 800 Gold which includes an exclusive variant and a BUNCH of bonus value."
+          ]
+        },
+        {
+          "title": "Grand Arena",
+          "date": "Oct 27 - Nov 3",
+          "items": [
+            "Return to the Grand Arena, featuring NEW champions including Magneto, Thor, Hulk, and Ghost-Spider. Fight for Glory and claim the new <span class='event-list date'>Zombie Sentry</span> card and new Champion Variants as event rewards! This mode will also have a new Premium Event Pass for 800 Gold which includes another exclusive variant and more bonus value to help on your journey."
+          ]
+        },
+        {
+          "title": "Featured Sets",
+          "date": "Oct - Nov",
+          "items": [
+            "<span class='event-list date'>Oct 15 - Oct 21</span> - Sanctum Showdown Picks",
+            "<span class='event-list date'>Oct 22 - Nov 1</span> - Dark Fantasy Variant Spotlight"
+          ]
+        },
+        {
+          "title": "Planned Updates (STC)",
+          "date": "Sep - Oct",
+          "items": [
+            "<span class='event-list date'>Oct 14</span> - Patch",
+            "<span class='event-list date'>Oct 16</span> - OTA",
+            "<span class='event-list date'>Oct 30</span> - OTA"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Series Drop",
+      "date": "",
+      "items": []
+    },
+    {
+      "title": "Balance Updates",
+      "items": []
+    }
+  ]
 }
