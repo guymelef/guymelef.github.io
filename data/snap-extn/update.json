@@ -1,5 +1,5 @@
 {
-  "isUpdateAvailable": false,
+  "isUpdateAvailable": true,
   "partsToUpdate": ["season", "cards", "locations"],
   "cards": [
     {
@@ -166,8 +166,33 @@
       "id": 169
     }
   ],
-  "seasonInfo": [],
-  "seasonStyles": [],
+  "seasonInfo": [
+    {
+      "seasonTitle": "Undead Horde",
+      "seasonUrl": "https://marvelsnap.com/new-season-undead-horde/",
+      "featuredCard": "Zombie Scarlet Witch",
+      "nextFeaturedCard": "Spider-Punk",
+      "featuredLocations": ["The Deadlands", "Survivors' Camp"],
+      "nextfeaturedLocations": ["Mosh Pit", "Parker Industries"],
+      "seasonEndDate": [4, 10, 2025],
+      "nextSeasonEndDate": [2, 11, 2025]
+    }
+  ],
+  "seasonStyles": [
+    {
+      "dateColor": "#ee3362",
+      "headerStyle": {
+        "fontSize": "26px",
+        "padding": "3px 0",
+        "color": "#ed3662",
+        "border": "2px solid #f4e2ef"
+      },
+      "hoverStyle": {
+        "color": "#ed3662",
+        "border": "2px solid #a88ab6"
+      }
+    }
+  ],
   "seasonEvents": [
     {
       "title": "New Characters",
