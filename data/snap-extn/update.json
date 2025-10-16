@@ -217,6 +217,31 @@
       "tags": ["end of turn"],
       "code": "DrgnMn9",
       "id": 517
+    },
+    {
+      "name": "Fin Fang Foom",
+      "cost": "7",
+      "power": "12",
+      "ability": "On Reveal: Gain the Power of front-row enemy cards here.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "noArt": true,
+      "tags": ["on reveal"],
+      "code": "FnFngFmB",
+      "id": 518
+    },
+    {
+      "name": "Brand of Shou-Lao",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: One of your other cards here steals 2 Power from the highest-Cost character in your opponent's hand.",
+      "released": false,
+      "series": "NA",
+      "type": "skill",
+      "tags": ["on reveal", "steal"],
+      "code": "BrndOfShLE",
+      "id": 519
     }
   ],
   "locations": [
