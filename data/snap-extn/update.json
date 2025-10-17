@@ -242,6 +242,102 @@
       "tags": ["on reveal", "steal"],
       "code": "BrndOfShLE",
       "id": 519
+    },
+    {
+      "name": "Rogue",
+      "cost": "3",
+      "power": "3",
+      "ability": "On Reveal: Steal the text from an enemy Ongoing card here.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal", "steal"],
+      "code": "Rg5",
+      "id": 302
+    },
+    {
+      "name": "Mobius M. Mobius",
+      "cost": "3",
+      "power": "3",
+      "ability": "Ongoing: Your Costs can't be increased. Your opponent's Costs can't be reduced.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "MbsMMbsD",
+      "id": 231
+    },
+    {
+      "name": "Shadow King",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: Reset all cards here to their original Power.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "ShdwKngA",
+      "id": 322
+    },
+    {
+      "name": "Firelord",
+      "cost": "4",
+      "power": "7",
+      "ability": "On Reveal: Revive one of your discarded or destroyed 3-Cost cards here.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "discard", "destroy"],
+      "code": "Frlrd8",
+      "id": 451
+    },
+    {
+      "name": "Invisible Woman: First Steps",
+      "cost": "3",
+      "power": "3",
+      "ability": "Activate: This turn, your End of Turn abilities happen twice.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["activate", "end of turn"],
+      "code": "InvsblWmnFrstStps18",
+      "id": 460
+    },
+    {
+      "name": "Warlock",
+      "cost": "3",
+      "power": "4",
+      "ability": "Activate: For each unspent Energy, give a card in your hand -1 Cost.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["activate"],
+      "code": "Wrlck7",
+      "id": 476
+    },
+    {
+      "name": "Zombie Giant-Man",
+      "cost": "5",
+      "power": "4",
+      "ability": "On Reveal: Horde +2, then this gains Power equal to your Zombie Horde.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "horde"],
+      "code": "ZmbGntMnE",
+      "id": 485
+    },
+    {
+      "name": "Zombie Scarlet Witch",
+      "cost": "3",
+      "power": "4",
+      "ability": "After you play a card here, Horde +2.",
+      "released": true,
+      "series": "Season Pass",
+      "type": "character",
+      "tags": ["others", "horde"],
+      "code": "ZmbScrltWtch12",
+      "id": 489
     }
   ],
   "locations": [
@@ -323,7 +419,7 @@
             {
               "name": "Zombie Scarlet Witch",
               "changes": [
-                "3/2 – After you play a card here, Horde +2",
+                "3/2 – After you play a card here, Horde +2.",
                 "3/2 -> 3/4"
               ]
             },
