@@ -312,6 +312,73 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Balance Updates",
+      "items": [
+        {
+          "date": "Oct 16",
+          "type": "OTA",
+          "items": [
+            {
+              "name": "Zombie Scarlet Witch",
+              "changes": [
+                "3/2 – After you play a card here, Horde +2",
+                "3/2 -> 3/4"
+              ]
+            },
+            {
+              "name": "Zombie Giant-Man",
+              "changes": [
+                "5/3 – On Reveal: Horde +1, then this gains Power equal to your Zombie Horde.",
+                "5/4 – On Reveal: Horde +2, then this gains Power equal to your Zombie Horde."
+              ]
+            },
+            {
+              "name": "Invisible Woman First Steps",
+              "changes": [
+                "3/5 – Activate: This turn, your End of Turn abilities happen twice.",
+                "3/5 -> 3/3"
+              ]
+            },
+            {
+              "name": "Shadow King",
+              "changes": [
+                "2/2 – On Reveal: Reset all cards here to their original Power.",
+                "2/2 -> 3/4"
+              ]
+            },
+            {
+              "name": "Mobius M. Mobius",
+              "changes": [
+                "3/4 – Ongoing: Your Costs can’t be increased. Your opponent’s Costs can’t be reduced.",
+                "3/4 -> 3/3"
+              ]
+            },
+            {
+              "name": "Rogue",
+              "changes": [
+                "3/2 – On Reveal: Steal the text from an enemy Ongoing card here.",
+                "3/2 -> 3/3"
+              ]
+            },
+            {
+              "name": "Firelord",
+              "changes": [
+                "4/6 – On Reveal: Revive one of your discarded or destroyed 3-Cost cards here.",
+                "4/6 -> 4/7"
+              ]
+            },
+            {
+              "name": "Warlock",
+              "changes": [
+                "3/3 – Activate: For each unspent Energy, give a card in your hand –1 Cost.",
+                "3/3 -> 3/4"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
