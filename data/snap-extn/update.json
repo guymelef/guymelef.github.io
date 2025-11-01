@@ -1,6 +1,6 @@
 {
   "isUpdateAvailable": true,
-  "partsToUpdate": ["cards", "events"],
+  "partsToUpdate": ["cards", "locations", "events"],
   "cards": [
     {
       "name": "Alioth",
@@ -192,7 +192,18 @@
       "id": 501
     }
   ],
-  "locations": [],
+  "locations": [
+    {
+      "name": "Hospice",
+      "ability": "Changes to card Power are doubled here.",
+      "id": 175
+    },
+    {
+      "name": "Essex's Lab",
+      "ability": "After turn 4, destroy a card. Your others here split its Power.",
+      "id": 176
+    }
+  ],
   "seasonInfo": [],
   "seasonStyles": [],
   "seasonEvents": [
@@ -256,7 +267,7 @@
             "<span class='event-list date'>Dec 4</span> - OTA",
             "<span class='event-list date'>Dec 16</span> - Patch",
             "<span class='event-list date'>Dec 18</span> - OTA",
-            "<span class='event-list date'>Oct 30</span> - Patch"
+            "<span class='event-list date'>Dec 30</span> - Patch"
           ]
         }
       ]
