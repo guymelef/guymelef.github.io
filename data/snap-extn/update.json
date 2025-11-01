@@ -117,6 +117,79 @@
       "tags": ["discard", "destroy"],
       "code": "X233",
       "id": 425
+    },
+    {
+      "name": "Danger",
+      "cost": "4",
+      "power": "6",
+      "ability": "Activate: Destroy an enemy card here with less Power.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["activate", "destroy"],
+      "code": "Dngr6",
+      "id": 471
+    },
+    {
+      "name": "Spider-Man Noir",
+      "cost": "4",
+      "power": "6",
+      "ability": "On Reveal: If your other cards in play cost exactly 8 total, add the top card of your deck here. Set its Power to 8. <i>(0/8)</i>",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "SpdrMnNrD",
+      "id": 492
+    },
+    {
+      "name": "Remote Mines",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Afflict the 2 highest-Power enemy cards here with -2 Power.",
+      "type": "skill",
+      "id": 493
+    },
+    {
+      "name": "Vibro-Shock Gauntlets",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Give your highest-Power card here +2 Power. You get +1 Energy next turn.",
+      "type": "skill",
+      "id": 495
+    },
+    {
+      "name": "Flight Harness",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Give your highest-Power card here +1 Power and move it to the right.",
+      "type": "skill",
+      "id": 497
+    },
+    {
+      "name": "Prowler",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: Add 2 <mark>Thief’s Tools</mark> to your hand. Set their Costs to 0 if a card moved last turn.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["on reveal", "move"],
+      "code": "Prwlr7",
+      "id": 500,
+      "refs": [497, 493, 495]
+    },
+    {
+      "name": "Spider-Punk",
+      "cost": "3",
+      "power": "3",
+      "ability": "You can move this once. When this moves to a location, steal 2 Power from the highest-Power enemy there.",
+      "released": false,
+      "series": "NA",
+      "type": "character",
+      "tags": ["move", "steal"],
+      "code": "SpdrPnkA",
+      "id": 501
     }
   ],
   "locations": [],
