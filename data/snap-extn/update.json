@@ -1,6 +1,6 @@
 {
   "isUpdateAvailable": true,
-  "partsToUpdate": ["cards", "locations", "events"],
+  "partsToUpdate": ["cards", "locations", "season"],
   "cards": [
     {
       "name": "Alioth",
@@ -131,18 +131,6 @@
       "id": 471
     },
     {
-      "name": "Spider-Man Noir",
-      "cost": "4",
-      "power": "6",
-      "ability": "On Reveal: If your other cards in play cost exactly 8 total, add the top card of your deck here. Set its Power to 8. <i>(0/8)</i>",
-      "released": false,
-      "series": "NA",
-      "type": "character",
-      "tags": ["on reveal"],
-      "code": "SpdrMnNrD",
-      "id": 492
-    },
-    {
       "name": "Remote Mines",
       "cost": "1",
       "power": "0",
@@ -167,12 +155,132 @@
       "id": 497
     },
     {
+      "name": "Headpool",
+      "cost": "1",
+      "power": "1",
+      "ability": "When this is destroyed, return it to your hand, then give all cards in your hand +1 Power. ",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["destroy"],
+      "code": "Hdpl8",
+      "id": 480
+    },
+    {
+      "name": "The Hunger",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Horde +3.",
+      "released": true,
+      "series": "4",
+      "type": "skill",
+      "tags": ["on reveal", "horde"],
+      "code": "ThHngr9",
+      "id": 482
+    },
+    {
+      "name": "Zombie Scarlet Witch",
+      "cost": "3",
+      "power": "4",
+      "ability": "After you play a card here, Horde +2.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others", "horde"],
+      "code": "ZmbScrltWtch12",
+      "id": 489
+    },
+    {
+      "name": "Zombie Sentry",
+      "cost": "3",
+      "power": "4",
+      "ability": "On Reveal: Horde +1 for each of your cards at the right location.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "horde"],
+      "code": "ZmbSntrC",
+      "id": 490
+    },
+    {
+      "name": "Man-Spider",
+      "cost": "5",
+      "power": "1",
+      "ability": "On Reveal: Merge the last card you played into this. When this merges, double its Power.",
+      "released": true,
+      "series": "Super Premium",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "MnSpdr9",
+      "id": 491
+    },
+    {
+      "name": "Spider-Man Noir",
+      "cost": "4",
+      "power": "6",
+      "ability": "On Reveal: If your other cards in play cost exactly 8 total, add the top card of your deck here. Set its Power to 8. <i>(0/8)</i>",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "SpdrMnNrD",
+      "id": 492
+    },
+    {
+      "name": "Web Sling",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Next turn, you can move one of your cards away from here.",
+      "released": true,
+      "series": "4",
+      "type": "skill",
+      "tags": ["on reveal", "move"],
+      "code": "WbSlng8",
+      "id": 494
+    },
+    {
+      "name": "Deafening Chord",
+      "cost": "1",
+      "power": "0",
+      "ability": "On Reveal: Afflict an enemy character here that costs 3 or less with -1 Power and remove its text.",
+      "released": true,
+      "series": "4",
+      "type": "skill",
+      "tags": ["on reveal", "afflict", "remove"],
+      "code": "DfnngChrdE",
+      "id": 496
+    },
+    {
+      "name": "Hydro-Man",
+      "cost": "5",
+      "power": "8",
+      "ability": "On Reveal: Set the Cost of EACH deck's top card to 1.",
+      "released": true,
+      "series": "Ltd. Time Event",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "HdrMn8",
+      "id": 498
+    },
+    {
+      "name": "Superior Spider-Man",
+      "cost": "3",
+      "power": "4",
+      "ability": "At the start of each turn, you get +1 Energy if you have any cards with increased Power in play.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["others"],
+      "code": "SprrSpdrMn11",
+      "id": 499
+    },
+    {
       "name": "Prowler",
       "cost": "3",
       "power": "4",
       "ability": "On Reveal: Add 2 <mark>Thief’s Tools</mark> to your hand. Set their Costs to 0 if a card moved last turn.",
-      "released": false,
-      "series": "NA",
+      "released": true,
+      "series": "5",
       "type": "character",
       "tags": ["on reveal", "move"],
       "code": "Prwlr7",
@@ -184,12 +292,36 @@
       "cost": "3",
       "power": "3",
       "ability": "You can move this once. When this moves to a location, steal 2 Power from the highest-Power enemy there.",
-      "released": false,
-      "series": "NA",
+      "released": true,
+      "series": "Season Pass",
       "type": "character",
       "tags": ["move", "steal"],
       "code": "SpdrPnkA",
       "id": 501
+    },
+    {
+      "name": "Ezekiel Sims",
+      "cost": "2",
+      "power": "2",
+      "ability": "After you play a card with higher Power here, give this +2 Power and move this to another location.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["move"],
+      "code": "EzklSmsB",
+      "id": 502
+    },
+    {
+      "name": "Chameleon",
+      "cost": "3",
+      "power": "3",
+      "ability": "On Reveal: Copy the text of another card here you revealed this turn.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Chmln9",
+      "id": 503
     }
   ],
   "locations": [
@@ -204,63 +336,177 @@
       "id": 176
     }
   ],
-  "seasonInfo": [],
-  "seasonStyles": [],
+  "seasonInfo": [
+    {
+      "seasonTitle": "Arachnid Anarchy",
+      "seasonUrl": "https://marvelsnap.com/new-season-arachnid-anarchy/",
+      "featuredCard": "Spider-Punk",
+      "nextFeaturedCard": "Weapon X",
+      "featuredLocations": ["Mosh Pit", "Parker Industries"],
+      "nextfeaturedLocations": ["Hospice", "Essex's Lab"],
+      "seasonEndDate": [2, 11, 2025],
+      "nextSeasonEndDate": [6, 0, 2026]
+    }
+  ],
+  "seasonStyles": [
+    {
+      "dateColor": "#e6008b",
+      "headerStyle": {
+        "fontSize": "26px",
+        "padding": "4px 0",
+        "color": "#fbfafb",
+        "backgroundColor": "#050003",
+        "border": "2px solid #e6008b"
+      },
+      "hoverStyle": {
+        "color": "#e6008b",
+        "border": "2px solid #050003"
+      }
+    }
+  ],
   "seasonEvents": [
     {
-      "title": "Daily Login",
+      "title": "New Characters",
       "items": [
         {
-          "date": "Oct 18 - Oct 27",
+          "date": "Nov 4",
           "items": [
-            "250 Credits",
-            "Premium Mystery Variant",
-            "2x Mystery Border",
-            "310 Random Boosters",
-            "2x Premium Mystery Border",
-            "Mystery Variant",
-            "Series 5 Collector's Pack"
+            { "name": "Spider-Punk", "series": "Season Pass" },
+            { "name": "Man-Spider", "series": "Super Premium" },
+            { "name": "Superior Spider-Man", "series": "5" },
+            { "name": "Web Sling", "series": "4" }
+          ]
+        },
+        {
+          "date": "Nov 11",
+          "items": [
+            { "name": "Ezekiel Sims", "series": "5" },
+            { "name": "Chameleon", "series": "4" }
+          ]
+        },
+        {
+          "date": "Nov 18",
+          "items": [{ "name": "Spider-Man Noir", "series": "5" }]
+        },
+        {
+          "date": "Nov 20",
+          "items": [{ "name": "Deafening Chord", "series": "4" }]
+        },
+        {
+          "date": "Nov 24",
+          "items": [{ "name": "Hydro-Man", "series": "Ltd. Time Event" }]
+        },
+        {
+          "date": "Nov 25",
+          "items": [{ "name": "Prowler", "series": "5" }]
+        }
+      ]
+    },
+    {
+      "title": "New Locations",
+      "items": ["Mosh Pit", "Parker Industries"]
+    },
+    {
+      "title": "New Albums",
+      "items": [
+        {
+          "date": "Nov 12",
+          "name": "Tree-riffic Variants",
+          "items": [
+            "3:3x Mystery Border",
+            "5:2x Premium Mystery Border",
+            "7:2,500 Collector’s Tokens",
+            "9:Galacta – ARTTREE STUDIOS Variant"
+          ]
+        },
+        {
+          "date": "Nov 25",
+          "name": "Chiola Senses Tingling",
+          "items": [
+            "3:Spider-Punk Rock On Emote",
+            "6:3x Premium Mystery Border",
+            "9:4,000 Collector’s Tokens",
+            "12:The Prowler – Leo Chiola Variant"
           ]
         }
       ]
     },
     {
-      "title": "Features/Modes/Events",
+      "title": "Shop Takeover",
       "items": [
         {
-          "title": "GGWCS Qualifier #3",
-          "date": "Oct 11 9am ET / 6am PT",
-          "items": ["Watch the Golden Gauntlet matches live on Twitch!"]
-        },
-        {
-          "title": "Sanctum Showdown",
-          "date": "Oct 15 - Oct 22",
-          "items": [
-            "This event features exciting new rewards including the brand new Skill card, <span class='event-list date'>The Hunger</span> to keep feeding your Horde. This run of Sanctum Showdown will also include a new 7 day Premium Event Pass for 800 Gold which includes an exclusive variant and a BUNCH of bonus value."
+          "date": "Nov 12 – Nov 13",
+          "name": "ARTTREE STUDIOS Variants",
+          "cards": [
+            "Silver Sable",
+            "Luna Snow",
+            "Wave",
+            "Strange Supreme",
+            "Ghost-Spider",
+            "Galacta"
           ]
         },
         {
-          "title": "Grand Arena",
-          "date": "Oct 27 - Nov 3",
+          "date": "Nov 25 – Nov 26",
+          "name": "Leo Chiola",
+          "cards": [
+            "Hydro-Man",
+            "Superior Spider-Man",
+            "Spider-Punk",
+            "Spider-Man",
+            "Uncle Ben",
+            "Peni Parker"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Twitch Drops",
+      "items": []
+    },
+    {
+      "title": "Daily Login",
+      "items": []
+    },
+    {
+      "title": "Features/Modes/Events",
+      "items": [
+        {
+          "title": "New To Snap Packs",
+          "date": "Nov 4 – Nov 27",
           "items": [
-            "Return to the Grand Arena, featuring NEW champions including Magneto, Thor, Hulk, and Ghost-Spider. Fight for Glory and claim the new <span class='event-list date'>Zombie Sentry</span> card and new Champion Variants as event rewards! This mode will also have a new Premium Event Pass for 800 Gold which includes another exclusive variant and more bonus value to help on your journey."
+            "<span class='event-list date'>Nov 4</span> -  Zombie Scarlet Witch (Seasonal Series 5)",
+            "<span class='event-list date'>Nov 15</span> - The Hunger (Seasonal Series 4)",
+            "<span class='event-list date'>Nov 27</span> - Zombie Sentry (Seasonal Series 4)"
+          ]
+        },
+        {
+          "title": "High Voltage (Weekend Edition)",
+          "date": "Nov 14 – Nov 18",
+          "items": [
+            "This four-day event will be a purely cosmetic event, with no unlockable cards."
+          ]
+        },
+        {
+          "title": "Sanctum Showdown",
+          "date": "Nov 24 – Dec 1",
+          "items": [
+            "This event features exciting new rewards including the brand new Series 4 card, Hydro-Man."
           ]
         },
         {
           "title": "Featured Sets",
-          "date": "Oct - Nov",
+          "date": "Nov - Dec",
           "items": [
-            "<span class='event-list date'>Oct 15 - Oct 21</span> - Sanctum Showdown Picks",
-            "<span class='event-list date'>Oct 22 - Nov 1</span> - Dark Fantasy Variant Spotlight"
+            "<span class='event-list date'>Nov 5 - Nov 11</span> - Spider Society Picks",
+            "<span class='event-list date'>Nov 18 - Nov 24</span> - Anime Variant Spotlight",
+            "<span class='event-list date'>Nov 25 - Dec 1</span> - Klyntar Picks"
           ]
         },
         {
           "title": "Planned Updates (STC)",
-          "date": "Oct - Jan",
+          "date": "Nov - Dec",
           "items": [
-            "<span class='event-list date'>Oct 14</span> - Patch",
-            "<span class='event-list date'>Oct 16</span> - OTA",
-            "<span class='event-list date'>Oct 30</span> - OTA",
             "<span class='event-list date'>Nov 6</span> - OTA",
             "<span class='event-list date'>Nov 18</span> - Patch",
             "<span class='event-list date'>Nov 20</span> - OTA",
@@ -268,149 +514,6 @@
             "<span class='event-list date'>Dec 16</span> - Patch",
             "<span class='event-list date'>Dec 18</span> - OTA",
             "<span class='event-list date'>Dec 30</span> - Patch"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Balance Updates",
-      "items": [
-        {
-          "date": "Oct 16",
-          "type": "OTA",
-          "items": [
-            {
-              "name": "Zombie Scarlet Witch",
-              "changes": [
-                "3/2 – After you play a card here, Horde +2.",
-                "3/2 -> 3/4"
-              ]
-            },
-            {
-              "name": "Zombie Giant-Man",
-              "changes": [
-                "5/3 – On Reveal: Horde +1, then this gains Power equal to your Zombie Horde.",
-                "5/4 – On Reveal: Horde +2, then this gains Power equal to your Zombie Horde."
-              ]
-            },
-            {
-              "name": "Invisible Woman First Steps",
-              "changes": [
-                "3/5 – Activate: This turn, your End of Turn abilities happen twice.",
-                "3/5 -> 3/3"
-              ]
-            },
-            {
-              "name": "Shadow King",
-              "changes": [
-                "2/2 – On Reveal: Reset all cards here to their original Power.",
-                "2/2 -> 3/4"
-              ]
-            },
-            {
-              "name": "Mobius M. Mobius",
-              "changes": [
-                "3/4 – Ongoing: Your Costs can’t be increased. Your opponent’s Costs can’t be reduced.",
-                "3/4 -> 3/3"
-              ]
-            },
-            {
-              "name": "Rogue",
-              "changes": [
-                "3/2 – On Reveal: Steal the text from an enemy Ongoing card here.",
-                "3/2 -> 3/3"
-              ]
-            },
-            {
-              "name": "Firelord",
-              "changes": [
-                "4/6 – On Reveal: Revive one of your discarded or destroyed 3-Cost cards here.",
-                "4/6 -> 4/7"
-              ]
-            },
-            {
-              "name": "Warlock",
-              "changes": [
-                "3/3 – Activate: For each unspent Energy, give a card in your hand –1 Cost.",
-                "3/3 -> 3/4"
-              ]
-            }
-          ]
-        },
-        {
-          "date": "Oct 30",
-          "type": "OTA",
-          "items": [
-            {
-              "name": "Black Cat",
-              "changes": [
-                "1/5 – End of Turn: Discard this from your hand.",
-                "1/5 -> 1/4"
-              ]
-            },
-            {
-              "name": "Sauron",
-              "changes": [
-                "1/3 – On Reveal: Remove the abilities from all Ongoing cards in your deck.",
-                "1/3 -> 1/2"
-              ]
-            },
-            {
-              "name": "Supergiant",
-              "changes": [
-                "4/7 – On Reveal: All cards played next turn don’t reveal until the game ends.",
-                "4/7 -> 4/6"
-              ]
-            },
-            {
-              "name": "Alioth",
-              "changes": [
-                "6/9 – On Reveal: Remove the text from all unrevealed enemy characters here.",
-                "6/9 -> 6/8"
-              ]
-            },
-            {
-              "name": "Mercury",
-              "changes": [
-                "2/2 – You can move this once. Ongoing: Enemy cards here can’t move.",
-                "2/2 -> 3/4"
-              ]
-            },
-            {
-              "name": "X-23",
-              "changes": [
-                "1/2 – When this is discarded or destroyed, regenerate it at a random location and you get +1 Energy next turn.",
-                "1/2 -> 1/1"
-              ]
-            },
-            {
-              "name": "Leader",
-              "changes": [
-                "6/4 – On Reveal: Copy the enemy card(s) with the highest Power played this turn, but on your side",
-                "6/4 -> 6/5"
-              ]
-            },
-            {
-              "name": "Nakia",
-              "changes": [
-                "3/3 – On Reveal: Give all cards in your hand +1 Power.",
-                "3/3 -> 3/4"
-              ]
-            },
-            {
-              "name": "Peni Parker’s SP//dr",
-              "changes": [
-                "3/4 – On Reveal: Merge this into one of your cards here. You can move that card next turn.",
-                "3/4 -> 3/5"
-              ]
-            },
-            {
-              "name": "Electro",
-              "changes": [
-                "3/4 – On Reveal: +1 Max Energy. Ongoing: You can only play 1 card a turn.",
-                "3/4 -> 3/5"
-              ]
-            }
           ]
         }
       ]
