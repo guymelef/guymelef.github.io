@@ -1,519 +1,169 @@
 {
   "isUpdateAvailable": true,
-  "partsToUpdate": ["cards", "locations", "season"],
+  "partsToUpdate": ["cards", "events"],
   "cards": [
     {
-      "name": "Alioth",
-      "cost": "6",
-      "power": "8",
-      "ability": "On Reveal: Remove the text from all unrevealed enemy characters here.",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": ["on reveal", "remove"],
-      "code": "Alth6",
-      "id": 13
-    },
-    {
-      "name": "Black Cat",
-      "cost": "1",
-      "power": "4",
-      "ability": "End of Turn: Discard this from your hand.",
-      "released": true,
-      "series": "3",
-      "type": "character",
-      "tags": ["end of turn", "discard"],
-      "code": "BlckCt8",
-      "id": 37
-    },
-    {
-      "name": "Electro",
+      "name": "Debrii",
       "cost": "3",
-      "power": "5",
-      "ability": "On Reveal: +1 max Energy. Ongoing: You can only play 1 card a turn.",
-      "released": true,
-      "series": "3",
-      "type": "character",
-      "tags": ["on reveal", "ongoing"],
-      "code": "Elctr7",
-      "id": 102
-    },
-    {
-      "name": "Leader",
-      "cost": "6",
-      "power": "5",
-      "ability": "On Reveal: Copy the enemy card(s) with the highest Power played this turn, but on your side.",
+      "power": "7",
+      "ability": "On Reveal: Add a <mark>Rock</mark> to each other location.",
       "released": true,
       "series": "3",
       "type": "character",
       "tags": ["on reveal"],
-      "code": "Ldr6",
-      "id": 196
+      "code": "Dbr6",
+      "id": 82,
+      "refs": [298]
     },
     {
-      "name": "Mercury",
-      "cost": "3",
+      "name": "Fan Fei",
+      "cost": "4",
       "power": "4",
-      "ability": "You can move this once. Ongoing: Enemy cards here can't move.",
+      "ability": "Activate: Your other cards here get +1 Power. Move them to the right.",
       "released": true,
       "series": "4",
       "type": "character",
-      "tags": ["move", "ongoing"],
-      "code": "Mrcr7",
-      "id": 220
+      "tags": ["activate", "move"],
+      "code": "FnF6",
+      "id": 111
     },
     {
-      "name": "Nakia",
+      "name": "Hydra Stomper",
       "cost": "3",
-      "power": "4",
-      "ability": "On Reveal: Give all cards in your hand +1 Power.",
+      "power": "3",
+      "ability": "Ongoing: +1 Power for each time one of your cards moved this game.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["ongoing", "move"],
+      "code": "HdrStmprC",
+      "id": 157
+    },
+    {
+      "name": "M'Baku",
+      "cost": "1",
+      "power": "3",
+      "ability": "At the end of the game, this jumps from your deck to your lowest-Power location. <i>(that isn't full)</i>",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["others"],
+      "code": "MBk5",
+      "id": 204
+    },
+    {
+      "name": "Misery",
+      "cost": "4",
+      "power": "8",
+      "ability": "On Reveal: Repeat the On Reveal abilities of your other cards here, then destroy them.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["on reveal", "destroy"],
+      "code": "Msr6",
+      "id": 225
+    },
+    {
+      "name": "The First Ghost Rider",
+      "cost": "2",
+      "power": "7",
+      "ability": "On Reveal: Discard the lowest-Power card from your hand. Remove that card's Power from this.",
+      "released": true,
+      "series": "4",
+      "type": "character",
+      "tags": ["on reveal", "discard", "afflict"],
+      "code": "GhstThFrstRdr12",
+      "id": 371
+    },
+    {
+      "name": "Vision",
+      "cost": "5",
+      "power": "9",
+      "ability": "You can move this each turn.",
       "released": true,
       "series": "2",
       "type": "character",
-      "tags": ["on reveal"],
-      "code": "Nk5",
-      "id": 247
+      "tags": ["move"],
+      "code": "Vsn6",
+      "id": 405
     },
     {
-      "name": "Sauron",
-      "cost": "1",
-      "power": "2",
-      "ability": "On Reveal: Remove the abilities from all Ongoing cards in your deck.",
+      "name": "Cosmic Ghost Rider",
+      "cost": "5",
+      "power": "6",
+      "ability": "On Reveal: Remove the text from front-row enemy cards here.",
       "released": true,
-      "series": "3",
+      "series": "5",
       "type": "character",
       "tags": ["on reveal", "remove"],
-      "code": "Srn6",
-      "id": 309
-    },
-    {
-      "name": "SP//dr",
-      "cost": "3",
-      "power": "5",
-      "ability": "On Reveal: Merge this into one of your cards here. You can move that card next turn.",
-      "type": "token",
-      "id": 338
-    },
-    {
-      "name": "Supergiant",
-      "cost": "4",
-      "power": "6",
-      "ability": "On Reveal: All cards played next turn don't reveal until the game ends.",
-      "released": true,
-      "series": "4",
-      "type": "character",
-      "tags": ["on reveal"],
-      "code": "SprgntA",
-      "id": 359
-    },
-    {
-      "name": "X-23",
-      "cost": "1",
-      "power": "1",
-      "ability": "When this is discarded or destroyed, regenerate it at a random location and you get +1 Energy next turn.",
-      "released": true,
-      "series": "4",
-      "type": "character",
-      "tags": ["discard", "destroy"],
-      "code": "X233",
-      "id": 425
-    },
-    {
-      "name": "Danger",
-      "cost": "4",
-      "power": "6",
-      "ability": "Activate: Destroy an enemy card here with less Power.",
-      "released": true,
-      "series": "4",
-      "type": "character",
-      "tags": ["activate", "destroy"],
-      "code": "Dngr6",
-      "id": 471
-    },
-    {
-      "name": "Remote Mines",
-      "cost": "1",
-      "power": "0",
-      "ability": "On Reveal: Afflict the 2 highest-Power enemy cards here with -2 Power.",
-      "type": "skill",
-      "id": 493
-    },
-    {
-      "name": "Vibro-Shock Gauntlets",
-      "cost": "1",
-      "power": "0",
-      "ability": "On Reveal: Give your highest-Power card here +2 Power. You get +1 Energy next turn.",
-      "type": "skill",
-      "id": 495
-    },
-    {
-      "name": "Flight Harness",
-      "cost": "1",
-      "power": "0",
-      "ability": "On Reveal: Give your highest-Power card here +1 Power and move it to the right.",
-      "type": "skill",
-      "id": 497
-    },
-    {
-      "name": "Headpool",
-      "cost": "1",
-      "power": "1",
-      "ability": "When this is destroyed, return it to your hand, then give all cards in your hand +1 Power. ",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": ["destroy"],
-      "code": "Hdpl8",
-      "id": 480
-    },
-    {
-      "name": "The Hunger",
-      "cost": "1",
-      "power": "0",
-      "ability": "On Reveal: Horde +3.",
-      "released": true,
-      "series": "4",
-      "type": "skill",
-      "tags": ["on reveal", "horde"],
-      "code": "ThHngr9",
-      "id": 482
-    },
-    {
-      "name": "Zombie Scarlet Witch",
-      "cost": "3",
-      "power": "4",
-      "ability": "After you play a card here, Horde +2.",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": ["others", "horde"],
-      "code": "ZmbScrltWtch12",
-      "id": 489
-    },
-    {
-      "name": "Zombie Sentry",
-      "cost": "3",
-      "power": "4",
-      "ability": "On Reveal: Horde +1 for each of your cards at the right location.",
-      "released": true,
-      "series": "4",
-      "type": "character",
-      "tags": ["on reveal", "horde"],
-      "code": "ZmbSntrC",
-      "id": 490
-    },
-    {
-      "name": "Man-Spider",
-      "cost": "5",
-      "power": "1",
-      "ability": "On Reveal: Merge the last card you played into this. When this merges, double its Power.",
-      "released": true,
-      "series": "Super Premium",
-      "type": "character",
-      "tags": ["on reveal"],
-      "code": "MnSpdr9",
-      "id": 491
-    },
-    {
-      "name": "Spider-Man Noir",
-      "cost": "4",
-      "power": "6",
-      "ability": "On Reveal: If your other cards in play cost exactly 8 total, add the top card of your deck here. Set its Power to 8. <i>(0/8)</i>",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": ["on reveal"],
-      "code": "SpdrMnNrD",
-      "id": 492
-    },
-    {
-      "name": "Web Sling",
-      "cost": "1",
-      "power": "0",
-      "ability": "On Reveal: Next turn, you can move one of your cards away from here.",
-      "released": true,
-      "series": "4",
-      "type": "skill",
-      "tags": ["on reveal", "move"],
-      "code": "WbSlng8",
-      "id": 494
-    },
-    {
-      "name": "Deafening Chord",
-      "cost": "1",
-      "power": "0",
-      "ability": "On Reveal: Afflict an enemy character here that costs 3 or less with -1 Power and remove its text.",
-      "released": true,
-      "series": "4",
-      "type": "skill",
-      "tags": ["on reveal", "afflict", "remove"],
-      "code": "DfnngChrdE",
-      "id": 496
-    },
-    {
-      "name": "Hydro-Man",
-      "cost": "5",
-      "power": "8",
-      "ability": "On Reveal: Set the Cost of EACH deck's top card to 1.",
-      "released": true,
-      "series": "Ltd. Time Event",
-      "type": "character",
-      "tags": ["on reveal"],
-      "code": "HdrMn8",
-      "id": 498
-    },
-    {
-      "name": "Superior Spider-Man",
-      "cost": "3",
-      "power": "4",
-      "ability": "At the start of each turn, you get +1 Energy if you have any cards with increased Power in play.",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": ["others"],
-      "code": "SprrSpdrMn11",
-      "id": 499
-    },
-    {
-      "name": "Prowler",
-      "cost": "3",
-      "power": "4",
-      "ability": "On Reveal: Add 2 <mark>Thief’s Tools</mark> to your hand. Set their Costs to 0 if a card moved last turn.",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": ["on reveal", "move"],
-      "code": "Prwlr7",
-      "id": 500,
-      "refs": [497, 493, 495]
-    },
-    {
-      "name": "Spider-Punk",
-      "cost": "3",
-      "power": "3",
-      "ability": "You can move this once. When this moves to a location, steal 2 Power from the highest-Power enemy there.",
-      "released": true,
-      "series": "Season Pass",
-      "type": "character",
-      "tags": ["move", "steal"],
-      "code": "SpdrPnkA",
-      "id": 501
-    },
-    {
-      "name": "Ezekiel Sims",
-      "cost": "2",
-      "power": "2",
-      "ability": "After you play a card with higher Power here, give this +2 Power and move this to another location.",
-      "released": true,
-      "series": "5",
-      "type": "character",
-      "tags": ["move"],
-      "code": "EzklSmsB",
-      "id": 502
-    },
-    {
-      "name": "Chameleon",
-      "cost": "3",
-      "power": "3",
-      "ability": "On Reveal: Copy the text of another card here you revealed this turn.",
-      "released": true,
-      "series": "4",
-      "type": "character",
-      "tags": ["on reveal"],
-      "code": "Chmln9",
-      "id": 503
+      "code": "CsmcGhstRdr10",
+      "id": 449
     }
   ],
-  "locations": [
-    {
-      "name": "Hospice",
-      "ability": "Changes to card Power are doubled here.",
-      "id": 175
-    },
-    {
-      "name": "Essex's Lab",
-      "ability": "After turn 4, destroy a card. Your others here split its Power.",
-      "id": 176
-    }
-  ],
-  "seasonInfo": [
-    {
-      "seasonTitle": "Arachnid Anarchy",
-      "seasonUrl": "https://marvelsnap.com/new-season-arachnid-anarchy/",
-      "featuredCard": "Spider-Punk",
-      "nextFeaturedCard": "Weapon X",
-      "featuredLocations": ["Mosh Pit", "Parker Industries"],
-      "nextfeaturedLocations": ["Hospice", "Essex's Lab"],
-      "seasonEndDate": [2, 11, 2025],
-      "nextSeasonEndDate": [6, 0, 2026]
-    }
-  ],
-  "seasonStyles": [
-    {
-      "dateColor": "#e6008b",
-      "headerStyle": {
-        "fontSize": "26px",
-        "padding": "4px 0",
-        "color": "#fbfafb",
-        "backgroundColor": "#050003",
-        "border": "2px solid #e6008b"
-      },
-      "hoverStyle": {
-        "color": "#e6008b",
-        "border": "2px solid #050003"
-      }
-    }
-  ],
+  "locations": [],
+  "seasonInfo": [],
+  "seasonStyles": [],
   "seasonEvents": [
     {
-      "title": "New Characters",
+      "title": "Balance Updates",
       "items": [
         {
-          "date": "Nov 4",
+          "date": "Nov 6",
+          "type": "OTA",
           "items": [
-            { "name": "Spider-Punk", "series": "Season Pass" },
-            { "name": "Man-Spider", "series": "Super Premium" },
-            { "name": "Superior Spider-Man", "series": "5" },
-            { "name": "Web Sling", "series": "4" }
-          ]
-        },
-        {
-          "date": "Nov 11",
-          "items": [
-            { "name": "Ezekiel Sims", "series": "5" },
-            { "name": "Chameleon", "series": "4" }
-          ]
-        },
-        {
-          "date": "Nov 18",
-          "items": [{ "name": "Spider-Man Noir", "series": "5" }]
-        },
-        {
-          "date": "Nov 20",
-          "items": [{ "name": "Deafening Chord", "series": "4" }]
-        },
-        {
-          "date": "Nov 24",
-          "items": [{ "name": "Hydro-Man", "series": "Ltd. Time Event" }]
-        },
-        {
-          "date": "Nov 25",
-          "items": [{ "name": "Prowler", "series": "5" }]
-        }
-      ]
-    },
-    {
-      "title": "New Locations",
-      "items": ["Mosh Pit", "Parker Industries"]
-    },
-    {
-      "title": "New Albums",
-      "items": [
-        {
-          "date": "Nov 12",
-          "name": "Tree-riffic Variants",
-          "items": [
-            "3:3x Mystery Border",
-            "5:2x Premium Mystery Border",
-            "7:2,500 Collector’s Tokens",
-            "9:Galacta – ARTTREE STUDIOS Variant"
-          ]
-        },
-        {
-          "date": "Nov 25",
-          "name": "Chiola Senses Tingling",
-          "items": [
-            "3:Spider-Punk Rock On Emote",
-            "6:3x Premium Mystery Border",
-            "9:4,000 Collector’s Tokens",
-            "12:The Prowler – Leo Chiola Variant"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Shop Takeover",
-      "items": [
-        {
-          "date": "Nov 12 – Nov 13",
-          "name": "ARTTREE STUDIOS Variants",
-          "cards": [
-            "Silver Sable",
-            "Luna Snow",
-            "Wave",
-            "Strange Supreme",
-            "Ghost-Spider",
-            "Galacta"
-          ]
-        },
-        {
-          "date": "Nov 25 – Nov 26",
-          "name": "Leo Chiola",
-          "cards": [
-            "Hydro-Man",
-            "Superior Spider-Man",
-            "Spider-Punk",
-            "Spider-Man",
-            "Uncle Ben",
-            "Peni Parker"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Twitch Drops",
-      "items": []
-    },
-    {
-      "title": "Daily Login",
-      "items": []
-    },
-    {
-      "title": "Features/Modes/Events",
-      "items": [
-        {
-          "title": "New To Snap Packs",
-          "date": "Nov 4 – Nov 27",
-          "items": [
-            "<span class='event-list date'>Nov 4</span> -  Zombie Scarlet Witch (Seasonal Series 5)",
-            "<span class='event-list date'>Nov 15</span> - The Hunger (Seasonal Series 4)",
-            "<span class='event-list date'>Nov 27</span> - Zombie Sentry (Seasonal Series 4)"
-          ]
-        },
-        {
-          "title": "High Voltage (Weekend Edition)",
-          "date": "Nov 14 – Nov 18",
-          "items": [
-            "This four-day event will be a purely cosmetic event, with no unlockable cards."
-          ]
-        },
-        {
-          "title": "Sanctum Showdown",
-          "date": "Nov 24 – Dec 1",
-          "items": [
-            "This event features exciting new rewards including the brand new Series 4 card, Hydro-Man."
-          ]
-        },
-        {
-          "title": "Featured Sets",
-          "date": "Nov - Dec",
-          "items": [
-            "<span class='event-list date'>Nov 5 - Nov 11</span> - Spider Society Picks",
-            "<span class='event-list date'>Nov 18 - Nov 24</span> - Anime Variant Spotlight",
-            "<span class='event-list date'>Nov 25 - Dec 1</span> - Klyntar Picks"
-          ]
-        },
-        {
-          "title": "Planned Updates (STC)",
-          "date": "Nov - Dec",
-          "items": [
-            "<span class='event-list date'>Nov 6</span> - OTA",
-            "<span class='event-list date'>Nov 18</span> - Patch",
-            "<span class='event-list date'>Nov 20</span> - OTA",
-            "<span class='event-list date'>Dec 4</span> - OTA",
-            "<span class='event-list date'>Dec 16</span> - Patch",
-            "<span class='event-list date'>Dec 18</span> - OTA",
-            "<span class='event-list date'>Dec 30</span> - Patch"
+            {
+              "name": "Debrii",
+              "changes": [
+                "3/3 – On Reveal: Add a Rock to each other location, for both players.",
+                "3/7 – On Reveal: Add a Rock to each other location."
+              ]
+            },
+            {
+              "name": "Misery",
+              "changes": [
+                "4/9 – On Reveal: Repeat the On Reveal abilities of your other cards here, then destroy them.",
+                "4/9 -> 4/8"
+              ]
+            },
+            {
+              "name": "Cosmic Ghost Rider",
+              "changes": [
+                "5/7 – On Reveal: Remove the text from front-row enemy cards here.",
+                "5/7 -> 5/6"
+              ]
+            },
+            {
+              "name": "Vision",
+              "changes": ["5/8 – You can move this each turn.", "5/8 -> 5/9"]
+            },
+            {
+              "name": "The First Ghost Rider",
+              "changes": [
+                "2/6 – On Reveal: Discard the lowest-Power card from your hand. Remove that card’s Power from this.",
+                "2/6 -> 2/7"
+              ]
+            },
+            {
+              "name": "M’Baku",
+              "changes": [
+                "1/2 – At the end of the game, this jumps from your deck to your lowest-Power location. (that isn’t full)",
+                "1/2 -> 1/3"
+              ]
+            },
+            {
+              "name": "Fan Fei",
+              "changes": [
+                "4/7 – Activate: Move your other cards here to the right.",
+                "4/7 -> 4/4 – Activate: Your other cards here get +1 Power. Move them to the right."
+              ]
+            },
+            {
+              "name": "Hydra Stomper",
+              "changes": [
+                "3/2 – Ongoing: +1 Power for each time one of your cards moved this game.",
+                "3/2 -> 3/3"
+              ]
+            }
           ]
         }
       ]
