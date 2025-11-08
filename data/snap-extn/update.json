@@ -105,6 +105,63 @@
   "seasonStyles": [],
   "seasonEvents": [
     {
+      "title": "Features/Modes/Events",
+      "items": [
+        {
+          "title": "Golden Gauntlet World Finals",
+          "date": "Nov 8 10am ET",
+          "items": [
+            "The best of the best collide! 50 Season Passes will be given away during the live Twitch broadcast!"
+          ]
+        },
+        {
+          "title": "New To Snap Packs",
+          "date": "Nov 4 – Nov 27",
+          "items": [
+            "<span class='event-list date'>Nov 4</span> -  Zombie Scarlet Witch (Seasonal Series 5)",
+            "<span class='event-list date'>Nov 15</span> - The Hunger (Seasonal Series 4)",
+            "<span class='event-list date'>Nov 27</span> - Zombie Sentry (Seasonal Series 4)"
+          ]
+        },
+        {
+          "title": "High Voltage (Weekend Edition)",
+          "date": "Nov 14 – Nov 18",
+          "items": [
+            "This four-day event will be a purely cosmetic event, with no unlockable cards."
+          ]
+        },
+        {
+          "title": "Sanctum Showdown",
+          "date": "Nov 24 – Dec 1",
+          "items": [
+            "This event features exciting new rewards including the brand new Series 4 card, Hydro-Man."
+          ]
+        },
+        {
+          "title": "Featured Sets",
+          "date": "Nov - Dec",
+          "items": [
+            "<span class='event-list date'>Nov 5 - Nov 11</span> - Spider Society Picks",
+            "<span class='event-list date'>Nov 18 - Nov 24</span> - Anime Variant Spotlight",
+            "<span class='event-list date'>Nov 25 - Dec 1</span> - Klyntar Picks"
+          ]
+        },
+        {
+          "title": "Planned Updates (STC)",
+          "date": "Nov - Dec",
+          "items": [
+            "<span class='event-list date'>Nov 6</span> - OTA",
+            "<span class='event-list date'>Nov 18</span> - Patch",
+            "<span class='event-list date'>Nov 20</span> - OTA",
+            "<span class='event-list date'>Dec 4</span> - OTA",
+            "<span class='event-list date'>Dec 16</span> - Patch",
+            "<span class='event-list date'>Dec 18</span> - OTA",
+            "<span class='event-list date'>Dec 30</span> - Patch"
+          ]
+        }
+      ]
+    },
+    {
       "title": "Balance Updates",
       "items": [
         {
