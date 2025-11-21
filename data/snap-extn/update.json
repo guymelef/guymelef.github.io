@@ -98,6 +98,90 @@
       "tags": ["on reveal", "remove"],
       "code": "CsmcGhstRdr10",
       "id": 449
+    },
+    {
+      "name": "Odin",
+      "cost": "6",
+      "power": "9",
+      "ability": "On Reveal: Repeat the On Reveal abilities of your other cards here.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Odn4",
+      "id": 267
+    },
+    {
+      "name": "Orka",
+      "cost": "6",
+      "power": "11",
+      "ability": "Ongoing: +7 Power if this is your only card here.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["ongoing"],
+      "code": "Ork4",
+      "id": 271
+    },
+    {
+      "name": "Storm",
+      "cost": "3",
+      "power": "1",
+      "ability": "On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
+      "released": true,
+      "series": "2",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Strm5",
+      "id": 352
+    },
+    {
+      "name": "Wave",
+      "cost": "3",
+      "power": "6",
+      "ability": "On Reveal: All cards cost a maximum of 4 until the end of next turn.",
+      "released": true,
+      "series": "3",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "Wv4",
+      "id": 411
+    },
+    {
+      "name": "White Queen",
+      "cost": "3",
+      "power": "5",
+      "ability": "On Reveal: Copy the card that costs the most from your opponent's hand into your hand.",
+      "released": true,
+      "series": "1",
+      "type": "character",
+      "tags": ["on reveal"],
+      "code": "WhtQnA",
+      "id": 413
+    },
+    {
+      "name": "Sparky",
+      "cost": "2",
+      "power": "2",
+      "ability": "Activate: Give your card that last moved +2 Power and move it back to its previous location.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["activate", "move"],
+      "code": "Sprk6",
+      "id": 474
+    },
+    {
+      "name": "Zombie Galacti",
+      "cost": "7",
+      "power": "5",
+      "ability": "Start of Game: Choose 6 other cards in your deck. On Reveal: Transform those cards into copies of this.",
+      "released": true,
+      "series": "5",
+      "type": "character",
+      "tags": ["game start", "on reveal"],
+      "code": "ZmbGlctD",
+      "id": 484
     }
   ],
   "locations": [],
@@ -219,6 +303,61 @@
               "changes": [
                 "3/2 – Ongoing: +1 Power for each time one of your cards moved this game.",
                 "3/2 -> 3/3"
+              ]
+            }
+          ]
+        },
+        {
+          "date": "Nov 20",
+          "type": "OTA",
+          "items": [
+            {
+              "name": "Sparky",
+              "changes": [
+                "2/1 – Activate: Give your card that last moved +3 Power and move it back to its previous location.",
+                "2/1 -> 2/2 – Activate: Give your card that last moved +2 Power and move it back to its previous location."
+              ]
+            },
+            {
+              "name": "Storm",
+              "changes": [
+                "3/2 – On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
+                "3/2 -> 3/1"
+              ]
+            },
+            {
+              "name": "Zombie Galacti",
+              "changes": [
+                "7/4 – Game Start: Choose 6 other cards in your deck. On Reveal: Transform those cards into copies of this",
+                "7/4 -> 7/5"
+              ]
+            },
+            {
+              "name": "Orka",
+              "changes": [
+                "6/11 – Ongoing: +5 Power if this is your only card here.",
+                "6/11 – Ongoing: +7 Power if this is your only card here."
+              ]
+            },
+            {
+              "name": "Odin",
+              "changes": [
+                "6/8 – On Reveal: Repeat the On Reveal abilities of your other cards here.",
+                "6/8 -> 6/9"
+              ]
+            },
+            {
+              "name": "Wave",
+              "changes": [
+                "3/5 – On Reveal: All cards cost a maximum of 4 until the end of next turn.",
+                "3/5 -> 3/6"
+              ]
+            },
+            {
+              "name": "White Queen",
+              "changes": [
+                "3/4 – On Reveal: Copy the card that costs the most from your opponent’s hand into your hand.",
+                "3/4 -> 3/5"
               ]
             }
           ]
