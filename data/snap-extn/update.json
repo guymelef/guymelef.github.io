@@ -189,6 +189,23 @@
   "seasonStyles": [],
   "seasonEvents": [
     {
+      "title": "Daily Login",
+      "items": [
+        {
+          "date": "Dec 1 - Dec 9",
+          "items": [
+            "Title - Somehow Has 12 Knulls",
+            "65 Random Boosters",
+            "100 Credits",
+            "2x Blue Snowflakes Border",
+            "155 Random Boosters",
+            "2x Blue Ice Border",
+            "Mystery Variant"
+          ]
+        }
+      ]
+    },
+    {
       "title": "Features/Modes/Events",
       "items": [
         {
